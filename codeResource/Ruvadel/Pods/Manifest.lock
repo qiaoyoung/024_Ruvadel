@@ -5,7 +5,6 @@ PODS:
   - FMDB/Core (2.7.12)
   - FMDB/standard (2.7.12):
     - FMDB/Core
-  - IQKeyboardManager (6.5.19)
   - LEEAlert (1.8.0):
     - LEEAlert/Privacy (= 1.8.0)
   - LEEAlert/Privacy (1.8.0)
@@ -35,7 +34,6 @@ PODS:
 DEPENDENCIES:
   - FLAnimatedImage
   - FMDB
-  - IQKeyboardManager
   - LEEAlert
   - Masonry
   - MJExtension
@@ -53,7 +51,6 @@ SPEC REPOS:
   trunk:
     - FLAnimatedImage
     - FMDB
-    - IQKeyboardManager
     - LEEAlert
     - Masonry
     - MJExtension
@@ -69,7 +66,6 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   FLAnimatedImage: bbf914596368867157cc71b38a8ec834b3eeb32b
   FMDB: 728731dd336af3936ce00f91d9d8495f5718a0e6
-  IQKeyboardManager: c8665b3396bd0b79402b4c573eac345a31c7d485
   LEEAlert: 20b46f143287d749ec3e718059e064c175932807
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJExtension: e97d164cb411aa9795cf576093a1fa208b4a8dd8
@@ -82,6 +78,6 @@ SPEC CHECKSUMS:
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: 008ef83db92cc2d13d5678dce01360ecede88a8e
+PODFILE CHECKSUM: 66bd2f4180ac866898731ff9dc406cbb755c6051
 
 COCOAPODS: 1.16.2
