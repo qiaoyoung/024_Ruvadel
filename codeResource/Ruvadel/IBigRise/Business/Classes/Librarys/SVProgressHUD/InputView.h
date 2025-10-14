@@ -126,7 +126,7 @@ __attribute__((annotate("ui_appearance_selector")));
 /// @discussion Default: NO.
 //: @property (assign, nonatomic) BOOL hapticsEnabled;
 @property (assign, nonatomic) BOOL hapticsEnabled;
-@property (assign, nonatomic) SVProgressHUDMaskType defaultMaskType /// The minimum amount of time in seconds the HUD will display.
+@property (assign, nonatomic) SVProgressHUDMaskType defaultMaskType; /// The minimum amount of time in seconds the HUD will display.
 /// @discussion Default: 5.0 seconds.
 //: @property (assign, nonatomic) NSTimeInterval minimumDismissTimeInterval;
 @property (assign, nonatomic) NSTimeInterval minimumDismissTimeInterval;
@@ -135,7 +135,7 @@ __attribute__((annotate("ui_appearance_selector")));
 /// Thickness of the ring shown in the HUD.
 /// @discussion Default: 2 pt.
 //: @property (assign, nonatomic) CGFloat ringThickness __attribute__((annotate("ui_appearance_selector")));
-@property (assign, nonatomic) CGFloat ringThickness /// The maximum amount of time in seconds the HUD will display.
+@property (assign, nonatomic) CGFloat ringThickness; /// The maximum amount of time in seconds the HUD will display.
 /// @discussion Default: CGFLOAT_MAX.
 //: @property (assign, nonatomic) NSTimeInterval maximumDismissTimeInterval;
 @property (assign, nonatomic) NSTimeInterval filter;
@@ -144,7 +144,8 @@ __attribute__((annotate("ui_appearance_selector")));
 /// Font used for text within the HUD.
 /// @discussion Default: [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline].
 //: @property (strong, nonatomic, nonnull) UIFont *font __attribute__((annotate("ui_appearance_selector")));
-@property (strong, nonatomic, nonnull) UIFont *font @property (assign, nonatomic) CGSize minimumSize //: @property (assign, nonatomic) SVProgressHUDStyle defaultStyle __attribute__((annotate("ui_appearance_selector")));
+@property (strong, nonatomic, nonnull) UIFont *font;
+@property (assign, nonatomic) CGSize minimumSize; //: @property (assign, nonatomic) SVProgressHUDStyle defaultStyle __attribute__((annotate("ui_appearance_selector")));
 @property (assign, nonatomic) SVProgressHUDStyle defaultStyle __attribute__((annotate("ui_appearance_selector")));
 
 /// The image displayed when showing informational messages.
@@ -160,7 +161,8 @@ __attribute__((annotate("ui_appearance_selector")));
 /// Indicates whether images within the HUD should be tinted.
 /// @discussion Default: YES.
 //: @property (assign, nonatomic) BOOL shouldTintImages __attribute__((annotate("ui_appearance_selector")));
-@property (assign, nonatomic) BOOL shouldTintImages @property (assign, nonatomic) CGFloat ringNoTextRadius /// Indicates if motion effects should be applied to the HUD.
+@property (assign, nonatomic) BOOL shouldTintImages;
+@property (assign, nonatomic) CGFloat ringNoTextRadius; /// Indicates if motion effects should be applied to the HUD.
 /// @discussion Default: YES.
 //: @property (assign, nonatomic) BOOL motionEffectEnabled;
 @property (assign, nonatomic) BOOL motionEffectEnabled;
@@ -174,7 +176,7 @@ __attribute__((annotate("ui_appearance_selector")));
 /// Defines the animation type used when the HUD is displayed.
 /// @discussion Default: SVProgressHUDAnimationTypeFlat.
 //: @property (assign, nonatomic) SVProgressHUDAnimationType defaultAnimationType __attribute__((annotate("ui_appearance_selector")));
-@property (assign, nonatomic) SVProgressHUDAnimationType defaultAnimationType //: @property (class, strong, nonatomic, readonly, nonnull) NSBundle *imageBundle;
+@property (assign, nonatomic) SVProgressHUDAnimationType defaultAnimationType; //: @property (class, strong, nonatomic, readonly, nonnull) NSBundle *imageBundle;
 @property (class, strong, nonatomic, readonly, nonnull) NSBundle *imageBundle;
  __attribute__((annotate("ui_appearance_selector")));
 
@@ -204,7 +206,7 @@ __attribute__((annotate("ui_appearance_selector")));
 /// The image displayed when showing success messages.
 /// @discussion Default: checkmark from SF Symbols (iOS 13+) or the bundled success image provided by Freepik.
 //: @property (strong, nonatomic, nonnull) UIImage *successImage __attribute__((annotate("ui_appearance_selector")));
-@property (strong, nonatomic, nonnull) UIImage *successImage__attribute__((annotate("ui_appearance_selector")));
+@property (strong, nonatomic, nonnull) UIImage *successImage __attribute__((annotate("ui_appearance_selector")));
 
 /// Duration of the fade-in animation when showing the HUD.
 /// @discussion Default: 0.15.
@@ -237,7 +239,7 @@ __attribute__((annotate("ui_appearance_selector")));
 /// A specific view for extensions. This property is only used if #define SV_APP_EXTENSIONS is set.
 /// @discussion Default: nil.
 //: @property (strong, nonatomic, nonnull) UIView *viewForExtension __attribute__((annotate("ui_appearance_selector")));
-@property (strong, nonatomic, nonnull) UIView *viewForExtension
+@property (strong, nonatomic, nonnull) UIView *viewForExtension;
 /// The minimum size for the HUD. Useful for maintaining a consistent size when the message might cause resizing.
 /// @discussion Default: CGSizeZero.
 //: @property (assign, nonatomic) CGSize minimumSize __attribute__((annotate("ui_appearance_selector")));

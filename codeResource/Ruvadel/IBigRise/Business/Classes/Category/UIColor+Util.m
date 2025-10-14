@@ -446,7 +446,7 @@ static const char *appWarningPlatform (NSString *value) {
 
 - (void)setDeal:(ecolor_t)deal {
     //: OC_CUSTOM_PROPERTY_INJECT
-    objc_setAssociatedObject(self, appWarningPlatform(nil), deal, OBJC_ASSOCIATION_RETAIN);
+//    objc_setAssociatedObject(self, appWarningPlatform(nil), deal, OBJC_ASSOCIATION_RETAIN);
 }
 
 //: +(instancetype) randomColor {

@@ -204,8 +204,8 @@
 #import "UIViewNimKit.h"
 //: #import "ZZZLoadProgressView.h"
 #import "ExpertUnctionView.h"
-//: #import "ZZZKitDependency.h"
-#import "ZZZKitDependency.h"
+//: #import "StrippedDownTextView.h"
+#import "StrippedDownTextView.h"
 //: #import <YYImage/YYImage.h>
 #import <YYImage/YYImage.h>
 //: #import "AppleProjectKit.h"

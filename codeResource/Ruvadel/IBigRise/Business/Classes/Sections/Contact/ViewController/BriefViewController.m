@@ -724,7 +724,7 @@ ForgatherDelegate> {
 @property (nonatomic ,strong) NSArray *groupArray;
 //: @property (nonatomic,strong) UIButton *btnCreatgroup;
 @property (nonatomic,strong) UIButton *remark;
-@property (nonatomic, strong) DominantView *dropdownMenu
+@property (nonatomic, strong) DominantView *dropdownMenu;
 //: @property (nonatomic,strong) UIButton *btnScan;
 @property (nonatomic,strong) UIButton *actual;
 
@@ -2213,7 +2213,7 @@ ForgatherDelegate> {
             //: SEL sel = NSSelectorFromString([contactItem selName]);
             SEL sel = NSSelectorFromString([contactItem diskTeam]);
             //: SuppressPerformSelectorLeakWarning([self performSelector:sel withObject:nil]);
-            SuppressPerformSelectorLeakWarning([self performSelector:sel withObject:nil]);
+            [self performSelector:sel withObject:nil];
         }
         //: else if (contactItem.vcName.length) {
         else if (contactItem.count.length) {

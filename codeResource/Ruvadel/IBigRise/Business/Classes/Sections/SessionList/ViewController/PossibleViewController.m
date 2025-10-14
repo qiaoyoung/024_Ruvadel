@@ -232,7 +232,7 @@ Byte coreFreshId[] = {7, 7, 85, 13, 197, 129, 103, 54, 238, 15, 174, 72, 224, 20
 //: @property (nonatomic, strong) ZMONCustomLoadingView *loadingView;
 @property (nonatomic, strong) LoadingView *loadingView;
 
-@property (nonatomic, strong) DominantView *dropdownMenu
+@property (nonatomic, strong) DominantView *dropdownMenu;
 //: @property (nonatomic, strong) UIButton *resqBtn;
 @property (nonatomic, strong) UIButton *resqBtn;
 //: @property (nonatomic, strong) UIButton *mesBtn;

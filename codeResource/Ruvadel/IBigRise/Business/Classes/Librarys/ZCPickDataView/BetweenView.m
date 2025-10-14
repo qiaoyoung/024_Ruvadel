@@ -210,7 +210,7 @@ typedef struct {
 //: - (void)leftButtonClicked:(id)sender{
 - (void)reasonFor:(id)sender{
     //: Class currentClass = object_getClass(self.delegate);
-    Class currentClass = itemClass(self.delegate);
+    Class currentClass = object_getClass(self.delegate);
     //: if ((currentClass == delegateClass) && [self.delegate respondsToSelector:@selector(dismissDataPickerView)]) {
     if ((currentClass == estimated) && [self.delegate respondsToSelector:@selector(dataVideo)]) {
         //: [self.delegate dismissDataPickerView];
@@ -437,7 +437,7 @@ typedef struct {
     //: self.delegate = delegate;
     self.delegate = delegate;
     //: delegateClass = object_getClass(delegate);
-    estimated = itemClass(delegate);
+    estimated = object_getClass(delegate);
 	[self setPersonality:_titleL];
 }
 
@@ -547,7 +547,7 @@ typedef struct {
 //: - (void)rightButtonClicked:(id)sender{
 - (void)sequences:(id)sender{
     //: Class currentClass = object_getClass(self.delegate);
-    Class currentClass = itemClass(self.delegate);
+    Class currentClass = object_getClass(self.delegate);
     //: if ((currentClass == delegateClass) && [self.delegate respondsToSelector:@selector(dismissDataPickerView)]) {
     if ((currentClass == estimated) && [self.delegate respondsToSelector:@selector(dataVideo)]) {
         //: [self.delegate dismissDataPickerView];

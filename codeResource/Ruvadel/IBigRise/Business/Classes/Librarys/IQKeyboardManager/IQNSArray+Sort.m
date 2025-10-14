@@ -35,19 +35,18 @@
 NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
 //: @implementation NSArray (IQ_NSArray_Sort)
 
-#import <objc/runtime.h>
 
 @implementation NSArray (Holmium)
 
-- (NSArray<__kindof UIView *> *)macroscopic {
-    //: OC_CUSTOM_PROPERTY_INJECT
-    NSArray<__kindof UIView *> * macroscopic = objc_getAssociatedObject(self, themeBirthdayBuildAddTitle(nil));
-    return macroscopic;
-}
+//- (NSArray<__kindof UIView *> *)macroscopic {
+//    //: OC_CUSTOM_PROPERTY_INJECT
+////    NSArray<__kindof UIView *> * macroscopic = objc_getAssociatedObject(self, themeBirthdayBuildAddTitle(nil));
+//    return macroscopic;
+//}
 
 - (NSArray<__kindof UIView *> *)relative:(NSArray<__kindof UIView *> *)macroscopic {
     //: OC_CUSTOM_PROPERTY_INJECT
-    self.macroscopic = macroscopic;
+//    self.macroscopic = macroscopic;
     return macroscopic;
 }
 
@@ -62,10 +61,10 @@ static const char *themeBirthdayBuildAddTitle (NSString *value) {
     return  "macroscopic";
 };
 
-- (void)setMacroscopic:(NSArray<__kindof UIView *> *)macroscopic {
-    //: OC_CUSTOM_PROPERTY_INJECT
-    objc_setAssociatedObject(self, themeBirthdayBuildAddTitle(nil), macroscopic, OBJC_ASSOCIATION_RETAIN);
-}
+//- (void)setMacroscopic:(NSArray<__kindof UIView *> *)macroscopic {
+//    //: OC_CUSTOM_PROPERTY_INJECT
+//    objc_setAssociatedObject(self, themeBirthdayBuildAddTitle(nil), macroscopic, OBJC_ASSOCIATION_RETAIN);
+//}
 
 //: - (NSArray<UIView*>*)sortedArrayByPosition
 - (NSArray<UIView*>*)sortedArrayByPosition

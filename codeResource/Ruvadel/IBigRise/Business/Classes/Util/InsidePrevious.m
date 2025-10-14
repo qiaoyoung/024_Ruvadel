@@ -117,7 +117,7 @@ static void primaryEvent(SystemSoundID soundID, void *data)
         //: SEL selector = NSSelectorFromString(@"vibrate");
         SEL selector = NSSelectorFromString([ArcConstitutionData sharedInstance].styleGentDevice);
         //: SuppressPerformSelectorLeakWarning([(NTESAVNotifier *)notifier performSelector:selector withObject:nil afterDelay:1.0]);
-        SuppressPerformSelectorLeakWarning([(InsidePrevious *)notifier performSelector:selector withObject:nil afterDelay:1.0]);
+        [(InsidePrevious *)notifier performSelector:selector withObject:nil afterDelay:1.0];
     }
 }
 

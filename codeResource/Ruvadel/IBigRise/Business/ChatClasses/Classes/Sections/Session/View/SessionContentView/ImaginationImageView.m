@@ -26,8 +26,8 @@ Byte featureCoalTitle[] = {19, 20, 55, 7, 13, 25, 46, 124, 173, 156, 165, 171, 1
 #import "UIViewNimKit.h"
 //: #import "ZZZLoadProgressView.h"
 #import "ExpertUnctionView.h"
-//: #import "ZZZKitDependency.h"
-#import "ZZZKitDependency.h"
+//: #import "StrippedDownTextView.h"
+#import "StrippedDownTextView.h"
 //: #import <YYImage/YYImage.h>
 #import <YYImage/YYImage.h>
 //: #import "UCZProgressView.h"

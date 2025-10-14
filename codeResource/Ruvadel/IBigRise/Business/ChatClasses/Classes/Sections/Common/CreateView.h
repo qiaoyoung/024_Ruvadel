@@ -13,8 +13,8 @@
 #import <UIKit/UIKit.h>
 //: #import <NIMSDK/NIMSDK.h>
 #import <NIMSDK/NIMSDK.h>
-//: #import "ZZZKitDependency.h"
-#import "ZZZKitDependency.h"
+//: #import "StrippedDownTextView.h"
+#import "StrippedDownTextView.h"
 
 //: @interface ZZZAvatarImageView : UIControl
 @interface CreateView : UIControl

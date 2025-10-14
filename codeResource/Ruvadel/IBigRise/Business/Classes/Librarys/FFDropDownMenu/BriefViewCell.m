@@ -86,7 +86,7 @@
 //: - (void)setMenuModel:(id)menuModel {
 - (void)setMenuModel:(id)menuModel {
     //: _menuModel = menuModel;
-    _menuModel = menuModel;
+    menuModel = menuModel;
 
     //: FFDropDownMenuModel *realMenuModel = (FFDropDownMenuModel *)menuModel;
     StrippedDownBasedModel *realMenuModel = (StrippedDownBasedModel *)menuModel;

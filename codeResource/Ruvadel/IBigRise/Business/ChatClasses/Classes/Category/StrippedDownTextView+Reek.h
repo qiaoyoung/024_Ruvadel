@@ -9,8 +9,8 @@
 //
 
 // __M_A_C_R_O__
-//: #import "ZZZKitDependency.h"
-#import "ZZZKitDependency.h"
+//: #import "StrippedDownTextView.h"
+#import "StrippedDownTextView.h"
 
 //: @interface MyAttributedLabel (AppleProjectKit)
 @interface StrippedDownTextView (Reek)

@@ -63,7 +63,7 @@ typedef NS_ENUM(NSInteger, TXScrollLabelViewType) {
 __attribute__((deprecated("Deprecated, please Use `scrollType`")));
 /** Deprecated, please Use `scrollVelocity` */
 //: @property (assign, nonatomic) NSTimeInterval tx_scrollVelocity __attribute__((deprecated("Deprecated, please Use `scrollVelocity`")));
-@property (assign, nonatomic) NSTimeInterval tx_scrollVelocity /** 滚动类型 */
+@property (assign, nonatomic) NSTimeInterval tx_scrollVelocity; /** 滚动类型 */
 //: @property (assign, nonatomic) TXScrollLabelViewType scrollType;
 @property (assign, nonatomic) TXScrollLabelViewType scrollType;
 //: @property (copy, nonatomic) NSString *tx_scrollTitle __attribute__((deprecated("Deprecated, please Use `scrollTitle`")));
@@ -81,7 +81,7 @@ __attribute__((deprecated("Deprecated, please Use `scrollType`")));
 /** 滚动内部inset */
 //: @property (assign, nonatomic) UIEdgeInsets scrollInset;
 @property (assign, nonatomic) UIEdgeInsets scrollInset;
- @property (assign, nonatomic) CGRect tx_scrollContentSize__attribute__((deprecated("Deprecated, please Use `scrollVelocity`")));
+ @property (assign, nonatomic) CGRect tx_scrollContentSize __attribute__((deprecated("Deprecated, please Use `scrollVelocity`")));
 /** Deprecated, please Use `frame` */
 //: @property (assign, nonatomic) CGRect tx_scrollContentSize __attribute__((deprecated("Deprecated, please Use `frame`")));
 @property (assign, nonatomic) CGRect rule;
@@ -102,7 +102,8 @@ __attribute__((deprecated("Deprecated, please Use `scrollType`")));
 //: @property (copy, nonatomic) NSString *scrollTitle;
 @property (copy, nonatomic) NSString *scrollTitle;
 @property (strong, nonatomic) UIColor *scrollTitleColor;
-@property (assign, nonatomic) TXScrollLabelViewType tx_scrollType@property (strong, nonatomic) UIColor *tx_scrollTitleColor__attribute__((deprecated("Deprecated, please Use `scrollTitle`")));
+@property (assign, nonatomic) TXScrollLabelViewType tx_scrollType;
+@property (strong, nonatomic) UIColor *tx_scrollTitleColor __attribute__((deprecated("Deprecated, please Use `scrollTitle`")));
 /** Deprecated, please Use `scrollType` */
 //: @property (assign, nonatomic) TXScrollLabelViewType tx_scrollType __attribute__((deprecated("Deprecated, please Use `scrollType`")));
 @property (assign, nonatomic) TXScrollLabelViewType twenty;

@@ -235,7 +235,6 @@ NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
 NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
 //: @implementation UIView (IQToolbarAddition)
 
-#import <objc/runtime.h>
 
 @implementation UIView (List)
 

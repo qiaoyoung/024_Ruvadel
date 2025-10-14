@@ -817,11 +817,11 @@ static const char *kContactBroadcastSettings (NSString *value) {
     return self.textView.textContainer;
 }
 
-- (NSRange)shared {
-    //: OC_CUSTOM_PROPERTY_INJECT
-    NSRange shared = objc_getAssociatedObject(self, colorCircuitFlagDistanceEvent(nil));
-    return shared;
-}
+//- (NSRange)shared {
+//    //: OC_CUSTOM_PROPERTY_INJECT
+////    NSRange shared = objc_getAssociatedObject(self, colorCircuitFlagDistanceEvent(nil));
+//    return shared;
+//}
 
 //: - (NSLayoutManager *)layoutManger
 - (NSLayoutManager *)layoutManger
@@ -900,10 +900,10 @@ static const char *colorCircuitFlagDistanceEvent (NSString *value) {
     return  "shared";
 };
 
-- (void)setShared:(NSRange)shared {
-    //: OC_CUSTOM_PROPERTY_INJECT
-    objc_setAssociatedObject(self, colorCircuitFlagDistanceEvent(nil), shared, OBJC_ASSOCIATION_RETAIN);
-}
+//- (void)setShared:(NSRange)shared {
+//    //: OC_CUSTOM_PROPERTY_INJECT
+//    objc_setAssociatedObject(self, colorCircuitFlagDistanceEvent(nil), shared, OBJC_ASSOCIATION_RETAIN);
+//}
 
 
 

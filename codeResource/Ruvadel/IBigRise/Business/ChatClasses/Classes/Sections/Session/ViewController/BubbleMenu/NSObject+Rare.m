@@ -18,7 +18,7 @@
 @implementation NSObject (Rare)
 
 //: - (void)setTyl_internalIdentifier:(NSString *)tyl_internalIdentifier{
-- (void)setTyl_internalIdentifier:(NSString *)Rare{
+- (void)setRare:(NSString *)Rare {
     //: objc_setAssociatedObject(self, @selector(tyl_internalIdentifier), tyl_internalIdentifier, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     objc_setAssociatedObject(self, @selector(Rare), Rare, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }

@@ -503,7 +503,6 @@
 		B14653872DC0B4E300C4D5B8 /* StickSumeract.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StickSumeract.m; sourceTree = "<group>"; };
 		B14653882DC0B4E300C4D5B8 /* SandTotalImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SandTotalImpl.h; sourceTree = "<group>"; };
 		B14653892DC0B4E300C4D5B8 /* SandTotalImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SandTotalImpl.m; sourceTree = "<group>"; };
-		B146538A2DC0B4E300C4D5B8 /* ZZZKitDependency.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZZKitDependency.h; sourceTree = "<group>"; };
 		B146538B2DC0B4E300C4D5B8 /* CarefulInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarefulInfo.h; sourceTree = "<group>"; };
 		B146538C2DC0B4E300C4D5B8 /* CarefulInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarefulInfo.m; sourceTree = "<group>"; };
 		B146538D2DC0B4E300C4D5B8 /* SterlingAreaEffectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SterlingAreaEffectView.h; sourceTree = "<group>"; };
@@ -1418,7 +1417,6 @@
 				B14653872DC0B4E300C4D5B8 /* StickSumeract.m */,
 				B14653882DC0B4E300C4D5B8 /* SandTotalImpl.h */,
 				B14653892DC0B4E300C4D5B8 /* SandTotalImpl.m */,
-				B146538A2DC0B4E300C4D5B8 /* ZZZKitDependency.h */,
 				B146538B2DC0B4E300C4D5B8 /* CarefulInfo.h */,
 				B146538C2DC0B4E300C4D5B8 /* CarefulInfo.m */,
 				B146538D2DC0B4E300C4D5B8 /* SterlingAreaEffectView.h */,

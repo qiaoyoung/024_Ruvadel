@@ -284,7 +284,7 @@
   [query setObject:self.passwordData forKey:(__bridge id)kSecValueData];
 
   //: CFTypeRef accessibilityType = [SAMKeychain accessibilityType];
-  CFTypeRef accessibilityType = [ChromaticPrepare accessibilityType];
+  CFTypeRef accessibilityType = [ChromaticPrepare movieOriginal];
   //: if (accessibilityType) {
   if (accessibilityType) {
    //: [query setObject:(__bridge id)accessibilityType forKey:(__bridge id)kSecAttrAccessible];
@@ -306,7 +306,7 @@
   [query setObject:self.passwordData forKey:(__bridge id)kSecValueData];
 
   //: CFTypeRef accessibilityType = [SAMKeychain accessibilityType];
-  CFTypeRef accessibilityType = [ChromaticPrepare accessibilityType];
+  CFTypeRef accessibilityType = [ChromaticPrepare movieOriginal];
   //: if (accessibilityType) {
   if (accessibilityType) {
    //: [query setObject:(__bridge id)accessibilityType forKey:(__bridge id)kSecAttrAccessible];
@@ -657,7 +657,7 @@
  [query setObject:(__bridge id)kSecMatchLimitAll forKey:(__bridge id)kSecMatchLimit];
 
  //: CFTypeRef accessibilityType = [SAMKeychain accessibilityType];
- CFTypeRef accessibilityType = [ChromaticPrepare accessibilityType];
+ CFTypeRef accessibilityType = [ChromaticPrepare movieOriginal];
  //: if (accessibilityType) {
  if (accessibilityType) {
   //: [query setObject:(__bridge id)accessibilityType forKey:(__bridge id)kSecAttrAccessible];

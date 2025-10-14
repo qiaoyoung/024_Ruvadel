@@ -205,7 +205,7 @@ CGFloat announcementGravity(void) {
         self.userInteractionEnabled = YES;
         {
             //: self.leftwardMarqueeView = [[UUMarqueeView alloc] initWithFrame:CGRectMake(54, 0, [UIScreen mainScreen].bounds.size.width - 54 - 30 - 10, 46) direction:EnumMarqueeViewDirectionLeftward];
-            self.leftwardMarqueeView = [[PathView alloc] initWithStream:CGRectMake(54, 0, [UIScreen mainScreen].bounds.list.camera - 54 - 30 - 10, 46) action:EnumMarqueeViewDirectionLeftward];
+            self.leftwardMarqueeView = [[PathView alloc] initWithStream:CGRectMake(54, 0, [UIScreen mainScreen].bounds.size.width - 54 - 30 - 10, 46) action:EnumMarqueeViewDirectionLeftward];
             //: _leftwardMarqueeView.delegate = self;
             _leftwardMarqueeView.delegate = self;
             //: _leftwardMarqueeView.timeIntervalPerScroll = 3.0f;
@@ -265,7 +265,7 @@ CGFloat announcementGravity(void) {
     content.text = self.title;
 	[self setDirection:_leftwardMarqueeView];
     //: return (5.0f + 5.0f) + content.intrinsicContentSize.width; 
-    return (5.0f + 5.0f) + content.intrinsicContentSize.camera; // icon width + label width (it's perfect to cache them all)
+    return (5.0f + 5.0f) + content.intrinsicContentSize.width; // icon width + label width (it's perfect to cache them all)
 }
 
 - (PathView *)fitCart:(PathView *)direction {
@@ -309,9 +309,9 @@ CGFloat announcementGravity(void) {
         //: CGRect frame = CGRectMake(0, 0, 30, 30);
         CGRect frame = CGRectMake(0, 0, 30, 30);
         //: frame.origin.x = CGRectGetMaxX(self.bounds) - frame.size.width;
-        frame.theme.detectLabel = CGRectGetMaxX(self.bounds) - frame.list.camera;
+        frame.origin.x = CGRectGetMaxX(self.bounds) - frame.size.width;
         //: frame.origin.y = (self.bounds.size.height - frame.size.height) * 0.5;
-        frame.theme.canadianProvince = (self.bounds.list.invite - frame.list.invite) * 0.5;
+        frame.origin.y = (self.bounds.size.height - frame.size.height) * 0.5;
 
         //: _actionButton.frame = CGRectIntegral(frame);
         _actionButton.frame = CGRectIntegral(frame);
@@ -350,7 +350,7 @@ CGFloat announcementGravity(void) {
     //: CGSize contentFitSize = [content sizeThatFits:CGSizeMake(CGRectGetWidth(marqueeView.frame) - 5.0f - 5.0f, 0x1.fffffep+127f)];
     CGSize contentFitSize = [content sizeThatFits:CGSizeMake(CGRectGetWidth(marqueeView.frame) - 5.0f - 5.0f, 0x1.fffffep+127f)];
     //: return contentFitSize.height + 20.0f;
-    return contentFitSize.invite + 20.0f;
+    return contentFitSize.height + 20.0f;
 }
 
 //: - (void)createItemView:(UIView*)itemView forMarqueeView:(UUMarqueeView*)marqueeView {
@@ -398,7 +398,7 @@ CGFloat announcementGravity(void) {
             //: CGRect frame = self.frame;
             CGRect frame = self.frame;
             //: frame.origin.y = SNStatusBarHeight();
-            frame.theme.canadianProvince = tabTask();
+            frame.origin.y = tabTask();
             //: self.frame = frame;
             self.frame = frame;
         //: } completion:^(BOOL finished) {
@@ -443,13 +443,13 @@ CGFloat announcementGravity(void) {
     //: SNLeadCompleteInfo *tipView = [[SNLeadCompleteInfo alloc] initWithFrame:(CGRect) {
     StandAloneView *tipView = [[StandAloneView alloc] initWithFrame:(CGRect) {
         //: .origin.x = 5,
-        .theme.detectLabel = 5,
+        .origin.x = 5,
         //: .origin.y = (44.0f + [UIDevice vg_statusBarHeight])+5,
-        .theme.canadianProvince = (44.0f + [UIDevice be])+5,
+        .origin.y = (44.0f + [UIDevice be])+5,
         //: .size.width = UIScreen.mainScreen.bounds.size.width-10.f,
-        .list.camera = UIScreen.mainScreen.bounds.list.camera-10.f,
+        .size.width = UIScreen.mainScreen.bounds.size.width-10.f,
         //: .size.height = 46.f
-        .list.invite = 46.f
+        .size.height = 46.f
     //: }];
     }];
 
@@ -515,7 +515,7 @@ CGFloat announcementGravity(void) {
         //: CGRect frame = self.frame;
         CGRect frame = self.frame;
         //: frame.origin.y = SNStatusBarHeight() + 44 + 5;
-        frame.theme.canadianProvince = tabTask() + 44 + 5;
+        frame.origin.y = tabTask() + 44 + 5;
         //: self.frame = frame;
         self.frame = frame;
     //: } completion:nil];

@@ -39,7 +39,7 @@ IB_DESIGNABLE
 //: @property (nonatomic) IBInspectable BOOL indeterminate;
 @property (nonatomic) IBInspectable BOOL indeterminate;
 //: @property (nonatomic) UIBlurEffect *blurEffect NS_AVAILABLE_IOS(8_0); 
-@property (nonatomic) UIBlurEffect *blurEffect//: @property (nonatomic) IBInspectable UIColor *textColor; 
+@property (nonatomic) UIBlurEffect *blurEffect;//: @property (nonatomic) IBInspectable UIColor *textColor; 
 @property (nonatomic) IBInspectable UIColor *automaticallyLead;
 @property (nonatomic) IBInspectable CGFloat lineWidth;// UI_APPEARANCE_SELECTOR;
 
