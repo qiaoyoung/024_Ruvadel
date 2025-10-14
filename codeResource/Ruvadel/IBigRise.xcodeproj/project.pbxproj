@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		A026AF212EEFBEA7AEBDE67E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3AA1CF48AEBED1B775BDE67E /* README.md */; };
+		B137E0B72E9E623F00CCFDF9 /* LoyalHelperListExtract.m in Sources */ = {isa = PBXBuildFile; fileRef = B137E0AE2E9E623F00CCFDF9 /* LoyalHelperListExtract.m */; };
+		B137E0B82E9E623F00CCFDF9 /* CompoundView.m in Sources */ = {isa = PBXBuildFile; fileRef = B137E0A42E9E623F00CCFDF9 /* CompoundView.m */; };
+		B137E0B92E9E623F00CCFDF9 /* SterlingAreaEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = B137E0B22E9E623F00CCFDF9 /* SterlingAreaEffectView.m */; };
+		B137E0BA2E9E623F00CCFDF9 /* CrossRare.m in Sources */ = {isa = PBXBuildFile; fileRef = B137E0A62E9E623F00CCFDF9 /* CrossRare.m */; };
+		B137E0BB2E9E623F00CCFDF9 /* SandTotalImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = B137E0B02E9E623F00CCFDF9 /* SandTotalImpl.m */; };
+		B137E0BC2E9E623F00CCFDF9 /* KitPayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B137E0AC2E9E623F00CCFDF9 /* KitPayerView.m */; };
+		B137E0BD2E9E623F00CCFDF9 /* HapCompound.m in Sources */ = {isa = PBXBuildFile; fileRef = B137E0A82E9E623F00CCFDF9 /* HapCompound.m */; };
+		B137E0BE2E9E623F00CCFDF9 /* StickSumeract.m in Sources */ = {isa = PBXBuildFile; fileRef = B137E0B42E9E623F00CCFDF9 /* StickSumeract.m */; };
+		B137E0BF2E9E623F00CCFDF9 /* HumanRemainsPouchSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = B137E0AA2E9E623F00CCFDF9 /* HumanRemainsPouchSetting.m */; };
+		B137E0C02E9E623F00CCFDF9 /* CarefulInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B137E0A22E9E623F00CCFDF9 /* CarefulInfo.m */; };
 		B146578B2DC0B4E300C4D5B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B14657642DC0B4E300C4D5B8 /* Images.xcassets */; };
 		B14657912DC0B4E300C4D5B8 /* NSDictionaryExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653612DC0B4E300C4D5B8 /* NSDictionaryExtend.m */; };
 		B14657922DC0B4E300C4D5B8 /* AVAsset+Reek.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653642DC0B4E300C4D5B8 /* AVAsset+Reek.m */; };
@@ -23,16 +33,6 @@
 		B146579C2DC0B4E300C4D5B8 /* UIViewNimKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653782DC0B4E300C4D5B8 /* UIViewNimKit.m */; };
 		B146579D2DC0B4E300C4D5B8 /* YYAnimatedImageView+PrimrosePath.m in Sources */ = {isa = PBXBuildFile; fileRef = B146537A2DC0B4E300C4D5B8 /* YYAnimatedImageView+PrimrosePath.m */; };
 		B146579E2DC0B4E300C4D5B8 /* QualityCoordinateMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = B146537C2DC0B4E300C4D5B8 /* QualityCoordinateMarker.m */; };
-		B146579F2DC0B4E300C4D5B8 /* LoyalHelperListExtract.m in Sources */ = {isa = PBXBuildFile; fileRef = B146537F2DC0B4E300C4D5B8 /* LoyalHelperListExtract.m */; };
-		B14657A02DC0B4E300C4D5B8 /* HapCompound.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653812DC0B4E300C4D5B8 /* HapCompound.m */; };
-		B14657A12DC0B4E300C4D5B8 /* KitPayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653852DC0B4E300C4D5B8 /* KitPayerView.m */; };
-		B14657A22DC0B4E300C4D5B8 /* StickSumeract.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653872DC0B4E300C4D5B8 /* StickSumeract.m */; };
-		B14657A32DC0B4E300C4D5B8 /* SandTotalImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653892DC0B4E300C4D5B8 /* SandTotalImpl.m */; };
-		B14657A42DC0B4E300C4D5B8 /* CarefulInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B146538C2DC0B4E300C4D5B8 /* CarefulInfo.m */; };
-		B14657A52DC0B4E300C4D5B8 /* SterlingAreaEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = B146538E2DC0B4E300C4D5B8 /* SterlingAreaEffectView.m */; };
-		B14657A62DC0B4E300C4D5B8 /* HumanRemainsPouchSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653902DC0B4E300C4D5B8 /* HumanRemainsPouchSetting.m */; };
-		B14657A72DC0B4E300C4D5B8 /* CompoundView.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653922DC0B4E300C4D5B8 /* CompoundView.m */; };
-		B14657A82DC0B4E300C4D5B8 /* CrossRare.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653942DC0B4E300C4D5B8 /* CrossRare.m */; };
 		B14657A92DC0B4E300C4D5B8 /* CreateView.m in Sources */ = {isa = PBXBuildFile; fileRef = B146539F2DC0B4E300C4D5B8 /* CreateView.m */; };
 		B14657AA2DC0B4E300C4D5B8 /* ExpertView.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653A12DC0B4E300C4D5B8 /* ExpertView.m */; };
 		B14657AB2DC0B4E300C4D5B8 /* TravelKitCareful.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653A32DC0B4E300C4D5B8 /* TravelKitCareful.m */; };
@@ -464,6 +464,27 @@
 		420711A82D759159002453E9 /* IBigRise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBigRise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42BCF7182D769F7000365E0A /* IBigRiseSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IBigRiseSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42BCF7372D76A9CF00365E0A /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		B137E0A12E9E623F00CCFDF9 /* CarefulInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarefulInfo.h; sourceTree = "<group>"; };
+		B137E0A22E9E623F00CCFDF9 /* CarefulInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarefulInfo.m; sourceTree = "<group>"; };
+		B137E0A32E9E623F00CCFDF9 /* CompoundView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompoundView.h; sourceTree = "<group>"; };
+		B137E0A42E9E623F00CCFDF9 /* CompoundView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompoundView.m; sourceTree = "<group>"; };
+		B137E0A52E9E623F00CCFDF9 /* CrossRare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrossRare.h; sourceTree = "<group>"; };
+		B137E0A62E9E623F00CCFDF9 /* CrossRare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrossRare.m; sourceTree = "<group>"; };
+		B137E0A72E9E623F00CCFDF9 /* HapCompound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HapCompound.h; sourceTree = "<group>"; };
+		B137E0A82E9E623F00CCFDF9 /* HapCompound.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HapCompound.m; sourceTree = "<group>"; };
+		B137E0A92E9E623F00CCFDF9 /* HumanRemainsPouchSetting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HumanRemainsPouchSetting.h; sourceTree = "<group>"; };
+		B137E0AA2E9E623F00CCFDF9 /* HumanRemainsPouchSetting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HumanRemainsPouchSetting.m; sourceTree = "<group>"; };
+		B137E0AB2E9E623F00CCFDF9 /* KitPayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KitPayerView.h; sourceTree = "<group>"; };
+		B137E0AC2E9E623F00CCFDF9 /* KitPayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KitPayerView.m; sourceTree = "<group>"; };
+		B137E0AD2E9E623F00CCFDF9 /* LoyalHelperListExtract.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoyalHelperListExtract.h; sourceTree = "<group>"; };
+		B137E0AE2E9E623F00CCFDF9 /* LoyalHelperListExtract.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoyalHelperListExtract.m; sourceTree = "<group>"; };
+		B137E0AF2E9E623F00CCFDF9 /* SandTotalImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SandTotalImpl.h; sourceTree = "<group>"; };
+		B137E0B02E9E623F00CCFDF9 /* SandTotalImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SandTotalImpl.m; sourceTree = "<group>"; };
+		B137E0B12E9E623F00CCFDF9 /* SterlingAreaEffectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SterlingAreaEffectView.h; sourceTree = "<group>"; };
+		B137E0B22E9E623F00CCFDF9 /* SterlingAreaEffectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SterlingAreaEffectView.m; sourceTree = "<group>"; };
+		B137E0B32E9E623F00CCFDF9 /* StickSumeract.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StickSumeract.h; sourceTree = "<group>"; };
+		B137E0B42E9E623F00CCFDF9 /* StickSumeract.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StickSumeract.m; sourceTree = "<group>"; };
+		B137E0B52E9E623F00CCFDF9 /* TableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableCell.h; sourceTree = "<group>"; };
 		B14653602DC0B4E300C4D5B8 /* NSDictionaryExtend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSDictionaryExtend.h; sourceTree = "<group>"; };
 		B14653612DC0B4E300C4D5B8 /* NSDictionaryExtend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryExtend.m; sourceTree = "<group>"; };
 		B14653632DC0B4E300C4D5B8 /* AVAsset+Reek.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVAsset+Reek.h"; sourceTree = "<group>"; };
@@ -492,27 +513,6 @@
 		B146537A2DC0B4E300C4D5B8 /* YYAnimatedImageView+PrimrosePath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YYAnimatedImageView+PrimrosePath.m"; sourceTree = "<group>"; };
 		B146537B2DC0B4E300C4D5B8 /* QualityCoordinateMarker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QualityCoordinateMarker.h; sourceTree = "<group>"; };
 		B146537C2DC0B4E300C4D5B8 /* QualityCoordinateMarker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QualityCoordinateMarker.m; sourceTree = "<group>"; };
-		B146537E2DC0B4E300C4D5B8 /* LoyalHelperListExtract.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoyalHelperListExtract.h; sourceTree = "<group>"; };
-		B146537F2DC0B4E300C4D5B8 /* LoyalHelperListExtract.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoyalHelperListExtract.m; sourceTree = "<group>"; };
-		B14653802DC0B4E300C4D5B8 /* HapCompound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HapCompound.h; sourceTree = "<group>"; };
-		B14653812DC0B4E300C4D5B8 /* HapCompound.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HapCompound.m; sourceTree = "<group>"; };
-		B14653822DC0B4E300C4D5B8 /* TableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableCell.h; sourceTree = "<group>"; };
-		B14653842DC0B4E300C4D5B8 /* KitPayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KitPayerView.h; sourceTree = "<group>"; };
-		B14653852DC0B4E300C4D5B8 /* KitPayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KitPayerView.m; sourceTree = "<group>"; };
-		B14653862DC0B4E300C4D5B8 /* StickSumeract.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StickSumeract.h; sourceTree = "<group>"; };
-		B14653872DC0B4E300C4D5B8 /* StickSumeract.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StickSumeract.m; sourceTree = "<group>"; };
-		B14653882DC0B4E300C4D5B8 /* SandTotalImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SandTotalImpl.h; sourceTree = "<group>"; };
-		B14653892DC0B4E300C4D5B8 /* SandTotalImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SandTotalImpl.m; sourceTree = "<group>"; };
-		B146538B2DC0B4E300C4D5B8 /* CarefulInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarefulInfo.h; sourceTree = "<group>"; };
-		B146538C2DC0B4E300C4D5B8 /* CarefulInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarefulInfo.m; sourceTree = "<group>"; };
-		B146538D2DC0B4E300C4D5B8 /* SterlingAreaEffectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SterlingAreaEffectView.h; sourceTree = "<group>"; };
-		B146538E2DC0B4E300C4D5B8 /* SterlingAreaEffectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SterlingAreaEffectView.m; sourceTree = "<group>"; };
-		B146538F2DC0B4E300C4D5B8 /* HumanRemainsPouchSetting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HumanRemainsPouchSetting.h; sourceTree = "<group>"; };
-		B14653902DC0B4E300C4D5B8 /* HumanRemainsPouchSetting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HumanRemainsPouchSetting.m; sourceTree = "<group>"; };
-		B14653912DC0B4E300C4D5B8 /* CompoundView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompoundView.h; sourceTree = "<group>"; };
-		B14653922DC0B4E300C4D5B8 /* CompoundView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompoundView.m; sourceTree = "<group>"; };
-		B14653932DC0B4E300C4D5B8 /* CrossRare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrossRare.h; sourceTree = "<group>"; };
-		B14653942DC0B4E300C4D5B8 /* CrossRare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrossRare.m; sourceTree = "<group>"; };
 		B14653962DC0B4E300C4D5B8 /* StarStoreLayoutHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StarStoreLayoutHeader.h; sourceTree = "<group>"; };
 		B14653972DC0B4E300C4D5B8 /* HeroicBackupUpFabric.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeroicBackupUpFabric.h; sourceTree = "<group>"; };
 		B14653982DC0B4E300C4D5B8 /* BrookLiberalDatasetter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrookLiberalDatasetter.h; sourceTree = "<group>"; };
@@ -1365,37 +1365,30 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B14653952DC0B4E300C4D5B8 /* Global */ = {
+		B137E0B62E9E623F00CCFDF9 /* LoyalHelperListExtract */ = {
 			isa = PBXGroup;
 			children = (
-				B146537E2DC0B4E300C4D5B8 /* LoyalHelperListExtract.h */,
-				B146537F2DC0B4E300C4D5B8 /* LoyalHelperListExtract.m */,
-				B14653802DC0B4E300C4D5B8 /* HapCompound.h */,
-				B14653812DC0B4E300C4D5B8 /* HapCompound.m */,
-				B14653822DC0B4E300C4D5B8 /* TableCell.h */,
-				B14653842DC0B4E300C4D5B8 /* KitPayerView.h */,
-				B14653852DC0B4E300C4D5B8 /* KitPayerView.m */,
-				B14653862DC0B4E300C4D5B8 /* StickSumeract.h */,
-				B14653872DC0B4E300C4D5B8 /* StickSumeract.m */,
-				B14653882DC0B4E300C4D5B8 /* SandTotalImpl.h */,
-				B14653892DC0B4E300C4D5B8 /* SandTotalImpl.m */,
-				B146538B2DC0B4E300C4D5B8 /* CarefulInfo.h */,
-				B146538C2DC0B4E300C4D5B8 /* CarefulInfo.m */,
-				B146538D2DC0B4E300C4D5B8 /* SterlingAreaEffectView.h */,
-				B146538E2DC0B4E300C4D5B8 /* SterlingAreaEffectView.m */,
-				B146538F2DC0B4E300C4D5B8 /* HumanRemainsPouchSetting.h */,
-				B14653902DC0B4E300C4D5B8 /* HumanRemainsPouchSetting.m */,
-				B14653912DC0B4E300C4D5B8 /* CompoundView.h */,
-				B14653922DC0B4E300C4D5B8 /* CompoundView.m */,
-				B14653932DC0B4E300C4D5B8 /* CrossRare.h */,
-				B14653942DC0B4E300C4D5B8 /* CrossRare.m */,
-			);
-			path = Global;
-			sourceTree = "<group>";
-		};
-		B146539D2DC0B4E300C4D5B8 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
+				B137E0A12E9E623F00CCFDF9 /* CarefulInfo.h */,
+				B137E0A22E9E623F00CCFDF9 /* CarefulInfo.m */,
+				B137E0A32E9E623F00CCFDF9 /* CompoundView.h */,
+				B137E0A42E9E623F00CCFDF9 /* CompoundView.m */,
+				B137E0A52E9E623F00CCFDF9 /* CrossRare.h */,
+				B137E0A62E9E623F00CCFDF9 /* CrossRare.m */,
+				B137E0A72E9E623F00CCFDF9 /* HapCompound.h */,
+				B137E0A82E9E623F00CCFDF9 /* HapCompound.m */,
+				B137E0A92E9E623F00CCFDF9 /* HumanRemainsPouchSetting.h */,
+				B137E0AA2E9E623F00CCFDF9 /* HumanRemainsPouchSetting.m */,
+				B137E0AB2E9E623F00CCFDF9 /* KitPayerView.h */,
+				B137E0AC2E9E623F00CCFDF9 /* KitPayerView.m */,
+				B137E0AD2E9E623F00CCFDF9 /* LoyalHelperListExtract.h */,
+				B137E0AE2E9E623F00CCFDF9 /* LoyalHelperListExtract.m */,
+				B137E0AF2E9E623F00CCFDF9 /* SandTotalImpl.h */,
+				B137E0B02E9E623F00CCFDF9 /* SandTotalImpl.m */,
+				B137E0B12E9E623F00CCFDF9 /* SterlingAreaEffectView.h */,
+				B137E0B22E9E623F00CCFDF9 /* SterlingAreaEffectView.m */,
+				B137E0B32E9E623F00CCFDF9 /* StickSumeract.h */,
+				B137E0B42E9E623F00CCFDF9 /* StickSumeract.m */,
+				B137E0B52E9E623F00CCFDF9 /* TableCell.h */,
 				B14653962DC0B4E300C4D5B8 /* StarStoreLayoutHeader.h */,
 				B14653972DC0B4E300C4D5B8 /* HeroicBackupUpFabric.h */,
 				B14653982DC0B4E300C4D5B8 /* BrookLiberalDatasetter.h */,
@@ -1404,10 +1397,10 @@
 				B146539B2DC0B4E300C4D5B8 /* RobustVisualizeDelegate.h */,
 				B146539C2DC0B4E300C4D5B8 /* Config.h */,
 			);
-			path = Protocols;
+			path = LoyalHelperListExtract;
 			sourceTree = "<group>";
 		};
-		B14653B32DC0B4E300C4D5B8 /* Common */ = {
+		B14653B32DC0B4E300C4D5B8 /* CreateView */ = {
 			isa = PBXGroup;
 			children = (
 				B146539E2DC0B4E300C4D5B8 /* CreateView.h */,
@@ -1430,35 +1423,12 @@
 				B14653B12DC0B4E300C4D5B8 /* TheyView.h */,
 				B14653B22DC0B4E300C4D5B8 /* TheyView.m */,
 			);
-			path = Common;
+			path = CreateView;
 			sourceTree = "<group>";
 		};
-		B14653B72DC0B4E300C4D5B8 /* Cell */ = {
+		B14653C72DC0B4E300C4D5B8 /* TemporaryView */ = {
 			isa = PBXGroup;
 			children = (
-				B14653B42DC0B4E300C4D5B8 /* SenMpView.h */,
-				B14653B52DC0B4E300C4D5B8 /* SenMpView.m */,
-				B14653B62DC0B4E300C4D5B8 /* ImmenseCoordinatorLegacyAlong.h */,
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
-		B14653BC2DC0B4E300C4D5B8 /* ContactGroup */ = {
-			isa = PBXGroup;
-			children = (
-				B14653B82DC0B4E300C4D5B8 /* GraphSmartFormatter.h */,
-				B14653B92DC0B4E300C4D5B8 /* GraphSmartFormatter.m */,
-				B14653BA2DC0B4E300C4D5B8 /* OrganizeHistory.h */,
-				B14653BB2DC0B4E300C4D5B8 /* OrganizeHistory.m */,
-			);
-			path = ContactGroup;
-			sourceTree = "<group>";
-		};
-		B14653C72DC0B4E300C4D5B8 /* Contact */ = {
-			isa = PBXGroup;
-			children = (
-				B14653B72DC0B4E300C4D5B8 /* Cell */,
-				B14653BC2DC0B4E300C4D5B8 /* ContactGroup */,
 				B14653BD2DC0B4E300C4D5B8 /* TemporaryView.h */,
 				B14653BE2DC0B4E300C4D5B8 /* TemporaryView.m */,
 				B14653BF2DC0B4E300C4D5B8 /* FloorContactQueryAgile.h */,
@@ -1469,25 +1439,20 @@
 				B14653C42DC0B4E300C4D5B8 /* SandViewController.m */,
 				B14653C52DC0B4E300C4D5B8 /* SightView.h */,
 				B14653C62DC0B4E300C4D5B8 /* SightView.m */,
+				B14653B42DC0B4E300C4D5B8 /* SenMpView.h */,
+				B14653B52DC0B4E300C4D5B8 /* SenMpView.m */,
+				B14653B82DC0B4E300C4D5B8 /* GraphSmartFormatter.h */,
+				B14653B92DC0B4E300C4D5B8 /* GraphSmartFormatter.m */,
+				B14653BA2DC0B4E300C4D5B8 /* OrganizeHistory.h */,
+				B14653BB2DC0B4E300C4D5B8 /* OrganizeHistory.m */,
+				B14653B62DC0B4E300C4D5B8 /* ImmenseCoordinatorLegacyAlong.h */,
 			);
-			path = Contact;
+			path = TemporaryView;
 			sourceTree = "<group>";
 		};
-		B14653CC2DC0B4E300C4D5B8 /* GrowingTextView */ = {
+		B14653E92DC0B4E300C4D5B8 /* AgileScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				B14653C82DC0B4E300C4D5B8 /* AgileScrollView.h */,
-				B14653C92DC0B4E300C4D5B8 /* AgileScrollView.m */,
-				B14653CA2DC0B4E300C4D5B8 /* ChooseEyView.h */,
-				B14653CB2DC0B4E300C4D5B8 /* ChooseEyView.m */,
-			);
-			path = GrowingTextView;
-			sourceTree = "<group>";
-		};
-		B14653E92DC0B4E300C4D5B8 /* Input */ = {
-			isa = PBXGroup;
-			children = (
-				B14653CC2DC0B4E300C4D5B8 /* GrowingTextView */,
 				B14653CD2DC0B4E300C4D5B8 /* CreateNameHighlight.h */,
 				B14653CE2DC0B4E300C4D5B8 /* CreateNameHighlight.m */,
 				B14653CF2DC0B4E300C4D5B8 /* TakeOutKnown.h */,
@@ -1513,13 +1478,10 @@
 				B14653E62DC0B4E300C4D5B8 /* FinishView.m */,
 				B14653E72DC0B4E300C4D5B8 /* StackThroughView.h */,
 				B14653E82DC0B4E300C4D5B8 /* StackThroughView.m */,
-			);
-			path = Input;
-			sourceTree = "<group>";
-		};
-		B14653F62DC0B4E300C4D5B8 /* Model */ = {
-			isa = PBXGroup;
-			children = (
+				B14653C82DC0B4E300C4D5B8 /* AgileScrollView.h */,
+				B14653C92DC0B4E300C4D5B8 /* AgileScrollView.m */,
+				B14653CA2DC0B4E300C4D5B8 /* ChooseEyView.h */,
+				B14653CB2DC0B4E300C4D5B8 /* ChooseEyView.m */,
 				B14653EA2DC0B4E300C4D5B8 /* HillInside.h */,
 				B14653EB2DC0B4E300C4D5B8 /* HillInside.m */,
 				B14653EC2DC0B4E300C4D5B8 /* RobInvite.h */,
@@ -1533,67 +1495,7 @@
 				B14653F42DC0B4E300C4D5B8 /* ImplementRefresh.h */,
 				B14653F52DC0B4E300C4D5B8 /* ImplementRefresh.m */,
 			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		B146540D2DC0B4E300C4D5B8 /* Content */ = {
-			isa = PBXGroup;
-			children = (
-				B14653F72DC0B4E300C4D5B8 /* ChooseGin.h */,
-				B14653F82DC0B4E300C4D5B8 /* ChooseGin.m */,
-				B14653F92DC0B4E300C4D5B8 /* SternPaginateKeypath.h */,
-				B14653FA2DC0B4E300C4D5B8 /* SternPaginateKeypath.m */,
-				B14653FB2DC0B4E300C4D5B8 /* HoFinishCross.h */,
-				B14653FC2DC0B4E300C4D5B8 /* HoFinishCross.m */,
-				B14653FD2DC0B4E300C4D5B8 /* VisualisationYard.h */,
-				B14653FE2DC0B4E300C4D5B8 /* VisualisationYard.m */,
-				B14653FF2DC0B4E300C4D5B8 /* MobileEntity.h */,
-				B14654002DC0B4E300C4D5B8 /* MobileEntity.m */,
-				B14654012DC0B4E300C4D5B8 /* BetweenConfig.h */,
-				B14654022DC0B4E300C4D5B8 /* BetweenConfig.m */,
-				B14654032DC0B4E300C4D5B8 /* ReekMobileCross.h */,
-				B14654042DC0B4E300C4D5B8 /* ReekMobileCross.m */,
-				B14654052DC0B4E300C4D5B8 /* TemperatureConfig.h */,
-				B14654062DC0B4E300C4D5B8 /* TemperatureConfig.m */,
-				B14654072DC0B4E300C4D5B8 /* FormerConfig.h */,
-				B14654082DC0B4E300C4D5B8 /* FormerConfig.m */,
-				B14654092DC0B4E300C4D5B8 /* UnsupportSandConfig.h */,
-				B146540A2DC0B4E300C4D5B8 /* UnsupportSandConfig.m */,
-				B146540B2DC0B4E300C4D5B8 /* ContentureExisting.h */,
-				B146540C2DC0B4E300C4D5B8 /* ContentureExisting.m */,
-			);
-			path = Content;
-			sourceTree = "<group>";
-		};
-		B14654102DC0B4E300C4D5B8 /* ReplyContentConfig */ = {
-			isa = PBXGroup;
-			children = (
-				B146540E2DC0B4E300C4D5B8 /* TranslationScopeBloc.h */,
-				B146540F2DC0B4E300C4D5B8 /* TranslationScopeBloc.m */,
-			);
-			path = ReplyContentConfig;
-			sourceTree = "<group>";
-		};
-		B14654132DC0B4E300C4D5B8 /* Config */ = {
-			isa = PBXGroup;
-			children = (
-				B146540D2DC0B4E300C4D5B8 /* Content */,
-				B14654102DC0B4E300C4D5B8 /* ReplyContentConfig */,
-				B14654112DC0B4E300C4D5B8 /* ConfigBorder.h */,
-				B14654122DC0B4E300C4D5B8 /* ConfigBorder.m */,
-			);
-			path = Config;
-			sourceTree = "<group>";
-		};
-		B14654182DC0B4E300C4D5B8 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				B14654142DC0B4E300C4D5B8 /* Reek.h */,
-				B14654152DC0B4E300C4D5B8 /* Reek.m */,
-				B14654162DC0B4E300C4D5B8 /* TerrainKnownUimanager.h */,
-				B14654172DC0B4E300C4D5B8 /* TerrainKnownUimanager.m */,
-			);
-			path = Manager;
+			path = AgileScrollView;
 			sourceTree = "<group>";
 		};
 		B146541D2DC0B4E300C4D5B8 /* Model */ = {
@@ -1629,6 +1531,16 @@
 				B1B815342E9E5EAF0006EAE9 /* TrainReferencePrimary.txt */,
 				B146542E2DC0B4E300C4D5B8 /* WeighDownAdapter.h */,
 				B146542F2DC0B4E300C4D5B8 /* WeighDownAdapter.m */,
+				B14654672DC0B4E300C4D5B8 /* NSObject+Rare.h */,
+				B14654682DC0B4E300C4D5B8 /* NSObject+Rare.m */,
+				B14654692DC0B4E300C4D5B8 /* ExpertModel.h */,
+				B146546A2DC0B4E300C4D5B8 /* ExpertModel.m */,
+				B146546B2DC0B4E300C4D5B8 /* UnctionView.h */,
+				B146546C2DC0B4E300C4D5B8 /* UnctionView.m */,
+				B146546D2DC0B4E300C4D5B8 /* OutlineNameView.h */,
+				B146546E2DC0B4E300C4D5B8 /* OutlineNameView.m */,
+				B14654742DC0B4E300C4D5B8 /* BulkView.h */,
+				B14654752DC0B4E300C4D5B8 /* BulkView.m */,
 			);
 			path = Object;
 			sourceTree = "<group>";
@@ -1692,7 +1604,7 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		B14654602DC0B4E300C4D5B8 /* LeadCompleteInfo */ = {
+		B14654602DC0B4E300C4D5B8 /* StandAloneView */ = {
 			isa = PBXGroup;
 			children = (
 				B14654582DC0B4E300C4D5B8 /* StandAloneView.h */,
@@ -1701,135 +1613,69 @@
 				B146545B2DC0B4E300C4D5B8 /* BrightTotaleract.m */,
 				B146545E2DC0B4E300C4D5B8 /* PathView.h */,
 				B146545F2DC0B4E300C4D5B8 /* PathView.m */,
-			);
-			path = LeadCompleteInfo;
-			sourceTree = "<group>";
-		};
-		B14654662DC0B4E300C4D5B8 /* MyAttributedLabel */ = {
-			isa = PBXGroup;
-			children = (
 				B14654612DC0B4E300C4D5B8 /* StrippedDownTextView.h */,
 				B14654622DC0B4E300C4D5B8 /* StrippedDownTextView.m */,
 				B14654632DC0B4E300C4D5B8 /* MyAttributedLabelDefines.h */,
 				B14654642DC0B4E300C4D5B8 /* NSMutableAttributedString+My.h */,
 				B14654652DC0B4E300C4D5B8 /* NSMutableAttributedString+My.m */,
 			);
-			path = MyAttributedLabel;
-			sourceTree = "<group>";
-		};
-		B146546F2DC0B4E300C4D5B8 /* BubbleMenu */ = {
-			isa = PBXGroup;
-			children = (
-				B14654672DC0B4E300C4D5B8 /* NSObject+Rare.h */,
-				B14654682DC0B4E300C4D5B8 /* NSObject+Rare.m */,
-				B14654692DC0B4E300C4D5B8 /* ExpertModel.h */,
-				B146546A2DC0B4E300C4D5B8 /* ExpertModel.m */,
-				B146546B2DC0B4E300C4D5B8 /* UnctionView.h */,
-				B146546C2DC0B4E300C4D5B8 /* UnctionView.m */,
-				B146546D2DC0B4E300C4D5B8 /* OutlineNameView.h */,
-				B146546E2DC0B4E300C4D5B8 /* OutlineNameView.m */,
-			);
-			path = BubbleMenu;
+			path = StandAloneView;
 			sourceTree = "<group>";
 		};
 		B14654722DC0B4E300C4D5B8 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				B14654602DC0B4E300C4D5B8 /* LeadCompleteInfo */,
-				B14654662DC0B4E300C4D5B8 /* MyAttributedLabel */,
-				B146546F2DC0B4E300C4D5B8 /* BubbleMenu */,
+				B14654602DC0B4E300C4D5B8 /* StandAloneView */,
 				B14654702DC0B4E300C4D5B8 /* FanViewController.h */,
 				B14654712DC0B4E300C4D5B8 /* FanViewController.m */,
+				B14654772DC0B4E300C4D5B8 /* BackgroundHearViewController.h */,
+				B14654782DC0B4E300C4D5B8 /* BackgroundHearViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		B14654732DC0B4E300C4D5B8 /* Session */ = {
+		B14654732DC0B4E300C4D5B8 /* VisualisationYard */ = {
 			isa = PBXGroup;
 			children = (
-				B14654132DC0B4E300C4D5B8 /* Config */,
-				B14654182DC0B4E300C4D5B8 /* Manager */,
+				B14653F72DC0B4E300C4D5B8 /* ChooseGin.h */,
+				B14653F82DC0B4E300C4D5B8 /* ChooseGin.m */,
+				B14653F92DC0B4E300C4D5B8 /* SternPaginateKeypath.h */,
+				B14653FA2DC0B4E300C4D5B8 /* SternPaginateKeypath.m */,
+				B14653FB2DC0B4E300C4D5B8 /* HoFinishCross.h */,
+				B14653FC2DC0B4E300C4D5B8 /* HoFinishCross.m */,
+				B14653FD2DC0B4E300C4D5B8 /* VisualisationYard.h */,
+				B14653FE2DC0B4E300C4D5B8 /* VisualisationYard.m */,
+				B14653FF2DC0B4E300C4D5B8 /* MobileEntity.h */,
+				B14654002DC0B4E300C4D5B8 /* MobileEntity.m */,
+				B14654012DC0B4E300C4D5B8 /* BetweenConfig.h */,
+				B14654022DC0B4E300C4D5B8 /* BetweenConfig.m */,
+				B14654032DC0B4E300C4D5B8 /* ReekMobileCross.h */,
+				B14654042DC0B4E300C4D5B8 /* ReekMobileCross.m */,
+				B14654052DC0B4E300C4D5B8 /* TemperatureConfig.h */,
+				B14654062DC0B4E300C4D5B8 /* TemperatureConfig.m */,
+				B14654072DC0B4E300C4D5B8 /* FormerConfig.h */,
+				B14654082DC0B4E300C4D5B8 /* FormerConfig.m */,
+				B14654092DC0B4E300C4D5B8 /* UnsupportSandConfig.h */,
+				B146540A2DC0B4E300C4D5B8 /* UnsupportSandConfig.m */,
+				B146540B2DC0B4E300C4D5B8 /* ContentureExisting.h */,
+				B146540C2DC0B4E300C4D5B8 /* ContentureExisting.m */,
+				B146540E2DC0B4E300C4D5B8 /* TranslationScopeBloc.h */,
+				B146540F2DC0B4E300C4D5B8 /* TranslationScopeBloc.m */,
+				B14654112DC0B4E300C4D5B8 /* ConfigBorder.h */,
+				B14654122DC0B4E300C4D5B8 /* ConfigBorder.m */,
+				B14654142DC0B4E300C4D5B8 /* Reek.h */,
+				B14654152DC0B4E300C4D5B8 /* Reek.m */,
+				B14654162DC0B4E300C4D5B8 /* TerrainKnownUimanager.h */,
+				B14654172DC0B4E300C4D5B8 /* TerrainKnownUimanager.m */,
 				B146541D2DC0B4E300C4D5B8 /* Model */,
 				B14654302DC0B4E300C4D5B8 /* Object */,
 				B14654572DC0B4E300C4D5B8 /* View */,
 				B14654722DC0B4E300C4D5B8 /* ViewController */,
 			);
-			path = Session;
+			path = VisualisationYard;
 			sourceTree = "<group>";
 		};
-		B14654762DC0B4E300C4D5B8 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				B14654742DC0B4E300C4D5B8 /* BulkView.h */,
-				B14654752DC0B4E300C4D5B8 /* BulkView.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		B14654792DC0B4E300C4D5B8 /* SessionList */ = {
-			isa = PBXGroup;
-			children = (
-				B14654762DC0B4E300C4D5B8 /* View */,
-				B14654772DC0B4E300C4D5B8 /* BackgroundHearViewController.h */,
-				B14654782DC0B4E300C4D5B8 /* BackgroundHearViewController.m */,
-			);
-			path = SessionList;
-			sourceTree = "<group>";
-		};
-		B146547D2DC0B4E300C4D5B8 /* DataSource */ = {
-			isa = PBXGroup;
-			children = (
-				B146547A2DC0B4E300C4D5B8 /* QueuePrevious.h */,
-				B146547B2DC0B4E300C4D5B8 /* QueuePrevious.m */,
-				B146547C2DC0B4E300C4D5B8 /* RareSource.h */,
-			);
-			path = DataSource;
-			sourceTree = "<group>";
-		};
-		B146548B2DC0B4E300C4D5B8 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				B14654812DC0B4E300C4D5B8 /* AwfulAgile.h */,
-				B14654822DC0B4E300C4D5B8 /* AwfulAgile.m */,
-				B14654832DC0B4E300C4D5B8 /* FlashItem.h */,
-				B14654842DC0B4E300C4D5B8 /* FlashItem.m */,
-				B14654852DC0B4E300C4D5B8 /* PlainTemperature.h */,
-				B14654862DC0B4E300C4D5B8 /* PlainTemperature.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		B14654902DC0B4E300C4D5B8 /* MemberCard */ = {
-			isa = PBXGroup;
-			children = (
-				B146548C2DC0B4E300C4D5B8 /* ListViewController.h */,
-				B146548D2DC0B4E300C4D5B8 /* ListViewController.m */,
-				B146548E2DC0B4E300C4D5B8 /* TeamViewController.h */,
-				B146548F2DC0B4E300C4D5B8 /* TeamViewController.m */,
-			);
-			path = MemberCard;
-			sourceTree = "<group>";
-		};
-		B14654952DC0B4E300C4D5B8 /* BaseCard */ = {
-			isa = PBXGroup;
-			children = (
-				B14654912DC0B4E300C4D5B8 /* KnownViewController.h */,
-				B14654922DC0B4E300C4D5B8 /* KnownViewController.m */,
-				B14654932DC0B4E300C4D5B8 /* JuniorVarsityViewController.h */,
-				B14654942DC0B4E300C4D5B8 /* JuniorVarsityViewController.m */,
-			);
-			path = BaseCard;
-			sourceTree = "<group>";
-		};
-		B14654962DC0B4E300C4D5B8 /* TeamCard */ = {
-			isa = PBXGroup;
-			children = (
-				B14654952DC0B4E300C4D5B8 /* BaseCard */,
-			);
-			path = TeamCard;
-			sourceTree = "<group>";
-		};
-		B146549F2DC0B4E300C4D5B8 /* ToolCard */ = {
+		B14654A02DC0B4E300C4D5B8 /* SaveViewController */ = {
 			isa = PBXGroup;
 			children = (
 				B14654972DC0B4E300C4D5B8 /* SaveViewController.h */,
@@ -1840,23 +1686,14 @@
 				B146549C2DC0B4E300C4D5B8 /* BackgroundViewController.m */,
 				B146549D2DC0B4E300C4D5B8 /* HillViewController.h */,
 				B146549E2DC0B4E300C4D5B8 /* HillViewController.m */,
-			);
-			path = ToolCard;
-			sourceTree = "<group>";
-		};
-		B14654A02DC0B4E300C4D5B8 /* VC */ = {
-			isa = PBXGroup;
-			children = (
-				B14654902DC0B4E300C4D5B8 /* MemberCard */,
-				B14654962DC0B4E300C4D5B8 /* TeamCard */,
-				B146549F2DC0B4E300C4D5B8 /* ToolCard */,
-			);
-			path = VC;
-			sourceTree = "<group>";
-		};
-		B14654B32DC0B4E300C4D5B8 /* View */ = {
-			isa = PBXGroup;
-			children = (
+				B14654912DC0B4E300C4D5B8 /* KnownViewController.h */,
+				B14654922DC0B4E300C4D5B8 /* KnownViewController.m */,
+				B14654932DC0B4E300C4D5B8 /* JuniorVarsityViewController.h */,
+				B14654942DC0B4E300C4D5B8 /* JuniorVarsityViewController.m */,
+				B146548C2DC0B4E300C4D5B8 /* ListViewController.h */,
+				B146548D2DC0B4E300C4D5B8 /* ListViewController.m */,
+				B146548E2DC0B4E300C4D5B8 /* TeamViewController.h */,
+				B146548F2DC0B4E300C4D5B8 /* TeamViewController.m */,
 				B14654A12DC0B4E300C4D5B8 /* PossessionViewCell.h */,
 				B14654A22DC0B4E300C4D5B8 /* PossessionViewCell.m */,
 				B14654A32DC0B4E300C4D5B8 /* ThroughViewCell.h */,
@@ -1873,38 +1710,6 @@
 				B14654AE2DC0B4E300C4D5B8 /* HearView.m */,
 				B14654AF2DC0B4E300C4D5B8 /* PressViewCell.h */,
 				B14654B02DC0B4E300C4D5B8 /* PressViewCell.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		B14654B62DC0B4E300C4D5B8 /* Team */ = {
-			isa = PBXGroup;
-			children = (
-				B146547D2DC0B4E300C4D5B8 /* DataSource */,
-				B146548B2DC0B4E300C4D5B8 /* Model */,
-				B14654A02DC0B4E300C4D5B8 /* VC */,
-				B14654B32DC0B4E300C4D5B8 /* View */,
-				B14654B42DC0B4E300C4D5B8 /* BlocHelper.h */,
-				B14654B52DC0B4E300C4D5B8 /* BlocHelper.m */,
-			);
-			path = Team;
-			sourceTree = "<group>";
-		};
-		B14654BB2DC0B4E300C4D5B8 /* Spelling */ = {
-			isa = PBXGroup;
-			children = (
-				B14654B72DC0B4E300C4D5B8 /* ConverterPinyinSen.h */,
-				B14654B82DC0B4E300C4D5B8 /* ConverterPinyinSen.m */,
-				B14654B92DC0B4E300C4D5B8 /* RenewHo.h */,
-				B14654BA2DC0B4E300C4D5B8 /* RenewHo.m */,
-			);
-			path = Spelling;
-			sourceTree = "<group>";
-		};
-		B14654CA2DC0B4E300C4D5B8 /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				B14654BB2DC0B4E300C4D5B8 /* Spelling */,
 				B14654BC2DC0B4E300C4D5B8 /* PrecisTool.h */,
 				B14654BD2DC0B4E300C4D5B8 /* PrecisTool.m */,
 				B14654BE2DC0B4E300C4D5B8 /* StackBorder.h */,
@@ -1919,31 +1724,50 @@
 				B14654C72DC0B4E300C4D5B8 /* PayerMinimal.m */,
 				B14654C82DC0B4E300C4D5B8 /* FlashUnction.h */,
 				B14654C92DC0B4E300C4D5B8 /* FlashUnction.m */,
+				B14654B72DC0B4E300C4D5B8 /* ConverterPinyinSen.h */,
+				B14654B82DC0B4E300C4D5B8 /* ConverterPinyinSen.m */,
+				B14654B92DC0B4E300C4D5B8 /* RenewHo.h */,
+				B14654BA2DC0B4E300C4D5B8 /* RenewHo.m */,
 			);
-			path = Util;
+			path = SaveViewController;
 			sourceTree = "<group>";
 		};
-		B14654CB2DC0B4E300C4D5B8 /* Sections */ = {
+		B14654B62DC0B4E300C4D5B8 /* PlainTemperature */ = {
 			isa = PBXGroup;
 			children = (
-				B14653B32DC0B4E300C4D5B8 /* Common */,
-				B14653C72DC0B4E300C4D5B8 /* Contact */,
-				B14653E92DC0B4E300C4D5B8 /* Input */,
-				B14653F62DC0B4E300C4D5B8 /* Model */,
-				B14654732DC0B4E300C4D5B8 /* Session */,
-				B14654792DC0B4E300C4D5B8 /* SessionList */,
-				B14654B62DC0B4E300C4D5B8 /* Team */,
-				B14654CA2DC0B4E300C4D5B8 /* Util */,
+				B14654B42DC0B4E300C4D5B8 /* BlocHelper.h */,
+				B14654B52DC0B4E300C4D5B8 /* BlocHelper.m */,
+				B14654812DC0B4E300C4D5B8 /* AwfulAgile.h */,
+				B14654822DC0B4E300C4D5B8 /* AwfulAgile.m */,
+				B14654832DC0B4E300C4D5B8 /* FlashItem.h */,
+				B14654842DC0B4E300C4D5B8 /* FlashItem.m */,
+				B14654852DC0B4E300C4D5B8 /* PlainTemperature.h */,
+				B14654862DC0B4E300C4D5B8 /* PlainTemperature.m */,
+				B146547A2DC0B4E300C4D5B8 /* QueuePrevious.h */,
+				B146547B2DC0B4E300C4D5B8 /* QueuePrevious.m */,
+				B146547C2DC0B4E300C4D5B8 /* RareSource.h */,
+				B14654A02DC0B4E300C4D5B8 /* SaveViewController */,
 			);
-			path = Sections;
+			path = PlainTemperature;
+			sourceTree = "<group>";
+		};
+		B14654CB2DC0B4E300C4D5B8 /* SandFloorFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				B14653B32DC0B4E300C4D5B8 /* CreateView */,
+				B14653C72DC0B4E300C4D5B8 /* TemporaryView */,
+				B14653E92DC0B4E300C4D5B8 /* AgileScrollView */,
+				B14654732DC0B4E300C4D5B8 /* VisualisationYard */,
+				B14654B62DC0B4E300C4D5B8 /* PlainTemperature */,
+			);
+			path = SandFloorFetcher;
 			sourceTree = "<group>";
 		};
 		B14654CC2DC0B4E300C4D5B8 /* StrippedDownTextView */ = {
 			isa = PBXGroup;
 			children = (
-				B14653952DC0B4E300C4D5B8 /* Global */,
-				B146539D2DC0B4E300C4D5B8 /* Protocols */,
-				B14654CB2DC0B4E300C4D5B8 /* Sections */,
+				B137E0B62E9E623F00CCFDF9 /* LoyalHelperListExtract */,
+				B14654CB2DC0B4E300C4D5B8 /* SandFloorFetcher */,
 			);
 			path = StrippedDownTextView;
 			sourceTree = "<group>";
@@ -1956,7 +1780,7 @@
 			path = CarefulRage;
 			sourceTree = "<group>";
 		};
-		B14655032DC0B4E300C4D5B8 /* Category */ = {
+		B14655032DC0B4E300C4D5B8 /* InviteViewController */ = {
 			isa = PBXGroup;
 			children = (
 				B14654D32DC0B4E300C4D5B8 /* NSData+Kingdom.h */,
@@ -2008,46 +1832,10 @@
 				B14655012DC0B4E300C4D5B8 /* UIViewController+Inside.h */,
 				B14655022DC0B4E300C4D5B8 /* UIViewController+Inside.m */,
 			);
-			path = Category;
+			path = InviteViewController;
 			sourceTree = "<group>";
 		};
-		B146550D2DC0B4E300C4D5B8 /* Addons */ = {
-			isa = PBXGroup;
-			children = (
-				B14655042DC0B4E300C4D5B8 /* SwizzlingDefine.h */,
-				B14655052DC0B4E300C4D5B8 /* UINavigationBar+Practice.h */,
-				B14655062DC0B4E300C4D5B8 /* UINavigationBar+Practice.m */,
-				B14655072DC0B4E300C4D5B8 /* UINavigationController+Practice.h */,
-				B14655082DC0B4E300C4D5B8 /* UINavigationController+Practice.m */,
-				B14655092DC0B4E300C4D5B8 /* UIView+Practice.h */,
-				B146550A2DC0B4E300C4D5B8 /* UIView+Practice.m */,
-				B146550B2DC0B4E300C4D5B8 /* UIViewController+Practice.h */,
-				B146550C2DC0B4E300C4D5B8 /* UIViewController+Practice.m */,
-			);
-			path = Addons;
-			sourceTree = "<group>";
-		};
-		B14655102DC0B4E300C4D5B8 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				B146550E2DC0B4E300C4D5B8 /* DominantViewController.h */,
-				B146550F2DC0B4E300C4D5B8 /* DominantViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		B14655152DC0B4E300C4D5B8 /* Delegate */ = {
-			isa = PBXGroup;
-			children = (
-				B14655112DC0B4E300C4D5B8 /* HapExisting.h */,
-				B14655122DC0B4E300C4D5B8 /* HapExisting.m */,
-				B14655132DC0B4E300C4D5B8 /* FloorHandler.h */,
-				B14655142DC0B4E300C4D5B8 /* FloorHandler.m */,
-			);
-			path = Delegate;
-			sourceTree = "<group>";
-		};
-		B14655262DC0B4E300C4D5B8 /* View */ = {
+		B14655272DC0B4E300C4D5B8 /* Common */ = {
 			isa = PBXGroup;
 			children = (
 				B14655182DC0B4E300C4D5B8 /* OrganizeView.h */,
@@ -2060,25 +1848,25 @@
 				B14655232DC0B4E300C4D5B8 /* LoadingView.m */,
 				B14655242DC0B4E300C4D5B8 /* RobView.h */,
 				B14655252DC0B4E300C4D5B8 /* RobView.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		B14655272DC0B4E300C4D5B8 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				B1465F022DC0C09100C4D5B8 /* CustomTabBar */,
-				B146550D2DC0B4E300C4D5B8 /* Addons */,
-				B14655102DC0B4E300C4D5B8 /* Controller */,
-				B14655152DC0B4E300C4D5B8 /* Delegate */,
-				B14655262DC0B4E300C4D5B8 /* View */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		B146552E2DC0B4E300C4D5B8 /* LayoutConfig */ = {
-			isa = PBXGroup;
-			children = (
+				B1465EFE2DC0C09100C4D5B8 /* ExistingBuildView.h */,
+				B1465EFF2DC0C09100C4D5B8 /* ExistingBuildView.m */,
+				B1465F002DC0C09100C4D5B8 /* InviteViewController.h */,
+				B1465F012DC0C09100C4D5B8 /* InviteViewController.m */,
+				B14655042DC0B4E300C4D5B8 /* SwizzlingDefine.h */,
+				B14655052DC0B4E300C4D5B8 /* UINavigationBar+Practice.h */,
+				B14655062DC0B4E300C4D5B8 /* UINavigationBar+Practice.m */,
+				B14655072DC0B4E300C4D5B8 /* UINavigationController+Practice.h */,
+				B14655082DC0B4E300C4D5B8 /* UINavigationController+Practice.m */,
+				B14655092DC0B4E300C4D5B8 /* UIView+Practice.h */,
+				B146550A2DC0B4E300C4D5B8 /* UIView+Practice.m */,
+				B146550B2DC0B4E300C4D5B8 /* UIViewController+Practice.h */,
+				B146550C2DC0B4E300C4D5B8 /* UIViewController+Practice.m */,
+				B146550E2DC0B4E300C4D5B8 /* DominantViewController.h */,
+				B146550F2DC0B4E300C4D5B8 /* DominantViewController.m */,
+				B14655112DC0B4E300C4D5B8 /* HapExisting.h */,
+				B14655122DC0B4E300C4D5B8 /* HapExisting.m */,
+				B14655132DC0B4E300C4D5B8 /* FloorHandler.h */,
+				B14655142DC0B4E300C4D5B8 /* FloorHandler.m */,
 				B14655282DC0B4E300C4D5B8 /* YenLayoutConfig.h */,
 				B14655292DC0B4E300C4D5B8 /* YenLayoutConfig.m */,
 				B146552A2DC0B4E300C4D5B8 /* TextConfig.h */,
@@ -2086,79 +1874,24 @@
 				B146552C2DC0B4E300C4D5B8 /* TerminateConfig.h */,
 				B146552D2DC0B4E300C4D5B8 /* TerminateConfig.m */,
 			);
-			path = LayoutConfig;
+			path = Common;
 			sourceTree = "<group>";
 		};
-		B14655352DC0B4E300C4D5B8 /* HMBaseClass */ = {
-			isa = PBXGroup;
-			children = (
-				B146552F2DC0B4E300C4D5B8 /* BulkViewCell.h */,
-				B14655302DC0B4E300C4D5B8 /* BulkViewCell.m */,
-				B14655312DC0B4E300C4D5B8 /* FloorHistoryViewController.h */,
-				B14655322DC0B4E300C4D5B8 /* FloorHistoryViewController.m */,
-				B14655332DC0B4E300C4D5B8 /* PrecisViewController.h */,
-				B14655342DC0B4E300C4D5B8 /* PrecisViewController.m */,
-			);
-			path = HMBaseClass;
-			sourceTree = "<group>";
-		};
-		B14655362DC0B4E300C4D5B8 /* BaseView */ = {
-			isa = PBXGroup;
-			children = (
-				B14655352DC0B4E300C4D5B8 /* HMBaseClass */,
-			);
-			path = BaseView;
-			sourceTree = "<group>";
-		};
-		B14655442DC0B4E300C4D5B8 /* imageCrop */ = {
-			isa = PBXGroup;
-			children = (
-				B146553A2DC0B4E300C4D5B8 /* Construct.h */,
-				B146553B2DC0B4E300C4D5B8 /* Construct.m */,
-				B146553E2DC0B4E300C4D5B8 /* BorderlineView.h */,
-				B146553F2DC0B4E300C4D5B8 /* BorderlineView.m */,
-			);
-			path = imageCrop;
-			sourceTree = "<group>";
-		};
-		B14655472DC0B4E300C4D5B8 /* KIImageCropperView */ = {
+		B146554F2DC0B4E300C4D5B8 /* SwitchtoViewController */ = {
 			isa = PBXGroup;
 			children = (
 				B14655452DC0B4E300C4D5B8 /* SheView.h */,
 				B14655462DC0B4E300C4D5B8 /* SheView.m */,
-			);
-			path = KIImageCropperView;
-			sourceTree = "<group>";
-		};
-		B146554E2DC0B4E300C4D5B8 /* KIImagePickerController */ = {
-			isa = PBXGroup;
-			children = (
 				B14655482DC0B4E300C4D5B8 /* NominalView.h */,
 				B14655492DC0B4E300C4D5B8 /* NominalView.m */,
 				B146554A2DC0B4E300C4D5B8 /* SwitchtoViewController.h */,
 				B146554B2DC0B4E300C4D5B8 /* SwitchtoViewController.m */,
 				B146554C2DC0B4E300C4D5B8 /* AgileCountController.h */,
 				B146554D2DC0B4E300C4D5B8 /* AgileCountController.m */,
-			);
-			path = KIImagePickerController;
-			sourceTree = "<group>";
-		};
-		B146554F2DC0B4E300C4D5B8 /* KIImage */ = {
-			isa = PBXGroup;
-			children = (
-				B14655472DC0B4E300C4D5B8 /* KIImageCropperView */,
-				B146554E2DC0B4E300C4D5B8 /* KIImagePickerController */,
-			);
-			path = KIImage;
-			sourceTree = "<group>";
-		};
-		B14655522DC0B4E300C4D5B8 /* LCQRCodeUtil */ = {
-			isa = PBXGroup;
-			children = (
 				B14655502DC0B4E300C4D5B8 /* FireTemperature.h */,
 				B14655512DC0B4E300C4D5B8 /* FireTemperature.m */,
 			);
-			path = LCQRCodeUtil;
+			path = SwitchtoViewController;
 			sourceTree = "<group>";
 		};
 		B14655572DC0B4E300C4D5B8 /* Manager */ = {
@@ -2168,31 +1901,6 @@
 				B14655562DC0B4E300C4D5B8 /* ParaReek.m */,
 			);
 			path = Manager;
-			sourceTree = "<group>";
-		};
-		B146555E2DC0B4E300C4D5B8 /* Permission */ = {
-			isa = PBXGroup;
-			children = (
-				B14655582DC0B4E300C4D5B8 /* PressRare.h */,
-				B14655592DC0B4E300C4D5B8 /* PressRare.m */,
-				B146555A2DC0B4E300C4D5B8 /* ChemicalOrganize.h */,
-				B146555B2DC0B4E300C4D5B8 /* ChemicalOrganize.m */,
-				B146555C2DC0B4E300C4D5B8 /* AgilePhoto.h */,
-				B146555D2DC0B4E300C4D5B8 /* AgilePhoto.m */,
-			);
-			path = Permission;
-			sourceTree = "<group>";
-		};
-		B14655642DC0B4E300C4D5B8 /* QRCode */ = {
-			isa = PBXGroup;
-			children = (
-				B146555F2DC0B4E300C4D5B8 /* TotalervalKnown.h */,
-				B14655602DC0B4E300C4D5B8 /* TotalervalKnown.m */,
-				B14655612DC0B4E300C4D5B8 /* Titleure.h */,
-				B14655622DC0B4E300C4D5B8 /* Titleure.m */,
-				B14655632DC0B4E300C4D5B8 /* InheritanceDelegate.h */,
-			);
-			path = QRCode;
 			sourceTree = "<group>";
 		};
 		B14655692DC0B4E300C4D5B8 /* ScanView */ = {
@@ -2206,15 +1914,6 @@
 			path = ScanView;
 			sourceTree = "<group>";
 		};
-		B146556C2DC0B4E300C4D5B8 /* SoundEffect */ = {
-			isa = PBXGroup;
-			children = (
-				B146556A2DC0B4E300C4D5B8 /* SparMinimal.h */,
-				B146556B2DC0B4E300C4D5B8 /* SparMinimal.m */,
-			);
-			path = SoundEffect;
-			sourceTree = "<group>";
-		};
 		B146556F2DC0B4E300C4D5B8 /* Torch */ = {
 			isa = PBXGroup;
 			children = (
@@ -2224,64 +1923,44 @@
 			path = Torch;
 			sourceTree = "<group>";
 		};
-		B14655722DC0B4E300C4D5B8 /* WeakProxy */ = {
+		B14655782DC0B4E300C4D5B8 /* PerformBriefLog */ = {
 			isa = PBXGroup;
 			children = (
+				B14655582DC0B4E300C4D5B8 /* PressRare.h */,
+				B14655592DC0B4E300C4D5B8 /* PressRare.m */,
+				B146555A2DC0B4E300C4D5B8 /* ChemicalOrganize.h */,
+				B146555B2DC0B4E300C4D5B8 /* ChemicalOrganize.m */,
+				B146555C2DC0B4E300C4D5B8 /* AgilePhoto.h */,
+				B146555D2DC0B4E300C4D5B8 /* AgilePhoto.m */,
+				B146555F2DC0B4E300C4D5B8 /* TotalervalKnown.h */,
+				B14655602DC0B4E300C4D5B8 /* TotalervalKnown.m */,
+				B146556A2DC0B4E300C4D5B8 /* SparMinimal.h */,
+				B146556B2DC0B4E300C4D5B8 /* SparMinimal.m */,
+				B14655612DC0B4E300C4D5B8 /* Titleure.h */,
+				B14655622DC0B4E300C4D5B8 /* Titleure.m */,
+				B14655632DC0B4E300C4D5B8 /* InheritanceDelegate.h */,
+				B14655692DC0B4E300C4D5B8 /* ScanView */,
+				B146556F2DC0B4E300C4D5B8 /* Torch */,
+				B14655752DC0B4E300C4D5B8 /* SGQRCode.h */,
 				B14655702DC0B4E300C4D5B8 /* PerformProxy.h */,
 				B14655712DC0B4E300C4D5B8 /* PerformProxy.m */,
-			);
-			path = WeakProxy;
-			sourceTree = "<group>";
-		};
-		B14655782DC0B4E300C4D5B8 /* SGQRCode */ = {
-			isa = PBXGroup;
-			children = (
-				B146555E2DC0B4E300C4D5B8 /* Permission */,
-				B14655642DC0B4E300C4D5B8 /* QRCode */,
-				B14655692DC0B4E300C4D5B8 /* ScanView */,
-				B146556C2DC0B4E300C4D5B8 /* SoundEffect */,
-				B146556F2DC0B4E300C4D5B8 /* Torch */,
-				B14655722DC0B4E300C4D5B8 /* WeakProxy */,
-				B14655752DC0B4E300C4D5B8 /* SGQRCode.h */,
 				B14655762DC0B4E300C4D5B8 /* PerformBriefLog.h */,
 				B14655772DC0B4E300C4D5B8 /* PerformBriefLog.m */,
-			);
-			path = SGQRCode;
-			sourceTree = "<group>";
-		};
-		B146557B2DC0B4E300C4D5B8 /* TPPasswordTextView */ = {
-			isa = PBXGroup;
-			children = (
 				B14655792DC0B4E300C4D5B8 /* TerrainView.h */,
 				B146557A2DC0B4E300C4D5B8 /* TerrainView.m */,
 			);
-			path = TPPasswordTextView;
+			path = PerformBriefLog;
 			sourceTree = "<group>";
 		};
-		B146557E2DC0B4E300C4D5B8 /* GVUserDefaults */ = {
+		B146558C2DC0B4E300C4D5B8 /* HttpInterfacedConst */ = {
 			isa = PBXGroup;
 			children = (
 				B146557C2DC0B4E300C4D5B8 /* StackTexture.h */,
 				B146557D2DC0B4E300C4D5B8 /* StackTexture.m */,
-			);
-			path = GVUserDefaults;
-			sourceTree = "<group>";
-		};
-		B14655832DC0B4E300C4D5B8 /* UserInfo */ = {
-			isa = PBXGroup;
-			children = (
-				B146557E2DC0B4E300C4D5B8 /* GVUserDefaults */,
 				B146557F2DC0B4E300C4D5B8 /* StackTexture+Util.h */,
 				B14655802DC0B4E300C4D5B8 /* StackTexture+Util.m */,
 				B14655812DC0B4E300C4D5B8 /* DominantMinimal.h */,
 				B14655822DC0B4E300C4D5B8 /* DominantMinimal.m */,
-			);
-			path = UserInfo;
-			sourceTree = "<group>";
-		};
-		B146558C2DC0B4E300C4D5B8 /* HttpRequest */ = {
-			isa = PBXGroup;
-			children = (
 				B14655842DC0B4E300C4D5B8 /* HttpInterfacedConst.h */,
 				B14655852DC0B4E300C4D5B8 /* HttpInterfacedConst.m */,
 				B14655862DC0B4E300C4D5B8 /* BriefBetween.h */,
@@ -2290,158 +1969,38 @@
 				B14655892DC0B4E300C4D5B8 /* BriefBetween+Stick.m */,
 				B146558A2DC0B4E300C4D5B8 /* YtterbiteHeader.h */,
 				B146558B2DC0B4E300C4D5B8 /* YtterbiteHeader.m */,
-			);
-			path = HttpRequest;
-			sourceTree = "<group>";
-		};
-		B14655912DC0B4E300C4D5B8 /* ZCPickDataView */ = {
-			isa = PBXGroup;
-			children = (
 				B146558D2DC0B4E300C4D5B8 /* DataView.h */,
 				B146558E2DC0B4E300C4D5B8 /* DataView.m */,
 				B146558F2DC0B4E300C4D5B8 /* BetweenView.h */,
 				B14655902DC0B4E300C4D5B8 /* BetweenView.m */,
-			);
-			path = ZCPickDataView;
-			sourceTree = "<group>";
-		};
-		B14655942DC0B4E300C4D5B8 /* ZXPUnicode */ = {
-			isa = PBXGroup;
-			children = (
 				B14655922DC0B4E300C4D5B8 /* RobOrganize.h */,
 				B14655932DC0B4E300C4D5B8 /* RobOrganize.m */,
 			);
-			path = ZXPUnicode;
+			path = HttpInterfacedConst;
 			sourceTree = "<group>";
 		};
-		B14655952DC0B4E300C4D5B8 /* Librarys */ = {
+		B14655952DC0B4E300C4D5B8 /* CompoundLabelScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				B1F4EDEE2E71A2C600195A20 /* TXScrollLabelView */,
-				B1F4EDE82E71A2A400195A20 /* Toast */,
-				B1F4EDE32E71A27700195A20 /* UCZProgressView */,
-				B1F4EDDB2E71A25A00195A20 /* SVProgressHUD */,
-				B1F4EDCB2E71A20900195A20 /* FFDropDownMenu */,
-				B14655362DC0B4E300C4D5B8 /* BaseView */,
-				B14655442DC0B4E300C4D5B8 /* imageCrop */,
-				B1503E352E9E383200B4611A /* IQKeyboardManager */,
-				B146554F2DC0B4E300C4D5B8 /* KIImage */,
-				B14655522DC0B4E300C4D5B8 /* LCQRCodeUtil */,
+				B1F4EDEA2E71A2C600195A20 /* CompoundLabelScrollView.h */,
+				B1F4EDEB2E71A2C600195A20 /* CompoundLabelScrollView.m */,
+				B1F4EDEC2E71A2C600195A20 /* UIView+Sen.h */,
+				B1F4EDED2E71A2C600195A20 /* UIView+Sen.m */,
+				B1F4EDE52E71A2A400195A20 /* Existing.h */,
+				B1F4EDE62E71A2A400195A20 /* UIView+Existing.h */,
+				B1F4EDE72E71A2A400195A20 /* UIView+Existing.m */,
+				B1F4EDE32E71A27700195A20 /* ListExpertView */,
+				B1F4EDDB2E71A25A00195A20 /* PathReekView */,
+				B1F4EDCB2E71A20900195A20 /* TemporaryMinViewCell */,
+				B1503E352E9E383200B4611A /* SandMinimalButtonItem */,
+				B146554F2DC0B4E300C4D5B8 /* SwitchtoViewController */,
 				B14655572DC0B4E300C4D5B8 /* Manager */,
-				B14655782DC0B4E300C4D5B8 /* SGQRCode */,
-				B146557B2DC0B4E300C4D5B8 /* TPPasswordTextView */,
-				B14655832DC0B4E300C4D5B8 /* UserInfo */,
-				B146558C2DC0B4E300C4D5B8 /* HttpRequest */,
-				B14655912DC0B4E300C4D5B8 /* ZCPickDataView */,
-				B14655942DC0B4E300C4D5B8 /* ZXPUnicode */,
-				B1F4EDAE2E71A10D00195A20 /* AFNetworking */,
+				B14655782DC0B4E300C4D5B8 /* PerformBriefLog */,
+				B146558C2DC0B4E300C4D5B8 /* HttpInterfacedConst */,
+				B1F4EDAE2E71A10D00195A20 /* ReekConstruct */,
 				B1F4EE1F2E72835100195A20 /* Framework */,
 			);
-			path = Librarys;
-			sourceTree = "<group>";
-		};
-		B146559A2DC0B4E300C4D5B8 /* SelectedListView */ = {
-			isa = PBXGroup;
-			children = (
-				B14655962DC0B4E300C4D5B8 /* CrossChannel.h */,
-				B14655972DC0B4E300C4D5B8 /* CrossChannel.m */,
-			);
-			path = SelectedListView;
-			sourceTree = "<group>";
-		};
-		B146559B2DC0B4E300C4D5B8 /* CardViews */ = {
-			isa = PBXGroup;
-			children = (
-				B146559A2DC0B4E300C4D5B8 /* SelectedListView */,
-			);
-			path = CardViews;
-			sourceTree = "<group>";
-		};
-		B14655AE2DC0B4E300C4D5B8 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				B14655A22DC0B4E300C4D5B8 /* CarefulBorderView.h */,
-				B14655A32DC0B4E300C4D5B8 /* CarefulBorderView.m */,
-				B14655A42DC0B4E300C4D5B8 /* SovereignView.h */,
-				B14655A52DC0B4E300C4D5B8 /* SovereignView.m */,
-				B14655A62DC0B4E300C4D5B8 /* MoveView.h */,
-				B14655A72DC0B4E300C4D5B8 /* MoveView.m */,
-				B14655A82DC0B4E300C4D5B8 /* DisagreeableWomanView.h */,
-				B14655A92DC0B4E300C4D5B8 /* DisagreeableWomanView.m */,
-				B14655AA2DC0B4E300C4D5B8 /* ScopeView.h */,
-				B14655AB2DC0B4E300C4D5B8 /* ScopeView.m */,
-				B14655AC2DC0B4E300C4D5B8 /* ListView.h */,
-				B14655AD2DC0B4E300C4D5B8 /* ListView.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		B14655B32DC0B4E300C4D5B8 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				B14655AF2DC0B4E300C4D5B8 /* RealmHeatViewController.h */,
-				B14655B02DC0B4E300C4D5B8 /* RealmHeatViewController.m */,
-				B14655B12DC0B4E300C4D5B8 /* GrayViewController.h */,
-				B14655B22DC0B4E300C4D5B8 /* GrayViewController.m */,
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
-		B14655B42DC0B4E300C4D5B8 /* Card */ = {
-			isa = PBXGroup;
-			children = (
-				B146559B2DC0B4E300C4D5B8 /* CardViews */,
-				B14655AE2DC0B4E300C4D5B8 /* View */,
-				B14655B32DC0B4E300C4D5B8 /* ViewController */,
-			);
-			path = Card;
-			sourceTree = "<group>";
-		};
-		B14655B72DC0B4E300C4D5B8 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				B14655B52DC0B4E300C4D5B8 /* ShortSpar.h */,
-				B14655B62DC0B4E300C4D5B8 /* ShortSpar.m */,
-			);
-			path = Helper;
-			sourceTree = "<group>";
-		};
-		B14655BE2DC0B4E300C4D5B8 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				B14655B82DC0B4E300C4D5B8 /* PrepareMember.h */,
-				B14655B92DC0B4E300C4D5B8 /* PrepareMember.m */,
-				B14655BA2DC0B4E300C4D5B8 /* HoPossibleDataCollection.h */,
-				B14655BB2DC0B4E300C4D5B8 /* HoPossibleDataCollection.m */,
-				B14655BC2DC0B4E300C4D5B8 /* SandBra.h */,
-				B14655BD2DC0B4E300C4D5B8 /* SandBra.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		B14655CA2DC0B4E300C4D5B8 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				B14655BF2DC0B4E300C4D5B8 /* RageView.h */,
-				B14655C02DC0B4E300C4D5B8 /* RageView.m */,
-				B14655C12DC0B4E300C4D5B8 /* CoordinateDataForward.h */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		B14655D32DC0B4E300C4D5B8 /* Contact */ = {
-			isa = PBXGroup;
-			children = (
-				B14655CB2DC0B4E300C4D5B8 /* RobBraViewController.h */,
-				B14655CC2DC0B4E300C4D5B8 /* RobBraViewController.m */,
-				B14655CD2DC0B4E300C4D5B8 /* FinishPlacementViewController.h */,
-				B14655CE2DC0B4E300C4D5B8 /* FinishPlacementViewController.m */,
-				B14655CF2DC0B4E300C4D5B8 /* GinViewController.h */,
-				B14655D02DC0B4E300C4D5B8 /* GinViewController.m */,
-				B14655D12DC0B4E300C4D5B8 /* ScanBetweenViewController.h */,
-				B14655D22DC0B4E300C4D5B8 /* ScanBetweenViewController.m */,
-			);
-			path = Contact;
+			path = CompoundLabelScrollView;
 			sourceTree = "<group>";
 		};
 		B14655E02DC0B4E300C4D5B8 /* Views */ = {
@@ -2462,7 +2021,14 @@
 		B14655E92DC0B4E300C4D5B8 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				B14655D32DC0B4E300C4D5B8 /* Contact */,
+				B14655CB2DC0B4E300C4D5B8 /* RobBraViewController.h */,
+				B14655CC2DC0B4E300C4D5B8 /* RobBraViewController.m */,
+				B14655CD2DC0B4E300C4D5B8 /* FinishPlacementViewController.h */,
+				B14655CE2DC0B4E300C4D5B8 /* FinishPlacementViewController.m */,
+				B14655CF2DC0B4E300C4D5B8 /* GinViewController.h */,
+				B14655D02DC0B4E300C4D5B8 /* GinViewController.m */,
+				B14655D12DC0B4E300C4D5B8 /* ScanBetweenViewController.h */,
+				B14655D22DC0B4E300C4D5B8 /* ScanBetweenViewController.m */,
 				B14655E02DC0B4E300C4D5B8 /* Views */,
 				B14655E12DC0B4E300C4D5B8 /* NSString+Para.h */,
 				B14655E22DC0B4E300C4D5B8 /* NSString+Para.m */,
@@ -2476,44 +2042,26 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		B14655EA2DC0B4E300C4D5B8 /* Contact */ = {
+		B14655EA2DC0B4E300C4D5B8 /* PlacementPerson */ = {
 			isa = PBXGroup;
 			children = (
-				B14655B72DC0B4E300C4D5B8 /* Helper */,
-				B14655BE2DC0B4E300C4D5B8 /* Model */,
-				B14655CA2DC0B4E300C4D5B8 /* View */,
+				B14655B52DC0B4E300C4D5B8 /* ShortSpar.h */,
+				B14655B62DC0B4E300C4D5B8 /* ShortSpar.m */,
+				B14655B82DC0B4E300C4D5B8 /* PrepareMember.h */,
+				B14655B92DC0B4E300C4D5B8 /* PrepareMember.m */,
+				B14655BA2DC0B4E300C4D5B8 /* HoPossibleDataCollection.h */,
+				B14655BB2DC0B4E300C4D5B8 /* HoPossibleDataCollection.m */,
+				B14655BC2DC0B4E300C4D5B8 /* SandBra.h */,
+				B14655BD2DC0B4E300C4D5B8 /* SandBra.m */,
+				B14655BF2DC0B4E300C4D5B8 /* RageView.h */,
+				B14655C02DC0B4E300C4D5B8 /* RageView.m */,
+				B14655C12DC0B4E300C4D5B8 /* CoordinateDataForward.h */,
 				B14655E92DC0B4E300C4D5B8 /* ViewController */,
 			);
-			path = Contact;
+			path = PlacementPerson;
 			sourceTree = "<group>";
 		};
-		B14655EF2DC0B4E300C4D5B8 /* COKeychain */ = {
-			isa = PBXGroup;
-			children = (
-				B146547E2DC0B4E300C4D5B8 /* MistTimelineFormatPositive.h */,
-				B14655EB2DC0B4E300C4D5B8 /* ChromaticPrepare.h */,
-				B14655EC2DC0B4E300C4D5B8 /* ChromaticPrepare.m */,
-				B14655ED2DC0B4E300C4D5B8 /* TextureSen.h */,
-				B14655EE2DC0B4E300C4D5B8 /* TextureSen.m */,
-			);
-			path = COKeychain;
-			sourceTree = "<group>";
-		};
-		B14655F62DC0B4E300C4D5B8 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				B14655EF2DC0B4E300C4D5B8 /* COKeychain */,
-				B14655F02DC0B4E300C4D5B8 /* BriefDevice.h */,
-				B14655F12DC0B4E300C4D5B8 /* BriefDevice.m */,
-				B14655F22DC0B4E300C4D5B8 /* RobScopePerform.h */,
-				B14655F32DC0B4E300C4D5B8 /* RobScopePerform.m */,
-				B14655F42DC0B4E300C4D5B8 /* ChooseThey.h */,
-				B14655F52DC0B4E300C4D5B8 /* ChooseThey.m */,
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
-		B14655FF2DC0B4E300C4D5B8 /* ViewController */ = {
+		B14656002DC0B4E300C4D5B8 /* BriefDevice */ = {
 			isa = PBXGroup;
 			children = (
 				B14655F72DC0B4E300C4D5B8 /* WaterFinderViewController.h */,
@@ -2524,71 +2072,37 @@
 				B14655FC2DC0B4E300C4D5B8 /* EntityViewController.m */,
 				B14655FD2DC0B4E300C4D5B8 /* BraViewController.h */,
 				B14655FE2DC0B4E300C4D5B8 /* BraViewController.m */,
+				B146547E2DC0B4E300C4D5B8 /* MistTimelineFormatPositive.h */,
+				B14655EB2DC0B4E300C4D5B8 /* ChromaticPrepare.h */,
+				B14655EC2DC0B4E300C4D5B8 /* ChromaticPrepare.m */,
+				B14655ED2DC0B4E300C4D5B8 /* TextureSen.h */,
+				B14655EE2DC0B4E300C4D5B8 /* TextureSen.m */,
+				B14655F02DC0B4E300C4D5B8 /* BriefDevice.h */,
+				B14655F12DC0B4E300C4D5B8 /* BriefDevice.m */,
+				B14655F22DC0B4E300C4D5B8 /* RobScopePerform.h */,
+				B14655F32DC0B4E300C4D5B8 /* RobScopePerform.m */,
+				B14655F42DC0B4E300C4D5B8 /* ChooseThey.h */,
+				B14655F52DC0B4E300C4D5B8 /* ChooseThey.m */,
 			);
-			path = ViewController;
+			path = BriefDevice;
 			sourceTree = "<group>";
 		};
-		B14656002DC0B4E300C4D5B8 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				B14655F62DC0B4E300C4D5B8 /* Manager */,
-				B14655FF2DC0B4E300C4D5B8 /* ViewController */,
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
-		B14656032DC0B4E300C4D5B8 /* DB */ = {
-			isa = PBXGroup;
-			children = (
-				B14656012DC0B4E300C4D5B8 /* MinimalYard.h */,
-				B14656022DC0B4E300C4D5B8 /* MinimalYard.m */,
-			);
-			path = DB;
-			sourceTree = "<group>";
-		};
-		B14656062DC0B4E300C4D5B8 /* Model */ = {
+		B146560B2DC0B4E300C4D5B8 /* PerformObject */ = {
 			isa = PBXGroup;
 			children = (
 				B14656042DC0B4E300C4D5B8 /* PerformObject.h */,
 				B14656052DC0B4E300C4D5B8 /* PerformObject.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		B146560B2DC0B4E300C4D5B8 /* Notification */ = {
-			isa = PBXGroup;
-			children = (
-				B14656032DC0B4E300C4D5B8 /* DB */,
-				B14656062DC0B4E300C4D5B8 /* Model */,
 				B14656072DC0B4E300C4D5B8 /* SenView.h */,
 				B14656082DC0B4E300C4D5B8 /* SenView.m */,
+				B14656012DC0B4E300C4D5B8 /* MinimalYard.h */,
+				B14656022DC0B4E300C4D5B8 /* MinimalYard.m */,
 				B14656092DC0B4E300C4D5B8 /* WinkViewController.h */,
 				B146560A2DC0B4E300C4D5B8 /* WinkViewController.m */,
 			);
-			path = Notification;
+			path = PerformObject;
 			sourceTree = "<group>";
 		};
-		B14656102DC0B4E300C4D5B8 /* Config */ = {
-			isa = PBXGroup;
-			children = (
-				B146560C2DC0B4E300C4D5B8 /* MagnitudeeractBase.h */,
-				B146560D2DC0B4E300C4D5B8 /* MagnitudeeractBase.m */,
-				B146560E2DC0B4E300C4D5B8 /* InstillConfigBase.h */,
-				B146560F2DC0B4E300C4D5B8 /* InstillConfigBase.m */,
-			);
-			path = Config;
-			sourceTree = "<group>";
-		};
-		B14656132DC0B4E300C4D5B8 /* MemberCard */ = {
-			isa = PBXGroup;
-			children = (
-				B14656112DC0B4E300C4D5B8 /* TerrainViewController.h */,
-				B14656122DC0B4E300C4D5B8 /* TerrainViewController.m */,
-			);
-			path = MemberCard;
-			sourceTree = "<group>";
-		};
-		B14656222DC0B4E300C4D5B8 /* Atttach */ = {
+		B14656222DC0B4E300C4D5B8 /* ExistingBright */ = {
 			isa = PBXGroup;
 			children = (
 				B14656142DC0B4E300C4D5B8 /* ExistingBright.h */,
@@ -2606,10 +2120,10 @@
 				B14656202DC0B4E300C4D5B8 /* WhiteboardAttachment.h */,
 				B14656212DC0B4E300C4D5B8 /* WhiteboardAttachment.m */,
 			);
-			path = Atttach;
+			path = ExistingBright;
 			sourceTree = "<group>";
 		};
-		B14656292DC0B4E300C4D5B8 /* Manager */ = {
+		B14656292DC0B4E300C4D5B8 /* BlocSession */ = {
 			isa = PBXGroup;
 			children = (
 				B14656232DC0B4E300C4D5B8 /* BlocSession.h */,
@@ -2619,10 +2133,10 @@
 				B14656272DC0B4E300C4D5B8 /* PrecisPrivacy.h */,
 				B14656282DC0B4E300C4D5B8 /* PrecisPrivacy.m */,
 			);
-			path = Manager;
+			path = BlocSession;
 			sourceTree = "<group>";
 		};
-		B14656342DC0B4E300C4D5B8 /* Misc */ = {
+		B14656342DC0B4E300C4D5B8 /* HillVocalBuild */ = {
 			isa = PBXGroup;
 			children = (
 				B146562A2DC0B4E300C4D5B8 /* HillVocalBuild.h */,
@@ -2634,51 +2148,20 @@
 				B14656322DC0B4E300C4D5B8 /* SittingPrepare.h */,
 				B14656332DC0B4E300C4D5B8 /* SittingPrepare.m */,
 			);
-			path = Misc;
+			path = HillVocalBuild;
 			sourceTree = "<group>";
 		};
-		B146563A2DC0B4E300C4D5B8 /* Object */ = {
+		B146563A2DC0B4E300C4D5B8 /* KnownAttachment */ = {
 			isa = PBXGroup;
 			children = (
-				B14656222DC0B4E300C4D5B8 /* Atttach */,
-				B14656292DC0B4E300C4D5B8 /* Manager */,
-				B14656342DC0B4E300C4D5B8 /* Misc */,
+				B14656222DC0B4E300C4D5B8 /* ExistingBright */,
+				B14656292DC0B4E300C4D5B8 /* BlocSession */,
+				B14656342DC0B4E300C4D5B8 /* HillVocalBuild */,
 			);
-			path = Object;
+			path = KnownAttachment;
 			sourceTree = "<group>";
 		};
-		B14656482DC0B4E300C4D5B8 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				B146563C2DC0B4E300C4D5B8 /* SuccessfulView.h */,
-				B146563D2DC0B4E300C4D5B8 /* SuccessfulView.m */,
-				B146563E2DC0B4E300C4D5B8 /* TitleureView.h */,
-				B146563F2DC0B4E300C4D5B8 /* TitleureView.m */,
-				B14656402DC0B4E300C4D5B8 /* TemperatureView.h */,
-				B14656412DC0B4E300C4D5B8 /* TemperatureView.m */,
-				B14656422DC0B4E300C4D5B8 /* StickMpView.h */,
-				B14656432DC0B4E300C4D5B8 /* StickMpView.m */,
-				B14656442DC0B4E300C4D5B8 /* LandViewCell.h */,
-				B14656452DC0B4E300C4D5B8 /* LandViewCell.m */,
-				B14656462DC0B4E300C4D5B8 /* PositionUnctionView.h */,
-				B14656472DC0B4E300C4D5B8 /* PositionUnctionView.m */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		B146564F2DC0B4E300C4D5B8 /* TeamSetingController */ = {
-			isa = PBXGroup;
-			children = (
-				B14656482DC0B4E300C4D5B8 /* Views */,
-				B14656492DC0B4E300C4D5B8 /* HumanRaceViewController.h */,
-				B146564A2DC0B4E300C4D5B8 /* HumanRaceViewController.m */,
-				B146564D2DC0B4E300C4D5B8 /* TheyViewController.h */,
-				B146564E2DC0B4E300C4D5B8 /* TheyViewController.m */,
-			);
-			path = TeamSetingController;
-			sourceTree = "<group>";
-		};
-		B14656662DC0B4E300C4D5B8 /* SessionContentView */ = {
+		B14656682DC0B4E300C4D5B8 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				B14656582DC0B4E300C4D5B8 /* AggregationControl.h */,
@@ -2696,58 +2179,7 @@
 				B14656642DC0B4E300C4D5B8 /* FloorView.h */,
 				B14656652DC0B4E300C4D5B8 /* FloorView.m */,
 			);
-			path = SessionContentView;
-			sourceTree = "<group>";
-		};
-		B14656672DC0B4E300C4D5B8 /* SessionCell */ = {
-			isa = PBXGroup;
-			children = (
-				B14656662DC0B4E300C4D5B8 /* SessionContentView */,
-			);
-			path = SessionCell;
-			sourceTree = "<group>";
-		};
-		B14656682DC0B4E300C4D5B8 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				B14656672DC0B4E300C4D5B8 /* SessionCell */,
-			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		B146566B2DC0B4E300C4D5B8 /* Gallery */ = {
-			isa = PBXGroup;
-			children = (
-				B14656692DC0B4E300C4D5B8 /* PrivacyViewController.h */,
-				B146566A2DC0B4E300C4D5B8 /* PrivacyViewController.m */,
-			);
-			path = Gallery;
-			sourceTree = "<group>";
-		};
-		B14656742DC0B4E300C4D5B8 /* MergeForward */ = {
-			isa = PBXGroup;
-			children = (
-				B14656702DC0B4E300C4D5B8 /* HearBarView.h */,
-				B14656712DC0B4E300C4D5B8 /* HearBarView.m */,
-			);
-			path = MergeForward;
-			sourceTree = "<group>";
-		};
-		B146568E2DC0B4E300C4D5B8 /* Video */ = {
-			isa = PBXGroup;
-			children = (
-				B14656842DC0B4E300C4D5B8 /* TotaleractDryParaView.h */,
-				B14656852DC0B4E300C4D5B8 /* TotaleractDryParaView.m */,
-				B14656862DC0B4E300C4D5B8 /* ConstructView.h */,
-				B14656872DC0B4E300C4D5B8 /* ConstructView.m */,
-				B14656882DC0B4E300C4D5B8 /* UIImage+She.h */,
-				B14656892DC0B4E300C4D5B8 /* UIImage+She.m */,
-				B146568A2DC0B4E300C4D5B8 /* RobRare.h */,
-				B146568B2DC0B4E300C4D5B8 /* RobRare.m */,
-				B146568C2DC0B4E300C4D5B8 /* TelevisionViewController.h */,
-				B146568D2DC0B4E300C4D5B8 /* TelevisionViewController.m */,
-			);
-			path = Video;
 			sourceTree = "<group>";
 		};
 		B14656952DC0B4E300C4D5B8 /* Views */ = {
@@ -2763,9 +2195,20 @@
 		B146569C2DC0B4E300C4D5B8 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				B146566B2DC0B4E300C4D5B8 /* Gallery */,
-				B14656742DC0B4E300C4D5B8 /* MergeForward */,
-				B146568E2DC0B4E300C4D5B8 /* Video */,
+				B14656692DC0B4E300C4D5B8 /* PrivacyViewController.h */,
+				B146566A2DC0B4E300C4D5B8 /* PrivacyViewController.m */,
+				B14656702DC0B4E300C4D5B8 /* HearBarView.h */,
+				B14656712DC0B4E300C4D5B8 /* HearBarView.m */,
+				B14656842DC0B4E300C4D5B8 /* TotaleractDryParaView.h */,
+				B14656852DC0B4E300C4D5B8 /* TotaleractDryParaView.m */,
+				B14656862DC0B4E300C4D5B8 /* ConstructView.h */,
+				B14656872DC0B4E300C4D5B8 /* ConstructView.m */,
+				B14656882DC0B4E300C4D5B8 /* UIImage+She.h */,
+				B14656892DC0B4E300C4D5B8 /* UIImage+She.m */,
+				B146568A2DC0B4E300C4D5B8 /* RobRare.h */,
+				B146568B2DC0B4E300C4D5B8 /* RobRare.m */,
+				B146568C2DC0B4E300C4D5B8 /* TelevisionViewController.h */,
+				B146568D2DC0B4E300C4D5B8 /* TelevisionViewController.m */,
 				B14656952DC0B4E300C4D5B8 /* Views */,
 				B14656962DC0B4E300C4D5B8 /* BoaViewController.h */,
 				B14656972DC0B4E300C4D5B8 /* BoaViewController.m */,
@@ -2780,37 +2223,38 @@
 		B146569D2DC0B4E300C4D5B8 /* Session */ = {
 			isa = PBXGroup;
 			children = (
-				B14656102DC0B4E300C4D5B8 /* Config */,
-				B14656132DC0B4E300C4D5B8 /* MemberCard */,
-				B146563A2DC0B4E300C4D5B8 /* Object */,
-				B146564F2DC0B4E300C4D5B8 /* TeamSetingController */,
+				B146560C2DC0B4E300C4D5B8 /* MagnitudeeractBase.h */,
+				B146560D2DC0B4E300C4D5B8 /* MagnitudeeractBase.m */,
+				B146560E2DC0B4E300C4D5B8 /* InstillConfigBase.h */,
+				B146560F2DC0B4E300C4D5B8 /* InstillConfigBase.m */,
+				B14656112DC0B4E300C4D5B8 /* TerrainViewController.h */,
+				B14656122DC0B4E300C4D5B8 /* TerrainViewController.m */,
+				B14656492DC0B4E300C4D5B8 /* HumanRaceViewController.h */,
+				B146564A2DC0B4E300C4D5B8 /* HumanRaceViewController.m */,
+				B146564D2DC0B4E300C4D5B8 /* TheyViewController.h */,
+				B146564E2DC0B4E300C4D5B8 /* TheyViewController.m */,
+				B146563C2DC0B4E300C4D5B8 /* SuccessfulView.h */,
+				B146563D2DC0B4E300C4D5B8 /* SuccessfulView.m */,
+				B146563E2DC0B4E300C4D5B8 /* TitleureView.h */,
+				B146563F2DC0B4E300C4D5B8 /* TitleureView.m */,
+				B14656402DC0B4E300C4D5B8 /* TemperatureView.h */,
+				B14656412DC0B4E300C4D5B8 /* TemperatureView.m */,
+				B14656422DC0B4E300C4D5B8 /* StickMpView.h */,
+				B14656432DC0B4E300C4D5B8 /* StickMpView.m */,
+				B14656442DC0B4E300C4D5B8 /* LandViewCell.h */,
+				B14656452DC0B4E300C4D5B8 /* LandViewCell.m */,
+				B14656462DC0B4E300C4D5B8 /* PositionUnctionView.h */,
+				B14656472DC0B4E300C4D5B8 /* PositionUnctionView.m */,
+				B146563A2DC0B4E300C4D5B8 /* KnownAttachment */,
 				B14656682DC0B4E300C4D5B8 /* View */,
 				B146569C2DC0B4E300C4D5B8 /* ViewController */,
 			);
 			path = Session;
 			sourceTree = "<group>";
 		};
-		B14656AB2DC0B4E300C4D5B8 /* SessionListHeader */ = {
-			isa = PBXGroup;
-			children = (
-				B14656A12DC0B4E300C4D5B8 /* ExpoViewCell.h */,
-				B14656A22DC0B4E300C4D5B8 /* ExpoViewCell.m */,
-				B14656A32DC0B4E300C4D5B8 /* AwfulView.h */,
-				B14656A42DC0B4E300C4D5B8 /* AwfulView.m */,
-				B14656A52DC0B4E300C4D5B8 /* InsideButton.h */,
-				B14656A62DC0B4E300C4D5B8 /* InsideButton.m */,
-				B14656A72DC0B4E300C4D5B8 /* OakView.h */,
-				B14656A82DC0B4E300C4D5B8 /* OakView.m */,
-				B14656A92DC0B4E300C4D5B8 /* BoaButton.h */,
-				B14656AA2DC0B4E300C4D5B8 /* BoaButton.m */,
-			);
-			path = SessionListHeader;
-			sourceTree = "<group>";
-		};
 		B14656AE2DC0B4E300C4D5B8 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B14656AB2DC0B4E300C4D5B8 /* SessionListHeader */,
 				B14656AC2DC0B4E300C4D5B8 /* EyView.h */,
 				B14656AD2DC0B4E300C4D5B8 /* EyView.m */,
 			);
@@ -2829,6 +2273,16 @@
 		B14656B22DC0B4E300C4D5B8 /* SessionList */ = {
 			isa = PBXGroup;
 			children = (
+				B14656A12DC0B4E300C4D5B8 /* ExpoViewCell.h */,
+				B14656A22DC0B4E300C4D5B8 /* ExpoViewCell.m */,
+				B14656A32DC0B4E300C4D5B8 /* AwfulView.h */,
+				B14656A42DC0B4E300C4D5B8 /* AwfulView.m */,
+				B14656A52DC0B4E300C4D5B8 /* InsideButton.h */,
+				B14656A62DC0B4E300C4D5B8 /* InsideButton.m */,
+				B14656A72DC0B4E300C4D5B8 /* OakView.h */,
+				B14656A82DC0B4E300C4D5B8 /* OakView.m */,
+				B14656A92DC0B4E300C4D5B8 /* BoaButton.h */,
+				B14656AA2DC0B4E300C4D5B8 /* BoaButton.m */,
 				B14656AE2DC0B4E300C4D5B8 /* View */,
 				B14656B12DC0B4E300C4D5B8 /* ViewController */,
 			);
@@ -2890,69 +2344,9 @@
 				B14656F02DC0B4E300C4D5B8 /* SparPanoramicView.m */,
 				B14656F12DC0B4E300C4D5B8 /* PerformTotalView.h */,
 				B14656F22DC0B4E300C4D5B8 /* PerformTotalView.m */,
-				B14656F32DC0B4E300C4D5B8 /* UnctionEyView.h */,
-				B14656F42DC0B4E300C4D5B8 /* UnctionEyView.m */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		B14656F62DC0B4E300C4D5B8 /* MainCenter */ = {
-			isa = PBXGroup;
-			children = (
-				B14656CB2DC0B4E300C4D5B8 /* Controller */,
-				B14656F52DC0B4E300C4D5B8 /* Views */,
-			);
-			path = MainCenter;
-			sourceTree = "<group>";
-		};
-		B14656F72DC0B4E300C4D5B8 /* Setting */ = {
-			isa = PBXGroup;
-			children = (
-				B14656F62DC0B4E300C4D5B8 /* MainCenter */,
-			);
-			path = Setting;
-			sourceTree = "<group>";
-		};
-		B14656FB2DC0B4E300C4D5B8 /* Subscribe */ = {
-			isa = PBXGroup;
-			children = (
 				B14656F82DC0B4E300C4D5B8 /* MultiplyTrustyTemplateTask.h */,
 				B14656F92DC0B4E300C4D5B8 /* Possible.h */,
 				B14656FA2DC0B4E300C4D5B8 /* Possible.m */,
-			);
-			path = Subscribe;
-			sourceTree = "<group>";
-		};
-		B14656FC2DC0B4E300C4D5B8 /* Sections */ = {
-			isa = PBXGroup;
-			children = (
-				B14655B42DC0B4E300C4D5B8 /* Card */,
-				B14655EA2DC0B4E300C4D5B8 /* Contact */,
-				B14656002DC0B4E300C4D5B8 /* Login */,
-				B146560B2DC0B4E300C4D5B8 /* Notification */,
-				B146569D2DC0B4E300C4D5B8 /* Session */,
-				B14656B22DC0B4E300C4D5B8 /* SessionList */,
-				B14656F72DC0B4E300C4D5B8 /* Setting */,
-				B14656FB2DC0B4E300C4D5B8 /* Subscribe */,
-			);
-			path = Sections;
-			sourceTree = "<group>";
-		};
-		B14657012DC0B4E300C4D5B8 /* Spelling */ = {
-			isa = PBXGroup;
-			children = (
-				B14656FD2DC0B4E300C4D5B8 /* PlusAwfulPress.h */,
-				B14656FE2DC0B4E300C4D5B8 /* PlusAwfulPress.m */,
-				B14656FF2DC0B4E300C4D5B8 /* CarefulCenter.h */,
-				B14657002DC0B4E300C4D5B8 /* CarefulCenter.m */,
-			);
-			path = Spelling;
-			sourceTree = "<group>";
-		};
-		B146571E2DC0B4E300C4D5B8 /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				B14657012DC0B4E300C4D5B8 /* Spelling */,
 				B14657022DC0B4E300C4D5B8 /* InsidePrevious.h */,
 				B14657032DC0B4E300C4D5B8 /* InsidePrevious.m */,
 				B14657042DC0B4E300C4D5B8 /* StackChoose.h */,
@@ -2973,21 +2367,73 @@
 				B14657172DC0B4E300C4D5B8 /* BetweenBuildDelegate.m */,
 				B14657182DC0B4E300C4D5B8 /* CommunicativeUtil.h */,
 				B14657192DC0B4E300C4D5B8 /* CommunicativeUtil.m */,
+				B14656FD2DC0B4E300C4D5B8 /* PlusAwfulPress.h */,
+				B14656FE2DC0B4E300C4D5B8 /* PlusAwfulPress.m */,
+				B14656FF2DC0B4E300C4D5B8 /* CarefulCenter.h */,
+				B14657002DC0B4E300C4D5B8 /* CarefulCenter.m */,
+				B14656F32DC0B4E300C4D5B8 /* UnctionEyView.h */,
+				B14656F42DC0B4E300C4D5B8 /* UnctionEyView.m */,
 			);
-			path = Util;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		B146571F2DC0B4E300C4D5B8 /* Classes */ = {
+		B14656F62DC0B4E300C4D5B8 /* PreviousViewController */ = {
 			isa = PBXGroup;
 			children = (
-				B14655032DC0B4E300C4D5B8 /* Category */,
-				B14655272DC0B4E300C4D5B8 /* Common */,
-				B146552E2DC0B4E300C4D5B8 /* LayoutConfig */,
-				B14655952DC0B4E300C4D5B8 /* Librarys */,
-				B14656FC2DC0B4E300C4D5B8 /* Sections */,
-				B146571E2DC0B4E300C4D5B8 /* Util */,
+				B14656CB2DC0B4E300C4D5B8 /* Controller */,
+				B14656F52DC0B4E300C4D5B8 /* Views */,
 			);
-			path = Classes;
+			path = PreviousViewController;
+			sourceTree = "<group>";
+		};
+		B14656F72DC0B4E300C4D5B8 /* PlainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B14656F62DC0B4E300C4D5B8 /* PreviousViewController */,
+			);
+			path = PlainViewController;
+			sourceTree = "<group>";
+		};
+		B14656FC2DC0B4E300C4D5B8 /* CarefulBorderView */ = {
+			isa = PBXGroup;
+			children = (
+				B14655962DC0B4E300C4D5B8 /* CrossChannel.h */,
+				B14655972DC0B4E300C4D5B8 /* CrossChannel.m */,
+				B14655A22DC0B4E300C4D5B8 /* CarefulBorderView.h */,
+				B14655A32DC0B4E300C4D5B8 /* CarefulBorderView.m */,
+				B14655A42DC0B4E300C4D5B8 /* SovereignView.h */,
+				B14655A52DC0B4E300C4D5B8 /* SovereignView.m */,
+				B14655A62DC0B4E300C4D5B8 /* MoveView.h */,
+				B14655A72DC0B4E300C4D5B8 /* MoveView.m */,
+				B14655A82DC0B4E300C4D5B8 /* DisagreeableWomanView.h */,
+				B14655A92DC0B4E300C4D5B8 /* DisagreeableWomanView.m */,
+				B14655AA2DC0B4E300C4D5B8 /* ScopeView.h */,
+				B14655AB2DC0B4E300C4D5B8 /* ScopeView.m */,
+				B14655AC2DC0B4E300C4D5B8 /* ListView.h */,
+				B14655AD2DC0B4E300C4D5B8 /* ListView.m */,
+				B14655AF2DC0B4E300C4D5B8 /* RealmHeatViewController.h */,
+				B14655B02DC0B4E300C4D5B8 /* RealmHeatViewController.m */,
+				B14655B12DC0B4E300C4D5B8 /* GrayViewController.h */,
+				B14655B22DC0B4E300C4D5B8 /* GrayViewController.m */,
+				B14655EA2DC0B4E300C4D5B8 /* PlacementPerson */,
+				B14656002DC0B4E300C4D5B8 /* BriefDevice */,
+				B146560B2DC0B4E300C4D5B8 /* PerformObject */,
+				B146569D2DC0B4E300C4D5B8 /* Session */,
+				B14656B22DC0B4E300C4D5B8 /* SessionList */,
+				B14656F72DC0B4E300C4D5B8 /* PlainViewController */,
+			);
+			path = CarefulBorderView;
+			sourceTree = "<group>";
+		};
+		B146571F2DC0B4E300C4D5B8 /* ExistingBuildView */ = {
+			isa = PBXGroup;
+			children = (
+				B14655032DC0B4E300C4D5B8 /* InviteViewController */,
+				B14655272DC0B4E300C4D5B8 /* Common */,
+				B14655952DC0B4E300C4D5B8 /* CompoundLabelScrollView */,
+				B14656FC2DC0B4E300C4D5B8 /* CarefulBorderView */,
+			);
+			path = ExistingBuildView;
 			sourceTree = "<group>";
 		};
 		B14657332DC0B4E300C4D5B8 /* Business */ = {
@@ -2995,7 +2441,7 @@
 			children = (
 				B1F4ED832E71900A00195A20 /* BulkOutline */,
 				B14654D22DC0B4E300C4D5B8 /* CarefulRage */,
-				B146571F2DC0B4E300C4D5B8 /* Classes */,
+				B146571F2DC0B4E300C4D5B8 /* ExistingBuildView */,
 				B146572E2DC0B4E300C4D5B8 /* Ruvadel.pch */,
 				B146572F2DC0B4E300C4D5B8 /* AppDelegate.h */,
 				B14657302DC0B4E300C4D5B8 /* AppDelegate.m */,
@@ -3026,18 +2472,7 @@
 			path = IBigRise;
 			sourceTree = "<group>";
 		};
-		B1465F022DC0C09100C4D5B8 /* CustomTabBar */ = {
-			isa = PBXGroup;
-			children = (
-				B1465EFE2DC0C09100C4D5B8 /* ExistingBuildView.h */,
-				B1465EFF2DC0C09100C4D5B8 /* ExistingBuildView.m */,
-				B1465F002DC0C09100C4D5B8 /* InviteViewController.h */,
-				B1465F012DC0C09100C4D5B8 /* InviteViewController.m */,
-			);
-			path = CustomTabBar;
-			sourceTree = "<group>";
-		};
-		B1503E352E9E383200B4611A /* IQKeyboardManager */ = {
+		B1503E352E9E383200B4611A /* SandMinimalButtonItem */ = {
 			isa = PBXGroup;
 			children = (
 				B1503E192E9E383200B4611A /* SandMinimalButtonItem.h */,
@@ -3069,7 +2504,7 @@
 				B1503E332E9E383200B4611A /* IQUIViewController+Privacy.h */,
 				B1503E342E9E383200B4611A /* IQUIViewController+Privacy.m */,
 			);
-			path = IQKeyboardManager;
+			path = SandMinimalButtonItem;
 			sourceTree = "<group>";
 		};
 		B1F4ED832E71900A00195A20 /* BulkOutline */ = {
@@ -3131,7 +2566,7 @@
 			path = BulkOutline;
 			sourceTree = "<group>";
 		};
-		B1F4EDAE2E71A10D00195A20 /* AFNetworking */ = {
+		B1F4EDAE2E71A10D00195A20 /* ReekConstruct */ = {
 			isa = PBXGroup;
 			children = (
 				B1F4ED8D2E71A10D00195A20 /* ReekConstruct.h */,
@@ -3168,10 +2603,10 @@
 				B1F4EDAC2E71A10D00195A20 /* WKWebView+Totaleract.h */,
 				B1F4EDAD2E71A10D00195A20 /* WKWebView+Totaleract.m */,
 			);
-			path = AFNetworking;
+			path = ReekConstruct;
 			sourceTree = "<group>";
 		};
-		B1F4EDCB2E71A20900195A20 /* FFDropDownMenu */ = {
+		B1F4EDCB2E71A20900195A20 /* TemporaryMinViewCell */ = {
 			isa = PBXGroup;
 			children = (
 				B1F4EDBE2E71A20900195A20 /* FFDropDownMenu.h */,
@@ -3187,11 +2622,21 @@
 				B1F4EDC82E71A20900195A20 /* ChannelView.m */,
 				B1F4EDC92E71A20900195A20 /* DominantView.h */,
 				B1F4EDCA2E71A20900195A20 /* DominantView.m */,
+				B146552F2DC0B4E300C4D5B8 /* BulkViewCell.h */,
+				B14655302DC0B4E300C4D5B8 /* BulkViewCell.m */,
+				B14655312DC0B4E300C4D5B8 /* FloorHistoryViewController.h */,
+				B14655322DC0B4E300C4D5B8 /* FloorHistoryViewController.m */,
+				B14655332DC0B4E300C4D5B8 /* PrecisViewController.h */,
+				B14655342DC0B4E300C4D5B8 /* PrecisViewController.m */,
+				B146553A2DC0B4E300C4D5B8 /* Construct.h */,
+				B146553B2DC0B4E300C4D5B8 /* Construct.m */,
+				B146553E2DC0B4E300C4D5B8 /* BorderlineView.h */,
+				B146553F2DC0B4E300C4D5B8 /* BorderlineView.m */,
 			);
-			path = FFDropDownMenu;
+			path = TemporaryMinViewCell;
 			sourceTree = "<group>";
 		};
-		B1F4EDDB2E71A25A00195A20 /* SVProgressHUD */ = {
+		B1F4EDDB2E71A25A00195A20 /* PathReekView */ = {
 			isa = PBXGroup;
 			children = (
 				B1F4EDD22E71A25A00195A20 /* PathReekView.h */,
@@ -3204,37 +2649,16 @@
 				B1F4EDD92E71A25A00195A20 /* PlusScopeLayer.h */,
 				B1F4EDDA2E71A25A00195A20 /* PlusScopeLayer.m */,
 			);
-			path = SVProgressHUD;
+			path = PathReekView;
 			sourceTree = "<group>";
 		};
-		B1F4EDE32E71A27700195A20 /* UCZProgressView */ = {
+		B1F4EDE32E71A27700195A20 /* ListExpertView */ = {
 			isa = PBXGroup;
 			children = (
 				B1F4EDE12E71A27700195A20 /* ListExpertView.h */,
 				B1F4EDE22E71A27700195A20 /* ListExpertView.m */,
 			);
-			path = UCZProgressView;
-			sourceTree = "<group>";
-		};
-		B1F4EDE82E71A2A400195A20 /* Toast */ = {
-			isa = PBXGroup;
-			children = (
-				B1F4EDE52E71A2A400195A20 /* Existing.h */,
-				B1F4EDE62E71A2A400195A20 /* UIView+Existing.h */,
-				B1F4EDE72E71A2A400195A20 /* UIView+Existing.m */,
-			);
-			path = Toast;
-			sourceTree = "<group>";
-		};
-		B1F4EDEE2E71A2C600195A20 /* TXScrollLabelView */ = {
-			isa = PBXGroup;
-			children = (
-				B1F4EDEA2E71A2C600195A20 /* CompoundLabelScrollView.h */,
-				B1F4EDEB2E71A2C600195A20 /* CompoundLabelScrollView.m */,
-				B1F4EDEC2E71A2C600195A20 /* UIView+Sen.h */,
-				B1F4EDED2E71A2C600195A20 /* UIView+Sen.m */,
-			);
-			path = TXScrollLabelView;
+			path = ListExpertView;
 			sourceTree = "<group>";
 		};
 		B1F4EE1F2E72835100195A20 /* Framework */ = {
@@ -3382,16 +2806,6 @@
 				B146579C2DC0B4E300C4D5B8 /* UIViewNimKit.m in Sources */,
 				B146579D2DC0B4E300C4D5B8 /* YYAnimatedImageView+PrimrosePath.m in Sources */,
 				B146579E2DC0B4E300C4D5B8 /* QualityCoordinateMarker.m in Sources */,
-				B146579F2DC0B4E300C4D5B8 /* LoyalHelperListExtract.m in Sources */,
-				B14657A02DC0B4E300C4D5B8 /* HapCompound.m in Sources */,
-				B14657A12DC0B4E300C4D5B8 /* KitPayerView.m in Sources */,
-				B14657A22DC0B4E300C4D5B8 /* StickSumeract.m in Sources */,
-				B14657A32DC0B4E300C4D5B8 /* SandTotalImpl.m in Sources */,
-				B14657A42DC0B4E300C4D5B8 /* CarefulInfo.m in Sources */,
-				B14657A52DC0B4E300C4D5B8 /* SterlingAreaEffectView.m in Sources */,
-				B14657A62DC0B4E300C4D5B8 /* HumanRemainsPouchSetting.m in Sources */,
-				B14657A72DC0B4E300C4D5B8 /* CompoundView.m in Sources */,
-				B14657A82DC0B4E300C4D5B8 /* CrossRare.m in Sources */,
 				B14657A92DC0B4E300C4D5B8 /* CreateView.m in Sources */,
 				B14657AA2DC0B4E300C4D5B8 /* ExpertView.m in Sources */,
 				B14657AB2DC0B4E300C4D5B8 /* TravelKitCareful.m in Sources */,
@@ -3473,6 +2887,16 @@
 				B14657F32DC0B4E300C4D5B8 /* SenTitleView.m in Sources */,
 				B1503E362E9E383200B4611A /* IQUIScrollView+Privacy.m in Sources */,
 				B1503E372E9E383200B4611A /* IQNSArray+Sort.m in Sources */,
+				B137E0B72E9E623F00CCFDF9 /* LoyalHelperListExtract.m in Sources */,
+				B137E0B82E9E623F00CCFDF9 /* CompoundView.m in Sources */,
+				B137E0B92E9E623F00CCFDF9 /* SterlingAreaEffectView.m in Sources */,
+				B137E0BA2E9E623F00CCFDF9 /* CrossRare.m in Sources */,
+				B137E0BB2E9E623F00CCFDF9 /* SandTotalImpl.m in Sources */,
+				B137E0BC2E9E623F00CCFDF9 /* KitPayerView.m in Sources */,
+				B137E0BD2E9E623F00CCFDF9 /* HapCompound.m in Sources */,
+				B137E0BE2E9E623F00CCFDF9 /* StickSumeract.m in Sources */,
+				B137E0BF2E9E623F00CCFDF9 /* HumanRemainsPouchSetting.m in Sources */,
+				B137E0C02E9E623F00CCFDF9 /* CarefulInfo.m in Sources */,
 				B1503E382E9E383200B4611A /* SandMinimalButtonItem.m in Sources */,
 				B1503E392E9E383200B4611A /* IQUIViewController+Privacy.m in Sources */,
 				B1503E3A2E9E383200B4611A /* StickBrief.m in Sources */,
