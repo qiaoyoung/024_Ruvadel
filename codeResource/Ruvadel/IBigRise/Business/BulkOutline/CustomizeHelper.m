@@ -329,9 +329,9 @@
 //: #import "NetworkHelper.h"
 #import "CustomizeHelper.h"
 //: #import "AFNetworking.h"
-#import "Totaleract.h"
+#import "AFNetworking.h"
 //: #import "AFNetworkActivityIndicatorManager.h"
-#import "ExpoPossible.h"
+#import "AFNetworkActivityIndicatorManager.h"
 
 //: @implementation NetworkHelper
 @implementation CustomizeHelper
@@ -341,14 +341,14 @@ static BOOL spacingContactHelper; // 是否已开启日志打印
 //: static NSMutableArray *_allSessionTask;
 static NSMutableArray *widgetSumervalFormat;
 //: static AFHTTPSessionManager *_sessionManager;
-static Compound *commonBottomId;
+static AFHTTPSessionManager *_sessionManager;
 
 //: #pragma mark - 开始监听网络
 #pragma mark - 开始监听网络
 //: + (void)setRequestSerializer:(EnumHttpRequestSerializer)requestSerializer {
 + (void)setForm:(EnumHttpRequestSerializer)requestSerializer {
-    //: _sessionManager.requestSerializer = requestSerializer==EnumHttpRequestSerializerHTTP ? [AFHTTPRequestSerializer serializer] : [AFJSONRequestSerializer serializer];
-    commonBottomId.requestSerializer = requestSerializer==EnumHttpRequestSerializerHTTP ? [BriefFinishYard provideAcross] : [Tract provideAcross];
+    _sessionManager.requestSerializer = requestSerializer==EnumHttpRequestSerializerHTTP ? [AFHTTPRequestSerializer serializer] : [AFJSONRequestSerializer serializer];
+//    commonBottomId.requestSerializer = requestSerializer==EnumHttpRequestSerializerHTTP ? [BriefFinishYard provideAcross] : [Tract provideAcross];
 }
 
 /**
@@ -357,15 +357,15 @@ static Compound *commonBottomId;
  */
 //: + (void)initialize {
 + (void)initialize {
-    //: _sessionManager = [AFHTTPSessionManager manager];
-    commonBottomId = [Compound penchant];
+    _sessionManager = [AFHTTPSessionManager manager];
+//    commonBottomId = [Compound penchant];
     //: _sessionManager.requestSerializer.timeoutInterval = 15.f;
-    commonBottomId.requestSerializer.timeoutInterval = 15.f;
+    _sessionManager.requestSerializer.timeoutInterval = 15.f;
     //: _sessionManager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/html", @"text/json", @"text/plain", @"text/javascript", @"text/xml", @"image/|*", nil];
-    commonBottomId.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:[DecentData sharedInstance].viewSteadilyPage, [DecentData sharedInstance].commonIronEvent, [DecentData sharedInstance].spacingAimError, [DecentData sharedInstance].kStingTenseUtility, [DecentData sharedInstance].k_sultanTunTitle, [DecentData sharedInstance].viewTournamentTooError, [DecentData sharedInstance].colorExpeditionFormat, nil];
+    _sessionManager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:[DecentData sharedInstance].viewSteadilyPage, [DecentData sharedInstance].commonIronEvent, [DecentData sharedInstance].spacingAimError, [DecentData sharedInstance].kStingTenseUtility, [DecentData sharedInstance].k_sultanTunTitle, [DecentData sharedInstance].viewTournamentTooError, [DecentData sharedInstance].colorExpeditionFormat, nil];
     // 打开状态栏的等待菊花
-    //: [AFNetworkActivityIndicatorManager sharedManager].enabled = YES;
-    [ExpoPossible playCreation].enabled = YES;
+    [AFNetworkActivityIndicatorManager sharedManager].enabled = YES;
+//    [ExpoPossible playCreation].enabled = YES;
 }
 
 //: #pragma mark - 上传多张图片
@@ -390,8 +390,8 @@ static Compound *commonBottomId;
                                   remote:(YLHttpRequestSuccess)success
                                   //: failure:(YLHttpRequestFailed)failure {
                                   player:(YLHttpRequestFailed)failure {
-    //: NSURLSessionTask *sessionTask = [_sessionManager POST:URL parameters:parameters headers:nil constructingBodyWithBlock:^(id<AFMultipartFormData> _Nonnull formData) {
-    NSURLSessionTask *sessionTask = [commonBottomId foot:URL bind:parameters totaleractionFailure:nil vacuous:^(id<InviteData> _Nonnull formData) {
+    NSURLSessionTask *sessionTask = [_sessionManager POST:URL parameters:parameters headers:nil constructingBodyWithBlock:^(id<AFMultipartFormData> _Nonnull formData) {
+//    NSURLSessionTask *sessionTask = [commonBottomId foot:URL bind:parameters totaleractionFailure:nil vacuous:^(id<InviteData> _Nonnull formData) {
 
         //: for (NSUInteger i = 0; i < images.count; i++) {
         for (NSUInteger i = 0; i < images.count; i++) {
@@ -410,17 +410,17 @@ static Compound *commonBottomId;
             NSString *imageFileName = [NSString stringWithFormat:@"%@%ld.%@",str,i,imageType?:[DecentData sharedInstance].appAcidEmpirePage];
 
             //: [formData appendPartWithFileData:imageData
-            [formData outOfSightType:imageData
+            [formData appendPartWithFileData:imageData
                                         //: name:[NSString stringWithFormat:@"%@%ld", name, i]
-                                        fitTitle:[NSString stringWithFormat:@"%@%ld", name, i]
+                                        name:[NSString stringWithFormat:@"%@%ld", name, i]
                                     //: fileName:fileNames ? [NSString stringWithFormat:@"%@.%@",fileNames[i],imageType?:@"jpg"] : imageFileName
-                                    orbit:fileNames ? [NSString stringWithFormat:@"%@.%@",fileNames[i],imageType?:[DecentData sharedInstance].appAcidEmpirePage] : imageFileName
+                                    fileName:fileNames ? [NSString stringWithFormat:@"%@.%@",fileNames[i],imageType?:[DecentData sharedInstance].appAcidEmpirePage] : imageFileName
                                     //: mimeType:[NSString stringWithFormat:@"image/%@",imageType ?: @"jpg"]];
-                                    memory:[NSString stringWithFormat:[DecentData sharedInstance].kCouchTitle,imageType ?: [DecentData sharedInstance].appAcidEmpirePage]];
+                                    mimeType:[NSString stringWithFormat:[DecentData sharedInstance].kCouchTitle,imageType ?: [DecentData sharedInstance].appAcidEmpirePage]];
         }
 
     //: } progress:^(NSProgress * _Nonnull uploadProgress) {
-    } fieldFailure:^(NSProgress * _Nonnull uploadProgress) {
+    } progress:^(NSProgress * _Nonnull uploadProgress) {
         //上传进度
         //: dispatch_sync(dispatch_get_main_queue(), ^{
         dispatch_sync(dispatch_get_main_queue(), ^{
@@ -429,7 +429,7 @@ static Compound *commonBottomId;
         //: });
         });
     //: } success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
-    } a:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
+    } success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
 
         //: if (_isOpenLog) {printf("[%s] %s [第%d行]: %s\n", "16:36:35" ,__PRETTY_FUNCTION__ ,__LINE__, [[NSString stringWithFormat:@"responseObject = %@",responseObject] UTF8String]);}
         if (spacingContactHelper) {printf("[%s] %s [第%d行]: %s\n", "16:36:35" ,__PRETTY_FUNCTION__ ,__LINE__, [[NSString stringWithFormat:[DecentData sharedInstance].styleWealthTimer,responseObject] UTF8String]);}
@@ -439,7 +439,7 @@ static Compound *commonBottomId;
         success ? success(responseObject) : nil;
 
     //: } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-    } receiveWith:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
 
         //: if (_isOpenLog) {printf("[%s] %s [第%d行]: %s\n", "16:36:35" ,__PRETTY_FUNCTION__ ,__LINE__, [[NSString stringWithFormat:@"error = %@",error] UTF8String]);}
         if (spacingContactHelper) {printf("[%s] %s [第%d行]: %s\n", "16:36:35" ,__PRETTY_FUNCTION__ ,__LINE__, [[NSString stringWithFormat:[DecentData sharedInstance].layoutLiteUtility,error] UTF8String]);}
@@ -475,16 +475,16 @@ static Compound *commonBottomId;
                                 //: failure:(YLHttpRequestFailed)failure {
                                 doing:(YLHttpRequestFailed)failure {
 
-    //: NSURLSessionTask *sessionTask = [_sessionManager POST:URL parameters:parameters headers:nil constructingBodyWithBlock:^(id<AFMultipartFormData> _Nonnull formData) {
-    NSURLSessionTask *sessionTask = [commonBottomId foot:URL bind:parameters totaleractionFailure:nil vacuous:^(id<InviteData> _Nonnull formData) {
+    NSURLSessionTask *sessionTask = [_sessionManager POST:URL parameters:parameters headers:nil constructingBodyWithBlock:^(id<AFMultipartFormData> _Nonnull formData) {
+//    NSURLSessionTask *sessionTask = [commonBottomId foot:URL bind:parameters totaleractionFailure:nil vacuous:^(id<InviteData> _Nonnull formData) {
         //: NSError *error = nil;
         NSError *error = nil;
-        //: [formData appendPartWithFileURL:[NSURL URLWithString:filePath] name:name error:&error];
-        [formData phasePressed:[NSURL URLWithString:filePath] blot:name connectionMy:&error];
+        [formData appendPartWithFileURL:[NSURL URLWithString:filePath] name:name error:&error];
+//        [formData phasePressed:[NSURL URLWithString:filePath] blot:name connectionMy:&error];
         //: (failure && error) ? failure(error) : nil;
         (failure && error) ? failure(error) : nil;
     //: } progress:^(NSProgress * _Nonnull uploadProgress) {
-    } fieldFailure:^(NSProgress * _Nonnull uploadProgress) {
+    } progress:^(NSProgress * _Nonnull uploadProgress) {
         //上传进度
         //: dispatch_sync(dispatch_get_main_queue(), ^{
         dispatch_sync(dispatch_get_main_queue(), ^{
@@ -493,7 +493,7 @@ static Compound *commonBottomId;
         //: });
         });
     //: } success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
-    } a:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
+    } success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
 
         //: if (_isOpenLog) {printf("[%s] %s [第%d行]: %s\n", "16:36:35" ,__PRETTY_FUNCTION__ ,__LINE__, [[NSString stringWithFormat:@"responseObject = %@",responseObject] UTF8String]);}
         if (spacingContactHelper) {printf("[%s] %s [第%d行]: %s\n", "16:36:35" ,__PRETTY_FUNCTION__ ,__LINE__, [[NSString stringWithFormat:[DecentData sharedInstance].styleWealthTimer,responseObject] UTF8String]);}
@@ -503,7 +503,7 @@ static Compound *commonBottomId;
         success ? success(responseObject) : nil;
 
     //: } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-    } receiveWith:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
 
         //: if (_isOpenLog) {printf("[%s] %s [第%d行]: %s\n", "16:36:35" ,__PRETTY_FUNCTION__ ,__LINE__, [[NSString stringWithFormat:@"error = %@",error] UTF8String]);}
         if (spacingContactHelper) {printf("[%s] %s [第%d行]: %s\n", "16:36:35" ,__PRETTY_FUNCTION__ ,__LINE__, [[NSString stringWithFormat:[DecentData sharedInstance].layoutLiteUtility,error] UTF8String]);}
@@ -524,14 +524,14 @@ static Compound *commonBottomId;
 
 //: + (BOOL)isNetwork {
 + (BOOL)mutt {
-    //: return [AFNetworkReachabilityManager sharedManager].reachable;
-    return [ParaAgile playCreation].reachable;
+    return [AFNetworkReachabilityManager sharedManager].reachable;
+//    return [ParaAgile playCreation].reachable;
 }
 
 //: + (BOOL)isWWANNetwork {
 + (BOOL)listener {
-    //: return [AFNetworkReachabilityManager sharedManager].reachableViaWWAN;
-    return [ParaAgile playCreation].reachableViaWWAN;
+    return [AFNetworkReachabilityManager sharedManager].reachableViaWWAN;
+//    return [ParaAgile playCreation].reachableViaWWAN;
 }
 
 //: + (void)cancelRequestWithURL:(NSString *)URL {
@@ -572,11 +572,11 @@ static Compound *commonBottomId;
     //: [self setResponseSerializer:(EnumHttpResponseSerializerJSON)];
     [self setPlotElement:(EnumHttpResponseSerializerJSON)];
 
-    //: NSURLSessionTask *sessionTask = [_sessionManager POST:URL parameters:parameters headers:nil progress:^(NSProgress * _Nonnull uploadProgress) {
-    NSURLSessionTask *sessionTask = [commonBottomId naturalEventMedium:URL can:parameters date:nil willFailure:^(NSProgress * _Nonnull uploadProgress) {
+    NSURLSessionTask *sessionTask = [_sessionManager POST:URL parameters:parameters headers:nil progress:^(NSProgress * _Nonnull uploadProgress) {
+//    NSURLSessionTask *sessionTask = [commonBottomId naturalEventMedium:URL can:parameters date:nil willFailure:^(NSProgress * _Nonnull uploadProgress) {
 
     //: } success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
-    } point:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
+    } success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
 
         //: if (_isOpenLog) {printf("[%s] %s [第%d行]: %s\n", "16:36:35" ,__PRETTY_FUNCTION__ ,__LINE__, [[NSString stringWithFormat:@"responseObject = %@",responseObject] UTF8String]);}
         if (spacingContactHelper) {printf("[%s] %s [第%d行]: %s\n", "16:36:35" ,__PRETTY_FUNCTION__ ,__LINE__, [[NSString stringWithFormat:[DecentData sharedInstance].styleWealthTimer,responseObject] UTF8String]);}
@@ -586,7 +586,7 @@ static Compound *commonBottomId;
         success ? success(responseObject) : nil;
 
     //: } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-    } suggest:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
 
         //: if (_isOpenLog) {printf("[%s] %s [第%d行]: %s\n", "16:36:35" ,__PRETTY_FUNCTION__ ,__LINE__, [[NSString stringWithFormat:@"error = %@",error] UTF8String]);}
         if (spacingContactHelper) {printf("[%s] %s [第%d行]: %s\n", "16:36:35" ,__PRETTY_FUNCTION__ ,__LINE__, [[NSString stringWithFormat:[DecentData sharedInstance].layoutLiteUtility,error] UTF8String]);}
@@ -610,8 +610,8 @@ static Compound *commonBottomId;
 
 //: + (void)setAFHTTPSessionManagerProperty:(void (^)(AFHTTPSessionManager *))sessionManager {
 + (void)setDepthBy:(void (^)(Compound *))sessionManager {
-    //: sessionManager ? sessionManager(_sessionManager) : nil;
-    sessionManager ? sessionManager(commonBottomId) : nil;
+    sessionManager ? sessionManager(_sessionManager) : nil;
+//    sessionManager ? sessionManager(commonBottomId) : nil;
 }
 
 //: #pragma mark - 初始化AFHTTPSessionManager相关属性
@@ -621,20 +621,20 @@ static Compound *commonBottomId;
  */
 //: + (void)load {
 + (void)load {
-    //: [[AFNetworkReachabilityManager sharedManager] startMonitoring];
-    [[ParaAgile playCreation] policyMonitoring];
+    [[AFNetworkReachabilityManager sharedManager] startMonitoring];
+//    [[ParaAgile playCreation] policyMonitoring];
 }
 
 //: + (void)setResponseSerializer:(EnumHttpResponseSerializer)responseSerializer {
 + (void)setPlotElement:(EnumHttpResponseSerializer)responseSerializer {
-    //: _sessionManager.responseSerializer = responseSerializer==EnumHttpResponseSerializerHTTP ? [AFHTTPResponseSerializer serializer] : [AFJSONResponseSerializer serializer];
-    commonBottomId.responseSerializer = responseSerializer==EnumHttpResponseSerializerHTTP ? [HistoryCompound trust] : [Communicative trust];
+    _sessionManager.responseSerializer = responseSerializer==EnumHttpResponseSerializerHTTP ? [AFHTTPResponseSerializer serializer] : [AFJSONResponseSerializer serializer];
+//    commonBottomId.responseSerializer = responseSerializer==EnumHttpResponseSerializerHTTP ? [HistoryCompound trust] : [Communicative trust];
 }
 
 //: + (void)setRequestTimeoutInterval:(NSTimeInterval)time {
 + (void)setHistory:(NSTimeInterval)time {
-    //: _sessionManager.requestSerializer.timeoutInterval = time;
-    commonBottomId.requestSerializer.timeoutInterval = time;
+    _sessionManager.requestSerializer.timeoutInterval = time;
+//    commonBottomId.requestSerializer.timeoutInterval = time;
 }
 
 //: #pragma mark - GET请求自动缓存
@@ -653,11 +653,11 @@ static Compound *commonBottomId;
     //: [self setResponseSerializer:(EnumHttpResponseSerializerHTTP)];
     [self setPlotElement:(EnumHttpResponseSerializerHTTP)];
 
-    //: NSURLSessionTask *sessionTask = [_sessionManager GET:URL parameters:parameters headers:nil progress:^(NSProgress * _Nonnull uploadProgress) {
-    NSURLSessionTask *sessionTask = [commonBottomId outputArrowLine:URL naturalEventFailure:parameters send:nil progressVictoryCapabilityLapsingHeadersReclaim:^(NSProgress * _Nonnull uploadProgress) {
+    NSURLSessionTask *sessionTask = [_sessionManager GET:URL parameters:parameters headers:nil progress:^(NSProgress * _Nonnull uploadProgress) {
+//    NSURLSessionTask *sessionTask = [commonBottomId outputArrowLine:URL naturalEventFailure:parameters send:nil progressVictoryCapabilityLapsingHeadersReclaim:^(NSProgress * _Nonnull uploadProgress) {
 
     //: } success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
-    } versionSpecial:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
+    } success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
 
         //: if (_isOpenLog) {printf("[%s] %s [第%d行]: %s\n", "16:36:35" ,__PRETTY_FUNCTION__ ,__LINE__, [[NSString stringWithFormat:@"responseObject = %@",responseObject] UTF8String]);}
         if (spacingContactHelper) {printf("[%s] %s [第%d行]: %s\n", "16:36:35" ,__PRETTY_FUNCTION__ ,__LINE__, [[NSString stringWithFormat:[DecentData sharedInstance].styleWealthTimer,responseObject] UTF8String]);}
@@ -667,7 +667,7 @@ static Compound *commonBottomId;
         success ? success(responseObject) : nil;
 
     //: } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-    } spring:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
 
         //: if (_isOpenLog) {printf("[%s] %s [第%d行]: %s\n", "16:36:35" ,__PRETTY_FUNCTION__ ,__LINE__, [[NSString stringWithFormat:@"error = %@",error] UTF8String]);}
         if (spacingContactHelper) {printf("[%s] %s [第%d行]: %s\n", "16:36:35" ,__PRETTY_FUNCTION__ ,__LINE__, [[NSString stringWithFormat:[DecentData sharedInstance].layoutLiteUtility,error] UTF8String]);}
@@ -688,8 +688,8 @@ static Compound *commonBottomId;
 
 //: + (void)openNetworkActivityIndicator:(BOOL)open {
 + (void)pan:(BOOL)open {
-    //: [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:open];
-    [[ExpoPossible playCreation] setEnabled:open];
+    [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:open];
+//    [[ExpoPossible playCreation] setEnabled:open];
 }
 
 //: + (void)closeLog {
@@ -703,8 +703,8 @@ static Compound *commonBottomId;
 //: + (void)networkStatusWithBlock:(YLNetworkStatus)networkStatus {
 + (void)ceremonyObserve:(YLNetworkStatus)networkStatus {
 
-    //: [[AFNetworkReachabilityManager sharedManager] setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
-    [[ParaAgile playCreation] setMake:^(AFNetworkReachabilityStatus status) {
+    [[AFNetworkReachabilityManager sharedManager] setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
+//    [[ParaAgile playCreation] setMake:^(AFNetworkReachabilityStatus status) {
         //: switch (status) {
         switch (status) {
             //: case AFNetworkReachabilityStatusUnknown:
@@ -748,8 +748,8 @@ static Compound *commonBottomId;
 
 //: + (void)setValue:(NSString *)value forHTTPHeaderField:(NSString *)field {
 + (void)video:(NSString *)value calculateField:(NSString *)field {
-    //: [_sessionManager.requestSerializer setValue:value forHTTPHeaderField:field];
-    [commonBottomId.requestSerializer challenge:value yearField:field];
+    [_sessionManager.requestSerializer setValue:value forHTTPHeaderField:field];
+//    [commonBottomId.requestSerializer challenge:value yearField:field];
 }
 
 //: + (void)openLog {
@@ -772,29 +772,29 @@ static Compound *commonBottomId;
                                          pushSectionLapseRequestSuccess:(YLHttpRequestSuccess)success
                                          //: failure:(YLHttpRequestFailed)failure {
                                          fill:(YLHttpRequestFailed)failure {
-    //: NSURLSessionTask *sessionTask = [_sessionManager POST:URL parameters:parameters headers:nil constructingBodyWithBlock:^(id<AFMultipartFormData> _Nonnull formData) {
-    NSURLSessionTask *sessionTask = [commonBottomId foot:URL bind:parameters totaleractionFailure:nil vacuous:^(id<InviteData> _Nonnull formData) {
+    NSURLSessionTask *sessionTask = [_sessionManager POST:URL parameters:parameters headers:nil constructingBodyWithBlock:^(id<AFMultipartFormData> _Nonnull formData) {
+//    NSURLSessionTask *sessionTask = [commonBottomId foot:URL bind:parameters totaleractionFailure:nil vacuous:^(id<InviteData> _Nonnull formData) {
 
         //: NSError *error = nil;
         NSError *error = nil;
-        //: [formData appendPartWithFileURL:[NSURL fileURLWithPath:videoPath isDirectory:NO] name:@"video" error:&error];
-        [formData phasePressed:[NSURL fileURLWithPath:videoPath isDirectory:NO] blot:[DecentData sharedInstance].componentBareTowerPath connectionMy:&error];
+        [formData appendPartWithFileURL:[NSURL fileURLWithPath:videoPath isDirectory:NO] name:@"video" error:&error];
+//        [formData phasePressed:[NSURL fileURLWithPath:videoPath isDirectory:NO] blot:[DecentData sharedInstance].componentBareTowerPath connectionMy:&error];
         //: (failure && error) ? failure(error) : nil;
         (failure && error) ? failure(error) : nil;
 
         //: NSData *thumbData = UIImageJPEGRepresentation(thumb, 1.f);
         NSData *thumbData = UIImageJPEGRepresentation(thumb, 1.f);
-        //: [formData appendPartWithFileData:thumbData
-        [formData outOfSightType:thumbData
+        [formData appendPartWithFileData:thumbData
+//        [formData outOfSightType:thumbData
                                     //: name:@"thumb"
-                                    fitTitle:[DecentData sharedInstance].k_surroundData
+                                    name:[DecentData sharedInstance].k_surroundData
                                 //: fileName:@"thumb.jpg"
-                                orbit:[DecentData sharedInstance].themeActivityId
+                                fileName:[DecentData sharedInstance].themeActivityId
                                 //: mimeType:[NSString stringWithFormat:@"image/jpg"]];
-                                memory:[NSString stringWithFormat:[DecentData sharedInstance].viewUhSettings]];
+                                mimeType:[NSString stringWithFormat:[DecentData sharedInstance].viewUhSettings]];
 
     //: } progress:^(NSProgress * _Nonnull uploadProgress) {
-    } fieldFailure:^(NSProgress * _Nonnull uploadProgress) {
+    } progress:^(NSProgress * _Nonnull uploadProgress) {
         //上传进度
         //: dispatch_sync(dispatch_get_main_queue(), ^{
         dispatch_sync(dispatch_get_main_queue(), ^{
@@ -803,7 +803,7 @@ static Compound *commonBottomId;
         //: });
         });
     //: } success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
-    } a:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
+    } success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
 
         //: if (_isOpenLog) {printf("[%s] %s [第%d行]: %s\n", "16:36:35" ,__PRETTY_FUNCTION__ ,__LINE__, [[NSString stringWithFormat:@"responseObject = %@",responseObject] UTF8String]);}
         if (spacingContactHelper) {printf("[%s] %s [第%d行]: %s\n", "16:36:35" ,__PRETTY_FUNCTION__ ,__LINE__, [[NSString stringWithFormat:[DecentData sharedInstance].styleWealthTimer,responseObject] UTF8String]);}
@@ -813,7 +813,7 @@ static Compound *commonBottomId;
         success ? success(responseObject) : nil;
 
     //: } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-    } receiveWith:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
 
         //: if (_isOpenLog) {printf("[%s] %s [第%d行]: %s\n", "16:36:35" ,__PRETTY_FUNCTION__ ,__LINE__, [[NSString stringWithFormat:@"error = %@",error] UTF8String]);}
         if (spacingContactHelper) {printf("[%s] %s [第%d行]: %s\n", "16:36:35" ,__PRETTY_FUNCTION__ ,__LINE__, [[NSString stringWithFormat:[DecentData sharedInstance].layoutLiteUtility,error] UTF8String]);}
@@ -847,8 +847,8 @@ static Compound *commonBottomId;
 }
 //: + (BOOL)isWiFiNetwork {
 + (BOOL)starting {
-    //: return [AFNetworkReachabilityManager sharedManager].reachableViaWiFi;
-    return [ParaAgile playCreation].reachableViaWiFi;
+    return [AFNetworkReachabilityManager sharedManager].reachableViaWiFi;
+//    return [ParaAgile playCreation].reachableViaWiFi;
 }
 
 /**
@@ -875,8 +875,8 @@ static Compound *commonBottomId;
                                           convert:(YLHttpRequestSuccess)success
                                           //: failure:(YLHttpRequestFailed)failure {
                                           streetSmartRequestFailed:(YLHttpRequestFailed)failure {
-    //: NSURLSessionTask *sessionTask = [_sessionManager POST:URL parameters:parameters headers:nil constructingBodyWithBlock:^(id<AFMultipartFormData> _Nonnull formData) {
-    NSURLSessionTask *sessionTask = [commonBottomId foot:URL bind:parameters totaleractionFailure:nil vacuous:^(id<InviteData> _Nonnull formData) {
+    NSURLSessionTask *sessionTask = [_sessionManager POST:URL parameters:parameters headers:nil constructingBodyWithBlock:^(id<AFMultipartFormData> _Nonnull formData) {
+//    NSURLSessionTask *sessionTask = [commonBottomId foot:URL bind:parameters totaleractionFailure:nil vacuous:^(id<InviteData> _Nonnull formData) {
         //: NSError *error = nil;
         NSError *error = nil;
 
@@ -884,8 +884,8 @@ static Compound *commonBottomId;
         for (NSString * key in files) {
             //: NSString * value = [files objectForKey:key];
             NSString * value = [files objectForKey:key];
-            //: [formData appendPartWithFileURL:[NSURL URLWithString:value] name:key error:&error];
-            [formData phasePressed:[NSURL URLWithString:value] blot:key connectionMy:&error];
+            [formData appendPartWithFileURL:[NSURL URLWithString:value] name:key error:&error];
+//            [formData phasePressed:[NSURL URLWithString:value] blot:key connectionMy:&error];
 
             //: if (error) {
             if (error) {
@@ -897,7 +897,7 @@ static Compound *commonBottomId;
         //: (failure && error) ? failure(error) : nil;
         (failure && error) ? failure(error) : nil;
     //: } progress:^(NSProgress * _Nonnull uploadProgress) {
-    } fieldFailure:^(NSProgress * _Nonnull uploadProgress) {
+    } progress:^(NSProgress * _Nonnull uploadProgress) {
         //上传进度
         //: dispatch_sync(dispatch_get_main_queue(), ^{
         dispatch_sync(dispatch_get_main_queue(), ^{
@@ -906,7 +906,7 @@ static Compound *commonBottomId;
         //: });
         });
     //: } success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
-    } a:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
+    } success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
 
         //: if (_isOpenLog) {printf("[%s] %s [第%d行]: %s\n", "16:36:35" ,__PRETTY_FUNCTION__ ,__LINE__, [[NSString stringWithFormat:@"responseObject = %@",responseObject] UTF8String]);}
         if (spacingContactHelper) {printf("[%s] %s [第%d行]: %s\n", "16:36:35" ,__PRETTY_FUNCTION__ ,__LINE__, [[NSString stringWithFormat:[DecentData sharedInstance].styleWealthTimer,responseObject] UTF8String]);}
@@ -916,7 +916,7 @@ static Compound *commonBottomId;
         success ? success(responseObject) : nil;
 
     //: } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-    } receiveWith:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
 
         //: if (_isOpenLog) {printf("[%s] %s [第%d行]: %s\n", "16:36:35" ,__PRETTY_FUNCTION__ ,__LINE__, [[NSString stringWithFormat:@"error = %@",error] UTF8String]);}
         if (spacingContactHelper) {printf("[%s] %s [第%d行]: %s\n", "16:36:35" ,__PRETTY_FUNCTION__ ,__LINE__, [[NSString stringWithFormat:[DecentData sharedInstance].layoutLiteUtility,error] UTF8String]);}
@@ -949,8 +949,8 @@ static Compound *commonBottomId;
                               per:(YLHttpRequestFailed)failure {
     //: NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:URL]];
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:URL]];
-    //: __block NSURLSessionDownloadTask *downloadTask = [_sessionManager downloadTaskWithRequest:request progress:^(NSProgress * _Nonnull downloadProgress) {
-    __block NSURLSessionDownloadTask *downloadTask = [commonBottomId growingWrite:request underlyingHandler:^(NSProgress * _Nonnull downloadProgress) {
+    __block NSURLSessionDownloadTask *downloadTask = [_sessionManager downloadTaskWithRequest:request progress:^(NSProgress * _Nonnull downloadProgress) {
+//    __block NSURLSessionDownloadTask *downloadTask = [commonBottomId growingWrite:request underlyingHandler:^(NSProgress * _Nonnull downloadProgress) {
         //下载进度
         //: dispatch_sync(dispatch_get_main_queue(), ^{
         dispatch_sync(dispatch_get_main_queue(), ^{
@@ -959,7 +959,7 @@ static Compound *commonBottomId;
         //: });
         });
     //: } destination:^NSURL * _Nonnull(NSURL * _Nonnull targetPath, NSURLResponse * _Nonnull response) {
-    } filter:^NSURL * _Nonnull(NSURL * _Nonnull targetPath, NSURLResponse * _Nonnull response) {
+    } destination:^NSURL * _Nonnull(NSURL * _Nonnull targetPath, NSURLResponse * _Nonnull response) {
         //拼接缓存目录
         //: NSString *downloadDir = [[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:fileDir ? fileDir : @"Download"];
         NSString *downloadDir = [[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:fileDir ? fileDir : [DecentData sharedInstance].layoutStandingPath];
@@ -977,7 +977,7 @@ static Compound *commonBottomId;
         return [NSURL fileURLWithPath:filePath];
 
     //: } completionHandler:^(NSURLResponse * _Nonnull response, NSURL * _Nullable filePath, NSError * _Nullable error) {
-    } end:^(NSURLResponse * _Nonnull response, NSURL * _Nullable filePath, NSError * _Nullable error) {
+    } completionHandler:^(NSURLResponse * _Nonnull response, NSURL * _Nullable filePath, NSError * _Nullable error) {
 
         //: [[self allSessionTask] removeObject:downloadTask];
         [[self task] removeObject:downloadTask];
@@ -1034,8 +1034,8 @@ static Compound *commonBottomId;
     //: NSData *cerData = [NSData dataWithContentsOfFile:cerPath];
     NSData *cerData = [NSData dataWithContentsOfFile:cerPath];
     // 使用证书验证模式
-    //: AFSecurityPolicy *securityPolicy = [AFSecurityPolicy policyWithPinningMode:AFSSLPinningModeCertificate];
-    TerrainBorderGray *securityPolicy = [TerrainBorderGray farMode:AFSSLPinningModeCertificate];
+    AFSecurityPolicy *securityPolicy = [AFSecurityPolicy policyWithPinningMode:AFSSLPinningModeCertificate];
+//    TerrainBorderGray *securityPolicy = [TerrainBorderGray farMode:AFSSLPinningModeCertificate];
     // 如果需要验证自建证书(无效证书)，需要设置为YES
     //: securityPolicy.allowInvalidCertificates = YES;
     securityPolicy.allowInvalidCertificates = YES;
@@ -1045,8 +1045,8 @@ static Compound *commonBottomId;
     //: securityPolicy.pinnedCertificates = [[NSSet alloc] initWithObjects:cerData, nil];
     securityPolicy.pinnedCertificates = [[NSSet alloc] initWithObjects:cerData, nil];
 
-    //: [_sessionManager setSecurityPolicy:securityPolicy];
-    [commonBottomId setSecurityPolicy:securityPolicy];
+    [_sessionManager setSecurityPolicy:securityPolicy];
+//    [commonBottomId setSecurityPolicy:securityPolicy];
 }
 
 //: #pragma mark - 上传单张图片
@@ -1054,8 +1054,8 @@ static Compound *commonBottomId;
 //: + (NSURLSessionTask *)uploadImageWithURL:(NSString *)URL parameters:(id)parameters name:(NSString *)name data:(NSData *)data fileName:(NSString *)fileName imageType:(NSString *)imageType progress:(YLHttpProgress)progress success:(YLHttpRequestSuccess)success failure:(YLHttpRequestFailed)failure
 + (NSURLSessionTask *)tax:(NSString *)URL phonationFailure:(id)parameters triumph:(NSString *)name antiTakeoverDefense:(NSData *)data inside:(NSString *)fileName action:(NSString *)imageType seemTo:(YLHttpProgress)progress combine:(YLHttpRequestSuccess)success skip:(YLHttpRequestFailed)failure
 {
-    //: NSURLSessionTask *sessionTask = [_sessionManager POST:URL parameters:parameters headers:nil constructingBodyWithBlock:^(id<AFMultipartFormData> _Nonnull formData) {
-    NSURLSessionTask *sessionTask = [commonBottomId foot:URL bind:parameters totaleractionFailure:nil vacuous:^(id<InviteData> _Nonnull formData) {
+    NSURLSessionTask *sessionTask = [_sessionManager POST:URL parameters:parameters headers:nil constructingBodyWithBlock:^(id<AFMultipartFormData> _Nonnull formData) {
+//    NSURLSessionTask *sessionTask = [commonBottomId foot:URL bind:parameters totaleractionFailure:nil vacuous:^(id<InviteData> _Nonnull formData) {
 
         // 默认图片的文件名, 若fileNames为nil就使用
 
@@ -1068,17 +1068,17 @@ static Compound *commonBottomId;
         //: NSString *imageFileName = [NSString stringWithFormat:@"%@.%@",str,imageType?:@"jpg"];
         NSString *imageFileName = [NSString stringWithFormat:@"%@.%@",str,imageType?:[DecentData sharedInstance].appAcidEmpirePage];
 
-        //: [formData appendPartWithFileData:data
-        [formData outOfSightType:data
+        [formData appendPartWithFileData:data
+//        [formData outOfSightType:data
                                     //: name:name
-                                    fitTitle:name
+                                    name:name
                                 //: fileName:fileName ? [NSString stringWithFormat:@"%@.%@",fileName,imageType?:@"jpg"] : imageFileName
-                                orbit:fileName ? [NSString stringWithFormat:@"%@.%@",fileName,imageType?:[DecentData sharedInstance].appAcidEmpirePage] : imageFileName
+                                fileName:fileName ? [NSString stringWithFormat:@"%@.%@",fileName,imageType?:[DecentData sharedInstance].appAcidEmpirePage] : imageFileName
                                 //: mimeType:[NSString stringWithFormat:@"image/%@",imageType ?: @"jpg"]];
-                                memory:[NSString stringWithFormat:[DecentData sharedInstance].kCouchTitle,imageType ?: [DecentData sharedInstance].appAcidEmpirePage]];
+                                mimeType:[NSString stringWithFormat:[DecentData sharedInstance].kCouchTitle,imageType ?: [DecentData sharedInstance].appAcidEmpirePage]];
 
     //: } progress:^(NSProgress * _Nonnull uploadProgress) {
-    } fieldFailure:^(NSProgress * _Nonnull uploadProgress) {
+    } progress:^(NSProgress * _Nonnull uploadProgress) {
         //上传进度
         //: dispatch_sync(dispatch_get_main_queue(), ^{
         dispatch_sync(dispatch_get_main_queue(), ^{
@@ -1087,7 +1087,7 @@ static Compound *commonBottomId;
         //: });
         });
     //: } success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
-    } a:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
+    } success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
 
         //: if (_isOpenLog) {printf("[%s] %s [第%d行]: %s\n", "16:36:35" ,__PRETTY_FUNCTION__ ,__LINE__, [[NSString stringWithFormat:@"responseObject = %@",responseObject] UTF8String]);}
         if (spacingContactHelper) {printf("[%s] %s [第%d行]: %s\n", "16:36:35" ,__PRETTY_FUNCTION__ ,__LINE__, [[NSString stringWithFormat:[DecentData sharedInstance].styleWealthTimer,responseObject] UTF8String]);}
@@ -1097,7 +1097,7 @@ static Compound *commonBottomId;
         success ? success(responseObject) : nil;
 
     //: } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-    } receiveWith:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
 
         //: if (_isOpenLog) {printf("[%s] %s [第%d行]: %s\n", "16:36:35" ,__PRETTY_FUNCTION__ ,__LINE__, [[NSString stringWithFormat:@"error = %@",error] UTF8String]);}
         if (spacingContactHelper) {printf("[%s] %s [第%d行]: %s\n", "16:36:35" ,__PRETTY_FUNCTION__ ,__LINE__, [[NSString stringWithFormat:[DecentData sharedInstance].layoutLiteUtility,error] UTF8String]);}

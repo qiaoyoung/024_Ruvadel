@@ -1018,7 +1018,7 @@ static const CGFloat viewBlendExtendMessage (NSString *value) {
      NSBundle *bundle = [NSBundle bundleForClass:[InputView class]];
 
      //: NSURL *url = [bundle URLForResource:@"SVProgressHUD" withExtension:@"bundle"];
-     NSURL *url = [bundle URLForResource:@"InputView" withExtension:[[RiteData sharedInstance] k_significanceAlert]];
+     NSURL *url = [bundle URLForResource:@"SVProgressHUD" withExtension:[[RiteData sharedInstance] k_significanceAlert]];
      //: return [NSBundle bundleWithURL:url];
      return [NSBundle bundleWithURL:url];
  }

@@ -489,7 +489,7 @@ typedef struct {
 @interface BriefBetween ()
 
 //: @property (nonatomic,strong) AFHTTPSessionManager *manager;
-@property (nonatomic,strong) Compound *manager;
+@property (nonatomic,strong) AFHTTPSessionManager *manager;
 
 //: @end
 @end
@@ -525,10 +525,10 @@ typedef struct {
 - (id)init{
     //: if (self = [super init]) {
     if (self = [super init]) {
-        //: AFSecurityPolicy *securityPolicy = [HttpManager defaultSecurityPolicy];
-        TerrainBorderGray *securityPolicy = [BriefBetween creation];
+        AFSecurityPolicy *securityPolicy = [BriefBetween creation];
+//        TerrainBorderGray *securityPolicy = [BriefBetween creation];
         //: _manager = [AFHTTPSessionManager manager];
-        _manager = [Compound penchant];
+        _manager = [AFHTTPSessionManager manager];
         //: _manager.securityPolicy = securityPolicy;
         _manager.securityPolicy = securityPolicy;
         //: _manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript",@"text/plain",@"text/html", nil];
@@ -561,16 +561,16 @@ typedef struct {
     //: NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:URL]];
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:URL]];
     //: AFHTTPSessionManager *manager = [HttpManager sharedManager].manager;
-    Compound *manager = [BriefBetween playCreation].manager;
-    //: NSURLSessionDownloadTask *downloadTask = [manager downloadTaskWithRequest:request progress:^(NSProgress * _Nonnull downloadProgress) {
-    NSURLSessionDownloadTask *downloadTask = [manager growingWrite:request underlyingHandler:^(NSProgress * _Nonnull downloadProgress) {
+    AFHTTPSessionManager *manager = [BriefBetween playCreation].manager;
+    NSURLSessionDownloadTask *downloadTask = [manager downloadTaskWithRequest:request progress:^(NSProgress * _Nonnull downloadProgress) {
+//    NSURLSessionDownloadTask *downloadTask = [manager growingWrite:request underlyingHandler:^(NSProgress * _Nonnull downloadProgress) {
         //: if (progress) {
         if (progress) {
             //: progress(downloadProgress);
             progress(downloadProgress);
         }
     //: } destination:^NSURL * _Nonnull(NSURL * _Nonnull targetPath, NSURLResponse * _Nonnull response) {
-    } filter:^NSURL * _Nonnull(NSURL * _Nonnull targetPath, NSURLResponse * _Nonnull response) {
+    } destination:^NSURL * _Nonnull(NSURL * _Nonnull targetPath, NSURLResponse * _Nonnull response) {
         //拼接缓存目录
         //: NSString *downloadDir = [[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:fileDir ? fileDir : @"Download"];
         NSString *downloadDir = [[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:fileDir ? fileDir : [DiscoData sharedInstance].styleBreezeHelper];
@@ -587,7 +587,7 @@ typedef struct {
         //: return [NSURL fileURLWithPath:filePath];
         return [NSURL fileURLWithPath:filePath];
     //: } completionHandler:^(NSURLResponse * _Nonnull response, NSURL * _Nullable filePath, NSError * _Nullable error) {
-    } end:^(NSURLResponse * _Nonnull response, NSURL * _Nullable filePath, NSError * _Nullable error) {
+    } completionHandler:^(NSURLResponse * _Nonnull response, NSURL * _Nullable filePath, NSError * _Nullable error) {
         //: if(failed && error) {failed(nil ,error) ; return ;};
         if(failed && error) {failed(nil ,error) ; return ;};
         //: success ? success(filePath.absoluteString /|** NSURL->NSString*|/) : nil;
@@ -614,7 +614,7 @@ typedef struct {
  *https验证
  */
 //: + (AFSecurityPolicy *)customSecurityPolicy {
-+ (TerrainBorderGray *)channelPath {
++ (AFSecurityPolicy *)channelPath {
     // /先导入证书
     //: NSString *cerPath = [[NSBundle mainBundle] pathForResource:@"xiaokaapi.com" ofType:@"cer"]; 
     NSString *cerPath = [[NSBundle mainBundle] pathForResource:[DiscoData sharedInstance].featureUmberModernPath ofType:[DiscoData sharedInstance].colorEnableingError]; //证书的路径
@@ -622,7 +622,7 @@ typedef struct {
     NSData *certData = [NSData dataWithContentsOfFile:cerPath];
     // AFSSLPinningModeCertificate 使用证书验证模式
     //: AFSecurityPolicy *securityPolicy = [AFSecurityPolicy policyWithPinningMode:AFSSLPinningModePublicKey];
-    TerrainBorderGray *securityPolicy = [TerrainBorderGray farMode:AFSSLPinningModePublicKey];
+    AFSecurityPolicy *securityPolicy = [AFSecurityPolicy policyWithPinningMode:AFSSLPinningModePublicKey];
 
     // allowInvalidCertificates 是否允许无效证书（也就是自建的证书），默认为NO
     // 如果是需要验证自建证书，需要设置为YES
@@ -680,18 +680,18 @@ typedef struct {
     }
 
     //: AFHTTPSessionManager *manager = [HttpManager sharedManager].manager;
-    Compound *manager = [BriefBetween playCreation].manager;
+    AFHTTPSessionManager *manager = [BriefBetween playCreation].manager;
 
-    //: NSURLSessionDataTask *t = [manager POST:URL parameters:parameters headers:nil constructingBodyWithBlock:^(id<AFMultipartFormData> _Nonnull formData) {
-    NSURLSessionDataTask *t = [manager foot:URL bind:parameters totaleractionFailure:nil vacuous:^(id<InviteData> _Nonnull formData) {
+    NSURLSessionDataTask *t = [manager POST:URL parameters:parameters headers:nil constructingBodyWithBlock:^(id<AFMultipartFormData> _Nonnull formData) {
+//    NSURLSessionDataTask *t = [manager foot:URL bind:parameters totaleractionFailure:nil vacuous:^(id<InviteData> _Nonnull formData) {
         //: NSError *error = nil;
         NSError *error = nil;
         //: [formData appendPartWithFileURL:filePath name:name error:&error];
-        [formData phasePressed:filePath blot:name connectionMy:&error];
+        [formData appendPartWithFileURL:filePath name:name error:&error];
         //: (failed && error) ? failed(nil ,error) : nil;
         (failed && error) ? failed(nil ,error) : nil;
     //: } progress:^(NSProgress * _Nonnull uploadProgress) {
-    } fieldFailure:^(NSProgress * _Nonnull uploadProgress) {
+    } progress:^(NSProgress * _Nonnull uploadProgress) {
         //: dispatch_sync(dispatch_get_main_queue(), ^{
         dispatch_sync(dispatch_get_main_queue(), ^{//上传进度
             //: progress ? progress(uploadProgress) : nil;
@@ -699,12 +699,12 @@ typedef struct {
         //: });
         });
     //: } success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
-    } a:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
+    } success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
         //: success ? success(responseObject) : nil;
         success ? success(responseObject) : nil;
 
     //: } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-    } receiveWith:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         //: failed ? failed(nil ,error) : nil;
         failed ? failed(nil ,error) : nil;
     //: }];
@@ -836,26 +836,26 @@ typedef struct {
             [InputView member];
         }
     //: AFHTTPSessionManager *manager = [HttpManager sharedManager].manager;
-    Compound *manager = [BriefBetween playCreation].manager;
+    AFHTTPSessionManager *manager = [BriefBetween playCreation].manager;
     //添加请求头
     //: NSString *loginToken = [NIMUserDefaults standardUserDefaults].loginToken;
     NSString *loginToken = [StackTexture move].loginToken;
     //: NSString *lang = emptyString([NIMUserDefaults standardUserDefaults].language);
     NSString *lang = handleAssociation([StackTexture move].language);
     //: [manager.requestSerializer setValue:lang forHTTPHeaderField:@"lang"];
-    [manager.requestSerializer challenge:lang yearField:[DiscoData sharedInstance].viewHeliHelper];
+    [manager.requestSerializer setValue:lang forHTTPHeaderField:[DiscoData sharedInstance].viewHeliHelper];
 
     //: if ([NIMUserDefaults standardUserDefaults].loginToken.length > 0) {
     if ([StackTexture move].loginToken.length > 0) {
 
         //: [manager.requestSerializer setValue:loginToken forHTTPHeaderField:@"token"];
-        [manager.requestSerializer challenge:loginToken yearField:[DiscoData sharedInstance].appStyleConfig];
+        [manager.requestSerializer setValue:loginToken forHTTPHeaderField:[DiscoData sharedInstance].appStyleConfig];
     }
-    //: NSURLSessionDataTask *task = [manager GET:urlStr parameters:params headers:nil progress:^(NSProgress * _Nonnull downloadProgress) {
-    NSURLSessionDataTask *task = [manager outputArrowLine:urlStr naturalEventFailure:params send:nil progressVictoryCapabilityLapsingHeadersReclaim:^(NSProgress * _Nonnull downloadProgress) {
+    NSURLSessionDataTask *task = [manager GET:urlStr parameters:params headers:nil progress:^(NSProgress * _Nonnull downloadProgress) {
+//    NSURLSessionDataTask *task = [manager outputArrowLine:urlStr naturalEventFailure:params send:nil progressVictoryCapabilityLapsingHeadersReclaim:^(NSProgress * _Nonnull downloadProgress) {
 
     //: } success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
-    } versionSpecial:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
+    } success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
 
         //: if (![urlStr containsString:@"systemSetting"] && ![urlStr containsString:@"loginip"]) {
         if (![urlStr containsString:[DiscoData sharedInstance].kFusionId] && ![urlStr containsString:[DiscoData sharedInstance].coreWhenPath]) {
@@ -868,7 +868,7 @@ typedef struct {
         //: success(responseObject);
         success(responseObject);
     //: } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-    } spring:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         //: if (isShow) {
         if (isShow) {
             //: [SVProgressHUD dismissWithDelay:0.25];
@@ -902,14 +902,14 @@ typedef struct {
     }
 
     //: AFHTTPSessionManager *manager = [HttpManager sharedManager].manager;
-    Compound *manager = [BriefBetween playCreation].manager;
+    AFHTTPSessionManager *manager = [BriefBetween playCreation].manager;
     //: NSString *lang = emptyString([NIMUserDefaults standardUserDefaults].language);
     NSString *lang = handleAssociation([StackTexture move].language);
     //: [manager.requestSerializer setValue:lang forHTTPHeaderField:@"lang"];
-    [manager.requestSerializer challenge:lang yearField:[DiscoData sharedInstance].viewHeliHelper];
+    [manager.requestSerializer setValue:lang forHTTPHeaderField:[DiscoData sharedInstance].viewHeliHelper];
 
-    //: NSURLSessionDataTask *t = [manager POST:URL parameters:parameters headers:nil constructingBodyWithBlock:^(id<AFMultipartFormData> _Nonnull formData) {
-    NSURLSessionDataTask *t = [manager foot:URL bind:parameters totaleractionFailure:nil vacuous:^(id<InviteData> _Nonnull formData) {
+    NSURLSessionDataTask *t = [manager POST:URL parameters:parameters headers:nil constructingBodyWithBlock:^(id<AFMultipartFormData> _Nonnull formData) {
+//    NSURLSessionDataTask *t = [manager foot:URL bind:parameters totaleractionFailure:nil vacuous:^(id<InviteData> _Nonnull formData) {
         //: for (NSUInteger i = 0; i < images.count; i++) {
         for (NSUInteger i = 0; i < images.count; i++) {
             //NSData *imageData = UIImageJPEGRepresentation(images[i], 0.5);// 图片经过等比压缩后得到的二进制文件
@@ -953,22 +953,22 @@ typedef struct {
             //: NSString *mimeType = [NSString stringWithFormat:@"image/%@",imageTypeSuffix];
             NSString *mimeType = [NSString stringWithFormat:[DiscoData sharedInstance].k_somewhereContent,imageTypeSuffix];
 //            NSString *mimeType = @"video/mp4";
-            //: [formData appendPartWithFileData:imageData name:@"image" fileName:fileName mimeType:mimeType];
-            [formData outOfSightType:imageData fitTitle:[DiscoData sharedInstance].appSternMessage orbit:fileName memory:mimeType];
+            [formData appendPartWithFileData:imageData name:@"image" fileName:fileName mimeType:mimeType];
+//            [formData outOfSightType:imageData fitTitle:[DiscoData sharedInstance].appSternMessage orbit:fileName memory:mimeType];
         }
     //: } progress:^(NSProgress * _Nonnull uploadProgress) {
-    } fieldFailure:^(NSProgress * _Nonnull uploadProgress) {
+    } progress:^(NSProgress * _Nonnull uploadProgress) {
         //: if (progress) {
         if (progress) {
             //: progress(uploadProgress);
             progress(uploadProgress);
         }
     //: } success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
-    } a:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
+    } success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
         //: success ? success(responseObject) : nil;
         success ? success(responseObject) : nil;
     //: } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-    } receiveWith:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         //: failed ? failed(nil ,error) : nil;
         failed ? failed(nil ,error) : nil;
     //: }];
@@ -1045,33 +1045,33 @@ typedef struct {
              //: failed: (ResponseFailed)failed{
              showEntity: (ResponseFailed)failed{
     //: AFHTTPSessionManager *manager = [HttpManager sharedManager].manager;
-    Compound *manager = [BriefBetween playCreation].manager;
+    AFHTTPSessionManager *manager = [BriefBetween playCreation].manager;
 
     //添加请求头
     //: NSString *loginToken = [NIMUserDefaults standardUserDefaults].loginToken;
     NSString *loginToken = [StackTexture move].loginToken;
     //: NSString *lang = emptyString([NIMUserDefaults standardUserDefaults].language);
     NSString *lang = handleAssociation([StackTexture move].language);
-    //: [manager.requestSerializer setValue:lang forHTTPHeaderField:@"lang"];
-    [manager.requestSerializer challenge:lang yearField:[DiscoData sharedInstance].viewHeliHelper];
+    [manager.requestSerializer setValue:lang forHTTPHeaderField:@"lang"];
+//    [manager.requestSerializer challenge:lang yearField:[DiscoData sharedInstance].viewHeliHelper];
 
 
     //: if ([NIMUserDefaults standardUserDefaults].loginToken.length > 0) {
     if ([StackTexture move].loginToken.length > 0) {
 
-        //: [manager.requestSerializer setValue:loginToken forHTTPHeaderField:@"token"];
-        [manager.requestSerializer challenge:loginToken yearField:[DiscoData sharedInstance].appStyleConfig];
+        [manager.requestSerializer setValue:loginToken forHTTPHeaderField:@"token"];
+//        [manager.requestSerializer challenge:loginToken yearField:[DiscoData sharedInstance].appStyleConfig];
     }
 
-    //: NSURLSessionDataTask *task = [manager POST:urlStr parameters:params headers:nil progress:^(NSProgress * _Nonnull uploadProgress) {
-    NSURLSessionDataTask *task = [manager naturalEventMedium:urlStr can:params date:nil willFailure:^(NSProgress * _Nonnull uploadProgress) {
+    NSURLSessionDataTask *task = [manager POST:urlStr parameters:params headers:nil progress:^(NSProgress * _Nonnull uploadProgress) {
+//    NSURLSessionDataTask *task = [manager naturalEventMedium:urlStr can:params date:nil willFailure:^(NSProgress * _Nonnull uploadProgress) {
 
     //: } success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
-    } point:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
+    } success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
         //: success(responseObject);
         success(responseObject);
     //: } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-    } suggest:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         //: failed(nil ,error);
         failed(nil ,error);
     //: }];
@@ -1105,9 +1105,9 @@ typedef struct {
     }
 
     //: AFHTTPSessionManager *manager = [HttpManager sharedManager].manager;
-    Compound *manager = [BriefBetween playCreation].manager;
-    //: NSURLSessionDataTask *t = [manager POST:URL parameters:parameters headers:nil constructingBodyWithBlock:^(id<AFMultipartFormData> _Nonnull formData) {
-    NSURLSessionDataTask *t = [manager foot:URL bind:parameters totaleractionFailure:nil vacuous:^(id<InviteData> _Nonnull formData) {
+    AFHTTPSessionManager *manager = [BriefBetween playCreation].manager;
+    NSURLSessionDataTask *t = [manager POST:URL parameters:parameters headers:nil constructingBodyWithBlock:^(id<AFMultipartFormData> _Nonnull formData) {
+//    NSURLSessionDataTask *t = [manager foot:URL bind:parameters totaleractionFailure:nil vacuous:^(id<InviteData> _Nonnull formData) {
         //: for (NSUInteger i = 0; i < images.count; i++) {
         for (NSUInteger i = 0; i < images.count; i++) {
             //NSData *imageData = UIImageJPEGRepresentation(images[i], 0.5);// 图片经过等比压缩后得到的二进制文件
@@ -1154,22 +1154,22 @@ typedef struct {
 
             //: NSString *name = [imageNames objectAtIndex:i] ? :@"image";
             NSString *name = [imageNames objectAtIndex:i] ? :[DiscoData sharedInstance].appSternMessage;
-            //: [formData appendPartWithFileData:imageData name:name fileName:fileName mimeType:mimeType];
-            [formData outOfSightType:imageData fitTitle:name orbit:fileName memory:mimeType];
+            [formData appendPartWithFileData:imageData name:name fileName:fileName mimeType:mimeType];
+//            [formData outOfSightType:imageData fitTitle:name orbit:fileName memory:mimeType];
         }
     //: } progress:^(NSProgress * _Nonnull uploadProgress) {
-    } fieldFailure:^(NSProgress * _Nonnull uploadProgress) {
+    } progress:^(NSProgress * _Nonnull uploadProgress) {
         //: if (progress) {
         if (progress) {
             //: progress(uploadProgress);
             progress(uploadProgress);
         }
     //: } success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
-    } a:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
+    } success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
         //: success ? success(responseObject) : nil;
         success ? success(responseObject) : nil;
     //: } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-    } receiveWith:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         //: failed ? failed(nil ,error) : nil;
         failed ? failed(nil ,error) : nil;
     //: }];
@@ -1201,9 +1201,9 @@ typedef struct {
                      communication:(ResponseFailed)failed{
 
     //: AFHTTPSessionManager *manager = [HttpManager sharedManager].manager;
-    Compound *manager = [BriefBetween playCreation].manager;
-    //: NSURLSessionDataTask *t = [manager POST:URL parameters:parameters headers:nil constructingBodyWithBlock:^(id<AFMultipartFormData> _Nonnull formData) {
-    NSURLSessionDataTask *t = [manager foot:URL bind:parameters totaleractionFailure:nil vacuous:^(id<InviteData> _Nonnull formData) {
+    AFHTTPSessionManager *manager = [BriefBetween playCreation].manager;
+    NSURLSessionDataTask *t = [manager POST:URL parameters:parameters headers:nil constructingBodyWithBlock:^(id<AFMultipartFormData> _Nonnull formData) {
+//    NSURLSessionDataTask *t = [manager foot:URL bind:parameters totaleractionFailure:nil vacuous:^(id<InviteData> _Nonnull formData) {
 
         //: for (NSUInteger i = 0; i < images.count; i++) {
         for (NSUInteger i = 0; i < images.count; i++) {
@@ -1222,22 +1222,22 @@ typedef struct {
             NSString *fileName = fileNames ? [NSString stringWithFormat:@"%@.%@",fileNames[i],imageType?:[DiscoData sharedInstance].moduleCloudKey] : imageFileName;
             //: NSString *mimeType = [NSString stringWithFormat:@"image/%@",imageType ?: @"jpg"];
             NSString *mimeType = [NSString stringWithFormat:[DiscoData sharedInstance].k_somewhereContent,imageType ?: [DiscoData sharedInstance].moduleCloudKey];
-            //: [formData appendPartWithFileData:imageData name:name fileName:fileName mimeType:mimeType];
-            [formData outOfSightType:imageData fitTitle:name orbit:fileName memory:mimeType];
+            [formData appendPartWithFileData:imageData name:name fileName:fileName mimeType:mimeType];
+//            [formData outOfSightType:imageData fitTitle:name orbit:fileName memory:mimeType];
         }
     //: } progress:^(NSProgress * _Nonnull uploadProgress) {
-    } fieldFailure:^(NSProgress * _Nonnull uploadProgress) {
+    } progress:^(NSProgress * _Nonnull uploadProgress) {
         //: if (progress) {
         if (progress) {
             //: progress(uploadProgress);
             progress(uploadProgress);
         }
     //: } success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
-    } a:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
+    } success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
         //: success ? success(responseObject) : nil;
         success ? success(responseObject) : nil;
     //: } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-    } receiveWith:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         //: failed ? failed(nil ,error) : nil;
         failed ? failed(nil ,error) : nil;
     //: }];
@@ -1251,9 +1251,9 @@ typedef struct {
  *不验证https 不验证时
  */
 //: + (AFSecurityPolicy *)defaultSecurityPolicy{
-+ (TerrainBorderGray *)creation{
-    //: AFSecurityPolicy *securityPolicy = [AFSecurityPolicy policyWithPinningMode:AFSSLPinningModeNone];
-    TerrainBorderGray *securityPolicy = [TerrainBorderGray farMode:AFSSLPinningModeNone];
++ (AFSecurityPolicy *)creation{
+    AFSecurityPolicy *securityPolicy = [AFSecurityPolicy policyWithPinningMode:AFSSLPinningModeNone];
+//    TerrainAFSecurityPolicyBorderGray *securityPolicy = [AFSecurityPolicy policyWithPinningMode:AFSSLPinningModeNone];
     //: securityPolicy.allowInvalidCertificates = YES;
     securityPolicy.allowInvalidCertificates = YES;
     //: securityPolicy.validatesDomainName = NO;
@@ -1278,32 +1278,32 @@ typedef struct {
              reverse: (ResponseFailed)failed
 {
     //: AFHTTPSessionManager *manager = [HttpManager sharedManager].manager;
-    Compound *manager = [BriefBetween playCreation].manager;
+    AFHTTPSessionManager *manager = [BriefBetween playCreation].manager;
 
     //添加请求头
     //: NSString *appKey = [[ZZZConfig sharedConfig] appKey];
     NSString *appKey = [[UnctionPayer transport] appKey];
     //: [manager.requestSerializer setValue:appKey forHTTPHeaderField:@"AppKey"];
-    [manager.requestSerializer challenge:appKey yearField:[DiscoData sharedInstance].styleVisorHelper];
+    [manager.requestSerializer setValue:appKey forHTTPHeaderField:[DiscoData sharedInstance].styleVisorHelper];
 //    NSString *nonce = [NSString stringWithFormat:@"%d",arc4random() % 100 ];
     //: [manager.requestSerializer setValue:nonce forHTTPHeaderField:@"Nonce"];
-    [manager.requestSerializer challenge:nonce yearField:[DiscoData sharedInstance].componentSleeveHelper];
+    [manager.requestSerializer setValue:nonce forHTTPHeaderField:[DiscoData sharedInstance].componentSleeveHelper];
 //    NSString *time = [self getNowTimeTimestamp];
     //: [manager.requestSerializer setValue:CurTime forHTTPHeaderField:@"CurTime"];
-    [manager.requestSerializer challenge:CurTime yearField:[DiscoData sharedInstance].viewAttitudeData];
+    [manager.requestSerializer setValue:CurTime forHTTPHeaderField:[DiscoData sharedInstance].viewAttitudeData];
 //    NSString *CheckSums = [self sha1:[NSString stringWithFormat:@"%@%@%@",appKey,nonce,time]];
     //: [manager.requestSerializer setValue:checksum forHTTPHeaderField:@"CheckSum"];
-    [manager.requestSerializer challenge:checksum yearField:[DiscoData sharedInstance].layoutHeartId];
+    [manager.requestSerializer setValue:checksum forHTTPHeaderField:[DiscoData sharedInstance].layoutHeartId];
 
-    //: NSURLSessionDataTask *task = [manager POST:urlStr parameters:params headers:nil progress:^(NSProgress * _Nonnull uploadProgress) {
-    NSURLSessionDataTask *task = [manager naturalEventMedium:urlStr can:params date:nil willFailure:^(NSProgress * _Nonnull uploadProgress) {
+    NSURLSessionDataTask *task = [manager POST:urlStr parameters:params headers:nil progress:^(NSProgress * _Nonnull uploadProgress) {
+//    NSURLSessionDataTask *task = [manager naturalEventMedium:urlStr can:params date:nil willFailure:^(NSProgress * _Nonnull uploadProgress) {
 
     //: } success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
-    } point:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
+    } success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
         //: success(responseObject);
         success(responseObject);
     //: } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-    } suggest:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         //: failed(nil ,error);
         failed(nil ,error);
     //: }];
@@ -1334,9 +1334,9 @@ typedef struct {
     }
 
     //: AFHTTPSessionManager *manager = [HttpManager sharedManager].manager;
-    Compound *manager = [BriefBetween playCreation].manager;
-    //: NSURLSessionDataTask *t = [manager POST:URL parameters:parameters headers:nil constructingBodyWithBlock:^(id<AFMultipartFormData> _Nonnull formData) {
-    NSURLSessionDataTask *t = [manager foot:URL bind:parameters totaleractionFailure:nil vacuous:^(id<InviteData> _Nonnull formData) {
+    AFHTTPSessionManager *manager = [BriefBetween playCreation].manager;
+    NSURLSessionDataTask *t = [manager POST:URL parameters:parameters headers:nil constructingBodyWithBlock:^(id<AFMultipartFormData> _Nonnull formData) {
+//    NSURLSessionDataTask *t = [manager foot:URL bind:parameters totaleractionFailure:nil vacuous:^(id<InviteData> _Nonnull formData) {
 
         //: NSString *timeSp = [NSString stringWithFormat:@"%ld", (long)[[NSDate date] timeIntervalSince1970]];
         NSString *timeSp = [NSString stringWithFormat:@"%ld", (long)[[NSDate date] timeIntervalSince1970]];
@@ -1344,23 +1344,23 @@ typedef struct {
         NSString *fileName = [NSString stringWithFormat:[DiscoData sharedInstance].kSomeoneValue,timeSp];
         //: NSString *mimeType = @"video/mp4";
         NSString *mimeType = [DiscoData sharedInstance].layoutDeliberateDevice;
-        //: [formData appendPartWithFileData:videoData name:@"video" fileName:fileName mimeType:mimeType];
-        [formData outOfSightType:videoData fitTitle:[DiscoData sharedInstance].layoutDelicateText orbit:fileName memory:mimeType];
-        //: [formData appendPartWithFileData:coverData name:@"picture" fileName:[NSString stringWithFormat:@"%@.jpg",timeSp] mimeType:@"image/jpg"];
-        [formData outOfSightType:coverData fitTitle:[DiscoData sharedInstance].layoutCoalPreference orbit:[NSString stringWithFormat:[DiscoData sharedInstance].kNailMonkError,timeSp] memory:[DiscoData sharedInstance].spacingEmotionFlueAlert];
+        [formData appendPartWithFileData:videoData name:@"video" fileName:fileName mimeType:mimeType];
+//        [formData outOfSightType:videoData fitTitle:[DiscoData sharedInstance].layoutDelicateText orbit:fileName memory:mimeType];
+        [formData appendPartWithFileData:coverData name:@"picture" fileName:[NSString stringWithFormat:@"%@.jpg",timeSp] mimeType:@"image/jpg"];
+//        [formData outOfSightType:coverData fitTitle:[DiscoData sharedInstance].layoutCoalPreference orbit:[NSString stringWithFormat:[DiscoData sharedInstance].kNailMonkError,timeSp] memory:[DiscoData sharedInstance].spacingEmotionFlueAlert];
     //: } progress:^(NSProgress * _Nonnull uploadProgress) {
-    } fieldFailure:^(NSProgress * _Nonnull uploadProgress) {
+    } progress:^(NSProgress * _Nonnull uploadProgress) {
         //: if (progress) {
         if (progress) {
             //: progress(uploadProgress);
             progress(uploadProgress);
         }
     //: } success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
-    } a:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
+    } success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
         //: success ? success(responseObject) : nil;
         success ? success(responseObject) : nil;
     //: } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-    } receiveWith:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         //: failed ? failed(nil ,error) : nil;
         failed ? failed(nil ,error) : nil;
     //: }];

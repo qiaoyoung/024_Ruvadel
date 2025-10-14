@@ -515,7 +515,7 @@ static const char *spacingLoadHelper (NSString *value) {
 - (NSString *)lasting:(NSString *)key {
     //: key = [key stringByReplacingCharactersInRange:NSMakeRange(0,1) withString:[[key substringToIndex:1] uppercaseString]];
     key = [key stringByReplacingCharactersInRange:NSMakeRange(0,1) withString:[[key substringToIndex:1] uppercaseString]];
-	[self setBuild:self.nimToken];
+//	[self setBuild:self.nimToken];
     //: return [NSString stringWithFormat:@"NSUserDefault%@", key];
     return [NSString stringWithFormat:[AllOverData sharedInstance].themeStingPath, key];
 }

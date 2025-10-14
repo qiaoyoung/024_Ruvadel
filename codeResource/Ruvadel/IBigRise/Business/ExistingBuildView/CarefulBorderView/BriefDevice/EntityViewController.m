@@ -1049,11 +1049,11 @@
  */
 //: - (void)addReachabilityManager {
 - (void)trigger {
-    //: AFNetworkReachabilityManager *afNetworkReachabilityManager = [AFNetworkReachabilityManager sharedManager];
-    ParaAgile *afNetworkReachabilityManager = [ParaAgile playCreation];
+    AFNetworkReachabilityManager *afNetworkReachabilityManager = [AFNetworkReachabilityManager sharedManager];
+//    ParaAgile *afNetworkReachabilityManager = [ParaAgile playCreation];
 
     //: [afNetworkReachabilityManager setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
-    [afNetworkReachabilityManager setMake:^(AFNetworkReachabilityStatus status) {
+    [afNetworkReachabilityManager setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
 
         //: if ([ZZZConfig sharedConfig].domainURL.length <= 0) {
         if ([UnctionPayer transport].domainURL.length <= 0) {
@@ -1106,8 +1106,8 @@
     //: }];
     }];
 
-    //: [afNetworkReachabilityManager startMonitoring]; 
-    [afNetworkReachabilityManager policyMonitoring]; //开启网络监视器；
+    [afNetworkReachabilityManager startMonitoring];
+//    [afNetworkReachabilityManager policyMonitoring]; //开启网络监视器；
 
 }
 

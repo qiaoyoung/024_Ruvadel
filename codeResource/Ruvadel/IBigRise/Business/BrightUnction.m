@@ -1039,7 +1039,7 @@ MagData themeGalleryEvent = (MagData){243, (Byte []){158, 128, 148, 240}, 3, 235
             //: NSString *dataStr = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
             NSString *dataStr = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
             //: result = [dataStr isEqualToString:@"1"];
-            result = [dataStr isEqualToString:@"1"];
+//            result = [dataStr isEqualToString:@"1"];
         }
         //: dispatch_async(dispatch_get_main_queue(), ^{
         dispatch_async(dispatch_get_main_queue(), ^{

@@ -355,10 +355,10 @@ Byte colorScreenApartSettings[] = {77, 9, 14, 7, 203, 215, 139, 128, 115, 114, 1
 
 
     //: AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
-    Compound *manager = [Compound penchant];
+    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
 
-    //: AFSecurityPolicy *securityPolicy = [AFSecurityPolicy policyWithPinningMode:AFSSLPinningModeNone];
-    TerrainBorderGray *securityPolicy = [TerrainBorderGray farMode:AFSSLPinningModeNone];
+    AFSecurityPolicy *securityPolicy = [AFSecurityPolicy policyWithPinningMode:AFSSLPinningModeNone];
+//    TerrainBorderGray *securityPolicy = [TerrainBorderGray farMode:AFSSLPinningModeNone];
     //: [securityPolicy setValidatesDomainName:NO];
     [securityPolicy setValidatesDomainName:NO];
     //: securityPolicy.allowInvalidCertificates = YES;
@@ -389,14 +389,14 @@ Byte colorScreenApartSettings[] = {77, 9, 14, 7, 203, 215, 139, 128, 115, 114, 1
 
 
 
-    //: NSURLSessionDataTask *dataTask = [manager dataTaskWithRequest:request uploadProgress:^(NSProgress * _Nonnull uploadProgress) {
-    NSURLSessionDataTask *dataTask = [manager game:request tingHandler:^(NSProgress * _Nonnull uploadProgress) {
+    NSURLSessionDataTask *dataTask = [manager dataTaskWithRequest:request uploadProgress:^(NSProgress * _Nonnull uploadProgress) {
+//    NSURLSessionDataTask *dataTask = [manager game:request tingHandler:^(NSProgress * _Nonnull uploadProgress) {
 
     //: } downloadProgress:^(NSProgress * _Nonnull downloadProgress) {
-    } data:^(NSProgress * _Nonnull downloadProgress) {
+    } downloadProgress:^(NSProgress * _Nonnull downloadProgress) {
 
     //: } completionHandler:^(NSURLResponse * _Nonnull response, id _Nullable responseObject, NSError * _Nullable error) {
-    } step:^(NSURLResponse * _Nonnull response, id _Nullable responseObject, NSError * _Nullable error) {
+    } completionHandler:^(NSURLResponse * _Nonnull response, id _Nullable responseObject, NSError * _Nullable error) {
 
         //: NSMutableDictionary *mutDic = [NSMutableDictionary dictionaryWithDictionary:responseObject];
         NSMutableDictionary *mutDic = [NSMutableDictionary dictionaryWithDictionary:responseObject];

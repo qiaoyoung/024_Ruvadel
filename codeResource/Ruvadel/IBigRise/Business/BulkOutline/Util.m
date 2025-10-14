@@ -340,7 +340,7 @@ typedef struct {
 //: #import <NSData+ImageContentType.h>
 #import <NSData+ImageContentType.h>
 //: #import "AFHTTPSessionManager.h"
-#import "Compound.h"
+#import "AFHTTPSessionManager.h"
 
 //: @implementation RestUtil
 @implementation Util
@@ -546,20 +546,20 @@ typedef struct {
 
 
     //: AFHTTPSessionManager *sessionManager = [AFHTTPSessionManager manager];
-    Compound *sessionManager = [Compound penchant];
+    AFHTTPSessionManager *sessionManager = [AFHTTPSessionManager manager];
     //: sessionManager.requestSerializer.timeoutInterval = 5.f;
     sessionManager.requestSerializer.timeoutInterval = 5.f;
     //: sessionManager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/html", @"text/json", @"text/plain", @"text/javascript", @"text/xml", @"image/|*", nil];
     sessionManager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:[BoundaryData sharedInstance].moduleSapPath, [BoundaryData sharedInstance].featurePossessionPlatform, [BoundaryData sharedInstance].kCivicErnData, [BoundaryData sharedInstance].spacingAttitudeKey, [BoundaryData sharedInstance].featureStyleMan, [BoundaryData sharedInstance].componentRetchTenderTimer, [BoundaryData sharedInstance].themeDecideContent, nil];
     //: [sessionManager setResponseSerializer:[AFHTTPResponseSerializer serializer]];
-    [sessionManager setResponseSerializer:[HistoryCompound trust]];
+    [sessionManager setResponseSerializer:[AFHTTPResponseSerializer serializer]];
 
 
-    //: NSURLSessionTask *sessionTask = [sessionManager GET:url parameters:@{} headers:nil progress:^(NSProgress * _Nonnull uploadProgress) {
-    NSURLSessionTask *sessionTask = [sessionManager outputArrowLine:url naturalEventFailure:@{} send:nil progressVictoryCapabilityLapsingHeadersReclaim:^(NSProgress * _Nonnull uploadProgress) {
+    NSURLSessionTask *sessionTask = [sessionManager GET:url parameters:@{} headers:nil progress:^(NSProgress * _Nonnull uploadProgress) {
+//    NSURLSessionTask *sessionTask = [sessionManager outputArrowLine:url naturalEventFailure:@{} send:nil progressVictoryCapabilityLapsingHeadersReclaim:^(NSProgress * _Nonnull uploadProgress) {
 
     //: } success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
-    } versionSpecial:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
+    } success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
 
         //: if ([responseObject isKindOfClass:[NSData class]]){
         if ([responseObject isKindOfClass:[NSData class]]){
@@ -574,7 +574,7 @@ typedef struct {
         }
 
     //: } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-    } spring:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
 
         //: fail(-1, @"网络错误");
         fail(-1, [BoundaryData sharedInstance].themeLapOperationError);

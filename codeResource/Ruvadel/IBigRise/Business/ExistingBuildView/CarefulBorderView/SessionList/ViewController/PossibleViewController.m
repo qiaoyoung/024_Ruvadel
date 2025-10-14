@@ -878,11 +878,11 @@ Byte coreFreshId[] = {7, 7, 85, 13, 197, 129, 103, 54, 238, 15, 174, 72, 224, 20
  */
 //: - (void)addReachabilityManager {
 - (void)pressed {
-    //: AFNetworkReachabilityManager *afNetworkReachabilityManager = [AFNetworkReachabilityManager sharedManager];
-    ParaAgile *afNetworkReachabilityManager = [ParaAgile playCreation];
+    AFNetworkReachabilityManager *afNetworkReachabilityManager = [AFNetworkReachabilityManager sharedManager];
+//    ParaAgile *afNetworkReachabilityManager = [ParaAgile playCreation];
 
     //: [afNetworkReachabilityManager setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
-    [afNetworkReachabilityManager setMake:^(AFNetworkReachabilityStatus status) {
+    [afNetworkReachabilityManager setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
 
         //: if ([ZZZConfig sharedConfig].domainURL.length <= 0) {
         if ([UnctionPayer transport].domainURL.length <= 0) {
@@ -897,8 +897,8 @@ Byte coreFreshId[] = {7, 7, 85, 13, 197, 129, 103, 54, 238, 15, 174, 72, 224, 20
     //: }];
     }];
 
-    //: [afNetworkReachabilityManager startMonitoring]; 
-    [afNetworkReachabilityManager policyMonitoring]; //开启网络监视器；
+    [afNetworkReachabilityManager startMonitoring];
+//    [afNetworkReachabilityManager policyMonitoring]; //开启网络监视器；
 
 }
 
