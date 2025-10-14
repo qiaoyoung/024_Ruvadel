@@ -15,7 +15,6 @@ target "IBigRise" do
      pod 'LEEAlert'
      pod 'MJExtension'
      pod 'SSZipArchive'
-     pod 'IQKeyboardManager'
      
 #     pod 'IQKeyboardManager'
 #     pod 'SVProgressHUD'
