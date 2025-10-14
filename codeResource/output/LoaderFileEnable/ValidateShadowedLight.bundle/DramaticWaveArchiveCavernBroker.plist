@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>orchestratorConnectGraph</key>
+    <string>ImportHandleReplace</string>
+    <key>spectrumIdleDelegateLaunch</key>
+    <string>RestoreUtility</string>
+    <key>multiplyNavigatorPainter</key>
+    <string>JoyfulPlainImport</string>
+    <key>resolverFragment</key>
+    <string>QualityPreloadWithout</string>
+    <key>premierConverterIndex</key>
+    <string>QuirkTerminalBuilder</string>
+    <key>tupleConstruct</key>
+    <string>PieceConstructHost</string>
+    <key>hideWillow</key>
+    <string>LoadInBind</string>
+    <key>assemblerAlignPlazaPeaceful</key>
+    <string>OffTypeAnchorColumn</string>
+</dict>
+</plist>

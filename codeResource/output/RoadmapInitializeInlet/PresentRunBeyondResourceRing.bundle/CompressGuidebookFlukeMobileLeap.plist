@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>parametricCalibrateFactory</key>
+    <string>ViewportTimeline</string>
+    <key>delegateThreaded</key>
+    <string>LibraryBalancerSchedulerConsolidate</string>
+    <key>createCoderWittyController</key>
+    <string>JourneyKineticCoordinate</string>
+    <key>timelineSuperMoveLink</key>
+    <string>HeathKindBefore</string>
+    <key>orderCoordinateOrchestratorUrbane</key>
+    <string>WellTransformerCupertino</string>
+    <key>coralLivelyParserPaginate</key>
+    <string>SignatureGlacierHold</string>
+</dict>
+</plist>

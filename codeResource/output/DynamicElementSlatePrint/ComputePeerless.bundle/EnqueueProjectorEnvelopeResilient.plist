@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>createSaverUpbeat</key>
+    <string>PauseBeaconConverter</string>
+    <key>forwardParse</key>
+    <string>ConsumeDropForestScheduler</string>
+    <key>textureLuckyGradientDrop</key>
+    <string>ConsumeFactoryDecoratorInfinity</string>
+    <key>starOnChiefWorkflowAnimator</key>
+    <string>HeathRunAlongside</string>
+    <key>beneathCrestUnusualHeader</key>
+    <string>ControllerEnqueueStay</string>
+    <key>markPresenterFlagship</key>
+    <string>BalancerFormatterCompressControllerScene</string>
+    <key>primalOffIslet</key>
+    <string>UtilityRateAtlasMapReference</string>
+    <key>surfaceEtherealConfigure</key>
+    <string>SearchLayoutPetite</string>
+</dict>
+</plist>
