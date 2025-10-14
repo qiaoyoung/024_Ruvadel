@@ -88,8 +88,8 @@ typedef struct {
 #import "MultiplyTrustyTemplateTask.h"
 //: #import "NTESDevice.h"
 #import "KnownHear.h"
-//: #import "ZZZExtensionHelper.h"
-#import "ZZZExtensionHelper.h"
+//: #import "QualityCoordinateMarker.h"
+#import "QualityCoordinateMarker.h"
 
 //: @interface NTESSubscribeManager()<NIMEventSubscribeManagerDelegate,NIMConversationManagerDelegate,NIMLoginManagerDelegate,NIMUserManagerDelegate>
 @interface Possible()<NIMEventSubscribeManagerDelegate,NIMConversationManagerDelegate,NIMLoginManagerDelegate,NIMUserManagerDelegate>

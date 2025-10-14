@@ -22,8 +22,8 @@
 		B146579B2DC0B4E300C4D5B8 /* UIView+CrossToast.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653762DC0B4E300C4D5B8 /* UIView+CrossToast.m */; };
 		B146579C2DC0B4E300C4D5B8 /* UIViewNimKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653782DC0B4E300C4D5B8 /* UIViewNimKit.m */; };
 		B146579D2DC0B4E300C4D5B8 /* YYAnimatedImageView+PrimrosePath.m in Sources */ = {isa = PBXBuildFile; fileRef = B146537A2DC0B4E300C4D5B8 /* YYAnimatedImageView+PrimrosePath.m */; };
-		B146579E2DC0B4E300C4D5B8 /* ZZZExtensionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B146537C2DC0B4E300C4D5B8 /* ZZZExtensionHelper.m */; };
-		B146579F2DC0B4E300C4D5B8 /* ZZZCommonTableData.m in Sources */ = {isa = PBXBuildFile; fileRef = B146537F2DC0B4E300C4D5B8 /* ZZZCommonTableData.m */; };
+		B146579E2DC0B4E300C4D5B8 /* QualityCoordinateMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = B146537C2DC0B4E300C4D5B8 /* QualityCoordinateMarker.m */; };
+		B146579F2DC0B4E300C4D5B8 /* LoyalHelperListExtract.m in Sources */ = {isa = PBXBuildFile; fileRef = B146537F2DC0B4E300C4D5B8 /* LoyalHelperListExtract.m */; };
 		B14657A02DC0B4E300C4D5B8 /* HapCompound.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653812DC0B4E300C4D5B8 /* HapCompound.m */; };
 		B14657A12DC0B4E300C4D5B8 /* KitPayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653852DC0B4E300C4D5B8 /* KitPayerView.m */; };
 		B14657A22DC0B4E300C4D5B8 /* StickSumeract.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653872DC0B4E300C4D5B8 /* StickSumeract.m */; };
@@ -43,7 +43,7 @@
 		B14657B02DC0B4E300C4D5B8 /* ExpertUnctionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653AE2DC0B4E300C4D5B8 /* ExpertUnctionView.m */; };
 		B14657B22DC0B4E300C4D5B8 /* TheyView.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653B22DC0B4E300C4D5B8 /* TheyView.m */; };
 		B14657B32DC0B4E300C4D5B8 /* SenMpView.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653B52DC0B4E300C4D5B8 /* SenMpView.m */; };
-		B14657B42DC0B4E300C4D5B8 /* ZZZGroupedUsrInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653B92DC0B4E300C4D5B8 /* ZZZGroupedUsrInfo.m */; };
+		B14657B42DC0B4E300C4D5B8 /* GraphSmartFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653B92DC0B4E300C4D5B8 /* GraphSmartFormatter.m */; };
 		B14657B52DC0B4E300C4D5B8 /* OrganizeHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653BB2DC0B4E300C4D5B8 /* OrganizeHistory.m */; };
 		B14657B62DC0B4E300C4D5B8 /* TemporaryView.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653BE2DC0B4E300C4D5B8 /* TemporaryView.m */; };
 		B14657B72DC0B4E300C4D5B8 /* FloorContactQueryAgile.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653C02DC0B4E300C4D5B8 /* FloorContactQueryAgile.m */; };
@@ -71,7 +71,7 @@
 		B14657CE2DC0B4E300C4D5B8 /* GraftModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653F32DC0B4E300C4D5B8 /* GraftModel.m */; };
 		B14657CF2DC0B4E300C4D5B8 /* ImplementRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653F52DC0B4E300C4D5B8 /* ImplementRefresh.m */; };
 		B14657D02DC0B4E300C4D5B8 /* ChooseGin.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653F82DC0B4E300C4D5B8 /* ChooseGin.m */; };
-		B14657D12DC0B4E300C4D5B8 /* ZZZBaseSessionContentConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653FA2DC0B4E300C4D5B8 /* ZZZBaseSessionContentConfig.m */; };
+		B14657D12DC0B4E300C4D5B8 /* SternPaginateKeypath.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653FA2DC0B4E300C4D5B8 /* SternPaginateKeypath.m */; };
 		B14657D22DC0B4E300C4D5B8 /* HoFinishCross.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653FC2DC0B4E300C4D5B8 /* HoFinishCross.m */; };
 		B14657D32DC0B4E300C4D5B8 /* VisualisationYard.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653FE2DC0B4E300C4D5B8 /* VisualisationYard.m */; };
 		B14657D42DC0B4E300C4D5B8 /* MobileEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = B14654002DC0B4E300C4D5B8 /* MobileEntity.m */; };
@@ -490,10 +490,10 @@
 		B14653782DC0B4E300C4D5B8 /* UIViewNimKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewNimKit.m; sourceTree = "<group>"; };
 		B14653792DC0B4E300C4D5B8 /* YYAnimatedImageView+PrimrosePath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YYAnimatedImageView+PrimrosePath.h"; sourceTree = "<group>"; };
 		B146537A2DC0B4E300C4D5B8 /* YYAnimatedImageView+PrimrosePath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YYAnimatedImageView+PrimrosePath.m"; sourceTree = "<group>"; };
-		B146537B2DC0B4E300C4D5B8 /* ZZZExtensionHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZZExtensionHelper.h; sourceTree = "<group>"; };
-		B146537C2DC0B4E300C4D5B8 /* ZZZExtensionHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZZExtensionHelper.m; sourceTree = "<group>"; };
-		B146537E2DC0B4E300C4D5B8 /* ZZZCommonTableData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZZCommonTableData.h; sourceTree = "<group>"; };
-		B146537F2DC0B4E300C4D5B8 /* ZZZCommonTableData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZZCommonTableData.m; sourceTree = "<group>"; };
+		B146537B2DC0B4E300C4D5B8 /* QualityCoordinateMarker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QualityCoordinateMarker.h; sourceTree = "<group>"; };
+		B146537C2DC0B4E300C4D5B8 /* QualityCoordinateMarker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QualityCoordinateMarker.m; sourceTree = "<group>"; };
+		B146537E2DC0B4E300C4D5B8 /* LoyalHelperListExtract.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoyalHelperListExtract.h; sourceTree = "<group>"; };
+		B146537F2DC0B4E300C4D5B8 /* LoyalHelperListExtract.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoyalHelperListExtract.m; sourceTree = "<group>"; };
 		B14653802DC0B4E300C4D5B8 /* HapCompound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HapCompound.h; sourceTree = "<group>"; };
 		B14653812DC0B4E300C4D5B8 /* HapCompound.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HapCompound.m; sourceTree = "<group>"; };
 		B14653822DC0B4E300C4D5B8 /* TableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableCell.h; sourceTree = "<group>"; };
@@ -541,9 +541,9 @@
 		B14653B22DC0B4E300C4D5B8 /* TheyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheyView.m; sourceTree = "<group>"; };
 		B14653B42DC0B4E300C4D5B8 /* SenMpView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SenMpView.h; sourceTree = "<group>"; };
 		B14653B52DC0B4E300C4D5B8 /* SenMpView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SenMpView.m; sourceTree = "<group>"; };
-		B14653B62DC0B4E300C4D5B8 /* ZZZContactDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZZContactDefines.h; sourceTree = "<group>"; };
-		B14653B82DC0B4E300C4D5B8 /* ZZZGroupedUsrInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZZGroupedUsrInfo.h; sourceTree = "<group>"; };
-		B14653B92DC0B4E300C4D5B8 /* ZZZGroupedUsrInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZZGroupedUsrInfo.m; sourceTree = "<group>"; };
+		B14653B62DC0B4E300C4D5B8 /* ImmenseCoordinatorLegacyAlong.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImmenseCoordinatorLegacyAlong.h; sourceTree = "<group>"; };
+		B14653B82DC0B4E300C4D5B8 /* GraphSmartFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphSmartFormatter.h; sourceTree = "<group>"; };
+		B14653B92DC0B4E300C4D5B8 /* GraphSmartFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphSmartFormatter.m; sourceTree = "<group>"; };
 		B14653BA2DC0B4E300C4D5B8 /* OrganizeHistory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrganizeHistory.h; sourceTree = "<group>"; };
 		B14653BB2DC0B4E300C4D5B8 /* OrganizeHistory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrganizeHistory.m; sourceTree = "<group>"; };
 		B14653BD2DC0B4E300C4D5B8 /* TemporaryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemporaryView.h; sourceTree = "<group>"; };
@@ -571,7 +571,6 @@
 		B14653D72DC0B4E300C4D5B8 /* TalkControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TalkControl.m; sourceTree = "<group>"; };
 		B14653D82DC0B4E300C4D5B8 /* FuturismView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FuturismView.h; sourceTree = "<group>"; };
 		B14653D92DC0B4E300C4D5B8 /* FuturismView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FuturismView.m; sourceTree = "<group>"; };
-		B14653DA2DC0B4E300C4D5B8 /* ZZZInputEmoticonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZZInputEmoticonDefine.h; sourceTree = "<group>"; };
 		B14653DB2DC0B4E300C4D5B8 /* Dominant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dominant.h; sourceTree = "<group>"; };
 		B14653DC2DC0B4E300C4D5B8 /* Dominant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dominant.m; sourceTree = "<group>"; };
 		B14653DD2DC0B4E300C4D5B8 /* StickParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StickParser.h; sourceTree = "<group>"; };
@@ -600,8 +599,8 @@
 		B14653F52DC0B4E300C4D5B8 /* ImplementRefresh.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImplementRefresh.m; sourceTree = "<group>"; };
 		B14653F72DC0B4E300C4D5B8 /* ChooseGin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChooseGin.h; sourceTree = "<group>"; };
 		B14653F82DC0B4E300C4D5B8 /* ChooseGin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChooseGin.m; sourceTree = "<group>"; };
-		B14653F92DC0B4E300C4D5B8 /* ZZZBaseSessionContentConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZZBaseSessionContentConfig.h; sourceTree = "<group>"; };
-		B14653FA2DC0B4E300C4D5B8 /* ZZZBaseSessionContentConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZZBaseSessionContentConfig.m; sourceTree = "<group>"; };
+		B14653F92DC0B4E300C4D5B8 /* SternPaginateKeypath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SternPaginateKeypath.h; sourceTree = "<group>"; };
+		B14653FA2DC0B4E300C4D5B8 /* SternPaginateKeypath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SternPaginateKeypath.m; sourceTree = "<group>"; };
 		B14653FB2DC0B4E300C4D5B8 /* HoFinishCross.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HoFinishCross.h; sourceTree = "<group>"; };
 		B14653FC2DC0B4E300C4D5B8 /* HoFinishCross.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoFinishCross.m; sourceTree = "<group>"; };
 		B14653FD2DC0B4E300C4D5B8 /* VisualisationYard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisualisationYard.h; sourceTree = "<group>"; };
@@ -1366,44 +1365,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B146537D2DC0B4E300C4D5B8 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				B14653632DC0B4E300C4D5B8 /* AVAsset+Reek.h */,
-				B14653642DC0B4E300C4D5B8 /* AVAsset+Reek.m */,
-				B14653652DC0B4E300C4D5B8 /* StrippedDownTextView+Reek.h */,
-				B14653662DC0B4E300C4D5B8 /* StrippedDownTextView+Reek.m */,
-				B14653672DC0B4E300C4D5B8 /* NSBundle+Reek.h */,
-				B14653682DC0B4E300C4D5B8 /* NSBundle+Reek.m */,
-				B14653692DC0B4E300C4D5B8 /* NSDictionary+Reek.h */,
-				B146536A2DC0B4E300C4D5B8 /* NSDictionary+Reek.m */,
-				B146536B2DC0B4E300C4D5B8 /* NSString+Reek.h */,
-				B146536C2DC0B4E300C4D5B8 /* NSString+Reek.m */,
-				B146536D2DC0B4E300C4D5B8 /* UIButton+Reek.h */,
-				B146536E2DC0B4E300C4D5B8 /* UIButton+Reek.m */,
-				B146536F2DC0B4E300C4D5B8 /* UIColor+Reek.h */,
-				B14653702DC0B4E300C4D5B8 /* UIColor+Reek.m */,
-				B14653712DC0B4E300C4D5B8 /* UIImage+Reek.h */,
-				B14653722DC0B4E300C4D5B8 /* UIImage+Reek.m */,
-				B14653732DC0B4E300C4D5B8 /* UITableView+NIMScrollToBottom.h */,
-				B14653742DC0B4E300C4D5B8 /* UITableView+NIMScrollToBottom.m */,
-				B14653752DC0B4E300C4D5B8 /* UIView+CrossToast.h */,
-				B14653762DC0B4E300C4D5B8 /* UIView+CrossToast.m */,
-				B14653772DC0B4E300C4D5B8 /* UIViewNimKit.h */,
-				B14653782DC0B4E300C4D5B8 /* UIViewNimKit.m */,
-				B14653792DC0B4E300C4D5B8 /* YYAnimatedImageView+PrimrosePath.h */,
-				B146537A2DC0B4E300C4D5B8 /* YYAnimatedImageView+PrimrosePath.m */,
-				B146537B2DC0B4E300C4D5B8 /* ZZZExtensionHelper.h */,
-				B146537C2DC0B4E300C4D5B8 /* ZZZExtensionHelper.m */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
 		B14653952DC0B4E300C4D5B8 /* Global */ = {
 			isa = PBXGroup;
 			children = (
-				B146537E2DC0B4E300C4D5B8 /* ZZZCommonTableData.h */,
-				B146537F2DC0B4E300C4D5B8 /* ZZZCommonTableData.m */,
+				B146537E2DC0B4E300C4D5B8 /* LoyalHelperListExtract.h */,
+				B146537F2DC0B4E300C4D5B8 /* LoyalHelperListExtract.m */,
 				B14653802DC0B4E300C4D5B8 /* HapCompound.h */,
 				B14653812DC0B4E300C4D5B8 /* HapCompound.m */,
 				B14653822DC0B4E300C4D5B8 /* TableCell.h */,
@@ -1472,7 +1438,7 @@
 			children = (
 				B14653B42DC0B4E300C4D5B8 /* SenMpView.h */,
 				B14653B52DC0B4E300C4D5B8 /* SenMpView.m */,
-				B14653B62DC0B4E300C4D5B8 /* ZZZContactDefines.h */,
+				B14653B62DC0B4E300C4D5B8 /* ImmenseCoordinatorLegacyAlong.h */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -1480,8 +1446,8 @@
 		B14653BC2DC0B4E300C4D5B8 /* ContactGroup */ = {
 			isa = PBXGroup;
 			children = (
-				B14653B82DC0B4E300C4D5B8 /* ZZZGroupedUsrInfo.h */,
-				B14653B92DC0B4E300C4D5B8 /* ZZZGroupedUsrInfo.m */,
+				B14653B82DC0B4E300C4D5B8 /* GraphSmartFormatter.h */,
+				B14653B92DC0B4E300C4D5B8 /* GraphSmartFormatter.m */,
 				B14653BA2DC0B4E300C4D5B8 /* OrganizeHistory.h */,
 				B14653BB2DC0B4E300C4D5B8 /* OrganizeHistory.m */,
 			);
@@ -1533,7 +1499,6 @@
 				B14653D72DC0B4E300C4D5B8 /* TalkControl.m */,
 				B14653D82DC0B4E300C4D5B8 /* FuturismView.h */,
 				B14653D92DC0B4E300C4D5B8 /* FuturismView.m */,
-				B14653DA2DC0B4E300C4D5B8 /* ZZZInputEmoticonDefine.h */,
 				B14653DB2DC0B4E300C4D5B8 /* Dominant.h */,
 				B14653DC2DC0B4E300C4D5B8 /* Dominant.m */,
 				B14653DD2DC0B4E300C4D5B8 /* StickParser.h */,
@@ -1576,8 +1541,8 @@
 			children = (
 				B14653F72DC0B4E300C4D5B8 /* ChooseGin.h */,
 				B14653F82DC0B4E300C4D5B8 /* ChooseGin.m */,
-				B14653F92DC0B4E300C4D5B8 /* ZZZBaseSessionContentConfig.h */,
-				B14653FA2DC0B4E300C4D5B8 /* ZZZBaseSessionContentConfig.m */,
+				B14653F92DC0B4E300C4D5B8 /* SternPaginateKeypath.h */,
+				B14653FA2DC0B4E300C4D5B8 /* SternPaginateKeypath.m */,
 				B14653FB2DC0B4E300C4D5B8 /* HoFinishCross.h */,
 				B14653FC2DC0B4E300C4D5B8 /* HoFinishCross.m */,
 				B14653FD2DC0B4E300C4D5B8 /* VisualisationYard.h */,
@@ -1973,27 +1938,22 @@
 			path = Sections;
 			sourceTree = "<group>";
 		};
-		B14654CC2DC0B4E300C4D5B8 /* Classes */ = {
+		B14654CC2DC0B4E300C4D5B8 /* StrippedDownTextView */ = {
 			isa = PBXGroup;
 			children = (
-				B146537D2DC0B4E300C4D5B8 /* Category */,
 				B14653952DC0B4E300C4D5B8 /* Global */,
 				B146539D2DC0B4E300C4D5B8 /* Protocols */,
 				B14654CB2DC0B4E300C4D5B8 /* Sections */,
 			);
-			path = Classes;
+			path = StrippedDownTextView;
 			sourceTree = "<group>";
 		};
-		B14654D22DC0B4E300C4D5B8 /* ChatClasses */ = {
+		B14654D22DC0B4E300C4D5B8 /* CarefulRage */ = {
 			isa = PBXGroup;
 			children = (
-				B1F4ED872E719FF100195A20 /* CarefulRage.h */,
-				B1F4ED882E719FF100195A20 /* CarefulRage.m */,
-				B1F4ED892E719FF100195A20 /* PressReader.h */,
-				B1F4ED8A2E719FF100195A20 /* PressReader.m */,
-				B14654CC2DC0B4E300C4D5B8 /* Classes */,
+				B14654CC2DC0B4E300C4D5B8 /* StrippedDownTextView */,
 			);
-			path = ChatClasses;
+			path = CarefulRage;
 			sourceTree = "<group>";
 		};
 		B14655032DC0B4E300C4D5B8 /* Category */ = {
@@ -3033,8 +2993,8 @@
 		B14657332DC0B4E300C4D5B8 /* Business */ = {
 			isa = PBXGroup;
 			children = (
-				B1F4ED832E71900A00195A20 /* Other */,
-				B14654D22DC0B4E300C4D5B8 /* ChatClasses */,
+				B1F4ED832E71900A00195A20 /* BulkOutline */,
+				B14654D22DC0B4E300C4D5B8 /* CarefulRage */,
 				B146571F2DC0B4E300C4D5B8 /* Classes */,
 				B146572E2DC0B4E300C4D5B8 /* Ruvadel.pch */,
 				B146572F2DC0B4E300C4D5B8 /* AppDelegate.h */,
@@ -3112,9 +3072,13 @@
 			path = IQKeyboardManager;
 			sourceTree = "<group>";
 		};
-		B1F4ED832E71900A00195A20 /* Other */ = {
+		B1F4ED832E71900A00195A20 /* BulkOutline */ = {
 			isa = PBXGroup;
 			children = (
+				B1F4ED872E719FF100195A20 /* CarefulRage.h */,
+				B1F4ED882E719FF100195A20 /* CarefulRage.m */,
+				B1F4ED892E719FF100195A20 /* PressReader.h */,
+				B1F4ED8A2E719FF100195A20 /* PressReader.m */,
 				B1465F052DC0F58E00C4D5B8 /* BulkOutline.h */,
 				B1465F062DC0F58E00C4D5B8 /* BulkOutline.m */,
 				B1465F082DC1B83300C4D5B8 /* UIImage+Bra.h */,
@@ -3133,12 +3097,38 @@
 				B14657212DC0B4E300C4D5B8 /* NSDictionaryAdditions.m */,
 				B14657222DC0B4E300C4D5B8 /* Util.h */,
 				B14657232DC0B4E300C4D5B8 /* Util.m */,
+				B14653632DC0B4E300C4D5B8 /* AVAsset+Reek.h */,
+				B14653642DC0B4E300C4D5B8 /* AVAsset+Reek.m */,
+				B14653652DC0B4E300C4D5B8 /* StrippedDownTextView+Reek.h */,
+				B14653662DC0B4E300C4D5B8 /* StrippedDownTextView+Reek.m */,
+				B14653672DC0B4E300C4D5B8 /* NSBundle+Reek.h */,
+				B14653682DC0B4E300C4D5B8 /* NSBundle+Reek.m */,
+				B14653692DC0B4E300C4D5B8 /* NSDictionary+Reek.h */,
+				B146536A2DC0B4E300C4D5B8 /* NSDictionary+Reek.m */,
+				B146536B2DC0B4E300C4D5B8 /* NSString+Reek.h */,
+				B146536C2DC0B4E300C4D5B8 /* NSString+Reek.m */,
+				B146536D2DC0B4E300C4D5B8 /* UIButton+Reek.h */,
+				B146536E2DC0B4E300C4D5B8 /* UIButton+Reek.m */,
+				B146536F2DC0B4E300C4D5B8 /* UIColor+Reek.h */,
+				B14653702DC0B4E300C4D5B8 /* UIColor+Reek.m */,
+				B14653712DC0B4E300C4D5B8 /* UIImage+Reek.h */,
+				B14653722DC0B4E300C4D5B8 /* UIImage+Reek.m */,
+				B14653732DC0B4E300C4D5B8 /* UITableView+NIMScrollToBottom.h */,
+				B14653742DC0B4E300C4D5B8 /* UITableView+NIMScrollToBottom.m */,
+				B14653752DC0B4E300C4D5B8 /* UIView+CrossToast.h */,
+				B14653762DC0B4E300C4D5B8 /* UIView+CrossToast.m */,
+				B14653772DC0B4E300C4D5B8 /* UIViewNimKit.h */,
+				B14653782DC0B4E300C4D5B8 /* UIViewNimKit.m */,
+				B14653792DC0B4E300C4D5B8 /* YYAnimatedImageView+PrimrosePath.h */,
+				B146537A2DC0B4E300C4D5B8 /* YYAnimatedImageView+PrimrosePath.m */,
+				B146537B2DC0B4E300C4D5B8 /* QualityCoordinateMarker.h */,
+				B146537C2DC0B4E300C4D5B8 /* QualityCoordinateMarker.m */,
 				B14657242DC0B4E300C4D5B8 /* CustomizeHelper.h */,
 				B14657252DC0B4E300C4D5B8 /* CustomizeHelper.m */,
 				B14653602DC0B4E300C4D5B8 /* NSDictionaryExtend.h */,
 				B14653612DC0B4E300C4D5B8 /* NSDictionaryExtend.m */,
 			);
-			path = Other;
+			path = BulkOutline;
 			sourceTree = "<group>";
 		};
 		B1F4EDAE2E71A10D00195A20 /* AFNetworking */ = {
@@ -3391,8 +3381,8 @@
 				B146579B2DC0B4E300C4D5B8 /* UIView+CrossToast.m in Sources */,
 				B146579C2DC0B4E300C4D5B8 /* UIViewNimKit.m in Sources */,
 				B146579D2DC0B4E300C4D5B8 /* YYAnimatedImageView+PrimrosePath.m in Sources */,
-				B146579E2DC0B4E300C4D5B8 /* ZZZExtensionHelper.m in Sources */,
-				B146579F2DC0B4E300C4D5B8 /* ZZZCommonTableData.m in Sources */,
+				B146579E2DC0B4E300C4D5B8 /* QualityCoordinateMarker.m in Sources */,
+				B146579F2DC0B4E300C4D5B8 /* LoyalHelperListExtract.m in Sources */,
 				B14657A02DC0B4E300C4D5B8 /* HapCompound.m in Sources */,
 				B14657A12DC0B4E300C4D5B8 /* KitPayerView.m in Sources */,
 				B14657A22DC0B4E300C4D5B8 /* StickSumeract.m in Sources */,
@@ -3412,7 +3402,7 @@
 				B14657B02DC0B4E300C4D5B8 /* ExpertUnctionView.m in Sources */,
 				B14657B22DC0B4E300C4D5B8 /* TheyView.m in Sources */,
 				B14657B32DC0B4E300C4D5B8 /* SenMpView.m in Sources */,
-				B14657B42DC0B4E300C4D5B8 /* ZZZGroupedUsrInfo.m in Sources */,
+				B14657B42DC0B4E300C4D5B8 /* GraphSmartFormatter.m in Sources */,
 				B14657B52DC0B4E300C4D5B8 /* OrganizeHistory.m in Sources */,
 				B14657B62DC0B4E300C4D5B8 /* TemporaryView.m in Sources */,
 				B14657B72DC0B4E300C4D5B8 /* FloorContactQueryAgile.m in Sources */,
@@ -3446,7 +3436,7 @@
 				B14657CE2DC0B4E300C4D5B8 /* GraftModel.m in Sources */,
 				B14657CF2DC0B4E300C4D5B8 /* ImplementRefresh.m in Sources */,
 				B14657D02DC0B4E300C4D5B8 /* ChooseGin.m in Sources */,
-				B14657D12DC0B4E300C4D5B8 /* ZZZBaseSessionContentConfig.m in Sources */,
+				B14657D12DC0B4E300C4D5B8 /* SternPaginateKeypath.m in Sources */,
 				B14657D22DC0B4E300C4D5B8 /* HoFinishCross.m in Sources */,
 				B14657D32DC0B4E300C4D5B8 /* VisualisationYard.m in Sources */,
 				B14657D42DC0B4E300C4D5B8 /* MobileEntity.m in Sources */,

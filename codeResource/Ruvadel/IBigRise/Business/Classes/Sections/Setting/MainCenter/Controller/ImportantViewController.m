@@ -388,8 +388,8 @@
 // __M_A_C_R_O__
 //: #import "ZZZMainCenterViewController.h"
 #import "ImportantViewController.h"
-//: #import "ZZZCommonTableData.h"
-#import "ZZZCommonTableData.h"
+//: #import "LoyalHelperListExtract.h"
+#import "LoyalHelperListExtract.h"
 //: #import "ZZZCommonTableDelegate.h"
 #import "HapCompound.h"
 //: #import "SVProgressHUD.h"
