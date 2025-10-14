@@ -14,7 +14,7 @@
 //: #import "SwizzlingDefine.h"
 #import "SwizzlingDefine.h"
 //: #import "UIView+NTES.h"
-#import "UIView+KingdomNtes.h"
+#import "UIView+Kingdom.h"
 
 //: @implementation UINavigationController (Swizzling)
 @implementation UINavigationController (Practice)

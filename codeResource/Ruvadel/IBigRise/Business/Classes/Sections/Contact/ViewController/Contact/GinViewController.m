@@ -138,7 +138,7 @@
 //: #import "NTESListHeader.h"
 #import "AwfulView.h"
 //: #import "UIView+NTES.h"
-#import "UIView+KingdomNtes.h"
+#import "UIView+Kingdom.h"
 //: #import "ZZZPersonalCardViewController.h"
 #import "GrayViewController.h"
 //: #import "NTESContactDataMember.h"

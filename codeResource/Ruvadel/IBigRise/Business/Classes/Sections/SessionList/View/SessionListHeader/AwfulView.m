@@ -47,7 +47,7 @@ ReceiverData appCivicPage = (ReceiverData){229, (Byte []){3, 72, 70, 0, 121, 77,
 //: #import "NTESListHeader.h"
 #import "AwfulView.h"
 //: #import "UIView+NTES.h"
-#import "UIView+KingdomNtes.h"
+#import "UIView+Kingdom.h"
 //: #import "Reachability.h"
 #import "Reachability.h"
 //: #import "NTESClientUtil.h"

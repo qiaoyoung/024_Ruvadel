@@ -12,7 +12,7 @@
 //: #import "NTESBadgeView.h"
 #import "OrganizeView.h"
 //: #import "NSString+NTES.h"
-#import "NSString+KingdomNtes.h"
+#import "NSString+Kingdom.h"
 
 //: @interface NTESBadgeView ()
 @interface OrganizeView ()

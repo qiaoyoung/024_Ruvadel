@@ -33,13 +33,13 @@ Byte coreDragTitle[] = {83, 19, 67, 9, 27, 53, 105, 180, 155, 145, 151, 136, 150
 }
 
 //: - (NSString *)memberId{
-- (NSString *)will{
+- (NSString *)unshared{
     //: return self.info.infoId;
     return self.info.infoId;
 }
 
 //: - (NSString *)showName{
-- (NSString *)ignoreEnableTitle{
+- (NSString *)demonstrateName{
     //: return self.info.showName;
     return self.info.showName;
 }
@@ -47,7 +47,7 @@ Byte coreDragTitle[] = {83, 19, 67, 9, 27, 53, 105, 180, 155, 145, 151, 136, 150
 //userId和Vcname必有一个有值，根据有值的状态push进不同的页面
 
 //: - (NSString *)vcName{
-- (NSString *)record{
+- (NSString *)vcName{
     //: return nil;
     return nil;
 }
@@ -59,7 +59,7 @@ Byte coreDragTitle[] = {83, 19, 67, 9, 27, 53, 105, 180, 155, 145, 151, 136, 150
 }
 
 //: - (NSString *)userId{
-- (NSString *)advancedValid{
+- (NSString *)userId{
     //: return self.info.infoId;
     return self.info.infoId;
 }
@@ -105,7 +105,7 @@ Byte coreDragTitle[] = {83, 19, 67, 9, 27, 53, 105, 180, 155, 145, 151, 136, 150
 }
 
 //: - (id)sortKey {
-- (id)nearSort {
+- (id)existOver {
     //: return [[NTESSpellingCenter sharedCenter] spellingForString:self.info.showName].shortSpelling;
     return [[CarefulCenter reciprocationCenter] springName:self.info.showName].shortSpelling;
 }

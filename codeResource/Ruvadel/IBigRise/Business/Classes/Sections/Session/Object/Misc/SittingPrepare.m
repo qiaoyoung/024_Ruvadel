@@ -216,7 +216,7 @@ typedef struct {
 //: #import "NTESSessionMsgConverter.h"
 #import "SittingPrepare.h"
 //: #import "NSString+NTES.h"
-#import "NSString+KingdomNtes.h"
+#import "NSString+Kingdom.h"
 //: #import "NTESJanKenPonAttachment.h"
 #import "ExistingBright.h"
 //: #import "NTESSnapchatAttachment.h"

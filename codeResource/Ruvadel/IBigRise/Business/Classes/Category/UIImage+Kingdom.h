@@ -1,7 +1,7 @@
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  UIImage+KingdomNtes.h
+//  UIImage+Kingdom.h
 //  NIM
 //
 //  Created by chris on 15/7/13.
@@ -13,7 +13,7 @@
 #import <UIKit/UIKit.h>
 
 //: @interface UIImage (NTES)
-@interface UIImage (KingdomNtes)
+@interface UIImage (Kingdom)
 
 //: + (UIImage *)fetchImage:(NSString *)imageNameOrPath;
 + (UIImage *)fetch:(NSString *)imageNameOrPath;

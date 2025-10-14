@@ -32,7 +32,7 @@ Byte componentCryValue[] = {38, 29, 60, 12, 78, 16, 49, 230, 82, 55, 47, 196, 35
 //: #import "ZZZAvatarImageView.h"
 #import "CreateView.h"
 //: #import "UIView+NTES.h"
-#import "UIView+KingdomNtes.h"
+#import "UIView+Kingdom.h"
 //: #import "NTESContactDataMember.h"
 #import "PrepareMember.h"
 //: #import "NTESSessionUtil.h"

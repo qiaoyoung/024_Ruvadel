@@ -253,8 +253,8 @@ typedef struct {
 #import "FlashUnction.h"
 //: #import <NIMSDK/NIMSDK.h>
 #import <NIMSDK/NIMSDK.h>
-//: #import "ZZZGlobalMacro.h"
-#import "ZZZGlobalMacro.h"
+//: #import "NSString+Reek.h"
+#import "NSString+Reek.h"
 //: #import "ZZZKitUtil.h"
 #import "PayerMinimal.h"
 //: #import "AppleProjectKit.h"

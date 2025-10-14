@@ -1,7 +1,7 @@
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  ZZZSessionConfigurateProtocol.h
+//  TrainReferencePrimary.h
 // Reek
 //
 //  Created by chris on 2016/11/7.
@@ -182,7 +182,7 @@ typedef NS_ENUM(NSUInteger, EnumtSessionState) {
 - (void)setFilm:(EnumtSessionState)sessionState;
 
 //: - (void)setReferenceMessage:(NIMMessage *)message;
-- (void)setWeMinimum:(NIMMessage *)message;
+- (void)setReferenceMessage:(NIMMessage *)message;
 
 //: @end
 @end

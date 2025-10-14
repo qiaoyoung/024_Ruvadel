@@ -33,7 +33,7 @@ Byte coreEmotionTimer[] = {20, 17, 53, 4, 36, 36, 36, 36, 24, 24, 47, 47, 51, 51
 //: #import "NTESMigrateHeader.h"
 #import "PrecisPrivacy.h"
 //: #import "NSData+NTES.h"
-#import "NSData+KingdomNtes.h"
+#import "NSData+Kingdom.h"
 
 //: static dispatch_queue_t NTESMessageSerializationQueue()
 static dispatch_queue_t facialGestureMax()

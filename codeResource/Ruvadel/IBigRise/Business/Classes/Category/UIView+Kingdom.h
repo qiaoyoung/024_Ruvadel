@@ -1,7 +1,7 @@
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  UIView+KingdomNtes.h
+//  UIView+Kingdom.h
 //  NIMDemo
 //
 //  Created by ght on 15-1-31.
@@ -13,7 +13,7 @@
 #import <UIKit/UIKit.h>
 
 //: @interface UIView (NTES)
-@interface UIView (KingdomNtes)
+@interface UIView (Kingdom)
 
 /**
  * Shortcut for center.y

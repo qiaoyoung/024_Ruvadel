@@ -40,8 +40,8 @@ static char viewLeadingPairOrientationKey;
     [self show];
 }
 
-//: - (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex
-- (void)scoffIndex:(UIAlertView *)alertView sprechstimme:(NSInteger)buttonIndex
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex
+
 {
     //: AlertBlock block = objc_getAssociatedObject(self, &kUIAlertViewBlockAddress);
     AlertBlock block = objc_getAssociatedObject(self, &viewLeadingPairOrientationKey);

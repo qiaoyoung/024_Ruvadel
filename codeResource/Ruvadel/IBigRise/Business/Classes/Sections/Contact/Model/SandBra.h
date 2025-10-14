@@ -16,11 +16,11 @@
 @protocol PerformPress <NSObject>
 
 //: - (NSString *)groupTitle;
-- (NSString *)video;
+- (NSString *)premiere;
 //: - (NSString *)memberId;
-- (NSString *)clear;
+- (NSString *)unshared;
 //: - (id)sortKey;
-- (id)telephone;
+- (id)existOver;
 
 //: @end
 @end

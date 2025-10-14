@@ -336,8 +336,8 @@
 // __M_A_C_R_O__
 //: #import "NTESCustomAttachmentDecoder.h"
 #import "HillVocalBuild.h"
-//: #import "NTESCustomAttachmentDefines.h"
-#import "NTESCustomAttachmentDefines.h"
+//: #import "MyFormatterPreloadMultiplyGrave.h"
+#import "MyFormatterPreloadMultiplyGrave.h"
 //: #import "NTESJanKenPonAttachment.h"
 #import "ExistingBright.h"
 //: #import "NTESSnapchatAttachment.h"

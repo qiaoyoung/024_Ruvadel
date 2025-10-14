@@ -279,8 +279,8 @@ typedef struct {
 // __M_A_C_R_O__
 //: #import "ZZZTeamListDataManager.h"
 #import "QueuePrevious.h"
-//: #import "ZZZGlobalMacro.h"
-#import "ZZZGlobalMacro.h"
+//: #import "NSString+Reek.h"
+#import "NSString+Reek.h"
 //: #import "AppleProjectKit.h"
 #import "Reek.h"
 

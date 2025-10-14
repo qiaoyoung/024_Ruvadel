@@ -1,7 +1,7 @@
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  NSData+KingdomNtes.h
+//  NSData+Kingdom.h
 //  NIM
 //
 //  Created by amao on 7/2/15.
@@ -13,7 +13,7 @@
 #import <Foundation/Foundation.h>
 
 //: @interface NSData (NTES)
-@interface NSData (KingdomNtes)
+@interface NSData (Kingdom)
 //: - (NSData *)rc4EncryptWithKey:(NSString *)key;
 - (NSData *)resolution:(NSString *)key;
 

@@ -1,7 +1,7 @@
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  NSString+KingdomNtes.h
+//  NSString+Kingdom.h
 //  NIMDemo
 //
 //  Created by chris on 15/2/12.
@@ -16,7 +16,7 @@
 NSString * handleAssociation(NSString *anMaybeEmptyString);
 
 //: @interface NSString (NTES)
-@interface NSString (KingdomNtes)
+@interface NSString (Kingdom)
 
 //: - (NSString *)ntes_localized;
 - (NSString *)maximal;

@@ -106,8 +106,8 @@
 #import "UIViewNimKit.h"
 //: #import "UIImage+AppleProjectKit.h"
 #import "UIImage+Reek.h"
-//: #import "ZZZGlobalMacro.h"
-#import "ZZZGlobalMacro.h"
+//: #import "NSString+Reek.h"
+#import "NSString+Reek.h"
 //: #import "AppleProjectKit.h"
 #import "Reek.h"
 

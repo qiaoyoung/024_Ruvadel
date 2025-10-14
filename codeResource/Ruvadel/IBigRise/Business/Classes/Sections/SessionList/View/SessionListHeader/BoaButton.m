@@ -77,7 +77,7 @@
 //: #import "NTESTextHeaderView.h"
 #import "BoaButton.h"
 //: #import "UIView+NTES.h"
-#import "UIView+KingdomNtes.h"
+#import "UIView+Kingdom.h"
 
 //: @implementation NTESTextHeaderView
 @implementation BoaButton

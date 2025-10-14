@@ -54,7 +54,7 @@ Byte themeBrainId[] = {73, 27, 36, 4, 63, 75, 74, 80, 61, 63, 80, 59, 80, 61, 67
 //: #import "UIImageView+WebCache.h"
 #import "UIImageView+WebCache.h"
 //: #import "UIView+NTES.h"
-#import "UIView+KingdomNtes.h"
+#import "UIView+Kingdom.h"
 //: #import "NTESSnapchatAttachment.h"
 #import "BuildAgile.h"
 //: #import "NTESSessionUtil.h"

@@ -11,8 +11,8 @@
 // __M_A_C_R_O__
 //: #import "ZZZKitDevice.h"
 #import "StackBorder.h"
-//: #import "ZZZGlobalMacro.h"
-#import "ZZZGlobalMacro.h"
+//: #import "NSString+Reek.h"
+#import "NSString+Reek.h"
 
 //: @interface ZZZKitDevice ()
 @interface StackBorder ()

@@ -1,7 +1,7 @@
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  NTESContactDefines.h
+//  CoordinateDataForward.h
 //  NIM
 //
 //  Created by chris on 15/2/26.
@@ -39,11 +39,11 @@
 @required
 //userId和Vcname必有一个有值，根据有值的状态push进不同的页面
 //: - (NSString *)vcName;
-- (NSString *)count;
+- (NSString *)vcName;
 
 //userId和Vcname必有一个有值，根据有值的状态push进不同的页面
 //: - (NSString *)userId;
-- (NSString *)advancedValid;
+- (NSString *)userId;
 
 //返回行高
 //: - (CGFloat)uiHeight;

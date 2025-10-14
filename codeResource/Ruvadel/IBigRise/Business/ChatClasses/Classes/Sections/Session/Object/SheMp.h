@@ -11,8 +11,8 @@
 // __M_A_C_R_O__
 //: #import "ZZZSessionConfigurator.h"
 #import "TerrainRare.h"
-//: #import "ZZZSessionPrivateProtocol.h"
-#import "ZZZSessionPrivateProtocol.h"
+//: #import "TopmostSignerNavigatorBeyond.h"
+#import "TopmostSignerNavigatorBeyond.h"
 
 //: @interface ZZZSessionLayoutImpl : NSObject<NIMSessionLayout>
 @interface SheMp : NSObject<RealmLayout>

@@ -11,8 +11,8 @@
 #import <Foundation/Foundation.h>
 //: #import "ZZZMediaItem.h"
 #import "InstrumentalityItem.h"
-//: #import "ZZZCellConfig.h"
-#import "ZZZCellConfig.h"
+//: #import "StarStoreLayoutHeader.h"
+#import "StarStoreLayoutHeader.h"
 //: #import "ZZZKitMessageProvider.h"
 #import "VocalProvider.h"
 //: #import "EnumInputBarItemType.h"

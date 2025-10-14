@@ -24,14 +24,14 @@
 #import "GraftModel.h"         //message Wrapper
 //: #import "ZZZKitMessageProvider.h"
 #import "VocalProvider.h"
-//: #import "ZZZCellConfig.h"           //message cell配置协议
-#import "ZZZCellConfig.h"           //message cell配置协议
-//: #import "ZZZInputProtocol.h"        //输入框回调
-#import "ZZZInputProtocol.h"        //输入框回调
+//: #import "StarStoreLayoutHeader.h"           //message cell配置协议
+#import "StarStoreLayoutHeader.h"           //message cell配置协议
+//: #import "BrookLiberalDatasetter.h"        //输入框回调
+#import "BrookLiberalDatasetter.h"        //输入框回调
 //: #import "ZZZKitDataProvider.h"      //APP内容提供器
 #import "EntityChannel.h"      //APP内容提供器
-//: #import "ZZZMessageCellProtocol.h"  //message cell事件回调
-#import "ZZZMessageCellProtocol.h"  //message cell事件回调
+//: #import "RobustVisualizeDelegate.h"  //message cell事件回调
+#import "RobustVisualizeDelegate.h"  //message cell事件回调
 //: #import "ZZZSessionConfig.h"        //会话页面配置
 #import "Config.h"        //会话页面配置
 //: #import "ZZZKitEvent.h"             //点击事件封装类
@@ -48,8 +48,8 @@
 #import "BackgroundHearViewController.h"
 //: #import "ZZZKitIndependentModeExtraInfo.h"
 #import "CarefulInfo.h"
-//: #import "ZZZChatUIManagerProtocol.h"
-#import "ZZZChatUIManagerProtocol.h"
+//: #import "HeroicBackupUpFabric.h"
+#import "HeroicBackupUpFabric.h"
 //: #import "ZZZCollectionViewLeftAlignedLayout.h"
 #import "CompoundFlowLayout.h"
 //: #import "ZZZKitQuickCommentUtil.h"

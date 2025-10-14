@@ -19,8 +19,8 @@
 #import "UIViewNimKit.h"
 //: #import "ZZZMessageModel.h"
 #import "GraftModel.h"
-//: #import "ZZZGlobalMacro.h"
-#import "ZZZGlobalMacro.h"
+//: #import "NSString+Reek.h"
+#import "NSString+Reek.h"
 //: #import "ZZZSessionInteractorImpl.h"
 #import "SumeractBulk.h"
 //: #import "ZZZSessionDataSourceImpl.h"
@@ -93,7 +93,7 @@
     //: NIMSession *session = vc.session;
     NIMSession *session = vc.session;
     //: id<ZZZSessionConfig> sessionConfig = vc.sessionConfig;
-    id<Config> sessionConfig = vc.hangUp;
+    id<Config> sessionConfig = vc.sessionConfig;
     //: UITableView *tableView = vc.tableView;
     UITableView *tableView = vc.tableView;
     //: ZZZInputView *inputView = vc.sessionInputView;
@@ -119,7 +119,7 @@
     _interactor.layout = layout;
 
     //: [layout setDelegate:_interactor];
-    [layout setPick:_interactor];
+    [layout setDelegate:_interactor];
 
     //: _tableAdapter = [[ZZZSessionTableAdapter alloc] init];
     _tableAdapter = [[WeighDownAdapter alloc] init];

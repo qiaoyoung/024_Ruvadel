@@ -397,7 +397,7 @@
 //: #import "UIView+Toast.h"
 #import "UIView+Existing.h"
 //: #import "UIView+NTES.h"
-#import "UIView+KingdomNtes.h"
+#import "UIView+Kingdom.h"
 //: #import "NTESBundleSetting.h"
 #import "StackChoose.h"
 //: #import "UIActionSheet+NTESBlock.h"
@@ -417,7 +417,7 @@
 //: #import <NIMSDK/NIMSDK.h>
 #import <NIMSDK/NIMSDK.h>
 //: #import "UIView+NTES.h"
-#import "UIView+KingdomNtes.h"
+#import "UIView+Kingdom.h"
 //: #import "UIAlertView+NTESBlock.h"
 #import "UIAlertView+StickBlock.h"
 //: #import "ZZZUserInfoViewController.h"//个人资料

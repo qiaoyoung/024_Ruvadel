@@ -150,8 +150,8 @@ typedef struct {
 #import "UIImage+Reek.h"
 //: #import "ZZZTeamHelper.h"
 #import "BlocHelper.h"
-//: #import "ZZZCardDataSourceProtocol.h"
-#import "ZZZCardDataSourceProtocol.h"
+//: #import "MistTimelineFormatPositive.h"
+#import "MistTimelineFormatPositive.h"
 
 //: @interface NIMTeamMemberView : UIView{
 @interface PreferView : UIView{

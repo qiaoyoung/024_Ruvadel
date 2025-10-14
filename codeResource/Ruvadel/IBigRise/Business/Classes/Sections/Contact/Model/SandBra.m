@@ -140,12 +140,12 @@
     //: for (id<NTESGroupMemberProtocol>member in members) {
     for (id<PerformPress>member in members) {
         //: if ([[member memberId] isEqualToString:me]) {
-        if ([[member clear] isEqualToString:me]) {
+        if ([[member unshared] isEqualToString:me]) {
             //: continue;
             continue;
         }
         //: NSString *groupTitle = [member groupTitle];
-        NSString *groupTitle = [member video];
+        NSString *groupTitle = [member premiere];
         //: NSMutableArray *groupedMembers = [tmp objectForKey:groupTitle];
         NSMutableArray *groupedMembers = [tmp objectForKey:groupTitle];
         //: if(!groupedMembers) {
@@ -240,7 +240,7 @@
         //: [groupedMembers sortUsingComparator:^NSComparisonResult(id<NTESGroupMemberProtocol> member1, id<NTESGroupMemberProtocol> member2) {
         [groupedMembers sortUsingComparator:^NSComparisonResult(id<PerformPress> member1, id<PerformPress> member2) {
             //: return _groupMemberComparator([member1 sortKey], [member2 sortKey]);
-            return _groupMemberComparator([member1 telephone], [member2 telephone]);
+            return _groupMemberComparator([member1 existOver], [member2 existOver]);
         //: }];
         }];
     //: }];
@@ -273,7 +273,7 @@
 //: - (void)removeGroupMember:(id<NTESGroupMemberProtocol>)member{
 - (void)suggestSin:(id<PerformPress>)member{
     //: NSString *groupTitle = [member groupTitle];
-    NSString *groupTitle = [member video];
+    NSString *groupTitle = [member premiere];
     //: NSInteger groupIndex = [_groupTtiles indexOfObject:groupTitle];
     NSInteger groupIndex = [_trust indexOfObject:groupTitle];
     //: Pair *pair = [_groups objectAtIndex:groupIndex];
@@ -298,7 +298,7 @@
         //: for (id<NTESGroupMemberProtocol> member in members) {
         for (id<PerformPress> member in members) {
             //: if ([[member memberId] isEqualToString:uid]) {
-            if ([[member clear] isEqualToString:uid]) {
+            if ([[member unshared] isEqualToString:uid]) {
                 //: return member;
                 return member;
             }
@@ -380,7 +380,7 @@
 - (void)overCorrect:(id<PerformPress>)member
 {
     //: NSString *groupTitle = [member groupTitle];
-    NSString *groupTitle = [member video];
+    NSString *groupTitle = [member premiere];
     //: NSInteger groupIndex = [_groupTtiles indexOfObject:groupTitle];
     NSInteger groupIndex = [_trust indexOfObject:groupTitle];
     //: Pair *pair = [_groups objectAtIndex:groupIndex];

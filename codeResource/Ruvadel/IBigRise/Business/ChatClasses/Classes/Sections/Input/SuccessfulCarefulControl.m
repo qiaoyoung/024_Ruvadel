@@ -101,8 +101,8 @@ typedef struct {
 #import "UIViewNimKit.h"
 //: #import "UIImage+AppleProjectKit.h"
 #import "UIImage+Reek.h"
-//: #import "ZZZGlobalMacro.h"
-#import "ZZZGlobalMacro.h"
+//: #import "NSString+Reek.h"
+#import "NSString+Reek.h"
 
 //: const NSInteger ZZZInputEmoticonTabViewHeight = 40;
 

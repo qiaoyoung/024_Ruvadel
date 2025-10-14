@@ -77,8 +77,8 @@
 // __M_A_C_R_O__
 //: #import "ZZZSessionTimestampCell.h"
 #import "IndoorsViewCell.h"
-//: #import "ZZZCellConfig.h"
-#import "ZZZCellConfig.h"
+//: #import "StarStoreLayoutHeader.h"
+#import "StarStoreLayoutHeader.h"
 //: #import "UIViewNimKit.h"
 #import "UIViewNimKit.h"
 //: #import "ZZZTimestampModel.h"

@@ -16,7 +16,7 @@
 @protocol BackgroundProtocol <NSObject>
 
 //: - (NSString *)groupTitle;
-- (NSString *)soul;
+- (NSString *)premiere;
 
 //: - (NSString *)memberId;
 - (NSString *)unshared;

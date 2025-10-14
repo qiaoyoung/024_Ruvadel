@@ -399,7 +399,7 @@
 //: #import "UIAlertView+NTESBlock.h"
 #import "UIAlertView+StickBlock.h"
 //: #import "UIView+NTES.h"
-#import "UIView+KingdomNtes.h"
+#import "UIView+Kingdom.h"
 //: #import "LCQRCodeUtil.h"
 #import "FireTemperature.h"
 //: #import <Photos/Photos.h>

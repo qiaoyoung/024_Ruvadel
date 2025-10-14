@@ -1,7 +1,7 @@
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  NSData+KingdomNtes.m
+//  NSData+Kingdom.m
 //  NIM
 //
 //  Created by amao on 7/2/15.
@@ -10,14 +10,14 @@
 
 // __M_A_C_R_O__
 //: #import "NSData+NTES.h"
-#import "NSData+KingdomNtes.h"
+#import "NSData+Kingdom.h"
 //: #import <CommonCrypto/CommonDigest.h>
 #import <CommonCrypto/CommonDigest.h>
 //: #import <CommonCrypto/CommonCryptor.h>
 #import <CommonCrypto/CommonCryptor.h>
 
 //: @implementation NSData (NTES)
-@implementation NSData (KingdomNtes)
+@implementation NSData (Kingdom)
 
 //: void _NTES_RC4(const char *key, int keylen, char* output, const char* input, int len)
 void gravityRc4(const char *key, int keylen, char* output, const char* input, int len)

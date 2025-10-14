@@ -21,8 +21,8 @@
 #import "Reek.h"
 //: #import "NSString+AppleProjectKit.h"
 #import "NSString+Reek.h"
-//: #import "ZZZGlobalMacro.h"
-#import "ZZZGlobalMacro.h"
+//: #import "NSString+Reek.h"
+#import "NSString+Reek.h"
 
 //: @interface ZZZSessionUnknowContentView()
 @interface ImpanelView()

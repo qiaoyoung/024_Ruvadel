@@ -88,7 +88,7 @@
 
 
 //: - (NSString *)groupTitle{
-- (NSString *)soul{
+- (NSString *)premiere{
     //: NSString *title = [[ZZZSpellingCenter sharedCenter] firstLetter:self.info.showName].capitalizedString;
     NSString *title = [[RenewHo color] old:self.info.showName].capitalizedString;
     //: unichar character = [title characterAtIndex:0];
@@ -152,7 +152,7 @@
 }
 
 //: - (NSString *)groupTitle{
-- (NSString *)soul{
+- (NSString *)premiere{
     //: NSString *title = [[ZZZSpellingCenter sharedCenter] firstLetter:self.showName].capitalizedString;
     NSString *title = [[RenewHo color] old:self.demonstrateName].capitalizedString;
     //: unichar character = [title characterAtIndex:0];
@@ -255,7 +255,7 @@
 }
 
 //: - (NSString *)groupTitle{
-- (NSString *)soul{
+- (NSString *)premiere{
     //: NSString *title = [[ZZZSpellingCenter sharedCenter] firstLetter:self.showName].capitalizedString;
     NSString *title = [[RenewHo color] old:self.demonstrateName].capitalizedString;
     //: unichar character = [title characterAtIndex:0];

@@ -99,7 +99,7 @@
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  UIView+KingdomNtes.m
+//  UIView+Kingdom.m
 //  NIMDemo
 //
 //  Created by ght on 15-1-31.
@@ -108,7 +108,7 @@
 
 // __M_A_C_R_O__
 //: #import "UIView+NTES.h"
-#import "UIView+KingdomNtes.h"
+#import "UIView+Kingdom.h"
 //: #import <objc/runtime.h>
 #import <objc/runtime.h>
 
@@ -116,7 +116,7 @@
 
 #import <objc/runtime.h>
 
-@implementation UIView (KingdomNtes)
+@implementation UIView (Kingdom)
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 //: - (CGFloat)centerX {

@@ -403,7 +403,7 @@
 //: #import "SVProgressHUD.h"
 #import "InputView.h"
 //: #import "UIView+NTES.h"
-#import "UIView+KingdomNtes.h"
+#import "UIView+Kingdom.h"
 //: #import "NTESSessionViewController.h"
 #import "BoaViewController.h"
 //: #import "NTESBundleSetting.h"

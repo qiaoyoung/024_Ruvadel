@@ -17,8 +17,8 @@
 #import "TableCell.h"
 //: #import "UIViewNimKit.h"
 #import "UIViewNimKit.h"
-//: #import "ZZZGlobalMacro.h"
-#import "ZZZGlobalMacro.h"
+//: #import "NSString+Reek.h"
+#import "NSString+Reek.h"
 
 //: static NSString *DefaultTableCell = @"UITableViewCell";
 static NSString *colorIncludeHelper = @"UITableViewCell";

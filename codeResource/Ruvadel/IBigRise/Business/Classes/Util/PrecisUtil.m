@@ -14,7 +14,7 @@
 //: #import <CommonCrypto/CommonDigest.h>
 #import <CommonCrypto/CommonDigest.h>
 //: #import "NSData+NTES.h"
-#import "NSData+KingdomNtes.h"
+#import "NSData+Kingdom.h"
 
 //: @implementation NTESFileUtil
 @implementation PrecisUtil

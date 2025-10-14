@@ -85,7 +85,7 @@ DischargeData screenSliceKey = (DischargeData){93, (Byte []){48, 56, 51, 40, 2, 
 //: #import "NTESBundleSetting.h"
 #import "StackChoose.h"
 //: #import "NSString+NTES.h"
-#import "NSString+KingdomNtes.h"
+#import "NSString+Kingdom.h"
 //: #import "ZZZSessionConfig.h"
 #import "Config.h"
 //: #import "NTESSessionUtil.h"

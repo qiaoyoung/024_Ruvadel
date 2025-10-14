@@ -101,7 +101,7 @@ StyleData k_materialCarrierFormat = (StyleData){214, (Byte []){51, 97, 100, 62, 
 //: #import "NTESSystemNotificationCell.h"
 #import "SenView.h"
 //: #import "UIView+NTES.h"
-#import "UIView+KingdomNtes.h"
+#import "UIView+Kingdom.h"
 //: #import "ZZZAvatarImageView.h"
 #import "CreateView.h"
 

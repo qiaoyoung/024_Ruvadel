@@ -187,7 +187,7 @@
 //: #import "NTESFileLocationHelper.h"
 #import "HillHelper.h"
 //: #import "NSData+NTES.h"
-#import "NSData+KingdomNtes.h"
+#import "NSData+Kingdom.h"
 //: #import "NTESSessionUtil.h"
 #import "CommunicativeUtil.h"
 

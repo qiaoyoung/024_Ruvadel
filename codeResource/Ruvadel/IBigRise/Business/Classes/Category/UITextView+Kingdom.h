@@ -1,7 +1,7 @@
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  UITextView+KingdomNtes.h
+//  UITextView+Kingdom.h
 //  NIM
 //
 //  Created by chris on 2018/3/20.
@@ -13,7 +13,7 @@
 #import <UIKit/UIKit.h>
 
 //: @interface UITextView (NTES)
-@interface UITextView (KingdomNtes)
+@interface UITextView (Kingdom)
 
 //: @property (nonatomic, strong) UILabel * placeholderLabel;
 @property (nonatomic, strong) UILabel * placeholderLabel;

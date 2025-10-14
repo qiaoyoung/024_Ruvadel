@@ -13,8 +13,7 @@
 #import "BrightTotaleract.h"
 //: #import "SNLeadCompleteInfo.h"
 #import "StandAloneView.h"
-//: #import "SNWeakStrongMacro.h"
-#import "SNWeakStrongMacro.h"
+ 
 
 //: @interface SNLeadCompleteManager ()
 @interface BrightTotaleract ()

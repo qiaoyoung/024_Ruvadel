@@ -83,8 +83,8 @@
 #import "FloorContactQueryAgile.h"
 //: #import <NIMSDK/NIMSDK.h>
 #import <NIMSDK/NIMSDK.h>
-//: #import "ZZZGlobalMacro.h"
-#import "ZZZGlobalMacro.h"
+//: #import "NSString+Reek.h"
+#import "NSString+Reek.h"
 //: #import "ZZZLemonGroupedData.h"
 #import "OrganizeHistory.h"
 //: #import "AppleProjectKit.h"

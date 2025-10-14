@@ -79,7 +79,7 @@
     //: if (self.link == nil) {
     if (self.link == nil) {
         //: self.link = [CADisplayLink displayLinkWithTarget:[SGWeakProxy weakProxyWithTarget:self] selector:@selector(updateUI)];
-        self.link = [CADisplayLink displayLinkWithTarget:[PerformProxy sinceWeakTarget:self] selector:@selector(updateUI)];
+        self.link = [CADisplayLink displayLinkWithTarget:[PerformProxy sinceWeakTarget:self] selector:@selector(arc)];
 	[self setLeadJoin:_doubleTapBlock];
         //: [self.link addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSRunLoopCommonModes];
         [self.link addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSRunLoopCommonModes];

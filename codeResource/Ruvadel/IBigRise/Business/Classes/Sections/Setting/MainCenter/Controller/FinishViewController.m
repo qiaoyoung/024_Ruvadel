@@ -182,7 +182,7 @@
 //: #import "ZZZVideoListViewController.h"
 #import "FinishViewController.h"
 //: #import "NSString+NTES.h"
-#import "NSString+KingdomNtes.h"
+#import "NSString+Kingdom.h"
 //: #import <WebKit/WebKit.h>
 #import <WebKit/WebKit.h>
 

@@ -11,8 +11,8 @@
 // __M_A_C_R_O__
 //: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
-//: #import "ZZZCellConfig.h"
-#import "ZZZCellConfig.h"
+//: #import "StarStoreLayoutHeader.h"
+#import "StarStoreLayoutHeader.h"
 
 //: @interface ZZZTimestampModel : NSObject
 @interface ImplementRefresh : NSObject

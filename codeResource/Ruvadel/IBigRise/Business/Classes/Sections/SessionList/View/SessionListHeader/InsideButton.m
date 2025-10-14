@@ -97,7 +97,7 @@
 //: #import "NTESMutiClientsHeaderView.h"
 #import "InsideButton.h"
 //: #import "UIView+NTES.h"
-#import "UIView+KingdomNtes.h"
+#import "UIView+Kingdom.h"
 
 //: @interface NTESMutiClientsHeaderView()
 @interface InsideButton()

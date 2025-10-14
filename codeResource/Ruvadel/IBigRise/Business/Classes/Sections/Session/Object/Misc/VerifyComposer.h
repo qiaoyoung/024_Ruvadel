@@ -16,7 +16,7 @@
  * 图片 视频等上传进度 和 语音播放等子状态回调
  */
 //: @protocol NTESSessionFileStatusProtocol <NSObject>
-@protocol SessionProtocol <NSObject>
+@protocol VerifyComposer <NSObject>
 
 //: @optional
 @optional

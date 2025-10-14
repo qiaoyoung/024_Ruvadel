@@ -10,12 +10,12 @@
 
 // __M_A_C_R_O__
 //: #import "UIImage+NTES.h"
-#import "UIImage+KingdomNtes.h"
+#import "UIImage+Kingdom.h"
 //: #import "NTESDevice.h"
 #import "KnownHear.h"
 
 //: @implementation UIImage (NTES)
-@implementation UIImage (KingdomNtes)
+@implementation UIImage (Kingdom)
 //: - (UIImage *)imageForAvatarUpload
 - (UIImage *)audience
 {

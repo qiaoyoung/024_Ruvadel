@@ -136,8 +136,8 @@
 #import "SterlingAreaEffectView.h"
 //: #import "StrippedDownTextView.h"
 #import "StrippedDownTextView.h"
-//: #import "ZZZGlobalMacro.h"
-#import "ZZZGlobalMacro.h"
+//: #import "NSString+Reek.h"
+#import "NSString+Reek.h"
 //: #import "ZZZKitFileLocationHelper.h"
 #import "RealmHelper.h"
 //: #import <MobileCoreServices/MobileCoreServices.h>

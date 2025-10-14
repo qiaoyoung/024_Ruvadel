@@ -599,7 +599,7 @@
         //: ZZZKitInfoFetchOption *option = [[ZZZKitInfoFetchOption alloc] init];
         HeatMobileOption *option = [[HeatMobileOption alloc] init];
         //: option.session = teamListManager.session;
-        option.session = teamListManager.startMedia;
+        option.session = teamListManager.session;
         //: ZZZKitInfo *info = [[AppleProjectKit sharedKit] infoByUser:obj.userId option:option];
         RobInvite *info = [[Reek style] sequence:obj.userId from:option];
 
@@ -1050,7 +1050,7 @@
             //: teamMute.selectedBlock = ^(id<NIMKitSelectCardData> item) {
             teamMute.selectedBlock = ^(id<OrganizeInvite> item) {
                 //: [_vc didUpdateTeamMute:[item.value integerValue]];
-                [_vc afterNeed:[item.australianState integerValue]];
+                [_vc afterNeed:[item.value integerValue]];
             //: };
             };
             //: ZZZTeamCardSelectedViewController *vc = [ZZZTeamCardSelectedViewController instanceWithTitle:teamMute.title
@@ -1097,7 +1097,7 @@
             //: teamNotify.selectedBlock = ^(id<NIMKitSelectCardData> item) {
             teamNotify.selectedBlock = ^(id<OrganizeInvite> item) {
                 //: [_vc didUpdateNotifiyState:[item.value integerValue]];
-                [_vc opinion:[item.australianState integerValue]];
+                [_vc opinion:[item.value integerValue]];
             //: };
             };
             //: ZZZTeamCardSelectedViewController *vc = [ZZZTeamCardSelectedViewController instanceWithTitle:teamNotify.title
@@ -1140,7 +1140,7 @@
     //: BOOL isTop = switchview.on;
     BOOL isTop = switchview.on;
     //: NIMSession *session = _teamListManager.session;
-    NIMSession *session = [self family:_teamListManager].startMedia;
+    NIMSession *session = [self family:_teamListManager].session;
     //: NIMRecentSession *recent = [[NIMSDK sharedSDK].conversationManager recentSessionBySession:session];
     NIMRecentSession *recent = [[NIMSDK sharedSDK].conversationManager recentSessionBySession:session];
     //: if (isTop) {
@@ -1554,7 +1554,7 @@
     //: option.start = 0;
     option.start = 0;
     //: [[NIMSDK sharedSDK].conversationManager deleteMessagesInSession:_teamListManager.session option:option completion:^(NSError * _Nullable error) {
-    [[NIMSDK sharedSDK].conversationManager deleteMessagesInSession:_teamListManager.startMedia option:option completion:^(NSError * _Nullable error) {
+    [[NIMSDK sharedSDK].conversationManager deleteMessagesInSession:_teamListManager.session option:option completion:^(NSError * _Nullable error) {
 
     //: }];
     }];
@@ -1687,7 +1687,7 @@
     //: itemAuth.selectedBlock = ^(id<NIMKitSelectCardData> item) {
     itemAuth.selectedBlock = ^(id<OrganizeInvite> item) {
         //: [_vc didupdateTeamJoinMode:[item.value integerValue]];
-        [_vc join:[item.australianState integerValue]];
+        [_vc join:[item.value integerValue]];
     //: };
     };
     //: ZZZTeamCardSelectedViewController *vc = [ZZZTeamCardSelectedViewController instanceWithTitle:itemAuth.title
@@ -1968,7 +1968,7 @@
             //: itemInvite.selectedBlock = ^(id<NIMKitSelectCardData> item) {
             itemInvite.selectedBlock = ^(id<OrganizeInvite> item) {
                 //: [_vc didUpdateTeamInviteMode:[item.value integerValue]];
-                [_vc additionRaw:[item.australianState integerValue]];
+                [_vc additionRaw:[item.value integerValue]];
             //: };
             };
             //: ZZZTeamCardSelectedViewController *vc = [ZZZTeamCardSelectedViewController instanceWithTitle:itemInvite.title
@@ -2009,7 +2009,7 @@
             //: itemUpdateInfo.selectedBlock = ^(id<NIMKitSelectCardData> item) {
             itemUpdateInfo.selectedBlock = ^(id<OrganizeInvite> item) {
                 //: [_vc didUpdateTeamInfoMode:[item.value integerValue]];
-                [_vc restoreMode:[item.australianState integerValue]];
+                [_vc restoreMode:[item.value integerValue]];
             //: };
             };
             //: ZZZTeamCardSelectedViewController *vc = [ZZZTeamCardSelectedViewController instanceWithTitle:itemUpdateInfo.title
@@ -2051,7 +2051,7 @@
             //: itemBeInvite.selectedBlock = ^(id<NIMKitSelectCardData> item) {
             itemBeInvite.selectedBlock = ^(id<OrganizeInvite> item) {
                 //: [_vc didUpdateTeamBeInviteMode:[item.value integerValue]];
-                [_vc skip:[item.australianState integerValue]];
+                [_vc skip:[item.value integerValue]];
             //: };
             };
             //: ZZZTeamCardSelectedViewController *vc = [ZZZTeamCardSelectedViewController instanceWithTitle:itemBeInvite.title

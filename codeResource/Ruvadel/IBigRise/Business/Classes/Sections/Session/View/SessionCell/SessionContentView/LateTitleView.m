@@ -91,10 +91,10 @@
 // __M_A_C_R_O__
 //: #import "NTESSessionTipContentView.h"
 #import "LateTitleView.h"
-//: #import "NTESCustomAttachmentDefines.h"
-#import "NTESCustomAttachmentDefines.h"
+//: #import "MyFormatterPreloadMultiplyGrave.h"
+#import "MyFormatterPreloadMultiplyGrave.h"
 //: #import "UIView+NTES.h"
-#import "UIView+KingdomNtes.h"
+#import "UIView+Kingdom.h"
 //: #import "UIImage+AppleProjectKit.h"
 #import "UIImage+Reek.h"
 

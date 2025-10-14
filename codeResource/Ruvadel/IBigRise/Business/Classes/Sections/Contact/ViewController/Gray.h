@@ -13,8 +13,7 @@
 #import <Foundation/Foundation.h>
 //: #import "ZZZContactPerson.h"
 #import "PlacementPerson.h"
-//: #import "SNSingletonMacro.h"
-#import "SNSingletonMacro.h"
+ 
 
 //: @interface ZZZAddressBookManager : NSObject
 @interface Gray : NSObject

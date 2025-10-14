@@ -11,8 +11,8 @@
 // __M_A_C_R_O__
 //: #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
-//: #import "ZZZMessageCellProtocol.h"
-#import "ZZZMessageCellProtocol.h"
+//: #import "RobustVisualizeDelegate.h"
+#import "RobustVisualizeDelegate.h"
 //: #import "ZZZTimestampModel.h"
 #import "ImplementRefresh.h"
 

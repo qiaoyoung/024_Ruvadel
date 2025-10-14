@@ -12,7 +12,7 @@
 //: #import "NTESSessionJankenponContentView.h"
 #import "AggregationControl.h"
 //: #import "UIView+NTES.h"
-#import "UIView+KingdomNtes.h"
+#import "UIView+Kingdom.h"
 //: #import "NTESJanKenPonAttachment.h"
 #import "ExistingBright.h"
 //: #import "NTESSessionUtil.h"

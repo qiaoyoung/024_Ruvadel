@@ -1,7 +1,7 @@
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  ZZZMessageCellProtocol.h
+//  RobustVisualizeDelegate.h
 // Reek
 //
 //  Created by NetEase.
@@ -9,8 +9,8 @@
 //
 //: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
-//: #import "ZZZCellConfig.h"
-#import "ZZZCellConfig.h"
+//: #import "StarStoreLayoutHeader.h"
+#import "StarStoreLayoutHeader.h"
 
 // __M_A_C_R_O__
 

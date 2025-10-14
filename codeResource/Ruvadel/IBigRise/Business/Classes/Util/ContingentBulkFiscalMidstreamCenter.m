@@ -147,8 +147,7 @@
 #import "UIView+Existing.h"
 //: #import "NTESCustomSysNotificationSender.h"
 #import "ShortSpar.h"
-//: #import "NTESGlobalMacro.h"
-#import "NTESGlobalMacro.h"
+ 
 //: #import <AVFoundation/AVFoundation.h>
 #import <AVFoundation/AVFoundation.h>
 //: #import "NTESSessionMsgConverter.h"

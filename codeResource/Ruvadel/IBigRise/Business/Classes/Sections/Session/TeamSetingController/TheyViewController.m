@@ -857,7 +857,7 @@ TransmissionVcdelegate>
             //: options.removeOtherClients = YES;
             options.removeOtherClients = YES;
             //: [NIMSDK.sharedSDK.conversationManager deleteAllRemoteMessagesInSession:self.teamListManager.session options:options completion:^(NSError * _Nullable error) {
-            [NIMSDK.sharedSDK.conversationManager deleteAllRemoteMessagesInSession:self.teamListManager.startMedia options:options completion:^(NSError * _Nullable error) {
+            [NIMSDK.sharedSDK.conversationManager deleteAllRemoteMessagesInSession:self.teamListManager.session options:options completion:^(NSError * _Nullable error) {
                 //: if (error) {
                 if (error) {
                     //: return;
@@ -1435,7 +1435,7 @@ TransmissionVcdelegate>
     //: teamMute.selectedBlock = ^(id<NIMKitSelectCardData> item) {
     teamMute.selectedBlock = ^(id<OrganizeInvite> item) {
         //: [weakSelf didUpdateTeamMute:[item.value integerValue]];
-        [weakSelf afterNeed:[item.australianState integerValue]];
+        [weakSelf afterNeed:[item.value integerValue]];
     //: };
     };
     //: teamMute.identify = EnumTeamCardSwithCellTypeMute;
@@ -1477,7 +1477,7 @@ TransmissionVcdelegate>
     //: teamNotify.selectedBlock = ^(id<NIMKitSelectCardData> item) {
     teamNotify.selectedBlock = ^(id<OrganizeInvite> item) {
         //: [weakSelf didUpdateNotifiyState:[item.value integerValue]];
-        [weakSelf opinion:[item.australianState integerValue]];
+        [weakSelf opinion:[item.value integerValue]];
     //: };
     };
 	[self setCommand:_userView];
@@ -1506,7 +1506,7 @@ TransmissionVcdelegate>
     //: itemAuth.selectedBlock = ^(id<NIMKitSelectCardData> item) {
     itemAuth.selectedBlock = ^(id<OrganizeInvite> item) {
         //: [weakSelf didupdateTeamJoinMode:[item.value integerValue]];
-        [weakSelf join:[item.australianState integerValue]];
+        [weakSelf join:[item.value integerValue]];
     //: };
     };
 	[self setPhase:_groupNickNameView];
@@ -1535,7 +1535,7 @@ TransmissionVcdelegate>
     //: itemInvite.selectedBlock = ^(id<NIMKitSelectCardData> item) {
     itemInvite.selectedBlock = ^(id<OrganizeInvite> item) {
         //: [weakSelf didUpdateTeamInviteMode:[item.value integerValue]];
-        [weakSelf additionRaw:[item.australianState integerValue]];
+        [weakSelf additionRaw:[item.value integerValue]];
     //: };
     };
     //: itemInvite.img = [UIImage imageNamed:@"ic_invite"];
@@ -1560,7 +1560,7 @@ TransmissionVcdelegate>
     //: itemUpdateInfo.selectedBlock = ^(id<NIMKitSelectCardData> item) {
     itemUpdateInfo.selectedBlock = ^(id<OrganizeInvite> item) {
         //: [weakSelf didUpdateTeamInfoMode:[item.value integerValue]];
-        [weakSelf restoreMode:[item.australianState integerValue]];
+        [weakSelf restoreMode:[item.value integerValue]];
     //: };
     };
     //: itemUpdateInfo.img = [UIImage imageNamed:@"ic_modify"];
@@ -1586,7 +1586,7 @@ TransmissionVcdelegate>
     //: itemBeInvite.selectedBlock = ^(id<NIMKitSelectCardData> item) {
     itemBeInvite.selectedBlock = ^(id<OrganizeInvite> item) {
         //: [weakSelf didUpdateTeamBeInviteMode:[item.value integerValue]];
-        [weakSelf skip:[item.australianState integerValue]];
+        [weakSelf skip:[item.value integerValue]];
     //: };
     };
 	[self setCommand:_userView];
@@ -1786,7 +1786,7 @@ TransmissionVcdelegate>
     //: NIMContactTeamMemberSelectConfig *config = [[NIMContactTeamMemberSelectConfig alloc] init];
     ParaPress *config = [[ParaPress alloc] init];
     //: config.session = self.teamListManager.session;
-    config.session = self.teamListManager.startMedia;
+    config.session = self.teamListManager.session;
 	[self setPhase:_groupNickNameView];
     //: config.teamType = EnumTeamTypeNomal;
     config.teamType = EnumTeamTypeNomal;
@@ -2003,7 +2003,7 @@ TransmissionVcdelegate>
         //: ZZZKitInfoFetchOption *option = [[ZZZKitInfoFetchOption alloc] init];
         HeatMobileOption *option = [[HeatMobileOption alloc] init];
         //: option.session = self.teamListManager.session;
-        option.session = self.teamListManager.startMedia;
+        option.session = self.teamListManager.session;
 	[self setCommand:_userView];
         //: ZZZKitInfo *info = [[AppleProjectKit sharedKit] infoByUser:obj.userId option:option];
         RobInvite *info = [[Reek style] sequence:obj.userId from:option];

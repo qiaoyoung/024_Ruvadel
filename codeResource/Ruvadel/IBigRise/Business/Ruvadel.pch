@@ -7,9 +7,8 @@
 //
 
 #ifdef __OBJC__
-#import "NTESGlobalMacro.h"
 #import "Reek.h"
-#import "NSString+KingdomNtes.h"
+#import "NSString+Kingdom.h"
 #import "BriefBetween.h"
 #import "BriefBetween+Stick.h"
 #import "UIColor+Util.h"
@@ -21,7 +20,6 @@
 #import "UIImage+Inside.h"
 #import "DominantMinimal.h"
 #import <NIMSDK/NIMSDK.h>
-#import "SNWeakStrongMacro.h"
 
 //扩展
 #import "UIViewController+Inside.h"
@@ -34,7 +32,7 @@
 #import "UIViewController+Inside.h"
 #import "UIButton+Blue.h"
 #import "UIDevice+MpOrganize.h"
-#import "NTESCustomAttachmentDefines.h"
+#import "MyFormatterPreloadMultiplyGrave.h"
 #import "LoadingView.h"
 #import <SDWebImage/SDWebImage.h>
 #import <SDWebImage/UIImageView+WebCache.h>
@@ -44,7 +42,7 @@
 #import "UIDevice+MpOrganize.h"
 #import "ReekRealmHelper.h"
 #import "UIImage+History.h"
-#import "UIView+KingdomNtes.h"
+#import "UIView+Kingdom.h"
 #import "UIView+Existing.h"
 
 #endif

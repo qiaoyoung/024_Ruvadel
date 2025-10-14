@@ -1285,7 +1285,7 @@ typedef struct {
 //: #import "ZZZAdvancedTeamCardViewController.h"
 #import "TheyViewController.h"
 //: #import "UIView+NTES.h"
-#import "UIView+KingdomNtes.h"
+#import "UIView+Kingdom.h"
 //: #import "NTESBundleSetting.h"
 #import "StackChoose.h"
 //: #import "ZZZPersonalCardViewController.h"
@@ -1330,8 +1330,8 @@ typedef struct {
 #import "UIView+CrossToast.h"
 //: #import "NTESWhiteboardAttachment.h"
 #import "WhiteboardAttachment.h"
-//: #import "NTESOpenRedPackageSheet.h"
-#import "NTESOpenRedPackageSheet.h"
+//: #import "ReportOpenRedPackageSheet.h"
+#import "ReportOpenRedPackageSheet.h"
 //: #import "ZOMNForwardViewController.h"
 #import "FtViewController.h"
 //: #import "ZMONGalleryImgViewController.h"
@@ -1391,7 +1391,7 @@ UISearchBarDelegate,
 BulkDelegate,
 //: NIMLoginManagerDelegate,
 NIMLoginManagerDelegate,
-//: NTESOpenRedPackageSheetDelegate,
+//: ReportOpenRedPackageSheetDelegate,
 SuccessfulDelegate,
 //: NIMTeamManagerDelegate,
 NIMTeamManagerDelegate,
@@ -1527,7 +1527,7 @@ StackParaEy>
 }
 
 //: - (void)showCustom:(NIMMessage *)message
-- (void)exemplification:(NIMMessage *)message
+- (void)showCustom:(NIMMessage *)message
 {
    //普通的自定义消息点击事件可以在这里做哦~
 
@@ -1768,7 +1768,7 @@ StackParaEy>
 
 
 //: - (void)onTapMenuItemRevoke:(ZZZMediaItem *)item
-- (void)roundShape:(InstrumentalityItem *)item
+- (void)onTapMenuItemRevoke:(InstrumentalityItem *)item
 {
     //: NIMMessage *message = [self messageForMenu];
     NIMMessage *message = [self messageForMenu];
@@ -1881,7 +1881,7 @@ StackParaEy>
 }
 
 //: - (void)showVideo:(NIMMessage *)message
-- (void)tv:(NIMMessage *)message
+- (void)showVideo:(NIMMessage *)message
 {
     //: NIMVideoObject *object = message.messageObject;
     NIMVideoObject *object = message.messageObject;
@@ -2136,7 +2136,7 @@ StackParaEy>
 }
 
 //: - (void)onTapMenuItemDelete:(ZZZMediaItem *)item
-- (void)theBurn:(InstrumentalityItem *)item
+- (void)onTapMenuItemDelete:(InstrumentalityItem *)item
 {
     //: NIMMessage *message = [self messageForMenu];
     NIMMessage *message = [self messageForMenu];
@@ -2278,7 +2278,7 @@ StackParaEy>
 //: #pragma mark - 菜单
 #pragma mark - 菜单
 //: - (void)onTapMenuItemReply:(ZZZMediaItem *)item
-- (void)nearWay:(InstrumentalityItem *)item
+- (void)onTapMenuItemReply:(InstrumentalityItem *)item
 {
     //: NIMMessage *menuMessage = [self messageForMenu];
     NIMMessage *menuMessage = [self messageForMenu];
@@ -2986,13 +2986,13 @@ StackParaEy>
 
 
 //: - (void)onTapMenuItemAudio2Text:(ZZZMediaItem *)item
-- (void)playPull:(InstrumentalityItem *)item
+- (void)onTapMenuItemAudio2Text:(InstrumentalityItem *)item
 {
 
 }
 
 //: - (void)onTapMenuItemReport:(ZZZMediaItem *)item
-- (void)allowDetect:(InstrumentalityItem *)item
+- (void)onTapMenuItemReport:(InstrumentalityItem *)item
 {
     //: [self.view addSubview:self.translateView];
     [self.view addSubview:self.translateView];
@@ -3066,7 +3066,7 @@ StackParaEy>
 }
 
 //: - (void)onTapMenuItemPin:(ZZZMediaItem *)item
-- (void)identity:(InstrumentalityItem *)item
+- (void)onTapMenuItemPin:(InstrumentalityItem *)item
 {
     //: NIMMessage *message = [self messageForMenu];
     NIMMessage *message = [self messageForMenu];
@@ -3805,7 +3805,7 @@ StackParaEy>
 //: #pragma mark - Cell Actions
 #pragma mark - Cell Actions
 //: - (void)showImage:(NIMMessage *)message
-- (void)moreThat:(NIMMessage *)message
+- (void)showImage:(NIMMessage *)message
 {
     //: NIMImageObject *object = message.messageObject;
     NIMImageObject *object = message.messageObject;
@@ -3977,7 +3977,7 @@ StackParaEy>
 }
 
 //: - (void)onTapMenuItemTranslation:(ZZZMediaItem *)item
-- (void)run:(InstrumentalityItem *)item
+- (void)onTapMenuItemTranslation:(InstrumentalityItem *)item
 {
     //: NIMMessage *message = [self messageForMenu];
     NIMMessage *message = [self messageForMenu];
@@ -4085,7 +4085,7 @@ StackParaEy>
 }
 
 //: - (void)onTapMenuItemMark:(ZZZMediaItem *)item
-- (void)styleMark:(InstrumentalityItem *)item
+- (void)onTapMenuItemMark:(InstrumentalityItem *)item
 {
     //: NIMMessage *message = [self messageForMenu];
     NIMMessage *message = [self messageForMenu];
@@ -4268,7 +4268,7 @@ StackParaEy>
 }
 
 //: - (void)onTapMenuItemMutiSelect:(ZZZMediaItem *)item
-- (void)maker:(InstrumentalityItem *)item
+- (void)onTapMenuItemMutiSelect:(InstrumentalityItem *)item
 {
     //: [self switchUIWithSessionState:EnumtSessionStateSelect];
     [self minorityHis:EnumtSessionStateSelect];
@@ -4426,7 +4426,7 @@ StackParaEy>
 }
 
 //: - (void)onTapMenuItemUnpin:(ZZZMediaItem *)item
-- (void)receiver:(InstrumentalityItem *)item
+- (void)onTapMenuItemUnpin:(InstrumentalityItem *)item
 {
     //: NIMMessage *message = [self messageForMenu];
     NIMMessage *message = [self messageForMenu];
@@ -4551,7 +4551,7 @@ StackParaEy>
 
 
 //: - (void)onTapMenuItemForword:(ZZZMediaItem *)item
-- (void)errorMargin:(InstrumentalityItem *)item
+- (void)onTapMenuItemForword:(InstrumentalityItem *)item
 {
     //: ZOMNForwardViewController *vc = [[ZOMNForwardViewController alloc]init];
     FtViewController *vc = [[FtViewController alloc]init];

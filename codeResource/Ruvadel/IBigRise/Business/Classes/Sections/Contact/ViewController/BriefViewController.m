@@ -581,8 +581,8 @@ typedef struct {
 #import "CommunicativeUtil.h"
 //: #import "NTESSessionViewController.h"
 #import "BoaViewController.h"
-//: #import "NTESContactDefines.h"
-#import "NTESContactDefines.h"
+//: #import "CoordinateDataForward.h"
+#import "CoordinateDataForward.h"
 //: #import "NTESGroupedContacts.h"
 #import "HoPossibleDataCollection.h"
 //: #import "UIView+Toast.h"
@@ -608,7 +608,7 @@ typedef struct {
 //: #import "NTESBundleSetting.h"
 #import "StackChoose.h"
 //: #import "UIView+NTES.h"
-#import "UIView+KingdomNtes.h"
+#import "UIView+Kingdom.h"
 //: #import "NTESContactSearchViewController.h"
 #import "FinishPlacementViewController.h"
 //: #import "NTESSystemNotificationViewController.h"
@@ -764,9 +764,9 @@ ForgatherDelegate> {
         //: id<NTESContactItem> contactItem = (id<NTESContactItem>)[_contacts memberOfIndex:indexPath];
         id<Item> contactItem = (id<Item>)[_grace label:indexPath];
         //: if([contactItem respondsToSelector:@selector(userId)]){
-        if([contactItem respondsToSelector:@selector(advancedValid)]){
+        if([contactItem respondsToSelector:@selector(userId)]){
             //: NSString * friendId = contactItem.userId;
-            NSString * friendId = contactItem.advancedValid;
+            NSString * friendId = contactItem.userId;
             //: if ([ids containsObject:friendId]) {
             if ([ids containsObject:friendId]) {
                 //: [indexPaths addObject:indexPath];
@@ -2216,17 +2216,17 @@ ForgatherDelegate> {
             [self performSelector:sel withObject:nil];
         }
         //: else if (contactItem.vcName.length) {
-        else if (contactItem.count.length) {
+        else if (contactItem.vcName.length) {
             //: Class clazz = NSClassFromString(contactItem.vcName);
-            Class clazz = NSClassFromString(contactItem.count);
+            Class clazz = NSClassFromString(contactItem.vcName);
             //: UIViewController * vc = [[clazz alloc] initWithNibName:nil bundle:nil];
             UIViewController * vc = [[clazz alloc] initWithNibName:nil bundle:nil];
             //: [self.navigationController pushViewController:vc animated:YES];
             [self.navigationController pushViewController:vc animated:YES];
         //: }else if([contactItem respondsToSelector:@selector(userId)]){
-        }else if([contactItem respondsToSelector:@selector(advancedValid)]){
+        }else if([contactItem respondsToSelector:@selector(userId)]){
             //: NSString * friendId = contactItem.userId;
-            NSString * friendId = contactItem.advancedValid;
+            NSString * friendId = contactItem.userId;
             //: [self enterPersonalCard:friendId];
             [self row:friendId];
         }

@@ -218,12 +218,12 @@
 //
 
 // __M_A_C_R_O__
-//: #import "ZZZSessionConfigurateProtocol.h"
-#import "ZZZSessionConfigurateProtocol.h"
+//: #import "TrainReferencePrimary.h"
+#import "TrainReferencePrimary.h"
 //: #import "AppleProjectKit.h"
 #import "Reek.h"
-//: #import "ZZZMessageCellProtocol.h"
-#import "ZZZMessageCellProtocol.h"
+//: #import "RobustVisualizeDelegate.h"
+#import "RobustVisualizeDelegate.h"
 //: #import "ZZZMessageModel.h"
 #import "GraftModel.h"
 //: #import "ZZZKitUtil.h"
@@ -265,7 +265,7 @@
 //: #import "ZZZInputAudioView.h"
 #import "MpView.h"
 //: #import "UIView+NTES.h"
-#import "UIView+KingdomNtes.h"
+#import "UIView+Kingdom.h"
 //: #import "ZZZPersonalCardViewController.h"
 #import "GrayViewController.h"
 //: #import "ZZZTeamCardViewController.h"
@@ -463,11 +463,11 @@
     self.tableView.keyboardDismissMode = UIScrollViewKeyboardDismissModeOnDrag;
 
     //: if ([self.sessionConfig respondsToSelector:@selector(sessionBackgroundImage)] && [self.sessionConfig sessionBackgroundImage]) {
-    if ([self.hangUp respondsToSelector:@selector(ilkMember)] && [self.hangUp ilkMember]) {
+    if ([self.sessionConfig respondsToSelector:@selector(ilkMember)] && [self.sessionConfig ilkMember]) {
         //: UIImageView *imgView = [[UIImageView alloc] initWithFrame:self.view.bounds];
         UIImageView *imgView = [[UIImageView alloc] initWithFrame:self.view.bounds];
         //: imgView.image = [self.sessionConfig sessionBackgroundImage];
-        imgView.image = [self.hangUp ilkMember];
+        imgView.image = [self.sessionConfig ilkMember];
         //: imgView.contentMode = UIViewContentModeScaleAspectFill;
         imgView.contentMode = UIViewContentModeScaleAspectFill;
         //: self.tableView.backgroundView = imgView;
@@ -512,7 +512,7 @@
     //: _messageForMenu = message;
     _messageForMenu = message;
     //: [self.interactor setReferenceMessage:message];
-    [self.interactor setWeMinimum:message];
+    [self.interactor setReferenceMessage:message];
     //: if (![self becomeFirstResponder]) {
     if (![self becomeFirstResponder]) {
         //: handle = NO;
@@ -664,7 +664,7 @@
     //: _messageForMenu = message;
     _messageForMenu = message;
     //: [self.interactor setReferenceMessage:message];
-    [self.interactor setWeMinimum:message];
+    [self.interactor setReferenceMessage:message];
     //: if (![self becomeFirstResponder]) {
     if (![self becomeFirstResponder]) {
         //: handle = NO;
@@ -697,16 +697,16 @@
     //: self.messageForMenu = nil;
     self.messageForMenu = nil;
     //: [self.interactor setReferenceMessage:nil];
-    [self.interactor setWeMinimum:nil];
+    [self.interactor setReferenceMessage:nil];
 
     //: if ([self.sessionConfig respondsToSelector:@selector(clearThreadMessageAfterSent)])
-    if ([self.hangUp respondsToSelector:@selector(capableSignature)])
+    if ([self.sessionConfig respondsToSelector:@selector(capableSignature)])
     {
         //: if ([self.sessionConfig clearThreadMessageAfterSent])
-        if ([self.hangUp capableSignature])
+        if ([self.sessionConfig capableSignature])
         {
             //: [self.sessionConfig cleanThreadMessage];
-            [self.hangUp gender];
+            [self.sessionConfig gender];
         }
     }
 }
@@ -798,9 +798,9 @@
     //: BOOL should = YES;
     BOOL should = YES;
     //: if ([self.sessionConfig respondsToSelector:@selector(disableInputView)]) {
-    if ([self.hangUp respondsToSelector:@selector(inputData)]) {
+    if ([self.sessionConfig respondsToSelector:@selector(inputData)]) {
         //: should = ![self.sessionConfig disableInputView];
-        should = ![self.hangUp inputData];
+        should = ![self.sessionConfig inputData];
     }
     //: return should;
     return should;
@@ -839,7 +839,7 @@
     //: _messageForMenu = message;
     _messageForMenu = message;
     //: [self.interactor setReferenceMessage:message];
-    [self.interactor setWeMinimum:message];
+    [self.interactor setReferenceMessage:message];
 
     //: handle = [self shouldShowMenuByMessage:message];
     handle = [self click:message];
@@ -861,9 +861,9 @@
     //: BOOL should = YES;
     BOOL should = YES;
     //: if ([self.sessionConfig respondsToSelector:@selector(disableReceiveNewMessages)]) {
-    if ([self.hangUp respondsToSelector:@selector(independentGiven)]) {
+    if ([self.sessionConfig respondsToSelector:@selector(independentGiven)]) {
         //: should = ![self.sessionConfig disableReceiveNewMessages];
-        should = ![self.hangUp independentGiven];
+        should = ![self.sessionConfig independentGiven];
     }
     //: return should;
     return should;
@@ -894,7 +894,7 @@
     if ([self mobileView])
     {
         //: self.sessionInputView = [[ZZZInputView alloc] initWithFrame:CGRectMake(0, 0, self.view.device_width,0) config:self.sessionConfig];
-        self.sessionInputView = [[FinishView alloc] initWithComponent:CGRectMake(0, 0, self.view.device_width,0) representationSend:self.hangUp];
+        self.sessionInputView = [[FinishView alloc] initWithComponent:CGRectMake(0, 0, self.view.device_width,0) representationSend:self.sessionConfig];
         //: self.sessionInputView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleTopMargin;
         self.sessionInputView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleTopMargin;
         //: [self.sessionInputView setSession:self.session];
@@ -1336,7 +1336,7 @@
 }
 
 //: - (void)onTapMenuItemCopy:(ZZZMediaItem *)item
-- (void)rivetLine:(InstrumentalityItem *)item
+- (void)onTapMenuItemCopy:(InstrumentalityItem *)item
 {
     //: NIMMessage *message = [self messageForMenu];
     NIMMessage *message = [self messageForMenu];
@@ -1435,9 +1435,9 @@
     //: NIMAudioType type = NIMAudioTypeAAC;
     NIMAudioType type = NIMAudioTypeAAC;
     //: if ([self.sessionConfig respondsToSelector:@selector(recordType)]) {
-    if ([self.hangUp respondsToSelector:@selector(antitypeFound)]) {
+    if ([self.sessionConfig respondsToSelector:@selector(antitypeFound)]) {
         //: type = [self.sessionConfig recordType];
-        type = [self.hangUp antitypeFound];
+        type = [self.sessionConfig antitypeFound];
     }
     //: return type;
     return type;
@@ -1610,10 +1610,10 @@
     //: BOOL disable = NO;
     BOOL disable = NO;
     //: if ([self.sessionConfig respondsToSelector:@selector(disableAudioPlayedStatusIcon)])
-    if ([self.hangUp respondsToSelector:@selector(maxUnderlying)])
+    if ([self.sessionConfig respondsToSelector:@selector(maxUnderlying)])
     {
         //: disable = [self.sessionConfig disableAudioPlayedStatusIcon];
-        disable = [self.hangUp maxUnderlying];
+        disable = [self.sessionConfig maxUnderlying];
     }
     //: return disable;
     return disable;
@@ -2318,7 +2318,7 @@
 //: #pragma mark - 配置项
 #pragma mark - 配置项
 //: - (id<ZZZSessionConfig>)sessionConfig
-- (id<Config>)hangUp
+- (id<Config>)sessionConfig
 {
     //: return nil; 
     return nil; //使用默认配置
@@ -2392,9 +2392,9 @@
     //: BOOL needProximityMonitor = YES;
     BOOL needProximityMonitor = YES;
     //: if ([self.sessionConfig respondsToSelector:@selector(disableProximityMonitor)]) {
-    if ([self.hangUp respondsToSelector:@selector(nowPost)]) {
+    if ([self.sessionConfig respondsToSelector:@selector(nowPost)]) {
         //: needProximityMonitor = !self.sessionConfig.disableProximityMonitor;
-        needProximityMonitor = !self.hangUp.nowPost;
+        needProximityMonitor = !self.sessionConfig.nowPost;
     }
     //: return needProximityMonitor;
     return needProximityMonitor;
@@ -2432,16 +2432,16 @@
     //: NSArray *items;
     NSArray *items;
     //: if (!self.sessionConfig)
-    if (!self.hangUp)
+    if (!self.sessionConfig)
     {
         //: items = [[AppleProjectKit sharedKit].config defaultMenuItemsWithMessage:message];
         items = [[Reek style].config loop:message];
     }
     //: else if([self.sessionConfig respondsToSelector:@selector(menuItemsWithMessage:)])
-    else if([self.hangUp respondsToSelector:@selector(ported:)])
+    else if([self.sessionConfig respondsToSelector:@selector(ported:)])
     {
         //: items = [self.sessionConfig menuItemsWithMessage:message];
-        items = [self.hangUp ported:message];
+        items = [self.sessionConfig ported:message];
     }
 
     //: [items enumerateObjectsUsingBlock:^(ZZZMediaItem *item, NSUInteger idx, BOOL *stop) {

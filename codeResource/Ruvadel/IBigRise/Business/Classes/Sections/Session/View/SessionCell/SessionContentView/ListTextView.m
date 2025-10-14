@@ -135,7 +135,7 @@
 //: #import "NTESMultiRetweetAttachment.h"
 #import "BulkReek.h"
 //: #import "UIView+NTES.h"
-#import "UIView+KingdomNtes.h"
+#import "UIView+Kingdom.h"
 //: #import "MyAttributedLabel+AppleProjectKit.h"
 #import "StrippedDownTextView+Reek.h"
 

@@ -1,7 +1,7 @@
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  ZZZCardDataSourceProtocol.h
+//  MistTimelineFormatPositive.h
 //  NIM
 //
 //  Created by chris on 15/3/5.
@@ -93,19 +93,19 @@ typedef NS_ENUM(NSInteger, EnumTeamCardRowItemType) {
 @protocol OrganizeInvite <NSObject>
 
 //: - (id)value;
-- (id)australianState;
+- (id)value;
 
 //: - (NSString *)title;
-- (NSString *)farAgreement;
+- (NSString *)title;
 
 //: - (NSString *)img;
-- (NSString *)receiveCover;
+- (NSString *)img;
 
 //: - (BOOL)selected;
-- (BOOL)track;
+- (BOOL)selected;
 
 //: - (void)setSelected:(BOOL)selected;
-- (void)setTrack:(BOOL)selected;
+- (void)setSelected:(BOOL)selected;
 
 //: @end
 @end
@@ -114,45 +114,45 @@ typedef NS_ENUM(NSInteger, EnumTeamCardRowItemType) {
 @protocol PaperPreviousFlash <NSObject>
 
 //: - (NSString *)title;
-- (NSString *)via;
+- (NSString *)title;
 
 //: - (id)value;
-- (id)last;
+- (id)value;
 
 //: - (EnumTeamCardRowItemType)type;
-- (EnumTeamCardRowItemType)receiver;
+- (EnumTeamCardRowItemType)type;
 
 //: - (CGFloat)rowHeight;
-- (CGFloat)actual;
+- (CGFloat)rowHeight;
 
 //: - (NIMTeamCardRowSelectedBlock)selectedBlock;
-- (NIMTeamCardRowSelectedBlock)pin;
+- (NIMTeamCardRowSelectedBlock)selectedBlock;
 
 //: - (NSMutableArray <id <NIMKitSelectCardData>> *)optionItems;
-- (NSMutableArray <id <OrganizeInvite>> *)troubling;
+- (NSMutableArray <id <OrganizeInvite>> *)optionItems;
 
 //: @optional
 @optional
 //: - (NSString *)subTitle;
-- (NSString *)eliteDynamic;
+- (NSString *)subTitle;
 
 //: - (UIImage *)img;
-- (UIImage *)onDocumentImg;
+- (UIImage *)img;
 
 //: - (SEL)action;
-- (SEL)inviteSimultaneously;
+- (SEL)action;
 
 //: - (BOOL)actionDisabled;
-- (BOOL)handicappedDisabled;
+- (BOOL)actionDisabled;
 
 //: - (BOOL)switchOn;
-- (BOOL)kitNumberro;
+- (BOOL)switchOn;
 
 //: - (NSInteger)identify;
-- (NSInteger)written;
+- (NSInteger)identify;
 
 //: - (BOOL)disableUserInteraction;
-- (BOOL)toolIntervaleraction;
+- (BOOL)disableUserInteraction;
 
 //: @end
 @end

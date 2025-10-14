@@ -32,11 +32,11 @@ Byte viewLogicText[] = {57, 28, 58, 10, 5, 185, 159, 40, 3, 255, 20, 26, 11, 25,
 //: #import "NTESRedPacketTipAttachment.h"
 #import "PrepareAttachment.h"
 //: #import "UIView+NTES.h"
-#import "UIView+KingdomNtes.h"
+#import "UIView+Kingdom.h"
 //: #import "UIImage+AppleProjectKit.h"
 #import "UIImage+Reek.h"
-//: #import "NTESCustomAttachmentDefines.h"
-#import "NTESCustomAttachmentDefines.h"
+//: #import "MyFormatterPreloadMultiplyGrave.h"
+#import "MyFormatterPreloadMultiplyGrave.h"
 
 //: @interface NTESSessionRedPacketTipContentView()<MyAttributedLabelDelegate>
 @interface BorderContentView()<CompoundPerform>

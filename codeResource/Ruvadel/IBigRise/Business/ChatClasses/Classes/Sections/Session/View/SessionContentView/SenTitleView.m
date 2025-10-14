@@ -30,8 +30,8 @@ Byte layoutPolicyConfig[] = {80, 20, 56, 6, 55, 159, 134, 140, 125, 139, 133, 15
 #import "StrippedDownTextView+Reek.h"
 //: #import "ZZZMessageModel.h"
 #import "GraftModel.h"
-//: #import "ZZZGlobalMacro.h"
-#import "ZZZGlobalMacro.h"
+//: #import "NSString+Reek.h"
+#import "NSString+Reek.h"
 //: #import "UIViewNimKit.h"
 #import "UIViewNimKit.h"
 //: #import "AppleProjectKit.h"
@@ -301,7 +301,7 @@ Byte layoutPolicyConfig[] = {80, 20, 56, 6, 55, 159, 134, 140, 125, 139, 133, 15
                 //: self.textView.actionDelegate = vc;
                 self.textView.actionDelegate = vc;
                 //: self.textView.config = vc.sessionConfig;
-                self.textView.config = vc.hangUp;
+                self.textView.config = vc.sessionConfig;
             }
         //: }];
         }];

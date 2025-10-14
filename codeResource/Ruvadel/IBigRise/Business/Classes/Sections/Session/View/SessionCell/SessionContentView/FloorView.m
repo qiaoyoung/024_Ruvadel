@@ -23,7 +23,7 @@ Byte coreTunFormat[] = {19, 27, 79, 7, 183, 152, 227, 26, 20, 32, 31, 16, 40, 25
 //: #import "NTESSessionUtil.h"
 #import "CommunicativeUtil.h"
 //: #import "UIView+NTES.h"
-#import "UIView+KingdomNtes.h"
+#import "UIView+Kingdom.h"
 //: #import "MyAttributedLabel.h"
 #import "StrippedDownTextView.h"
 //: #import "ZZZKitUtil.h"

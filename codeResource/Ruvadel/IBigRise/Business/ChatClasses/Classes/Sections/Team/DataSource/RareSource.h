@@ -173,7 +173,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (NIMTeam *)volume;
 
 //: - (NIMSession *)session;
-- (NIMSession *)startMedia;
+- (NIMSession *)session;
 
 //: - (NSInteger)memberNumber;
 - (NSInteger)fellowMember;

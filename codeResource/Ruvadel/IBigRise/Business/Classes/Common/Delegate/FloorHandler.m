@@ -86,7 +86,7 @@
 //: #import "NTESNavigationHandler.h"
 #import "FloorHandler.h"
 //: #import "UIView+NTES.h"
-#import "UIView+KingdomNtes.h"
+#import "UIView+Kingdom.h"
 //: #import "NTESMainTabController.h"
 #import "DominantViewController.h"
 //: #import "UIResponder+NTESFirstResponder.h"

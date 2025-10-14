@@ -770,9 +770,9 @@
 //: #import "SVProgressHUD.h"
 #import "InputView.h"
 //: #import "UIView+NTES.h"
-#import "UIView+KingdomNtes.h"
+#import "UIView+Kingdom.h"
 //: #import "NSString+NTES.h"
-#import "NSString+KingdomNtes.h"
+#import "NSString+Kingdom.h"
 //: #import "ZZZCCCLoginManager.h"
 #import "ChooseThey.h"
 //: #import "NTESNotificationCenter.h"
@@ -785,8 +785,8 @@
 #import "ParaReek.h"
 //: #import <CoreTelephony/CTCellularData.h>
 #import <CoreTelephony/CTCellularData.h>
-//: #import "ZZZGlobalMacro.h"
-#import "ZZZGlobalMacro.h"
+//: #import "NSString+Reek.h"
+#import "NSString+Reek.h"
 //: #import "AppDelegateManager.h"
 #import "BrightUnction.h"
 //: #import "ZZZAutoLoginManager.h"

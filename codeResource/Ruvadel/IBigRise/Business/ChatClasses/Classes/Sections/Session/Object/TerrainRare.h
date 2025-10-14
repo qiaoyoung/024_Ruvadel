@@ -11,8 +11,8 @@
 // __M_A_C_R_O__
 //: #import "ZZZSessionViewController.h"
 #import "FanViewController.h"
-//: #import "ZZZSessionConfigurateProtocol.h"
-#import "ZZZSessionConfigurateProtocol.h"
+//: #import "TrainReferencePrimary.h"
+#import "TrainReferencePrimary.h"
 
 //: @class ZZZSessionViewController;
 @class FanViewController;

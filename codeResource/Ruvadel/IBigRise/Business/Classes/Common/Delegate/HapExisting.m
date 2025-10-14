@@ -12,7 +12,7 @@
 //: #import "NTESNavigationAnimator.h"
 #import "HapExisting.h"
 //: #import "UIView+NTES.h"
-#import "UIView+KingdomNtes.h"
+#import "UIView+Kingdom.h"
 //: #import "NTESMainTabController.h"
 #import "DominantViewController.h"
 //: #import "CustomTabBarController.h"

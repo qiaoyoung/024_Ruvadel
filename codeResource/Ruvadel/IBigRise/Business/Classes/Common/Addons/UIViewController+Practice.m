@@ -92,7 +92,7 @@
 //: #import "UIResponder+NTESFirstResponder.h"
 #import "UIResponder+TheyResponder.h"
 //: #import "UIView+NTES.h"
-#import "UIView+KingdomNtes.h"
+#import "UIView+Kingdom.h"
 //: #import "UIImage+NTESColor.h"
 #import "UIImage+Perform.h"
 

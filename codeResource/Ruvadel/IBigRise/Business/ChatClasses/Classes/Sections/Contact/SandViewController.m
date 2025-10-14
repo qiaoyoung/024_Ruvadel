@@ -174,8 +174,8 @@
 #import "Reek.h"
 //: #import "StrippedDownTextView.h"
 #import "StrippedDownTextView.h"
-//: #import "ZZZGlobalMacro.h"
-#import "ZZZGlobalMacro.h"
+//: #import "NSString+Reek.h"
+#import "NSString+Reek.h"
 //: #import "ZZZSetGroupNameView.h"
 #import "SightView.h"
 //: #import "ZMONGroupAvatarViewController.h"
@@ -687,7 +687,7 @@
 - (IBAction)dones:(id)sender {
 
     //: if (self.config.showSelectHeaderview) {
-    if (self.config.library) {
+    if (self.config.showSelectHeaderview) {
 
         //: [self.view addSubview:self.setGroupnameView];
         [self.view addSubview:self.setGroupnameView];

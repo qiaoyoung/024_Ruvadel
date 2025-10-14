@@ -11,10 +11,10 @@
 // __M_A_C_R_O__
 //: #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
-//: #import "ZZZSessionConfigurateProtocol.h"
-#import "ZZZSessionConfigurateProtocol.h"
-//: #import "ZZZMessageCellProtocol.h"
-#import "ZZZMessageCellProtocol.h"
+//: #import "TrainReferencePrimary.h"
+#import "TrainReferencePrimary.h"
+//: #import "RobustVisualizeDelegate.h"
+#import "RobustVisualizeDelegate.h"
 
 //: @interface ZZZSessionTableAdapter : NSObject<UITableViewDelegate,UITableViewDataSource>
 @interface WeighDownAdapter : NSObject<UITableViewDelegate,UITableViewDataSource>

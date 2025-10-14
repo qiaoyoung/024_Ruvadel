@@ -11,10 +11,10 @@
 // __M_A_C_R_O__
 //: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
-//: #import "ZZZSessionPrivateProtocol.h"
-#import "ZZZSessionPrivateProtocol.h"
-//: #import "ZZZSessionConfigurateProtocol.h"
-#import "ZZZSessionConfigurateProtocol.h"
+//: #import "TopmostSignerNavigatorBeyond.h"
+#import "TopmostSignerNavigatorBeyond.h"
+//: #import "TrainReferencePrimary.h"
+#import "TrainReferencePrimary.h"
 
 //: @interface ZZZSessionInteractorImpl : NSObject<NIMSessionInteractor,NIMSessionLayoutDelegate>
 @interface SumeractBulk : NSObject<SuccessfulSumeractor,MoundSand>

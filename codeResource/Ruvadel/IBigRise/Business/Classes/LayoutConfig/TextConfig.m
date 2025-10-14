@@ -66,8 +66,8 @@
 #import "TextConfig.h"
 //: #import "MyAttributedLabel+AppleProjectKit.h"
 #import "StrippedDownTextView+Reek.h"
-//: #import "ZZZGlobalMacro.h"
-#import "ZZZGlobalMacro.h"
+//: #import "NSString+Reek.h"
+#import "NSString+Reek.h"
 
 //: @interface NTESChatroomTextContentConfig()
 @interface TextConfig()

@@ -103,7 +103,7 @@
 //: #import "NTESSessionUtil.h"
 #import "CommunicativeUtil.h"
 //: #import "UIView+NTES.h"
-#import "UIView+KingdomNtes.h"
+#import "UIView+Kingdom.h"
 
 //: @interface NTESSessionSnapchatContentView()
 @interface AgileTitleView()

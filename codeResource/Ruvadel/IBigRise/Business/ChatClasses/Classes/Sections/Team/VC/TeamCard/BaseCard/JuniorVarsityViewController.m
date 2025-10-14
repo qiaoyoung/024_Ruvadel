@@ -276,7 +276,7 @@ typedef struct {
     //: cell.button.style = KitColorButtonCellStyleRed;
     cell.button.style = KitColorButtonCellStyleRed;
     //: [cell.button setTitle:bodyData.title forState:UIControlStateNormal];
-    [cell.button setTitle:bodyData.via forState:UIControlStateNormal];
+    [cell.button setTitle:bodyData.title forState:UIControlStateNormal];
     //: return cell;
     return cell;
 }
@@ -318,7 +318,7 @@ typedef struct {
     //: UITableViewCell * cell;
     UITableViewCell * cell;
     //: EnumTeamCardRowItemType type = bodyData.type;
-    EnumTeamCardRowItemType type = bodyData.receiver;
+    EnumTeamCardRowItemType type = bodyData.type;
     //: switch (type) {
     switch (type) {
         //: case TeamCardRowItemTypeCommon:
@@ -379,15 +379,15 @@ typedef struct {
     //: cell.selectionStyle = UITableViewCellSelectionStyleNone;
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     //: cell.titleLabel.text = bodyData.title;
-    cell.titleLabel.text = bodyData.via;
+    cell.titleLabel.text = bodyData.title;
     //: cell.iconImageView.image = bodyData.img;
-    cell.iconImageView.image = bodyData.onDocumentImg;
+    cell.iconImageView.image = bodyData.img;
     //: cell.contentLabel.text = bodyData.subTitle;
-    cell.contentLabel.text = bodyData.eliteDynamic;
+    cell.contentLabel.text = bodyData.subTitle;
     //: if ([bodyData respondsToSelector:@selector(subTitle)]) {
-    if ([bodyData respondsToSelector:@selector(eliteDynamic)]) {
+    if ([bodyData respondsToSelector:@selector(subTitle)]) {
         //: cell.contentLabel.text = bodyData.subTitle ?: [NTESLanguageManager getTextWithKey:@"未设置"];
-        cell.contentLabel.text = bodyData.eliteDynamic ?: [CarefulRage formatExtend:[LiberateComplexData k_someoneTitle]];
+        cell.contentLabel.text = bodyData.subTitle ?: [CarefulRage formatExtend:[LiberateComplexData k_someoneTitle]];
     }
 
     //: return cell;
@@ -669,7 +669,7 @@ typedef struct {
     //: cell.selectionStyle = UITableViewCellSelectionStyleNone;
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     //: cell.textLabel.text = [NSString stringWithFormat:@"%@(%@)",bodyData.title,bodyData.subTitle];
-    cell.textLabel.text = [NSString stringWithFormat:@"%@(%@)",bodyData.via,bodyData.eliteDynamic];
+    cell.textLabel.text = [NSString stringWithFormat:@"%@(%@)",bodyData.title,bodyData.subTitle];
     //: cell.textLabel.font = [UIFont systemFontOfSize:14];
     cell.textLabel.font = [UIFont systemFontOfSize:14];
     //: cell.textLabel.textColor = [UIColor blackColor];
@@ -678,7 +678,7 @@ typedef struct {
 //    cell.imageView.image = bodyData.img;
 
     //: if ([bodyData respondsToSelector:@selector(actionDisabled)] && bodyData.actionDisabled) {
-    if ([bodyData respondsToSelector:@selector(handicappedDisabled)] && bodyData.handicappedDisabled) {
+    if ([bodyData respondsToSelector:@selector(actionDisabled)] && bodyData.actionDisabled) {
         //: cell.accessoryType = UITableViewCellAccessoryNone;
         cell.accessoryType = UITableViewCellAccessoryNone;
     //: }else{
@@ -740,7 +740,7 @@ typedef struct {
     //: id<NTESCardBodyData> bodyData = [self bodyDataAtIndexPath:indexPath];
     id<PaperPreviousFlash> bodyData = [self dataLocal:indexPath];
     //: return bodyData.rowHeight;
-    return bodyData.actual;
+    return bodyData.rowHeight;
 }
 
 //: - (void)reloadOtherData {};
@@ -918,18 +918,18 @@ typedef struct {
     sep.hidden = (indexPath.row + 1 == [self.tableView numberOfRowsInSection:indexPath.section]);
 
     //: cell.textLabel.text = bodyData.title;
-    cell.textLabel.text = bodyData.via;
+    cell.textLabel.text = bodyData.title;
     //: cell.textLabel.font = [UIFont boldSystemFontOfSize:14];
     cell.textLabel.font = [UIFont boldSystemFontOfSize:14];
     //: cell.textLabel.textColor = [UIColor blackColor];
     cell.textLabel.textColor = [UIColor blackColor];
     //: cell.imageView.image = bodyData.img;
-    cell.imageView.image = bodyData.onDocumentImg;
+    cell.imageView.image = bodyData.img;
 
     //: cell.switcher.on = bodyData.switchOn;
-    cell.switcher.on = bodyData.kitNumberro;
+    cell.switcher.on = bodyData.switchOn;
     //: cell.identify = bodyData.identify;
-    cell.identify = bodyData.written;
+    cell.identify = bodyData.identify;
 
     //: [self didBuildTeamSwitchCell:cell];
     [self bar:cell];
@@ -952,7 +952,7 @@ typedef struct {
     //: cell.button.style = KitColorButtonCellStyleBlue;
     cell.button.style = KitColorButtonCellStyleBlue;
     //: [cell.button setTitle:bodyData.title forState:UIControlStateNormal];
-    [cell.button setTitle:bodyData.via forState:UIControlStateNormal];
+    [cell.button setTitle:bodyData.title forState:UIControlStateNormal];
     //: return cell;
     return cell;
 };
@@ -964,22 +964,22 @@ typedef struct {
     //: id<NTESCardBodyData> bodyData = [self bodyDataAtIndexPath:indexPath];
     id<PaperPreviousFlash> bodyData = [self dataLocal:indexPath];
     //: if ([bodyData respondsToSelector:@selector(actionDisabled)] && bodyData.actionDisabled) {
-    if ([bodyData respondsToSelector:@selector(handicappedDisabled)] && bodyData.handicappedDisabled) {
+    if ([bodyData respondsToSelector:@selector(actionDisabled)] && bodyData.actionDisabled) {
         //: return;
         return;
     }
     //: if (bodyData.type == TeamCardRowItemTypeSelected) {
-    if (bodyData.receiver == TeamCardRowItemTypeSelected) {
+    if (bodyData.type == TeamCardRowItemTypeSelected) {
         //: ZZZTeamCardSelectedViewController *vc = [ZZZTeamCardSelectedViewController instanceWithTitle:bodyData.title
-        BackgroundViewController *vc = [BackgroundViewController zone:bodyData.via
+        BackgroundViewController *vc = [BackgroundViewController zone:bodyData.title
                                                                                //: items:bodyData.optionItems
-                                                                               big:bodyData.troubling
+                                                                               big:bodyData.optionItems
                                                                               //: result:^(id<NIMKitSelectCardData> _Nonnull item) {
                                                                               multiAlongside:^(id<OrganizeInvite> _Nonnull item) {
               //: if (bodyData.selectedBlock) {
-              if (bodyData.pin) {
+              if (bodyData.selectedBlock) {
                   //: bodyData.selectedBlock(item);
-                  bodyData.pin(item);
+                  bodyData.selectedBlock(item);
               }
           //: }];
           }];
@@ -988,13 +988,13 @@ typedef struct {
     //: } else {
     } else {
         //: if ([bodyData respondsToSelector:@selector(action)]) {
-        if ([bodyData respondsToSelector:@selector(inviteSimultaneously)]) {
+        if ([bodyData respondsToSelector:@selector(action)]) {
             //: if (bodyData.action) {
-            if (bodyData.inviteSimultaneously) {
+            if (bodyData.action) {
                 //: do {
                 do {
                 //: [self performSelector:bodyData.action];
-                [self performSelector:bodyData.inviteSimultaneously];
+                [self performSelector:bodyData.action];
                 //: } while (0);
                 } while (0);
             }

@@ -84,8 +84,8 @@ typedef struct {
 // __M_A_C_R_O__
 //: #import "NTESSubscribeManager.h"
 #import "Possible.h"
-//: #import "NTESSubscribeDefine.h"
-#import "NTESSubscribeDefine.h"
+//: #import "MultiplyTrustyTemplateTask.h"
+#import "MultiplyTrustyTemplateTask.h"
 //: #import "NTESDevice.h"
 #import "KnownHear.h"
 //: #import "ZZZExtensionHelper.h"

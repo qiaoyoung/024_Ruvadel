@@ -192,7 +192,7 @@
 //: #import "UIViewNimKit.h"
 #import "UIViewNimKit.h"
 //: #import "UIView+NTES.h"
-#import "UIView+KingdomNtes.h"
+#import "UIView+Kingdom.h"
 
 //: @interface ZZZInputAudioView()
 @interface MpView()

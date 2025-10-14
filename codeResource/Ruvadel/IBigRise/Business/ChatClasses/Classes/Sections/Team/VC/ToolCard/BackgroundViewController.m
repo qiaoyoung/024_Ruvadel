@@ -156,8 +156,8 @@
 // __M_A_C_R_O__
 //: #import "ZZZTeamCardSelectedViewController.h"
 #import "BackgroundViewController.h"
-//: #import "ZZZGlobalMacro.h"
-#import "ZZZGlobalMacro.h"
+//: #import "NSString+Reek.h"
+#import "NSString+Reek.h"
 //: #import "ZMONTeamCartSetTableViewCell.h"
 #import "ThroughViewCell.h"
 
@@ -201,7 +201,7 @@
         //: [items enumerateObjectsUsingBlock:^(id<NIMKitSelectCardData> _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         [items enumerateObjectsUsingBlock:^(id<OrganizeInvite> _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             //: if (obj.selected) {
-            if (obj.track) {
+            if (obj.selected) {
                 //: weakSelf.selectedIndex = idx;
                 weakSelf.selectedIndex = idx;
             }
@@ -496,12 +496,12 @@
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
 	[self setOrbitAt:_selectedIndex];
     //: cell.iconImageView.image = [UIImage imageNamed:bodyData.img];
-    cell.iconImageView.image = [UIImage imageNamed:bodyData.receiveCover];
+    cell.iconImageView.image = [UIImage imageNamed:bodyData.img];
     //: cell.titleLabel.text = bodyData.title;
-    cell.titleLabel.text = bodyData.farAgreement;
+    cell.titleLabel.text = bodyData.title;
 	[self setCollectionUser:_titleString];
     //: cell.arrowsImageView.hidden = ![bodyData selected];
-    cell.arrowsImageView.hidden = ![bodyData track];
+    cell.arrowsImageView.hidden = ![bodyData selected];
 	[self setOrbitAt:_selectedIndex];
 
 //    static NSString *NIMTeamTableCellReuseId = @"cell";
@@ -575,7 +575,7 @@
         //: BOOL selected = (idx == indexPath.row);
         BOOL selected = (idx == indexPath.row);
         //: [obj setSelected:selected];
-        [obj setTrack:selected];
+        [obj setSelected:selected];
     //: }];
     }];
     //: [self.tableView reloadData];

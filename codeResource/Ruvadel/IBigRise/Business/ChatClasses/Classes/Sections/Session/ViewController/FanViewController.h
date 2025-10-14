@@ -15,10 +15,10 @@
 #import <NIMSDK/NIMSDK.h>
 //: #import "ZZZSessionConfig.h"
 #import "Config.h"
-//: #import "ZZZMessageCellProtocol.h"
-#import "ZZZMessageCellProtocol.h"
-//: #import "ZZZSessionConfigurateProtocol.h"
-#import "ZZZSessionConfigurateProtocol.h"
+//: #import "RobustVisualizeDelegate.h"
+#import "RobustVisualizeDelegate.h"
+//: #import "TrainReferencePrimary.h"
+#import "TrainReferencePrimary.h"
 //: #import "ZZZInputView.h"
 #import "FinishView.h"
 
@@ -101,7 +101,7 @@
  *  会话页详细配置
  */
 //: - (id<ZZZSessionConfig>)sessionConfig;
-- (id<Config>)hangUp;
+- (id<Config>)sessionConfig;
 
 /**
  * UI上移除PIN，SDK中移除了Pin后调用

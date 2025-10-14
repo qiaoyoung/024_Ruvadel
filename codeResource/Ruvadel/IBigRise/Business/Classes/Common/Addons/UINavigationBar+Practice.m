@@ -12,7 +12,7 @@
 //: #import "UINavigationBar+Swizzling.h"
 #import "UINavigationBar+Practice.h"
 //: #import "UIView+NTES.h"
-#import "UIView+KingdomNtes.h"
+#import "UIView+Kingdom.h"
 //: #import "SwizzlingDefine.h"
 #import "SwizzlingDefine.h"
 

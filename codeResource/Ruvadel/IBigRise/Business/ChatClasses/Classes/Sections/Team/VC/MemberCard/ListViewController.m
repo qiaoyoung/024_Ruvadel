@@ -582,8 +582,8 @@
 
 //: #pragma mark - UIAlertViewDelegate
 #pragma mark - UIAlertViewDelegate
-//: - (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex{
-- (void)limit:(UIAlertView *)alertView happeningPhoto:(NSInteger)buttonIndex{
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex{
+
     //: if (alertView == _kickAlertView) {
     if (alertView == _but) {
         //: if(alertView.cancelButtonIndex != buttonIndex) {
@@ -722,8 +722,8 @@
 
 //: #pragma mark - UIActionSheetDelegate
 #pragma mark - UIActionSheetDelegate
-//: - (void)actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex{
 - (void)actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex{
+
     //: if(buttonIndex == 0) {
     if(buttonIndex == 0) {
         //: NSString *userId = self.member.userId;
@@ -879,7 +879,7 @@
     //: ZZZKitInfoFetchOption *option = [[ZZZKitInfoFetchOption alloc] init];
     HeatMobileOption *option = [[HeatMobileOption alloc] init];
     //: option.session = _dataSource.session;
-    option.session = _dataSource.startMedia;
+    option.session = _dataSource.session;
     //: ZZZKitInfo *usrInfo = [[AppleProjectKit sharedKit] infoByUser:_member.userId option:option];
     RobInvite *usrInfo = [[Reek style] sequence:_member.userId from:option];
     //: NSDictionary *headerItem = @{
