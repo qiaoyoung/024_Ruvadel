@@ -164,7 +164,7 @@ Byte spacingQuietlyAlert[] = {57, 4, 2, 13, 194, 117, 77, 141, 6, 7, 53, 217, 21
     self.textView.userInteractionEnabled = YES;
     //: self.textView.showsVerticalScrollIndicator = YES;
     self.textView.showsVerticalScrollIndicator = YES;
-	[self setPadLemon:self.allowsEditingTextAttributes];
+//	[self setPadLemon:self.allowsEditingTextAttributes];
 }
 
 //: - (CGFloat)simulateHeight:(NSInteger)line
@@ -179,7 +179,7 @@ Byte spacingQuietlyAlert[] = {57, 4, 2, 13, 194, 117, 77, 141, 6, 7, 53, 217, 21
     self.textView.delegate = nil;
     //: self.textView.hidden = YES;
     self.textView.hidden = YES;
-	[self setPadLemon:self.allowsEditingTextAttributes];
+//	[self setPadLemon:self.allowsEditingTextAttributes];
 
     //: for (NSInteger index=0; index<line; index++) {
     for (NSInteger index=0; index<line; index++) {
@@ -189,7 +189,7 @@ Byte spacingQuietlyAlert[] = {57, 4, 2, 13, 194, 117, 77, 141, 6, 7, 53, 217, 21
 
     //: self.textView.text = newText;
     self.textView.text = newText;
-	[self setPadLemon:self.allowsEditingTextAttributes];
+//	[self setPadLemon:self.allowsEditingTextAttributes];
 
     //: CGFloat textViewMargin = 16;
     CGFloat textViewMargin = 16;
@@ -198,7 +198,7 @@ Byte spacingQuietlyAlert[] = {57, 4, 2, 13, 194, 117, 77, 141, 6, 7, 53, 217, 21
 
     //: self.textView.text = saveText;
     self.textView.text = saveText;
-	[self setPadLemon:self.allowsEditingTextAttributes];
+//	[self setPadLemon:self.allowsEditingTextAttributes];
     //: self.textView.hidden = NO;
     self.textView.hidden = NO;
     //: self.textView.delegate = self;
@@ -751,7 +751,7 @@ static const char *k_gestureTimer (NSString *value) {
 {
     //: self.textView.inputAccessoryView = textViewInputAccessoryView;
     self.textView.inputAccessoryView = textViewInputAccessoryView;
-	[self setPadLemon:self.allowsEditingTextAttributes];
+//	[self setPadLemon:self.allowsEditingTextAttributes];
 }
 
 //: - (void)setPlaceholderAttributedText:(NSAttributedString *)placeholderAttributedText
@@ -888,9 +888,9 @@ static const char *kContactBroadcastSettings (NSString *value) {
 //: - (void)setAllowsEditingTextAttributes:(BOOL)allowsEditingTextAttributes
 - (void)setAllowsEditingTextAttributes:(BOOL)allowsEditingTextAttributes
 {
-    //: self.textView.allowsEditingTextAttributes = allowsEditingTextAttributes;
     self.textView.allowsEditingTextAttributes = allowsEditingTextAttributes;
-	[self setShared:self.selectedRange];
+//    self.textView.allowsEditingTextAttributes = allowsEditingTextAttributes;
+//	[self setShared:self.selectedRange];
 }
 
 static const char *colorCircuitFlagDistanceEvent (NSString *value) {
@@ -971,8 +971,8 @@ static const char *colorCircuitFlagDistanceEvent (NSString *value) {
 //: - (BOOL)allowsEditingTextAttributes
 - (BOOL)allowsEditingTextAttributes
 {
-    //: return self.allowsEditingTextAttributes;
-    return [self lemonRind:self.allowsEditingTextAttributes];
+    return self.allowsEditingTextAttributes;
+//    return [self lemonRind:self.allowsEditingTextAttributes];
 }
 
 

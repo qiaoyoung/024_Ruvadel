@@ -79,7 +79,7 @@ NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
     {
         //: nextResponder = [nextResponder nextResponder];
         nextResponder = [nextResponder nextResponder];
-	[self setOwner:self.textFieldSearchBar];
+//	[self setOwner:self.textFieldSearchBar];
 
         //: if ([nextResponder isKindOfClass:[UIViewController class]])
         if ([nextResponder isKindOfClass:[UIViewController class]])
@@ -410,7 +410,7 @@ static const char *widgetMacApproachEvent (NSString *value) {
 
         //: superview = superview.superview;
         superview = superview.superview;
-	[self setOwner:self.textFieldSearchBar];
+//	[self setOwner:self.textFieldSearchBar];
     }
 
     //: return nil;
@@ -506,7 +506,7 @@ static const char *widgetMacApproachEvent (NSString *value) {
         {
             //: parentController = parentParentController;
             parentController = parentParentController;
-	[self setOwner:self.textFieldSearchBar];
+//	[self setOwner:self.textFieldSearchBar];
             //: parentParentController = parentController.parentViewController;
             parentParentController = parentController.parentViewController;
         }
@@ -516,7 +516,7 @@ static const char *widgetMacApproachEvent (NSString *value) {
         {
             //: parentContainerViewController = navController.topViewController;
             parentContainerViewController = navController.topViewController;
-	[self setOwner:self.textFieldSearchBar];
+//	[self setOwner:self.textFieldSearchBar];
         }
         //: else
         else
@@ -534,7 +534,7 @@ static const char *widgetMacApproachEvent (NSString *value) {
         {
             //: parentContainerViewController = [(UINavigationController*)matchController.tabBarController.selectedViewController topViewController];
             parentContainerViewController = [(UINavigationController*)matchController.tabBarController.selectedViewController topViewController];
-	[self setOwner:self.textFieldSearchBar];
+//	[self setOwner:self.textFieldSearchBar];
         }
         //: else
         else
@@ -589,7 +589,7 @@ static const char *widgetMacApproachEvent (NSString *value) {
     {
         //: depth = [[self superview] depth] + 1;
         depth = [[self superview] become] + 1;
-	[self setOwner:self.textFieldSearchBar];
+//	[self setOwner:self.textFieldSearchBar];
     }
 
     //: return depth;

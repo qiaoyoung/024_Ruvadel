@@ -67,15 +67,15 @@ Byte featureStuffMessage[] = {45, 25, 79, 14, 44, 146, 214, 19, 7, 188, 16, 1, 1
     CGRect frame = self.bounds;
     //: frame.origin.x = frame.origin.x - 4;
     frame.origin.x = frame.origin.x - 4;
-	[self setDisappearStorage:_progressView];
+//	[self setDisappearStorage:_progressView];
     //: frame.origin.y = frame.origin.y - 4;
     frame.origin.y = frame.origin.y - 4;
-	[self setDisappearStorage:_progressView];
+//	[self setDisappearStorage:_progressView];
     //: frame.size.width = frame.size.width + 12;
     frame.size.width = frame.size.width + 12;
     //: frame.size.height = frame.size.height + 8;
     frame.size.height = frame.size.height + 8;
-	[self setDisappearStorage:_progressView];
+//	[self setDisappearStorage:_progressView];
     //: [self maskBubbleImageView:frame markImageView:_maskView];
     [self disguise:frame movie:_expected];
 }
@@ -99,10 +99,10 @@ Byte featureStuffMessage[] = {45, 25, 79, 14, 44, 146, 214, 19, 7, 188, 16, 1, 1
 
     //: messageContentImageView.layer.mask = maskLayer;
     messageContentImageView.layer.mask = maskLayer;
-	[self setDisappearStorage:_progressView];
+//	[self setDisappearStorage:_progressView];
     //: messageContentImageView.layer.masksToBounds = YES;
     messageContentImageView.layer.masksToBounds = YES;
-	[self setDisappearStorage:_progressView];
+//	[self setDisappearStorage:_progressView];
 }
 
 //: - (id)initWithFrame:(CGRect)frame {
@@ -130,12 +130,12 @@ Byte featureStuffMessage[] = {45, 25, 79, 14, 44, 146, 214, 19, 7, 188, 16, 1, 1
 
         //: self.progressView = [[UCZProgressView alloc] initWithFrame:self.bounds];
         self.progressView = [[ListExpertView alloc] initWithFrame:self.bounds];
-        //: self.progressView.backgroundColor = [UIColor clearColor];
-        [self remain:self.progressView].backgroundColor = [UIColor clearColor];
+        self.progressView.backgroundColor = [UIColor clearColor];
+//        [self remain:self.progressView].backgroundColor = [UIColor clearColor];
         //: self.progressView.translatesAutoresizingMaskIntoConstraints = NO;
         self.progressView.translatesAutoresizingMaskIntoConstraints = NO;
-        //: self.progressView.showsText = YES;
-        [self remain:self.progressView].showsText = YES;
+        self.progressView.showsText = YES;
+//        [self remain:self.progressView].showsText = YES;
         //: self.progressView.tintColor = [UIColor colorWithHexString:@"#6B69FE"];
         self.progressView.tintColor = [UIColor port:StringFromCaveatData(layoutCarrierName)];
 //        self.progressView.tintColor = RGB_COLOR_String(kCommonBGColor_All);
@@ -145,7 +145,7 @@ Byte featureStuffMessage[] = {45, 25, 79, 14, 44, 146, 214, 19, 7, 188, 16, 1, 1
         [self addSubview:self.progressView];
 
         //: NSDictionary *views = NSDictionaryOfVariableBindings(_progressView);
-        NSDictionary *views = NSDictionaryOfVariableBindings([self remain:_progressView]);
+        NSDictionary *views = NSDictionaryOfVariableBindings(_progressView);
         //: [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-0-[_progressView]-0-|" options:0 metrics:nil views:views]];
         [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:StringFromCaveatData(featureStuffMessage) options:0 metrics:nil views:views]];
         //: [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-0-[_progressView]-0-|" options:0 metrics:nil views:views]];
@@ -171,8 +171,8 @@ Byte featureStuffMessage[] = {45, 25, 79, 14, 44, 146, 214, 19, 7, 188, 16, 1, 1
     }else {
 //        _progressLabel.text = [NSString stringWithFormat:@"%d%%", (int)(progress*100)];
 //        [_activity startAnimating];
-        //: self.progressView.progress = progress;
-        [self remain:self.progressView].progress = progress;
+        self.progressView.progress = progress;
+//        [self remain:self.progressView].progress = progress;
     }
 
     //: [self setNeedsLayout];
