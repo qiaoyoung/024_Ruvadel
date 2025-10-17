@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>matchSpark</key>
+    <string>ReceiveChannelFrostCalculate</string>
+    <key>spriteLaunchBulkyViewport</key>
+    <string>TranslateCanvasTupleMakeCompute</string>
+    <key>surfaceModestTexture</key>
+    <string>CuratedMeasureRouteApply</string>
+    <key>buoyantEmitter</key>
+    <string>LushQuickRouteSend</string>
+    <key>binderCircuitRobust</key>
+    <string>SilentThemeBegin</string>
+</dict>
+</plist>

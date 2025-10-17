@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>validateFastEnumBridge</key>
+    <string>ReadCompareGet</string>
+    <key>teamDiscreteTimelineCancel</key>
+    <string>LimitCompareSpot</string>
+    <key>parallelMessage</key>
+    <string>RegisterBulkyPaintExtract</string>
+    <key>hideDecoder</key>
+    <string>MaskBeneathSet</string>
+    <key>waterBeforeTheme</key>
+    <string>SnapshotterTupleStair</string>
+    <key>implementRaven</key>
+    <string>GreenReportStart</string>
+    <key>composerDale</key>
+    <string>CollectionYearOrderHostWithout</string>
+</dict>
+</plist>

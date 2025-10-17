@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>novelDepotComposerRefresh</key>
+    <string>WarehouseTemplateLane</string>
+    <key>loaderSaver</key>
+    <string>StackPortalAboveReset</string>
+    <key>tinyCoordinator</key>
+    <string>DelegatePalette</string>
+    <key>alongSolution</key>
+    <string>ProjectorControllerAt</string>
+    <key>attachDelta</key>
+    <string>CarefulParseFacadeTimelineTower</string>
+    <key>resolverUponError</key>
+    <string>StandFormatShuffleStage</string>
+    <key>receiveNorthFacade</key>
+    <string>MultiplyLifecycleMatrixFetchLake</string>
+    <key>responsiveStreamTransformer</key>
+    <string>SyncObjectOfSubmit</string>
+    <key>domeAttachBroker</key>
+    <string>WithoutScanAbove</string>
+</dict>
+</plist>
