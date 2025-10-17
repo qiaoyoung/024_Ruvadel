@@ -3546,8 +3546,8 @@
 		B1729C2B2EA22E730048C83A /* NIMQuic.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B17299742EA22D9A0048C83A /* NIMQuic.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B1729C2C2EA22E740048C83A /* NIMSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B17299752EA22D9A0048C83A /* NIMSDK.xcframework */; };
 		B1729C2D2EA22E740048C83A /* NIMSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B17299752EA22D9A0048C83A /* NIMSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B1729C2E2EA22E750048C83A /* NIMSocketRocket.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B17299762EA22D9A0048C83A /* NIMSocketRocket.xcframework */; };
-		B1729C2F2EA22E750048C83A /* NIMSocketRocket.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B17299762EA22D9A0048C83A /* NIMSocketRocket.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B1729C302EA231CD0048C83A /* NIMSocketRocket.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B17299762EA22D9A0048C83A /* NIMSocketRocket.xcframework */; };
+		B1729C312EA231CD0048C83A /* NIMSocketRocket.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B17299762EA22D9A0048C83A /* NIMSocketRocket.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -3560,7 +3560,7 @@
 				B1729C2B2EA22E730048C83A /* NIMQuic.xcframework in Embed Frameworks */,
 				B1729C292EA22E710048C83A /* NIMNOS.xcframework in Embed Frameworks */,
 				B1729C2D2EA22E740048C83A /* NIMSDK.xcframework in Embed Frameworks */,
-				B1729C2F2EA22E750048C83A /* NIMSocketRocket.xcframework in Embed Frameworks */,
+				B1729C312EA231CD0048C83A /* NIMSocketRocket.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -10670,7 +10670,7 @@
 				B1729C282EA22E710048C83A /* NIMNOS.xcframework in Frameworks */,
 				4EA794C9073B2935D2F456ED /* Pods_Runner.framework in Frameworks */,
 				B1729C2A2EA22E730048C83A /* NIMQuic.xcframework in Frameworks */,
-				B1729C2E2EA22E750048C83A /* NIMSocketRocket.xcframework in Frameworks */,
+				B1729C302EA231CD0048C83A /* NIMSocketRocket.xcframework in Frameworks */,
 				B1729C2C2EA22E740048C83A /* NIMSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

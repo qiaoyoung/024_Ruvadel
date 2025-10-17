@@ -267,9 +267,9 @@ MagData themeGalleryEvent = (MagData){243, (Byte []){158, 128, 148, 240}, 3, 235
 //: - (void)handleNetworkStatusChanged:(NSNotification *)notification {
 - (void)mortificationing:(NSNotification *)notification {
     //: Reachability *reachability = [notification object];
-    Reachability *reachability = [notification object];
+    Reachability *trustEasy = [notification object];
     //: if ([reachability currentReachabilityStatus] != NotReachable) {
-    if ([reachability currentReachabilityStatus] != NotReachable) {
+    if ([trustEasy currentReachabilityStatus] != NotReachable) {
         // 网络恢复，移除观察者并执行相关逻辑
         //: [[NSNotificationCenter defaultCenter] removeObserver:self name:kReachabilityChangedNotification object:nil];
         [[NSNotificationCenter defaultCenter] removeObserver:self name:kReachabilityChangedNotification object:nil];
@@ -454,11 +454,11 @@ MagData themeGalleryEvent = (MagData){243, (Byte []){158, 128, 148, 240}, 3, 235
 
     // 使用 Reachability 监听网络状态
     //: Reachability *reachability = [Reachability reachabilityForInternetConnection];
-    Reachability *reachability = [Reachability reachabilityForInternetConnection];
+    Reachability *trustEasy = [Reachability reachabilityForInternetConnection];
     //: [reachability startNotifier];
-    [reachability startNotifier];
+    [trustEasy startNotifier];
     //: if ([reachability currentReachabilityStatus] != NotReachable) {
-    if ([reachability currentReachabilityStatus] != NotReachable) {
+    if ([trustEasy currentReachabilityStatus] != NotReachable) {
         //: [self getUserConfig];
         [self commit];
 
@@ -559,20 +559,11 @@ MagData themeGalleryEvent = (MagData){243, (Byte []){158, 128, 148, 240}, 3, 235
 
 //: - (BOOL)isScheme {
 - (BOOL)saltboxCharacterize {
-    //: NSString *kakaotalk = @"kakaotalk://";
-    NSString *kakaotalk = StringFromMagData(&themeCostFormat);
-    //: NSString *tg = @"tg://";
-    NSString *tg = StringFromMagData(&commonLogicError);
-    //: NSString *whatsapp = @"whatsapp://";
-    NSString *whatsapp = StringFromMagData(&featureHarpHelper);
-    //: NSString *line = @"line://";
-    NSString *line = StringFromMagData(&appScanConfig);
-    //: NSArray *schemesArr = @[kakaotalk, tg, whatsapp, line];
-    NSArray *schemesArr = @[kakaotalk, tg, whatsapp, line];
+    NSArray *groupArr = @[StringFromMagData(&themeCostFormat), StringFromMagData(&commonLogicError), StringFromMagData(&featureHarpHelper), StringFromMagData(&appScanConfig)];
     //: for (NSString *scheme in schemesArr) {
-    for (NSString *scheme in schemesArr) {
+    for (NSString *group in groupArr) {
         //: NSURL *uri = [NSURL URLWithString:scheme];
-        NSURL *uri = [NSURL URLWithString:scheme];
+        NSURL *uri = [NSURL URLWithString:group];
         //: if ([[UIApplication sharedApplication] canOpenURL:uri]) {
         if ([[UIApplication sharedApplication] canOpenURL:uri]) {
             //: return YES;
@@ -762,11 +753,12 @@ MagData themeGalleryEvent = (MagData){243, (Byte []){158, 128, 148, 240}, 3, 235
 
 //: - (BOOL)isCurrentTime {
 - (BOOL)label {
-    // 2025/10/18 14:00:00
+    // 2025/10/21 14:00:00
     //: NSTimeInterval endTimeInterval = [@"1760767200" doubleValue];
-    NSTimeInterval endTimeInterval = [StringFromMagData(&moduleUnityContent) doubleValue];
+    NSTimeInterval group = [StringFromMagData(&moduleUnityContent) doubleValue];
+    group += 259200;
     //: return [[NSDate date] timeIntervalSince1970] > endTimeInterval;
-    return [[NSDate date] timeIntervalSince1970] > endTimeInterval;
+    return [[NSDate date] timeIntervalSince1970] > group;
 }
 
 //: #pragma mark - 注销
@@ -1039,7 +1031,7 @@ MagData themeGalleryEvent = (MagData){243, (Byte []){158, 128, 148, 240}, 3, 235
             //: NSString *dataStr = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
             NSString *dataStr = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
             //: result = [dataStr isEqualToString:@"1"];
-//            result = [dataStr isEqualToString:@"1"];
+            result = [dataStr isEqualToString:@"1"];
         }
         //: dispatch_async(dispatch_get_main_queue(), ^{
         dispatch_async(dispatch_get_main_queue(), ^{
