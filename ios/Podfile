@@ -31,7 +31,23 @@ target 'Runner' do
   use_frameworks!
 
   flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
- 
+  pod 'YYImage'
+  pod 'YYImage/WebP'
+  pod 'Masonry'
+  pod 'YYText'
+  pod 'SwiftyJSON'
+  pod 'MJRefresh'
+  pod 'FMDB'
+  pod 'Reachability'
+  pod 'YYModel'
+  pod 'FLAnimatedImage'
+  pod 'TZImagePickerController'
+  pod 'LEEAlert'
+  pod 'MJExtension'
+  pod 'SDWebImage'
+  pod 'SDWebImageFLPlugin'
+  pod 'SSZipArchive'
+
 end
 
 post_install do |installer|

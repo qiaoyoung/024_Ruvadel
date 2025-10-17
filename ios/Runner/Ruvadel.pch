@@ -1,0 +1,48 @@
+//
+//  ZZZ-Prefix.pch
+//  NIMDemo
+//
+//  Created by ght on 15-1-27.
+//  Copyright (c) 2015年 Netease. All rights reserved.
+//
+
+#ifdef __OBJC__
+#import "Reek.h"
+#import "NSString+Kingdom.h"
+#import "BriefBetween.h"
+#import "BriefBetween+Stick.h"
+#import "UIColor+Util.h"
+#import <Masonry/Masonry.h>
+#import "Masonry.h"
+#import "StackTexture.h"
+#import "InputView.h"
+#import <YYText/YYText.h>
+#import "UIImage+Inside.h"
+#import "DominantMinimal.h"
+#import <NIMSDK/NIMSDK.h>
+
+//扩展
+#import "UIViewController+Inside.h"
+#import "InputView+ZC.h"
+#import "NSDictionary+Inside.h"
+#import "StackTexture+Util.h"
+#import "UIView+Inside.h"
+#import "NSDateFormatter+Inside.h"
+#import "NSDate+Inside.h"
+#import "UIViewController+Inside.h"
+#import "UIButton+Blue.h"
+#import "UIDevice+MpOrganize.h"
+#import "MyFormatterPreloadMultiplyGrave.h"
+#import "LoadingView.h"
+#import <SDWebImage/SDWebImage.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import "HttpInterfacedConst.h"
+#import "NSString+Reek.h"
+#import "NSDictionaryExtend.h"
+#import "UIDevice+MpOrganize.h"
+#import "ReekRealmHelper.h"
+#import "UIImage+History.h"
+#import "UIView+Kingdom.h"
+#import "UIView+Existing.h"
+
+#endif
