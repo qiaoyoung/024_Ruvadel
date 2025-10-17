@@ -1,0 +1,1136 @@
+{
+  "users": [
+    {
+      "id": "user_001",
+      "name": "Emma Dubois",
+      "age": 28,
+      "nationality": "French",
+      "city": "Chamonix, France",
+      "occupation": "Fashion Photographer & Ski Blogger",
+      "image": "assets/user/user_1.jpg",
+      "skiing_style": "Alpine Fashion Icon",
+      "bio": "Vintage ski fashion enthusiast who combines her love for retro aesthetics with modern skiing. Known for her iconic 80s-inspired ski outfits and popular Instagram account @VintageSkiVibes.",
+      "equipment": {
+        "outfit": "Nylon Finesse vintage ski suit with skier graphics",
+        "color_scheme": "Navy blue with colorful retro skier patterns",
+        "accessories": ["White decorative buttons", "Matching belt", "High collar", "Vintage ski goggles"],
+        "skis": "Rossignol Experience 80 CI (160cm)",
+        "boots": "Lange SX 90 W",
+        "bindings": "Look NX 11 GW",
+        "poles": "Leki Carbon 14 3D"
+      },
+      "skill_level": "Intermediate",
+      "favorite_activities": [
+        "Fashion skiing photoshoots",
+        "Vintage ski gear collecting",
+        "Groomed piste cruising",
+        "Ski resort culture documentation",
+        "Après-ski fashion events"
+      ],
+      "location_preference": "European Alps",
+      "favorite_resorts": [
+        "Chamonix-Mont-Blanc (France)",
+        "St. Moritz (Switzerland)", 
+        "Cortina d'Ampezzo (Italy)",
+        "Val d'Isère (France)"
+      ],
+      "skiing_experience_years": 8,
+      "social_media_active": true,
+      "social_media_stats": {
+        "instagram_followers": 45000,
+        "tiktok_followers": 28000,
+        "youtube_subscribers": 12000
+      },
+      "interests": [
+        "Vintage ski fashion history",
+        "Alpine culture preservation", 
+        "Ski photography techniques",
+        "Sustainable ski tourism",
+        "Fashion design"
+      ],
+      "languages": ["French (native)", "English (fluent)", "Italian (conversational)"],
+      "skiing_goals": [
+        "Document vintage ski fashion across European resorts",
+        "Launch vintage ski wear collection",
+        "Reach 100k Instagram followers"
+      ],
+      "personality_traits": ["Creative", "Stylish", "Adventurous", "Social", "Artistic"],
+      "budget_range": "Premium ($200-400/day)",
+      "travel_frequency": "15-20 ski trips per year",
+      "preferred_season": "January-March",
+      "certifications": ["Basic First Aid", "Avalanche Safety Level 1"]
+    },
+    {
+      "id": "user_002", 
+      "name": "Sophie Müller",
+      "age": 25,
+      "nationality": "Swiss",
+      "city": "Zermatt, Switzerland",
+      "occupation": "Luxury Travel Consultant & Wine Sommelier",
+      "image": "assets/user/user_2.jpg",
+      "skiing_style": "Sophisticated Alpine Socialite",
+      "bio": "Third-generation Swiss skier who combines her passion for fine wines with alpine adventures. Certified sommelier specializing in mountain gastronomy and luxury ski experiences.",
+      "equipment": {
+        "goggles": "Bogner Just-B Polarized (Black/Gold)",
+        "helmet": "POC Obex BC SPIN",
+        "outfit": "Black and white Nordic pattern sweater by Bogner",
+        "jacket": "Moncler Grenoble down jacket",
+        "pants": "Fusalp black ski pants",
+        "accessories": ["Heated gloves", "Après-ski boots", "Designer scarf"],
+        "skis": "Blizzard Black Pearl 88 (156cm)",
+        "boots": "Tecnica Mach1 MV 95 W",
+        "poles": "Scott Koko"
+      },
+      "skill_level": "Advanced",
+      "favorite_activities": [
+        "Wine tasting at mountain restaurants",
+        "Luxury après-ski experiences",
+        "Helicopter skiing",
+        "Gourmet mountain dining",
+        "Ski resort networking events",
+        "Off-piste adventures with guides"
+      ],
+      "location_preference": "Swiss Alps",
+      "favorite_resorts": [
+        "Zermatt (Switzerland)",
+        "Verbier (Switzerland)",
+        "St. Anton am Arlberg (Austria)",
+        "Courchevel (France)",
+        "Whistler Blackcomb (Canada)"
+      ],
+      "skiing_experience_years": 12,
+      "social_media_active": true,
+      "social_media_stats": {
+        "instagram_followers": 18500,
+        "linkedin_connections": 3200
+      },
+      "interests": [
+        "Alpine wine culture",
+        "Mountain gastronomy",
+        "Luxury hospitality",
+        "Sustainable tourism",
+        "Helicopter skiing",
+        "Ski racing history"
+      ],
+      "languages": ["German (native)", "French (native)", "English (fluent)", "Italian (intermediate)"],
+      "skiing_goals": [
+        "Complete wine sommelier certification for mountain restaurants",
+        "Ski all major Alpine wine regions",
+        "Launch luxury ski tour company"
+      ],
+      "personality_traits": ["Sophisticated", "Social", "Adventurous", "Professional", "Cultured"],
+      "budget_range": "Luxury ($400-800/day)",
+      "travel_frequency": "25-30 ski days per year",
+      "preferred_season": "December-April",
+      "certifications": [
+        "Wine Sommelier Level 3",
+        "Wilderness First Aid",
+        "Swiss Ski Instructor Level 1",
+        "Avalanche Safety Level 2"
+      ],
+      "current_activity": "Enjoying Valais Petite Arvine wine on Gornergrat terrace",
+      "favorite_wine_pairings": {
+        "après_ski": "Chasselas with fondue",
+        "mountain_lunch": "Pinot Noir with raclette",
+        "celebration": "Champagne with chocolate dessert"
+      }
+    },
+    {
+      "id": "user_003",
+      "name": "Mia Schneider",
+      "age": 22,
+      "nationality": "Austrian",
+      "city": "Innsbruck, Austria",
+      "occupation": "Sports Science Student & Ski Influencer",
+      "image": "assets/user/user_3.jpg", 
+      "skiing_style": "Sunny Slope Cruiser",
+      "bio": "University student studying Sports Science with a focus on winter sports performance. Rising ski influencer known for her positive energy and perfect bluebird day content.",
+      "equipment": {
+        "helmet": "Smith Vantage MIPS (Matte Pink)",
+        "goggles": "Smith I/O MAG ChromaPop (Rose Gold mirror)",
+        "jacket": "Rossignol Ski Jacket (Black with logo)",
+        "pants": "Rossignol Ski Pants (Black)",
+        "base_layers": "Smartwool Merino wool",
+        "gloves": "Hestra Army Leather Heli",
+        "skis": "Rossignol Experience 78 CA (150cm)",
+        "boots": "Rossignol Pure Pro 90",
+        "bindings": "Look NX 10 GW",
+        "poles": "Rossignol Tactic"
+      },
+      "skill_level": "Intermediate+",
+      "favorite_activities": [
+        "Bluebird day skiing",
+        "Mountain photography and videography",
+        "Groomed piste carving",
+        "Ski technique improvement",
+        "Content creation for social media",
+        "University ski team training"
+      ],
+      "location_preference": "Austrian Alps",
+      "favorite_resorts": [
+        "Innsbruck Ski Areas (Austria)",
+        "Kitzbühel (Austria)",
+        "Sölden (Austria)",
+        "Stubai Glacier (Austria)",
+        "Zillertal Arena (Austria)"
+      ],
+      "skiing_experience_years": 6,
+      "social_media_active": true,
+      "social_media_stats": {
+        "instagram_followers": 32000,
+        "tiktok_followers": 85000,
+        "youtube_subscribers": 15000
+      },
+      "interests": [
+        "Sports science and biomechanics",
+        "Ski technique analysis",
+        "Mountain photography",
+        "Weather forecasting",
+        "Sustainable skiing",
+        "Fitness and nutrition"
+      ],
+      "languages": ["German (native)", "English (fluent)", "French (basic)"],
+      "skiing_goals": [
+        "Complete Sports Science degree with skiing specialization",
+        "Reach 100k TikTok followers",
+        "Improve to advanced skiing level",
+        "Become certified ski instructor"
+      ],
+      "personality_traits": ["Energetic", "Optimistic", "Studious", "Athletic", "Creative"],
+      "budget_range": "Student-friendly ($50-100/day)",
+      "travel_frequency": "40-50 ski days per year (local access)",
+      "preferred_season": "December-April",
+      "weather_preference": "Clear sunny days with fresh snow",
+      "certifications": [
+        "First Aid & CPR",
+        "Avalanche Safety Level 1",
+        "University Ski Team Member"
+      ],
+      "academic_focus": {
+        "major": "Sports Science",
+        "specialization": "Winter Sports Performance",
+        "thesis_topic": "Biomechanics of Ski Turning Techniques",
+        "university": "University of Innsbruck"
+      },
+      "fitness_routine": [
+        "Strength training 3x/week",
+        "Cardio and endurance training",
+        "Yoga and flexibility work",
+        "Balance and coordination exercises"
+      ]
+    },
+    {
+      "id": "user_004",
+      "name": "Luna Rodriguez", 
+      "age": 24,
+      "nationality": "American",
+      "city": "Denver, Colorado",
+      "occupation": "Graphic Designer & Freelance Photographer",
+      "image": "assets/user/user_4.jpg",
+      "skiing_style": "Twilight Adventure Seeker",
+      "bio": "Creative professional who discovered her passion for skiing later in life. Specializes in capturing the magical golden hour and twilight moments on the mountain through her lens.",
+      "equipment": {
+        "helmet": "Giro Nine MIPS (Tie-Dye pattern)",
+        "goggles": "Dragon X2s (Low light lens)",
+        "jacket": "Purple Burton AK Gore-Tex jacket",
+        "hoodie": "Purple fleece mid-layer",
+        "pants": "Light blue Patagonia Powder Bowl pants",
+        "gloves": "Burton GORE-TEX mittens",
+        "skis": "K2 Mindbender 90Ti (160cm)",
+        "boots": "Salomon QST Access 80",
+        "bindings": "Marker Griffon 13 ID",
+        "poles": "Blue Leki carbon fiber poles"
+      },
+      "skill_level": "Intermediate",
+      "favorite_activities": [
+        "Golden hour and twilight skiing",
+        "Night skiing under lights",
+        "Terrain park progression",
+        "Mountain photography",
+        "Backcountry touring (beginner)",
+        "Ski resort exploration"
+      ],
+      "location_preference": "Rocky Mountains & Pacific Northwest",
+      "favorite_resorts": [
+        "Keystone (Colorado) - night skiing",
+        "Copper Mountain (Colorado)",
+        "Vail (Colorado)",
+        "Whistler Blackcomb (Canada)",
+        "Crystal Mountain (Washington)"
+      ],
+      "skiing_experience_years": 7,
+      "social_media_active": true,
+      "social_media_stats": {
+        "instagram_followers": 28500,
+        "photography_portfolio": "Professional website",
+        "behance_followers": 5200
+      },
+      "interests": [
+        "Mountain photography",
+        "Graphic design and branding",
+        "Sustainable outdoor gear",
+        "Adventure travel",
+        "Night photography techniques",
+        "Ski cinematography"
+      ],
+      "languages": ["English (native)", "Spanish (fluent)", "French (basic)"],
+      "skiing_goals": [
+        "Master terrain park features",
+        "Complete backcountry avalanche course",
+        "Launch ski photography business",
+        "Ski 50 different resorts",
+        "Document night skiing culture"
+      ],
+      "personality_traits": ["Creative", "Independent", "Adventurous", "Artistic", "Determined"],
+      "budget_range": "Mid-range ($100-200/day)",
+      "travel_frequency": "30-40 ski days per year",
+      "preferred_season": "January-March",
+      "preferred_time": "Late afternoon to evening (3pm-8pm)",
+      "certifications": [
+        "Wilderness First Aid",
+        "AIARE Level 1 Avalanche",
+        "Professional Photography Certificate"
+      ],
+      "photography_specialties": [
+        "Golden hour mountain landscapes",
+        "Action sports photography",
+        "Night skiing documentation",
+        "Ski resort lifestyle photography"
+      ],
+      "equipment_wishlist": [
+        "Sony A7R V camera",
+        "DJI drone for aerial shots",
+        "Backcountry touring setup",
+        "Professional lighting equipment"
+      ],
+      "creative_projects": [
+        "Night skiing photo series",
+        "Colorado resort branding work",
+        "Ski gear product photography",
+        "Adventure travel blog"
+      ]
+    },
+    {
+      "id": "user_005",
+      "name": "Zoe Thompson",
+      "age": 26,
+      "nationality": "Canadian", 
+      "city": "Calgary, Alberta",
+      "occupation": "Marketing Manager & Fitness Coach",
+      "image": "assets/user/user_5.jpg",
+      "skiing_style": "Mountain Achievement Hunter",
+      "bio": "Former competitive skier turned marketing professional who brings the same competitive spirit to her career and outdoor adventures. Known for celebrating every mountain victory, big or small.",
+      "equipment": {
+        "helmet": "POC Fornix SPIN (White/Orange)",
+        "goggles": "Oakley Flight Deck XM",
+        "top": "Orange Lululemon crop top",
+        "jacket": "Patagonia Snowshot (when needed)",
+        "pants": "Burgundy Helly Hansen ski pants", 
+        "base_layers": "Smartwool Merino collection",
+        "gloves": "Hestra Fall Line (Orange/Brown)",
+        "skis": "Völkl Deacon 76 (158cm)",
+        "boots": "Lange RX 110 W",
+        "bindings": "Marker Race Xcell 16",
+        "poles": "Leki WCR Lite SL 3D"
+      },
+      "skill_level": "Advanced/Expert",
+      "favorite_activities": [
+        "Peak bagging and summit celebrations",
+        "Challenging terrain conquest",
+        "Fitness-focused ski training",
+        "Mountain running in summer",
+        "Backcountry ski touring",
+        "Motivational content creation"
+      ],
+      "location_preference": "Canadian Rockies & Beyond",
+      "favorite_resorts": [
+        "Lake Louise (Alberta)",
+        "Sunshine Village (Alberta)", 
+        "Whistler Blackcomb (British Columbia)",
+        "Revelstoke (British Columbia)",
+        "Banff area backcountry"
+      ],
+      "skiing_experience_years": 15,
+      "competitive_background": {
+        "former_racer": true,
+        "disciplines": ["Giant Slalom", "Super G"],
+        "achievements": ["Provincial Championships finalist", "University ski team captain"],
+        "racing_years": "Ages 12-20"
+      },
+      "social_media_active": true,
+      "social_media_stats": {
+        "instagram_followers": 42000,
+        "youtube_subscribers": 18000,
+        "strava_followers": 8500
+      },
+      "interests": [
+        "Peak performance and goal achievement",
+        "Mountain fitness and training",
+        "Motivational speaking",
+        "Adventure photography",
+        "Sustainable outdoor recreation",
+        "Mental health and wellness"
+      ],
+      "languages": ["English (native)", "French (conversational)"],
+      "skiing_goals": [
+        "Ski all major Canadian peaks",
+        "Complete Haute Route (Alps)",
+        "Launch adventure fitness coaching business",
+        "Inspire 10,000 people to try skiing",
+        "Summit and ski Mount Assiniboine"
+      ],
+      "personality_traits": ["Energetic", "Goal-oriented", "Inspiring", "Competitive", "Positive"],
+      "budget_range": "Mid-Premium ($150-300/day)",
+      "travel_frequency": "60-80 ski days per year",
+      "preferred_season": "November-May (year-round in glacial areas)",
+      "certifications": [
+        "CSIA Level 2 Ski Instructor",
+        "Avalanche Skills Training 2",
+        "Wilderness First Responder",
+        "Personal Training Certification",
+        "Mental Health First Aid"
+      ],
+      "fitness_philosophy": "Every mountain conquered builds confidence for life's challenges",
+      "coaching_specialties": [
+        "Adventure fitness preparation",
+        "Goal-setting and achievement",
+        "Mountain sports conditioning",
+        "Mental resilience training"
+      ],
+      "seasonal_activities": {
+        "winter": "Alpine and backcountry skiing",
+        "summer": "Mountain running, hiking, rock climbing",
+        "spring": "Ski touring, mountaineering",
+        "fall": "Trail running, strength training"
+      }
+    },
+    {
+      "id": "user_006",
+      "name": "Isabella Rossi",
+      "age": 29,
+      "nationality": "Italian",
+      "city": "Milan, Italy",
+      "occupation": "Luxury Fashion Buyer & Brand Consultant",
+      "image": "assets/user/user_6.jpg",
+      "skiing_style": "Sophisticated Alpine Elegance",
+      "bio": "Milan-based luxury fashion expert who brings haute couture sensibilities to the slopes. Third-generation skier from the Dolomites with an eye for combining performance with unparalleled style.",
+      "equipment": {
+        "hat": "Moncler black fox fur beanie",
+        "outfit": "Moncler Grenoble one-piece ski suit (Black)",
+        "belt": "Hermès leather ski belt",
+        "sunglasses": "Tom Ford snow goggles",
+        "boots": "Moon Boot Icon black",
+        "après_ski_boots": "Golden Goose luxury snow boots",
+        "gloves": "Bottega Veneta leather ski gloves",
+        "skis": "Lacroix Carbon 76 (Limited Edition)",
+        "ski_boots": "Lange RX 120 W LV",
+        "bindings": "Look Pivot 15 GW",
+        "poles": "Leki Worldcup Racing Comp"
+      },
+      "skill_level": "Advanced",
+      "favorite_activities": [
+        "Luxury resort experiences",
+        "Fashion-forward skiing",
+        "Private ski lessons with top instructors",
+        "Helicopter skiing",
+        "Exclusive mountain dining",
+        "Designer ski gear curation"
+      ],
+      "location_preference": "Italian Dolomites & Exclusive European Resorts",
+      "favorite_resorts": [
+        "Cortina d'Ampezzo (Italy)",
+        "Alta Badia (Italy)",
+        "St. Moritz (Switzerland)",
+        "Courchevel 1850 (France)",
+        "Lech am Arlberg (Austria)",
+        "Gstaad (Switzerland)"
+      ],
+      "skiing_experience_years": 18,
+      "family_skiing_heritage": {
+        "grandfather": "Former Olympic ski instructor in Cortina",
+        "parents": "Owners of luxury ski lodge in Dolomites",
+        "childhood": "Grew up on the slopes of Cortina d'Ampezzo"
+      },
+      "social_media_active": true,
+      "social_media_stats": {
+        "instagram_followers": 95000,
+        "fashion_blog_readers": 50000,
+        "linkedin_connections": 5000
+      },
+      "interests": [
+        "Luxury ski fashion trends",
+        "Heritage ski brands",
+        "Sustainable luxury",
+        "Alpine architecture and design",
+        "Wine and gastronomy",
+        "Art and culture"
+      ],
+      "languages": ["Italian (native)", "English (fluent)", "French (fluent)", "German (conversational)"],
+      "skiing_goals": [
+        "Curate the world's most exclusive ski fashion collection",
+        "Launch sustainable luxury ski wear line",
+        "Document disappearing Alpine traditions",
+        "Ski all UNESCO World Heritage mountain sites"
+      ],
+      "personality_traits": ["Sophisticated", "Discerning", "Cultured", "Elegant", "Passionate"],
+      "budget_range": "Ultra-Luxury ($500-1500/day)",
+      "travel_frequency": "50-60 ski days per year",
+      "preferred_season": "December-March",
+      "accommodations": "5-star hotels and luxury chalets only",
+      "certifications": [
+        "FIS Ski Instructor (Italy)",
+        "Wine Sommelier Level 2",
+        "Sustainable Fashion Certificate"
+      ],
+      "professional_network": [
+        "Luxury ski resort owners",
+        "High-end fashion designers",
+        "Celebrity ski instructors",
+        "Alpine hotel concierges"
+      ],
+      "fashion_philosophy": "True luxury is timeless elegance that performs flawlessly on the mountain",
+      "business_ventures": [
+        "Luxury ski fashion consulting",
+        "Exclusive Alpine travel curation",
+        "Designer ski gear authentication",
+        "Sustainable luxury advocacy"
+      ],
+      "cultural_interests": [
+        "Alpine folk traditions",
+        "Mountain photography",
+        "Classical music concerts in ski resorts",
+        "Contemporary art in mountain galleries"
+      ]
+    },
+    {
+      "id": "user_007",
+      "name": "Marcus Weber",
+      "age": 32,
+      "nationality": "German",
+      "city": "Garmisch-Partenkirchen, Germany",
+      "occupation": "Professional Ski Instructor & Mountain Guide",
+      "image": "assets/user/user_7.jpg",
+      "skiing_style": "Professional Alpine Expert",
+      "bio": "Certified ski instructor and mountain guide with over 15 years of professional experience. Former ski racer turned educator, passionate about sharing mountain knowledge and ensuring safety for all skill levels.",
+      "equipment": {
+        "helmet": "POC Skull Orbic X SPIN",
+        "goggles": "Oakley Flight Tracker XM",
+        "jacket": "Sponsored team jacket (Green Wheel, Audi, Auvergne-Rhône-Alpes)",
+        "pants": "Professional ski instructor pants",
+        "gloves": "Hestra Army Leather Heli Pro",
+        "boots": "Atomic Hawx Ultra 130 S",
+        "skis": "Multiple pairs - Atomic Redster X9 (racing), Völkl Mantra (all-mountain), K2 Mindbender (touring)",
+        "bindings": "Atomic X 16 VAR",
+        "poles": "Leki Worldcup Racing SL",
+        "avalanche_gear": "Mammut Barryvox S, probe, shovel"
+      },
+      "skill_level": "Expert/Professional",
+      "favorite_activities": [
+        "Ski instruction and coaching",
+        "Off-piste guiding",
+        "Avalanche safety education",
+        "Racing technique development",
+        "Mountain rescue operations",
+        "Professional development workshops"
+      ],
+      "location_preference": "French Alps & European Mountain Ranges",
+      "favorite_work_locations": [
+        "Les Deux Alpes (France)",
+        "Chamonix-Mont-Blanc (France)",
+        "Val d'Isère (France)",
+        "Verbier (Switzerland)",
+        "St. Anton am Arlberg (Austria)"
+      ],
+      "skiing_experience_years": 25,
+      "professional_experience_years": 15,
+      "racing_background": {
+        "disciplines": ["Slalom", "Giant Slalom", "Super G"],
+        "level": "National level competitor",
+        "achievements": ["German Junior Championships medalist", "FIS points holder"],
+        "racing_years": "Ages 8-22"
+      },
+      "social_media_active": true,
+      "social_media_stats": {
+        "instagram_followers": 25000,
+        "youtube_subscribers": 35000,
+        "professional_website": "marcusskiguide.com"
+      },
+      "interests": [
+        "Mountain safety and education",
+        "Advanced skiing techniques",
+        "Avalanche science",
+        "Alpine meteorology",
+        "Sustainable mountain tourism",
+        "Youth ski development"
+      ],
+      "languages": ["German (native)", "French (fluent)", "English (fluent)", "Italian (conversational)"],
+      "professional_goals": [
+        "Train next generation of ski instructors",
+        "Develop innovative safety protocols",
+        "Complete IFMGA Mountain Guide certification",
+        "Establish ski academy in the Alps",
+        "Promote sustainable skiing practices"
+      ],
+      "personality_traits": ["Professional", "Safety-focused", "Patient", "Knowledgeable", "Inspiring"],
+      "income_range": "Professional instructor salary (€40,000-60,000/year)",
+      "work_schedule": "Seasonal - November to April in Alps, summer guiding/training",
+      "certifications": [
+        "ENSA (École Nationale de Ski et d'Alpinisme) - Instructor Level 4",
+        "IFMGA Mountain Guide (in progress)",
+        "Avalanche Professional Level 3",
+        "Wilderness First Responder",
+        "Helicopter Rescue Certified",
+        "Youth Coaching Specialist"
+      ],
+      "teaching_specialties": [
+        "Racing technique and biomechanics",
+        "Off-piste and powder skiing",
+        "Avalanche safety and rescue",
+        "Advanced carving techniques",
+        "Mental performance coaching"
+      ],
+      "equipment_sponsors": [
+        "Atomic Skis",
+        "Audi (regional sponsorship)",
+        "Green Wheel (local business)",
+        "Auvergne-Rhône-Alpes Tourism"
+      ],
+      "seasonal_work": {
+        "winter": "Ski instruction and guiding in French Alps",
+        "summer": "Mountain hiking guides, instructor training courses",
+        "spring": "Ski touring and backcountry guiding",
+        "fall": "Equipment preparation and fitness training"
+      },
+      "safety_philosophy": "Knowledge, preparation, and respect for the mountain are the foundations of safe skiing",
+      "client_demographics": [
+        "Beginner to advanced skiers",
+        "Corporate groups",
+        "Ski racing development programs",
+        "Backcountry enthusiasts",
+        "International ski tourists"
+      ]
+    },
+    {
+      "id": "user_008",
+      "name": "Aria Chen",
+      "age": 23,
+      "nationality": "Swiss-Chinese",
+      "city": "Davos, Switzerland",
+      "occupation": "Digital Marketing Specialist & Travel Blogger",
+      "image": "assets/user/user_8.jpg",
+      "skiing_style": "Relaxed Mountain Explorer",
+      "bio": "Swiss-born with Chinese heritage, combines Eastern and Western approaches to mountain life. Known for her calm demeanor and thoughtful approach to skiing.",
+      "equipment": {
+        "helmet": "White ski helmet with protective design",
+        "goggles": "Clear lens protective goggles",
+        "jacket": "Navy and white color-block ski jacket",
+        "pants": "Black ski pants",
+        "gloves": "White winter gloves",
+        "skis": "All-mountain recreational skis",
+        "boots": "Comfort-focused ski boots"
+      },
+      "skill_level": "Intermediate",
+      "favorite_activities": [
+        "Scenic mountain exploration",
+        "Lift rides with mountain views",
+        "Travel blogging from ski resorts",
+        "Cultural skiing experiences"
+      ],
+      "location_preference": "Swiss Alps & Asian Ski Resorts",
+      "favorite_resorts": [
+        "Davos (Switzerland)",
+        "St. Moritz (Switzerland)",
+        "Niseko (Japan)",
+        "Yongpyong (South Korea)"
+      ],
+      "skiing_experience_years": 5,
+      "social_media_active": true,
+      "social_media_stats": {
+        "instagram_followers": 22000,
+        "travel_blog_readers": 15000,
+        "youtube_subscribers": 8500
+      },
+      "interests": [
+        "Cross-cultural travel experiences",
+        "Mountain wellness and mindfulness",
+        "Digital marketing trends",
+        "Asian ski culture"
+      ],
+      "languages": ["German (native)", "Chinese (Mandarin, native)", "English (fluent)", "French (conversational)"],
+      "personality_traits": ["Thoughtful", "Cultural", "Peaceful", "Observant", "Creative"],
+      "budget_range": "Mid-range ($100-250/day)",
+      "travel_frequency": "25-30 ski days per year",
+      "preferred_season": "January-March"
+    },
+    {
+      "id": "user_009",
+      "name": "Valentina Rosso",
+      "age": 27,
+      "nationality": "Italian",
+      "city": "Courmayeur, Italy",
+      "occupation": "Ski Fashion Designer & Brand Ambassador",
+      "image": "assets/user/user_9.jpg",
+      "skiing_style": "Alpine Fashion Pioneer",
+      "bio": "Italian fashion designer specializing in ski wear who brings haute couture sensibilities to mountain performance gear.",
+      "equipment": {
+        "outfit": "Custom white one-piece ski suit with branded details",
+        "helmet": "White protective helmet",
+        "goggles": "High-performance ski goggles",
+        "gloves": "White technical ski gloves",
+        "boots": "White performance ski boots",
+        "skis": "High-end all-mountain skis"
+      },
+      "skill_level": "Advanced",
+      "favorite_activities": [
+        "Fashion-focused skiing photoshoots",
+        "High-altitude glacier skiing",
+        "Luxury resort experiences",
+        "Brand collaboration projects"
+      ],
+      "location_preference": "Italian Dolomites & European Glaciers",
+      "favorite_resorts": [
+        "Courmayeur (Italy)",
+        "Cervinia (Italy)",
+        "Chamonix (France)",
+        "Zermatt (Switzerland)"
+      ],
+      "skiing_experience_years": 12,
+      "social_media_active": true,
+      "social_media_stats": {
+        "instagram_followers": 75000,
+        "fashion_brand_partnerships": 15
+      },
+      "interests": [
+        "Ski fashion design and innovation",
+        "Sustainable mountain apparel",
+        "Italian Alpine heritage",
+        "Fashion photography"
+      ],
+      "languages": ["Italian (native)", "French (fluent)", "English (fluent)", "German (basic)"],
+      "personality_traits": ["Stylish", "Professional", "Creative", "Ambitious", "Detail-oriented"],
+      "budget_range": "Luxury ($400-700/day)",
+      "travel_frequency": "45-55 ski days per year",
+      "preferred_season": "December-April"
+    },
+    {
+      "id": "user_010",
+      "name": "Freya Andersen",
+      "age": 24,
+      "nationality": "Norwegian",
+      "city": "Trondheim, Norway",
+      "occupation": "Outdoor Adventure Guide & Photographer",
+      "image": "assets/user/user_10.jpg",
+      "skiing_style": "Nordic Mountain Adventurer",
+      "bio": "Norwegian outdoor enthusiast who combines traditional Nordic skiing heritage with modern alpine adventures.",
+      "equipment": {
+        "helmet": "Black protective helmet with geometric patterns",
+        "goggles": "High-contrast lens goggles",
+        "jacket": "White technical jacket with fur-lined hood",
+        "pants": "Black high-performance ski pants",
+        "skis": "All-mountain touring skis",
+        "boots": "Touring-capable ski boots"
+      },
+      "skill_level": "Advanced",
+      "favorite_activities": [
+        "Backcountry ski touring",
+        "Sunrise and sunset skiing",
+        "Mountain photography expeditions",
+        "Nordic skiing traditions"
+      ],
+      "location_preference": "Scandinavian Mountains & Arctic Regions",
+      "favorite_resorts": [
+        "Trysil (Norway)",
+        "Åre (Sweden)",
+        "Levi (Finland)",
+        "Lyngen Alps (Norway)"
+      ],
+      "skiing_experience_years": 18,
+      "social_media_active": true,
+      "social_media_stats": {
+        "instagram_followers": 38000,
+        "photography_portfolio": "Professional outdoor photographer"
+      },
+      "interests": [
+        "Arctic photography",
+        "Traditional Nordic skiing",
+        "Wilderness survival skills",
+        "Climate change awareness"
+      ],
+      "languages": ["Norwegian (native)", "Swedish (fluent)", "English (fluent)", "German (conversational)"],
+      "personality_traits": ["Adventurous", "Environmental", "Artistic", "Hardy", "Independent"],
+      "budget_range": "Mid-Premium ($150-300/day)",
+      "travel_frequency": "70-90 ski days per year",
+      "preferred_season": "November-May (extended Nordic season)"
+    },
+    {
+      "id": "user_011",
+      "name": "Camila Santos",
+      "age": 25,
+      "nationality": "Brazilian",
+      "city": "São Paulo, Brazil",
+      "occupation": "International Business Student & Ski Enthusiast",
+      "image": "assets/user/user_11.jpg",
+      "skiing_style": "Colorful Adventure Seeker",
+      "bio": "Brazilian business student who discovered skiing during exchange programs in Europe. Brings vibrant South American energy to the slopes.",
+      "equipment": {
+        "helmet": "White helmet with modern design",
+        "goggles": "Mirrored performance goggles",
+        "jacket": "White and black technical jacket",
+        "pants": "White ski pants",
+        "skis": "Volkl purple and black skis",
+        "boots": "High-performance ski boots"
+      },
+      "skill_level": "Intermediate+",
+      "favorite_activities": [
+        "European ski resort exploration",
+        "International skiing experiences",
+        "Cultural exchange through skiing",
+        "Adventure travel documentation"
+      ],
+      "location_preference": "European Alps & South American Andes",
+      "favorite_resorts": [
+        "Val Thorens (France)",
+        "Innsbruck (Austria)",
+        "Portillo (Chile)",
+        "Valle Nevado (Chile)"
+      ],
+      "skiing_experience_years": 4,
+      "social_media_active": true,
+      "social_media_stats": {
+        "instagram_followers": 15500,
+        "tiktok_followers": 25000
+      },
+      "interests": [
+        "International business and trade",
+        "Cultural exchange programs",
+        "Adventure travel",
+        "Language learning"
+      ],
+      "languages": ["Portuguese (native)", "English (fluent)", "Spanish (fluent)", "French (intermediate)"],
+      "personality_traits": ["Energetic", "International", "Social", "Ambitious", "Adaptable"],
+      "budget_range": "Student-Premium ($80-180/day)",
+      "travel_frequency": "20-25 ski days per year",
+      "preferred_season": "January-March (Northern), July-September (Southern)"
+    },
+    {
+      "id": "user_012",
+      "name": "Hana Yamamoto",
+      "age": 26,
+      "nationality": "Japanese",
+      "city": "Tokyo, Japan",
+      "occupation": "Snowboard Instructor & Content Creator",
+      "image": "assets/user/user_12.jpg",
+      "skiing_style": "Playful Snow Sports Enthusiast",
+      "bio": "Tokyo-based snowboard instructor who brings Japanese precision and playfulness to snow sports.",
+      "equipment": {
+        "helmet": "White protective helmet",
+        "goggles": "Clear protective goggles",
+        "jacket": "Turquoise and white technical jacket",
+        "pants": "Black snowboard pants",
+        "snowboard": "All-mountain freestyle snowboard",
+        "boots": "Comfortable snowboard boots"
+      },
+      "skill_level": "Expert (Snowboarding), Intermediate (Skiing)",
+      "favorite_activities": [
+        "Snowboard instruction and coaching",
+        "Freestyle snowboarding",
+        "Snow sports content creation",
+        "Japanese snow culture sharing"
+      ],
+      "location_preference": "Japanese Alps & International Powder Destinations",
+      "favorite_resorts": [
+        "Niseko (Japan)",
+        "Hakuba (Japan)",
+        "Rusutsu (Japan)",
+        "Whistler (Canada)"
+      ],
+      "skiing_experience_years": 8,
+      "snowboarding_experience_years": 12,
+      "social_media_active": true,
+      "social_media_stats": {
+        "instagram_followers": 45000,
+        "youtube_subscribers": 62000,
+        "tiktok_followers": 120000
+      },
+      "interests": [
+        "Japanese snow culture and traditions",
+        "Snowboard instruction methodology",
+        "Content creation and video editing",
+        "Powder snow science"
+      ],
+      "languages": ["Japanese (native)", "English (fluent)", "Korean (conversational)"],
+      "personality_traits": ["Playful", "Educational", "Precise", "Encouraging", "Creative"],
+      "budget_range": "Professional ($100-200/day)",
+      "travel_frequency": "80-100 snow days per year",
+      "preferred_season": "December-April"
+    },
+    {
+      "id": "user_013",
+      "name": "Diego Martinez",
+      "age": 28,
+      "nationality": "Spanish",
+      "city": "Madrid, Spain",
+      "occupation": "Software Engineer & Weekend Warrior",
+      "image": "assets/user/user_13.jpg",
+      "skiing_style": "Relaxed Tech Professional",
+      "bio": "Madrid-based software engineer who escapes to the mountains on weekends for work-life balance.",
+      "equipment": {
+        "helmet": "Orange/copper colored helmet",
+        "goggles": "High-performance ski goggles",
+        "jacket": "Black and gray technical jacket",
+        "pants": "Dark ski pants",
+        "skis": "All-mountain recreational skis",
+        "boots": "Comfort-focused ski boots"
+      },
+      "skill_level": "Intermediate",
+      "favorite_activities": [
+        "Weekend ski getaways",
+        "Après-ski socializing",
+        "Technology-enhanced skiing",
+        "Mountain relaxation"
+      ],
+      "location_preference": "Pyrenees & European Alps",
+      "favorite_resorts": [
+        "Baqueira Beret (Spain)",
+        "Grandvalira (Andorra)",
+        "Val d'Isère (France)",
+        "Verbier (Switzerland)"
+      ],
+      "skiing_experience_years": 6,
+      "social_media_active": true,
+      "social_media_stats": {
+        "instagram_followers": 3200,
+        "linkedin_connections": 2800
+      },
+      "interests": [
+        "Technology and software development",
+        "Work-life balance optimization",
+        "Mountain sports as stress relief",
+        "Travel technology and apps"
+      ],
+      "languages": ["Spanish (native)", "English (fluent)", "French (intermediate)"],
+      "personality_traits": ["Analytical", "Balanced", "Social", "Tech-savvy", "Goal-oriented"],
+      "budget_range": "Professional ($150-300/day)",
+      "travel_frequency": "25-35 ski days per year",
+      "preferred_season": "January-March"
+    },
+    {
+      "id": "user_014",
+      "name": "Chloe Mitchell",
+      "age": 21,
+      "nationality": "American",
+      "city": "Park City, Utah",
+      "occupation": "College Student & Ski Team Member",
+      "image": "assets/user/user_14.jpg",
+      "skiing_style": "Collegiate Ski Racer",
+      "bio": "College ski team member from Park City who balances academic pursuits with competitive skiing.",
+      "equipment": {
+        "helmet": "Yellow/gold racing helmet",
+        "goggles": "Racing-specific goggles with clear visibility",
+        "jacket": "Gray performance ski jacket",
+        "pants": "Black racing ski pants",
+        "skis": "Racing skis (multiple pairs for different disciplines)",
+        "boots": "Racing ski boots",
+        "poles": "Racing poles with specific length"
+      },
+      "skill_level": "Expert/Racing",
+      "favorite_activities": [
+        "Ski racing training and competition",
+        "Technical skill development",
+        "Fitness and conditioning",
+        "Team training sessions"
+      ],
+      "location_preference": "Western US Mountains & Training Centers",
+      "favorite_resorts": [
+        "Park City (Utah)",
+        "Deer Valley (Utah)",
+        "Vail (Colorado)",
+        "Aspen (Colorado)"
+      ],
+      "skiing_experience_years": 16,
+      "competitive_experience_years": 12,
+      "social_media_active": true,
+      "social_media_stats": {
+        "instagram_followers": 8500,
+        "team_social_media": "Active on university ski team accounts"
+      },
+      "interests": [
+        "Competitive ski racing",
+        "Sports science and training",
+        "Team leadership and collaboration",
+        "Academic achievement balance"
+      ],
+      "languages": ["English (native)", "Spanish (intermediate)"],
+      "personality_traits": ["Competitive", "Disciplined", "Team-oriented", "Dedicated", "Ambitious"],
+      "budget_range": "Student-Athlete (Sponsored/Team supported)",
+      "travel_frequency": "100+ ski days per year (training and competition)",
+      "preferred_season": "November-April (extended training season)"
+    },
+    {
+      "id": "user_015",
+      "name": "Luca Bergmann",
+      "age": 30,
+      "nationality": "Austrian",
+      "city": "Salzburg, Austria",
+      "occupation": "Professional Ski Racer & Brand Ambassador",
+      "image": "assets/user/user_15.jpg",
+      "skiing_style": "Professional Alpine Racer",
+      "bio": "Professional ski racer competing on international circuits. Represents the pinnacle of skiing performance.",
+      "equipment": {
+        "helmet": "Professional racing helmet (NOMAland brand)",
+        "goggles": "High-performance racing goggles with specialized lenses",
+        "racing_suit": "Professional racing suit with sponsor logos (protern.io)",
+        "gloves": "Racing gloves with grip technology",
+        "skis": "Multiple racing ski sets (Slalom, Giant Slalom, Super G)",
+        "boots": "Custom-fitted racing boots",
+        "poles": "Neon green racing poles"
+      },
+      "skill_level": "Professional/Elite",
+      "favorite_activities": [
+        "Professional ski racing competition",
+        "High-performance training",
+        "Technical skill refinement",
+        "Equipment testing and development"
+      ],
+      "location_preference": "International Racing Circuit",
+      "racing_venues": [
+        "Kitzbühel (Austria)",
+        "Wengen (Switzerland)",
+        "Val d'Isère (France)",
+        "Garmisch-Partenkirchen (Germany)"
+      ],
+      "skiing_experience_years": 25,
+      "professional_racing_years": 12,
+      "social_media_active": true,
+      "social_media_stats": {
+        "instagram_followers": 45000,
+        "professional_website": "Official athlete website"
+      },
+      "interests": [
+        "Elite athletic performance",
+        "Ski racing technology and innovation",
+        "Sports psychology and mental training",
+        "Equipment development"
+      ],
+      "languages": ["German (native)", "English (fluent)", "Italian (fluent)", "French (conversational)"],
+      "personality_traits": ["Elite-level", "Disciplined", "Competitive", "Professional", "Dedicated"],
+      "budget_range": "Professional (Sponsored)",
+      "travel_frequency": "150+ days per year (training and competition)",
+      "racing_season": "Year-round training, October-April competition"
+    }
+  ],
+  "metadata": {
+    "total_users": 15,
+    "creation_date": "2024-12-19",
+    "last_updated": "2024-12-19",
+    "data_source": "Skiing user photos analysis with comprehensive profiling - 15 international users",
+    "regions_represented": [
+      "European Alps", 
+      "North American Rockies", 
+      "Canadian Rockies", 
+      "Scandinavian Mountains", 
+      "Japanese Alps", 
+      "South American Andes",
+      "Pyrenees",
+      "Asian Ski Resorts"
+    ],
+    "countries_represented": [
+      "France", "Switzerland", "Austria", "United States", "Canada", 
+      "Italy", "Germany", "Norway", "Brazil", "Japan", "Spain"
+    ],
+    "skill_levels": {
+      "intermediate": 5,
+      "intermediate_plus": 2,
+      "advanced": 4, 
+      "advanced_expert": 1,
+      "expert_professional": 1,
+      "expert_racing": 1,
+      "professional_elite": 1
+    },
+    "age_demographics": {
+      "20-25": 5,
+      "26-30": 9,
+      "31-35": 1
+    },
+    "occupation_categories": [
+      "Creative Professionals",
+      "Hospitality & Tourism", 
+      "Sports & Fitness",
+      "Fashion & Luxury",
+      "Education & Instruction",
+      "Technology",
+      "Students & Academia",
+      "Professional Athletes"
+    ],
+    "average_experience_years": 11.7,
+    "total_social_media_followers": 750500,
+    "budget_ranges": {
+      "student_friendly": 2,
+      "student_premium": 1,
+      "mid_range": 2,
+      "premium": 1,
+      "mid_premium": 2,
+      "professional": 3,
+      "luxury": 2,
+      "ultra_luxury": 1,
+      "sponsored": 1
+    },
+    "most_common_activities": [
+      "Alpine skiing",
+      "Mountain photography", 
+      "Après-ski experiences",
+      "Social media content creation",
+      "Professional training and competition",
+      "Cultural exchange through skiing",
+      "Fashion and lifestyle skiing",
+      "Adventure travel documentation"
+    ],
+    "equipment_brands_mentioned": [
+      "Rossignol", "Bogner", "Smith", "Moncler", "Burton", "K2", 
+      "Völkl", "Atomic", "POC", "Oakley", "Hestra", "Leki",
+      "NOMAland", "protern.io", "Volkl"
+    ],
+    "languages_spoken": [
+      "English", "French", "German", "Italian", "Spanish", 
+      "Chinese (Mandarin)", "Norwegian", "Swedish", "Portuguese", 
+      "Japanese", "Korean"
+    ],
+    "certifications_held": [
+      "Ski Instructor Licenses",
+      "Avalanche Safety Training",
+      "First Aid & Wilderness Response",
+      "Wine Sommelier",
+      "Professional Photography",
+      "Racing Certifications",
+      "Mountain Guide Licenses"
+    ],
+    "seasonal_preferences": {
+      "december_april": 8,
+      "january_march": 4,
+      "november_may": 2,
+      "year_round": 1
+    },
+    "cultural_diversity": {
+      "european": 9,
+      "north_american": 3,
+      "asian": 2,
+      "south_american": 1
+    },
+    "sports_specialization": {
+      "alpine_skiing": 13,
+      "snowboarding": 1,
+      "racing": 2,
+      "touring": 2,
+      "freestyle": 1
+    },
+    "data_richness": {
+      "basic_info": "Complete",
+      "equipment_details": "Comprehensive", 
+      "social_media_stats": "Detailed",
+      "personal_goals": "Included",
+      "professional_background": "Extensive",
+      "cultural_context": "Rich",
+      "international_diversity": "Global representation"
+    }
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "filename": "assets/classpick/Course_1.mp4",
+      "title": "Skiing Basics - Equipment & Preparation",
+      "description": "Learn the fundamentals of skiing equipment selection, proper fitting, and pre-skiing preparation to build a solid foundation for beginners.",
+      "difficulty": "beginner",
+      "instructor": "Alex Johnson",
+      "language": "English",
+      "tags": ["basics", "equipment", "preparation", "fundamentals"],
+      "prerequisites": [],
+      "learning_objectives": [
+        "Understand the basic components of skiing equipment",
+        "Learn proper skiing equipment fitting",
+        "Master pre-skiing warm-up preparation"
+      ]
+    },
+    {
+      "id": 2,
+      "filename": "assets/classpick/Course_2.mp4",
+      "title": "Basic Stance & Balance Control",
+      "description": "Master the correct skiing stance and learn how to maintain balance on snow, which is the foundation of skiing technique.",
+      "difficulty": "beginner",
+      "instructor": "Sarah Wilson",
+      "language": "English",
+      "tags": ["stance", "balance", "basic technique"],
+      "prerequisites": ["Course_1"],
+      "learning_objectives": [
+        "Master the correct skiing stance",
+        "Learn to maintain balance on snow",
+        "Understand the importance of center of gravity control"
+      ]
+    },
+    {
+      "id": 3,
+      "filename": "assets/classpick/Course_3.mp4",
+      "title": "Straight Skiing & Braking Techniques",
+      "description": "Learn basic straight skiing techniques and the most important braking methods to ensure skiing safety.",
+      "difficulty": "beginner",
+      "instructor": "Mike Chen",
+      "language": "English",
+      "tags": ["straight skiing", "braking", "safety"],
+      "prerequisites": ["Course_2"],
+      "learning_objectives": [
+        "Master basic straight skiing techniques",
+        "Learn effective braking methods",
+        "Improve skiing safety"
+      ]
+    },
+    {
+      "id": 4,
+      "filename": "assets/classpick/Course_4.mp4",
+      "title": "Basic Turning Techniques",
+      "description": "Learn the fundamental principles and techniques of skiing turns, including wedge turns and stem turns.",
+      "difficulty": "beginner",
+      "instructor": "Emma Davis",
+      "language": "English",
+      "tags": ["turning", "wedge", "stem"],
+      "prerequisites": ["Course_3"],
+      "learning_objectives": [
+        "Understand the basic principles of turning",
+        "Master wedge turn techniques",
+        "Learn stem turns"
+      ]
+    },
+    {
+      "id": 5,
+      "filename": "assets/classpick/Course_5.mp4",
+      "title": "Parallel Turn Progression",
+      "description": "Transition from wedge turns to parallel turns, learning more advanced turning techniques.",
+      "difficulty": "intermediate",
+      "instructor": "James Brown",
+      "language": "English",
+      "tags": ["parallel turns", "progression", "technique"],
+      "prerequisites": ["Course_4"],
+      "learning_objectives": [
+        "Master parallel turn techniques",
+        "Improve turn fluidity",
+        "Enhance ski control"
+      ]
+    },
+    {
+      "id": 6,
+      "filename": "assets/classpick/Course_6.mp4",
+      "title": "Speed Control & Rhythm",
+      "description": "Learn speed control techniques on different slopes and snow conditions, mastering the rhythm of skiing.",
+      "difficulty": "intermediate",
+      "instructor": "Lisa Anderson",
+      "language": "English",
+      "tags": ["speed control", "rhythm", "slopes"],
+      "prerequisites": ["Course_5"],
+      "learning_objectives": [
+        "Learn to control speed on different slopes",
+        "Master skiing rhythm",
+        "Improve adaptation to snow conditions"
+      ]
+    },
+    {
+      "id": 7,
+      "filename": "assets/classpick/Course_7.mp4",
+      "title": "Steep Slope Skiing Techniques",
+      "description": "Challenge steeper slopes and learn safe skiing techniques and strategies on steep terrain.",
+      "difficulty": "intermediate",
+      "instructor": "Tom Wilson",
+      "language": "English",
+      "tags": ["steep slopes", "challenge", "safety"],
+      "prerequisites": ["Course_6"],
+      "learning_objectives": [
+        "Master steep slope skiing techniques",
+        "Improve mental toughness",
+        "Enhance safety awareness"
+      ]
+    },
+    {
+      "id": 8,
+      "filename": "assets/classpick/Course_8.mp4",
+      "title": "Snow Condition Adaptation & Technique Adjustment",
+      "description": "Learn to adjust skiing techniques for different snow conditions (powder, hardpack, ice).",
+      "difficulty": "intermediate",
+      "instructor": "Rachel Green",
+      "language": "English",
+      "tags": ["snow conditions", "adaptation", "adjustment"],
+      "prerequisites": ["Course_7"],
+      "learning_objectives": [
+        "Understand characteristics of different snow conditions",
+        "Learn to adjust skiing techniques",
+        "Improve environmental adaptation"
+      ]
+    },
+    {
+      "id": 9,
+      "filename": "assets/classpick/Course_9.mp4",
+      "title": "Advanced Turns & Technique Combinations",
+      "description": "Learn more advanced turning techniques and movement combinations to elevate overall skiing level.",
+      "difficulty": "advanced",
+      "instructor": "David Miller",
+      "language": "English",
+      "tags": ["advanced", "technique combinations", "improvement"],
+      "prerequisites": ["Course_8"],
+      "learning_objectives": [
+        "Master advanced turning techniques",
+        "Learn technique combination applications",
+        "Elevate overall skiing level"
+      ]
+    },
+    {
+      "id": 10,
+      "filename": "assets/classpick/Course_10.mp4",
+      "title": "Freestyle Skiing Introduction",
+      "description": "Introduction to freestyle skiing concepts and basic techniques, preparing for advanced skiing disciplines.",
+      "difficulty": "advanced",
+      "instructor": "Sophie Taylor",
+      "language": "English",
+      "tags": ["freestyle", "introduction", "advanced"],
+      "prerequisites": ["Course_9"],
+      "learning_objectives": [
+        "Understand freestyle skiing concepts",
+        "Master basic freestyle techniques",
+        "Prepare for advanced skiing disciplines"
+      ]
+    }
+  ],
+  "metadata": {
+    "total_courses": 10,
+    "difficulty_levels": {
+      "beginner": 4,
+      "intermediate": 4,
+      "advanced": 2
+    },
+    "languages": ["English"],
+    "instructors": [
+      "Alex Johnson",
+      "Sarah Wilson", 
+      "Mike Chen",
+      "Emma Davis",
+      "James Brown",
+      "Lisa Anderson",
+      "Tom Wilson",
+      "Rachel Green",
+      "David Miller",
+      "Sophie Taylor"
+    ],
+    "last_updated": "2024-01-15",
+    "version": "1.0"
+  }
+}
